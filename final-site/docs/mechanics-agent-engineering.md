@@ -1,116 +1,116 @@
 ---
-title: "Agent Engineering | ClaudeLog"
+title: "代理工程 | ClaudeLog"
 ---
 
-# Agent Engineering | ClaudeLog
+# 代理工程 | ClaudeLog
 
-We've evolved through three distinct eras of AI interaction: from Prompt Engineering (crafting perfect individual prompts) to Context Engineering (optimizing the context, what goes into it and what remains in it through `CLAUDE.md` files) and now to Agent Engineering (designing specialized, reusable, efficient AI agents). At each stage, our ability to share deliverables and grow as a community has expanded: from sharing individual prompts, to sharing comprehensive context configurations and tactics, to now sharing complete portable agent definitions that work across any project.
+我们经历了 AI 交互的三个不同时代：从提示工程（Prompt Engineering，精心制作完美的单个提示）到上下文工程（Context Engineering，通过 `CLAUDE.md` 文件优化上下文、内容选择和保留）再到现在的代理工程（Agent Engineering，设计专业化、可重用、高效的 AI 代理）。在每个阶段，我们分享成果和作为社区共同成长的能力都在扩展：从分享单个提示，到分享全面的上下文配置和策略，再到现在分享可跨项目工作的完整便携式代理定义。
 
-`Custom agents` represent this latest paradigm shift in Claude Code workflows from manual orchestration to automatic delegation, from project-specific solutions to portable specialist tools. This guide covers the essential foundations you need to understand before diving into advanced tactics.
-
-* * *
-
-* * *
-
-## Understanding the Agent Ecosystem[​](#understanding-the-agent-ecosystem "Direct link to Understanding the Agent Ecosystem")
-
-Comparison: Custom Agents vs. Sub-agents vs. Task Tools
-
-Aspect
-
-Custom Agents
-
-Split Role Sub-agents
-
-Task/Agent Tools
-
-**Token Efficiency**
-
-**Activation**
-
-Automatic delegation
-
-Manual delegation
-
-Manual delegation
-
-**Shared System Prompt**
-
-No
-
-Yes
-
-Yes
-
-**Portability**
-
-Highly portable (single .md file)
-
-Impractical
-
-Impractical
-
-**Configuration**
-
-YAML frontmatter + system prompt
-
-Task description only
-
-Task description only
-
-**System Prompt**
-
-Custom system prompt access
-
-Inherits system prompt
-
-Inherits system prompt
-
-**Custom Tool Selection**
-
-Yes
-
-No
-
-No
-
-**Claude.md Inheritance**
-
-Yes
-
-Yes
-
-Yes
-
-**Use Case**
-
-Specialized repeatable tasks
-
-Multi-perspective analysis
-
-Parallel task execution
-
-`Custom agents` deliver **automatic activation**, **isolated contexts**, and **surgical tool selection**, eliminating the token bloat and manual orchestration of previous approaches.
+`自定义代理`代表了 Claude Code 工作流程的最新范式转变，从手动编排到自动委派，从项目特定解决方案到便携式专业工具。本指南涵盖了在深入高级策略之前您需要了解的基本基础。
 
 * * *
 
 * * *
 
-## Custom Agent Design[​](#custom-agent-design "Direct link to Custom Agent Design")
+## 理解代理生态系统[​](#理解代理生态系统 "直接链接到理解代理生态系统")
 
-I believe one of the most important aspects when designing `custom agents` is to carefully engineer how many tokens your `custom agent` needs to initialize. Optimizing this serves multiple purposes: to improve initialization speed, reduce cost, maintain [peak performance](/mechanics-context-window-depletion/), and enable efficient chaining.
+比较：自定义代理 vs. 子代理 vs. 任务工具
 
-Each `custom agent` invocation carries a **variable initialization cost** based on tool count and configuration complexity. Design decisions should account for this:
+方面
 
-**Performance Analysis by Tool Count (Anecdotal experiment):**
+自定义代理
 
-Tool Count
+分角色子代理
 
-Token Usage
+任务/代理工具
 
-Relative Initialization Time
+**令牌效率**
 
-Claude.md Empty
+**激活方式**
+
+自动委派
+
+手动委派
+
+手动委派
+
+**共享系统提示**
+
+否
+
+是
+
+是
+
+**可移植性**
+
+高度可移植（单个 .md 文件）
+
+不实用
+
+不实用
+
+**配置**
+
+YAML frontmatter + 系统提示
+
+仅任务描述
+
+仅任务描述
+
+**系统提示**
+
+自定义系统提示访问
+
+继承系统提示
+
+继承系统提示
+
+**自定义工具选择**
+
+是
+
+否
+
+否
+
+**Claude.md 继承**
+
+是
+
+是
+
+是
+
+**用例**
+
+专业化可重复任务
+
+多视角分析
+
+并行任务执行
+
+`自定义代理`提供**自动激活**、**隔离上下文**和**精确工具选择**，消除了之前方法的令牌膨胀和手动编排。
+
+* * *
+
+* * *
+
+## 自定义代理设计[​](#自定义代理设计 "直接链接到自定义代理设计")
+
+我认为设计`自定义代理`时最重要的方面之一是仔细设计您的`自定义代理`需要多少令牌来初始化。优化这一点有多重目的：提高初始化速度、降低成本、保持[峰值性能](/mechanics-context-window-depletion/)并实现高效链接。
+
+每次`自定义代理`调用都会根据工具数量和配置复杂度产生**可变的初始化成本**。设计决策应考虑这一点：
+
+**按工具数量的性能分析（轶事实验）：**
+
+工具数量
+
+令牌使用量
+
+相对初始化时间
+
+Claude.md 为空
 
 0
 
@@ -208,88 +208,88 @@ false
 
 false
 
-*Note: The 0 tool experiment was conducted with a completely empty `Claude.md` and thus reflects the best case scenario. Experiments for 1-15+ tools were conducted with a non-empty `Claude.md`. Token cost and initialization time were affected by the specific tools which were added.*
+*注意：0 工具实验是在完全空的 `Claude.md` 下进行的，因此反映了最佳情况。1-15+ 工具的实验是在非空的 `Claude.md` 下进行的。令牌成本和初始化时间受添加的特定工具影响。*
 
-**Agent Weight Classifications:**
+**代理权重分类：**
 
--   **Lightweight agents**: Under 3k tokens - Low initialization cost
--   **Medium-weight agents**: 10-15k tokens - Moderate initialization cost
--   **Heavy agents**: 25k+ tokens - High initialization cost
+-   **轻量级代理**：3k 令牌以下 - 低初始化成本
+-   **中等权重代理**：10-15k 令牌 - 中等初始化成本
+-   **重量级代理**：25k+ 令牌 - 高初始化成本
 
-**Subscription and Model Optimization:** A lightweight, performant `custom agent` will be used and experimented with more than a heavyweight `custom agent` due to subscription constraints. They are by far the most composable and effortless to use. We should strive to make our `custom agents` as performant and composable as possible.
+**订阅和模型优化：** 由于订阅限制，轻量级、高性能的`自定义代理`比重量级`自定义代理`会被更多地使用和实验。它们是最易组合和最易使用的。我们应该努力使我们的`自定义代理`尽可能高性能和可组合。
 
-**Model Selection Strategy:** With the introduction of the `model` parameter in v1.0.64, you can now specify which model each agent should use (sonnet, opus, haiku). This creates unprecedented experimentation opportunities:
+**模型选择策略：** 随着 v1.0.64 中引入 `model` 参数，您现在可以指定每个代理应该使用哪个模型（sonnet、opus、haiku）。这创造了前所未有的实验机会：
 
-**Conventional Pairings (Starting Points):**
+**传统配对（起点）：**
 
--   **Haiku + Lightweight Agent**: Frequent, simple tasks - minimal cost and maximum composability
--   **Sonnet + Medium Agent**: Balanced approach for moderate complexity tasks
--   **Opus + Heavy Agent**: Complex analysis requiring maximum reasoning capability
+-   **Haiku + 轻量级代理**：频繁、简单的任务 - 成本最低、可组合性最高
+-   **Sonnet + 中等代理**：中等复杂度任务的平衡方法
+-   **Opus + 重量级代理**：需要最大推理能力的复杂分析
 
-**Cross-Experimentation Opportunities (Unexplored Territory):**
+**交叉实验机会（未探索领域）：**
 
--   **Opus + Lightweight Agent**: Might unlock surprising depth in simple tasks
--   **Haiku + Heavy Agent**: Could reveal new paths through complex workflows (Slot Machine)
--   **Model Rotation**: Same agent with different models for A/B testing performance
+-   **Opus + 轻量级代理**：可能在简单任务中解锁令人惊讶的深度
+-   **Haiku + 重量级代理**：可能揭示复杂工作流程的新路径（老虎机）
+-   **模型轮换**：同一代理使用不同模型进行 A/B 性能测试
 
-The key insight is that this is **uncharted territory** - benchmark extensively and share discoveries. Conventional wisdom may not apply to these new combinations.
+关键洞察是这是**未知领域** - 广泛基准测试并分享发现。传统智慧可能不适用于这些新组合。
 
-**Agent Chainability Impact:** The complexity of a `custom agent` significantly affects its chainability due to startup time and token usage. Heavy `custom agents` (25k+ tokens) create bottlenecks in multi-agent workflows, while lightweight `custom agents` (under 3k tokens) enable fluid orchestration. As future **Agent Engineers**, we must optimize both individual `custom agent` metrics and their composability:
+**代理可链接性影响：** `自定义代理`的复杂性由于启动时间和令牌使用而显著影响其可链接性。重量级`自定义代理`（25k+ 令牌）在多代理工作流程中造成瓶颈，而轻量级`自定义代理`（3k 令牌以下）实现流畅的编排。作为未来的**代理工程师**，我们必须优化单个`自定义代理`指标及其可组合性：
 
--   **Individual Optimization**: Minimize tool count while preserving capability
--   **Composition Strategy**: Balance specialized high-cost `custom agents` with efficient ones (Similar to the [big.LITTLE](https://en.wikipedia.org/wiki/ARM_big.LITTLE) concept from CPU design)
--   **Workflow Design**: Consider cumulative token costs when chaining multiple `custom agents`
--   **Performance Monitoring**: Track `custom agent` efficiency metrics across different use cases
-
-* * *
-
-* * *
-
-## When to Use Custom Agents[​](#when-to-use-custom-agents "Direct link to When to Use Custom Agents")
-
-`Custom agents` excel in the same scenarios as [split role sub-agents](/mechanics-split-role-sub-agents/), but with enhanced portability and automatic activation:
-
-### Specialized Domain Tasks[​](#specialized-domain-tasks "Direct link to Specialized Domain Tasks")
-
--   **Code Review** - Security, performance, maintainability analysis
--   **Research Tasks** - API documentation, library comparison, best practices
--   **Quality Assurance** - Testing strategies, edge case identification
--   **Documentation** - Technical writing, SEO optimization, accessibility
--   **Design Analysis** - UX review, layout assessment, design consistency
--   **Content Quality** - Legibility expert, grammar expert, brand voice expert
-
-### Portable Workflows[​](#portable-workflows "Direct link to Portable Workflows")
-
-Unlike `sub-agents` tied to specific projects, `custom agents` can be refined once and utilized across multiple projects, making them ideal for:
-
--   Cross-project standards enforcement
--   Team workflow standardization
--   Personal expertise amplification
--   Community knowledge sharing
+-   **个体优化**：在保留能力的同时最小化工具数量
+-   **组合策略**：平衡专业化高成本`自定义代理`与高效代理（类似于 CPU 设计中的 [big.LITTLE](https://en.wikipedia.org/wiki/ARM_big.LITTLE) 概念）
+-   **工作流设计**：链接多个`自定义代理`时考虑累积令牌成本
+-   **性能监控**：跟踪不同用例中的`自定义代理`效率指标
 
 * * *
 
 * * *
 
-## Essential Features[​](#essential-features "Direct link to Essential Features")
+## 何时使用自定义代理[​](#何时使用自定义代理 "直接链接到何时使用自定义代理")
 
-### No CLAUDE.md Inheritance[​](#no-claudemd-inheritance "Direct link to No CLAUDE.md Inheritance")
+`自定义代理`在与[分角色子代理](/mechanics-split-role-sub-agents/)相同的场景中表现出色，但具有增强的可移植性和自动激活：
 
-**Major Advantage**: Unlike traditional sub-agents, custom agents are designed to not automatically inherit the project's `CLAUDE.md` configuration. This prevents context pollution and ensures consistent behavior across projects. You can verify this with a [sanity check](/mechanics-sanity-check/).
+### 专业领域任务[​](#专业领域任务 "直接链接到专业领域任务")
 
-### Coloring Your Custom Agent[​](#coloring-your-custom-agent "Direct link to Coloring Your Custom Agent")
+-   **代码审查** - 安全性、性能、可维护性分析
+-   **研究任务** - API 文档、库比较、最佳实践
+-   **质量保证** - 测试策略、边缘案例识别
+-   **文档编写** - 技术写作、SEO 优化、可访问性
+-   **设计分析** - UX 审查、布局评估、设计一致性
+-   **内容质量** - 可读性专家、语法专家、品牌语音专家
 
-Custom agents can be visually distinguished through terminal color formatting in their indicator, making it easier to track which agent is responding during complex workflows. This helps maintain clarity when multiple agents are active or when reviewing conversation history.
+### 便携式工作流[​](#便携式工作流 "直接链接到便携式工作流")
 
-### Agent Nicknaming for Efficiency[​](#agent-nicknaming-for-efficiency "Direct link to Agent Nicknaming for Efficiency")
+与绑定到特定项目的`子代理`不同，`自定义代理`可以一次优化并跨多个项目使用，使其理想用于：
 
-Configure short nicknames for frequently used agents:
+-   跨项目标准执行
+-   团队工作流标准化
+-   个人专业能力放大
+-   社区知识共享
 
--   **UX agent (`A1`)** - Quick UX analysis
--   **Security agent (`S1`)** - Rapid security review
--   **Performance agent (`P1`)** - Performance optimization
+* * *
 
-Example configuration with nickname:
+* * *
+
+## 基本功能[​](#基本功能 "直接链接到基本功能")
+
+### 不继承 CLAUDE.md[​](#不继承-claudemd "直接链接到不继承 CLAUDE.md")
+
+**主要优势**：与传统子代理不同，自定义代理设计为不自动继承项目的 `CLAUDE.md` 配置。这可以防止上下文污染并确保跨项目的一致行为。您可以通过[健全性检查](/mechanics-sanity-check/)来验证这一点。
+
+### 为您的自定义代理着色[​](#为您的自定义代理着色 "直接链接到为您的自定义代理着色")
+
+自定义代理可以通过终端颜色格式在其指示器中进行视觉区分，使得在复杂工作流程中更容易跟踪哪个代理正在响应。这有助于在多个代理活动或查看对话历史时保持清晰。
+
+### 代理昵称以提高效率[​](#代理昵称以提高效率 "直接链接到代理昵称以提高效率")
+
+为常用代理配置简短昵称：
+
+-   **UX 代理 (`A1`)** - 快速 UX 分析
+-   **安全代理 (`S1`)** - 快速安全审查
+-   **性能代理 (`P1`)** - 性能优化
+
+带昵称的配置示例：
 
 ```bash
 ---
@@ -316,123 +316,123 @@ When invoked:
 
 ```
 
-**Calling the agent with nickname:**
+**使用昵称调用代理：**
 
 ```bash
 ask agent a1 to review the navigation menu UX
 
 ```
 
-or:
+或：
 
 ```bash
 ask a1 to review the navigation menu UX
 
 ```
 
-### Advanced Nickname Workflows[​](#advanced-nickname-workflows "Direct link to Advanced Nickname Workflows")
+### 高级昵称工作流[​](#高级昵称工作流 "直接链接到高级昵称工作流")
 
-The ability to provide nicknames to `custom agents` helps to improve manual invocation and opens up possibilities like calling `custom agents` via nicknames `A1, P2, C1`.
+为`自定义代理`提供昵称的能力有助于改善手动调用，并开启了通过昵称 `A1, P2, C1` 调用`自定义代理`等可能性。
 
 ```bash
 ask A1, P2, C1 to review the changes
 
 ```
 
-### Configuring Automatic Delegation[​](#configuring-automatic-delegation "Direct link to Configuring Automatic Delegation")
+### 配置自动委派[​](#配置自动委派 "直接链接到配置自动委派")
 
-`Custom agents` are automatically utilized by the `delegating agent` based on the task description within your prompt, the description field within your `custom agent` configuration, the current context and available tools.
+`自定义代理`由`委派代理`根据您提示中的任务描述、`自定义代理`配置中的描述字段、当前上下文和可用工具自动使用。
 
-When crafting your `custom agents` you will need to evaluate Claude's reliability at invoking your `custom agent`. If you need to improve the reliability, explore updating your agent's name, description or system prompt. Configuring your `custom agent` to be promptly utilized by Claude is a form of `Tool SEO`.
+在制作您的`自定义代理`时，您需要评估 Claude 调用您的`自定义代理`的可靠性。如果您需要提高可靠性，请探索更新代理的名称、描述或系统提示。配置您的`自定义代理`以便 Claude 及时使用是一种`工具 SEO`。
 
-Anthropic has mentioned that to encourage proactive `custom agent` use we should include terms like `use PROACTIVELY` or `MUST BE USED` in the `description` fields of our `custom agents`. This functions similarly to how you would use such terms to get good adherence out of Claude by correctly formatting your `Claude.md`.
-
-* * *
+Anthropic 提到，为了鼓励主动使用`自定义代理`，我们应该在`自定义代理`的`描述`字段中包含诸如`主动使用`或`必须使用`之类的术语。这与您通过正确格式化 `Claude.md` 来获得 Claude 良好遵守的方式类似。
 
 * * *
 
-## Design Considerations[​](#design-considerations "Direct link to Design Considerations")
+* * *
 
-### Getting Started Strategy[​](#getting-started-strategy "Direct link to Getting Started Strategy")
+## 设计考虑[​](#设计考虑 "直接链接到设计考虑")
 
-**Token-First Design:**
+### 入门策略[​](#入门策略 "直接链接到入门策略")
 
--   Create focused, single-purpose agents initially
--   Start with lightweight agents (minimal or no tools) for maximum composability
--   Carefully engineer how many tokens your custom agent needs to initialize
--   Prioritize efficiency over capability for frequent-use agents
+**令牌优先设计：**
 
-**Configuration Best Practices:**
+-   最初创建专注的、单一用途的代理
+-   从轻量级代理（最少或无工具）开始，以获得最大可组合性
+-   仔细设计您的自定义代理需要多少令牌来初始化
+-   对于频繁使用的代理，优先考虑效率而非能力
 
--   Use clear, specific descriptions for reliable auto-activation
--   Grant only necessary tools initially, expand as needed
--   **Choose appropriate models**: Start with Haiku for simple agents, scale to sonnet/opus based on complexity needs
--   Test agent reliability before expanding
--   Include examples in system prompts for better pattern recognition
--   Test agents in isolation before deploying in workflows
--   Design for chainability and multi-agent piping
--   **Match model to agent weight**: Pair lightweight agents with Haiku, heavy agents with Sonnet for optimal cost/performance
--   Frequently test agents and share them with others to help validate effectiveness
+**配置最佳实践：**
 
-### Model Selection Strategy[​](#model-selection-strategy "Direct link to Model Selection Strategy")
+-   使用清晰、具体的描述以实现可靠的自动激活
+-   最初仅授予必要的工具，根据需要扩展
+-   **选择适当的模型**：简单代理从 Haiku 开始，根据复杂性需求扩展到 sonnet/opus
+-   在扩展之前测试代理可靠性
+-   在系统提示中包含示例以获得更好的模式识别
+-   在部署到工作流之前隔离测试代理
+-   为可链接性和多代理管道设计
+-   **将模型与代理权重匹配**：将轻量级代理与 Haiku 配对，重量级代理与 Sonnet 配对以获得最佳成本/性能
+-   经常测试代理并与他人分享以帮助验证有效性
 
-The `model` parameter opens unexplored possibilities in agent engineering. **This is frontier territory** - approach with experimental curiosity rather than rigid rules.
+### 模型选择策略[​](#模型选择策略 "直接链接到模型选择策略")
 
-**Baseline Understanding (Traditional Expectations):**
+`model` 参数在代理工程中开启了未探索的可能性。**这是前沿领域** - 以实验性的好奇心而非僵化的规则来对待。
 
--   **Haiku agents**: Commit message generation, simple formatting, basic validation, repetitive tasks
--   **Sonnet agents**: Moderate analysis, balanced reasoning tasks, general-purpose workflows
--   **Opus agents**: Complex analysis, code review, research, deep reasoning tasks
+**基准理解（传统期望）：**
 
-**Experimental Discovery Framework:**
+-   **Haiku 代理**：提交消息生成、简单格式化、基本验证、重复性任务
+-   **Sonnet 代理**：中等分析、平衡推理任务、通用工作流
+-   **Opus 代理**：复杂分析、代码审查、研究、深度推理任务
 
--   **Challenge assumptions**: Test whether "simple" tasks benefit from opus intelligence
--   **Reverse expectations**: Try Haiku on complex agents to find efficiency breakthroughs
--   **Benchmark systematically**: Measure actual performance vs. theoretical predictions
+**实验发现框架：**
 
-**Discovery-Oriented Lifecycle:**
+-   **挑战假设**：测试"简单"任务是否受益于 opus 智能
+-   **逆转期望**：在复杂代理上尝试 Haiku 以找到效率突破
+-   **系统基准测试**：测量实际性能与理论预测
 
-1.  **Start with conventional pairing**: Establish baseline performance
-2.  **Cross-experiment**: Test unconventional model/agent combinations
-3.  **Measure everything**: Token usage, token cost, speed, quality, user satisfaction
-4.  **Share breakthrough discoveries**: Contribute findings to expand collective knowledge
-5.  **Iterate based on real data**: Let empirical results guide optimization, not assumptions
+**以发现为导向的生命周期：**
 
-**Community Collaboration:** The agent engineering community should actively share benchmarking results and surprising discoveries. What works for one use case might revolutionize another.
+1.  **从传统配对开始**：建立基准性能
+2.  **交叉实验**：测试非常规模型/代理组合
+3.  **测量一切**：令牌使用、令牌成本、速度、质量、用户满意度
+4.  **分享突破性发现**：贡献发现以扩展集体知识
+5.  **基于真实数据迭代**：让经验结果指导优化，而非假设
+
+**社区协作：** 代理工程社区应该积极分享基准测试结果和令人惊讶的发现。在一个用例中有效的方法可能会彻底改变另一个用例。
 
 * * *
 
-Getting Started
+入门指南
 
-Start with one simple, focused custom agent that solves a specific problem you encounter regularly. Test its effectiveness and refine its description based on how reliably Claude invokes it automatically.
+从一个简单、专注的自定义代理开始，解决您经常遇到的特定问题。测试其有效性，并根据 Claude 自动调用它的可靠性来优化其描述。
 
-Experimental Approach
+实验方法
 
-While efficiency matters, don't let optimization assumptions limit discovery. A heavy agent with Haiku might surprise you with efficient performance, or a "simple" agent with opus might unlock unexpected capabilities.
+虽然效率很重要，但不要让优化假设限制发现。使用 Haiku 的重量级代理可能会以高效的性能让您惊讶，或者使用 opus 的"简单"代理可能会解锁意想不到的能力。
 
-##### Foundation First
+##### 基础优先
 
-Master the fundamentals of custom agents before diving into complex chaining. A solid understanding of these foundations will enable more effective chaining and increased usage frequency.
+在深入复杂链接之前掌握自定义代理的基础知识。对这些基础的扎实理解将实现更有效的链接和更高的使用频率。
 
 <img src="/img/discovery/028_fire.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
-**See Also**: [Custom Agents](/mechanics-custom-agents/)|[Task Agent Tools](/mechanics-task-agent-tools/)
+**另请参阅**: [自定义代理](/mechanics-custom-agents/)|[任务代理工具](/mechanics-task-agent-tools/)
 
-**Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
+**作者**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|[Command Stick](https://commandstick.com) CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
 
--   [Understanding the Agent Ecosystem](#understanding-the-agent-ecosystem)
--   [Custom Agent Design](#custom-agent-design)
--   [When to Use Custom Agents](#when-to-use-custom-agents)
-    -   [Specialized Domain Tasks](#specialized-domain-tasks)
-    -   [Portable Workflows](#portable-workflows)
--   [Essential Features](#essential-features)
-    -   [No CLAUDE.md Inheritance](#no-claudemd-inheritance)
-    -   [Coloring Your Custom Agent](#coloring-your-custom-agent)
-    -   [Agent Nicknaming for Efficiency](#agent-nicknaming-for-efficiency)
-    -   [Advanced Nickname Workflows](#advanced-nickname-workflows)
-    -   [Configuring Automatic Delegation](#configuring-automatic-delegation)
--   [Design Considerations](#design-considerations)
-    -   [Getting Started Strategy](#getting-started-strategy)
-    -   [Model Selection Strategy](#model-selection-strategy)
+-   [理解代理生态系统](#理解代理生态系统)
+-   [自定义代理设计](#自定义代理设计)
+-   [何时使用自定义代理](#何时使用自定义代理)
+    -   [专业领域任务](#专业领域任务)
+    -   [便携式工作流](#便携式工作流)
+-   [基本功能](#基本功能)
+    -   [不继承 CLAUDE.md](#不继承-claudemd)
+    -   [为您的自定义代理着色](#为您的自定义代理着色)
+    -   [代理昵称以提高效率](#代理昵称以提高效率)
+    -   [高级昵称工作流](#高级昵称工作流)
+    -   [配置自动委派](#配置自动委派)
+-   [设计考虑](#设计考虑)
+    -   [入门策略](#入门策略)
+    -   [模型选择策略](#模型选择策略)
