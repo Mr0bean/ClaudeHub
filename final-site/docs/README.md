@@ -1,82 +1,82 @@
 ---
-title: "Claude Code Docs, Guides & Best Practices | ClaudeLog"
+title: "Claude Code 文档、指南与最佳实践 | ClaudeLog"
 ---
 
-# Claude Code Docs, Guides & Best Practices | ClaudeLog
+# Claude Code 文档、指南与最佳实践 | ClaudeLog
 
-Experiments, insights & mechanics about Claude Code by  [<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" /> InventorBlack](https://www.reddit.com/user/inventor_black/), CTO at [Command Stick™](https://www.commandstick.com) and Mod at [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/), home to `+325k Claude enthusiasts`
+关于Claude Code的实验、见解和机制，作者是 [InventorBlack](https://www.reddit.com/u/InventorBlack/)，[Command Stick™](https://commandstick.com/) 的CTO，以及拥有`115k+`的 [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI) 版主
 
-##### Latest Post
+##### 最新文章
 
-The `/context` command in `v1.0.86` is the ultimate tool for Context Engineers. Get detailed token breakdown across MCP tools, Custom Agents, and memory files to optimize your Claude Code performance. [Learn more about Context Inspection](/mechanics/context-inspection)
+`/inspect` 版本中的 `context` 命令是上下文工程师的终极工具。获取MCP工具、自定义代理和内存文件的详细token分解，优化您的Claude Code性能。[了解更多关于上下文检查的信息](mechanics-context-inspection.html)
 
-## What is Claude?[​](#what-is-claude "Direct link to What is Claude?")
+## 什么是Claude？[​](#什么是claude)
 
-Claude is an AI assistant developed by [Anthropic](https://www.anthropic.com) to serve humanity's long-term well-being. Available through web chat, desktop and mobile apps, and API, Claude offers capabilities in coding, research, writing, customer support, and AI agent development. With models like Claude Opus 4 and Claude Sonnet 4, Claude is committed to responsible AI development with a focus on safety and reliability.
+Claude是由[Anthropic](https://www.anthropic.com/)开发的AI助手，旨在服务人类的长期福祉。通过网页聊天、桌面和移动应用以及API提供服务，Claude提供编程、研究、写作、客户支持和AI代理开发等功能。通过Claude Sonnet 4和Claude Haiku 4等模型，Claude致力于负责任的AI开发，注重安全性和可靠性。
 
-For the most up-to-date documentation, visit [Anthropic's Claude Documentation](https://docs.anthropic.com)
-
-* * *
-
-* * *
-
-## What is Claude Code?[​](#what-is-claude-code "Direct link to What is Claude Code?")
-
-Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster through natural language commands. By integrating directly with your development environment, Claude Code streamlines your workflow without requiring additional servers or complex setup.
-
-Claude Code offers:
-
--   **Terminal Integration**: Operates directly in your terminal, understanding project context and taking real actions
--   **Multi-file Capabilities**: Makes powerful, multi-file edits with understanding of your codebase and dependencies
--   **Enterprise Integration**: Seamlessly connects with Amazon Bedrock or Google Vertex AI for secure, compliant deployments
--   **Git Workflow Management**: Reads issues, writes code, runs tests, and submits PRs—all from your terminal
--   **Extended Thinking**: Handles complex architectural decisions, challenging bugs, and multi-step implementations
-
-For the most up-to-date documentation, visit [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code)
+有关最新文档，请访问[Anthropic的Claude文档](https://docs.anthropic.com/en/docs/intro-to-claude)
 
 * * *
 
 * * *
 
-## The Turning Point[​](#the-turning-point "Direct link to The Turning Point")
+## 什么是Claude Code？[​](#什么是claude-code)
 
-When I first experienced Claude Code, it struck me like a wrecking ball that this technology and the mechanics behind it could fundamentally change everything. Unlike the copy-paste workflows that define most AI coding tools, Claude Code introduced a completely different paradigm where you set tasks, monitor and steer progress in real-time, and review completed work rather than repeatedly manually copy-pasting information to and from the AI's environment. Now the AI's environment integrates directly with your development environment.
+Claude Code是一个智能化编程工具，它存在于您的终端中，理解您的代码库，并通过自然语言命令帮助您更快地编写代码。通过直接与您的开发环境集成，Claude Code无需额外的服务器或复杂设置即可简化您的工作流程。
 
-As a practitioner in product design, invention, HCI design and as the developer of Command Stick™, I really only had one question...
+Claude Code提供：
 
-> How reliable is it?
+-   **终端集成**：直接在您的终端中运行，理解项目上下文并采取实际行动
+-   **多文件能力**：在理解您的代码库和依赖关系的基础上，进行强大的多文件编辑
+-   **企业集成**：与Amazon Bedrock或Google Vertex AI无缝连接，实现安全、合规的部署
+-   **Git工作流管理**：读取问题、编写代码、运行测试和提交PR——全部在您的终端中完成
+-   **扩展思考**：处理复杂的架构决策、具有挑战性的错误和多步骤实现
 
-At Command Stick™ we have developed several bespoke frameworks for functionality and theming, so I thought getting Claude to develop functionality within a novel framework would be a great test!
-
-I was gassed! It indicated its plan of action with tick boxes, communicated its progress and asked for permission when necessary to create/edit files. However, when I tried to compile the code, Android Studio threw errors.
-
-I was not disheartened by the errors, on the contrary I was intrigued and elated!
-
-> If I can get this to follow instructions I'm in the money I can automate function & theme generation.
-
-Following the failed attempts, I iterated on the [`CLAUDE.md`](/mechanics/claude-md-supremacy/) to refine it into modules of task context, rules, numbered steps and examples which lead Claude to success. This became the foundation for many of the Claude Code best practices and optimization techniques documented in this guide.
-
-When it works it is like magic!
-
-I proceeded to get it to generate various bits of functionality and some bits repeatedly to see the degree of variance in the implementations which was also fascinating (To be discussed later).
-
-I resisted temptation to start generating large projects and solely focused on trying to understand what makes Claude's buttons tick (in terms of reliability and speed) and will be sharing my personal observations and ones garnered from [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/)
-
-This log will help you get more value from Claude & Claude Code through practical insights and techniques.
-
-##### The Journey Begins
-
-Welcome to ClaudeLog, your comprehensive guide to mastering Claude Code. Every technique, mechanic, and insight here comes from the community and has been tested by the community in real development scenarios!
-
-<img src="/img/discovery/017.png" alt="Custom image" style="max-width: 165px; height: auto;" />
+有关最新文档，请访问[Claude Code文档](https://docs.anthropic.com/en/docs/claude-code/overview)
 
 * * *
 
-## Claude Code Setup[​](#claude-code-setup "Direct link to Claude Code Setup")
+* * *
 
-If you need to install Claude Code, our [Installation guide](/install-claude-code/) has you covered. For advanced setup and optimization, see our [Configuration guide](/configuration/).
+## 转折点[​](#转折点)
 
--   [What is Claude?](#what-is-claude)
--   [What is Claude Code?](#what-is-claude-code)
--   [The Turning Point](#the-turning-point)
--   [Claude Code Setup](#claude-code-setup)
+当我第一次体验Claude Code时，它像一个破坏球一样击中了我，这项技术及其背后的机制可能会从根本上改变一切。与大多数AI编程工具定义的复制粘贴工作流不同，Claude Code引入了一个完全不同的范式，您可以设置任务、实时监控和引导进度，并审查已完成的工作，而不是反复手动地在AI环境之间复制粘贴信息。现在AI的环境直接与您的开发环境集成。
+
+作为产品设计、发明、HCI设计的实践者以及Command Stick™的开发者，我真的只有一个问题...
+
+> 它有多可靠？
+
+在Command Stick™，我们开发了几个用于功能和主题的定制框架，所以我认为让Claude在新框架内开发功能将是一个很好的测试！
+
+我兴奋极了！它用复选框指示其行动计划，传达其进度，并在必要时请求创建/编辑文件的权限。然而，当我尝试编译代码时，Android Studio抛出了错误。
+
+我并没有因为错误而沮丧，相反，我很感兴趣并且兴高采烈！
+
+> 如果我能让它遵循指令，我就能赚大钱了，我可以自动化功能和主题生成。
+
+在失败的尝试之后，我迭代了[`CLAUDE.md`](mechanics-claude-md-supremacy.html)，将其细化为任务上下文、规则、编号步骤和示例的模块，这引导Claude走向成功。这成为了本指南中记录的许多Claude Code最佳实践和优化技术的基础。
+
+当它工作时，就像魔法一样！
+
+我继续让它生成各种功能片段，有些反复生成以查看实现中的差异程度，这也很有趣（稍后讨论）。
+
+我抵制了开始生成大型项目的诱惑，专注于尝试理解是什么让Claude的按钮运转（就可靠性和速度而言），并将分享我的个人观察以及从[r/ClaudeAI](https://www.reddit.com/r/ClaudeAI)收集的观察。
+
+这个日志将通过实用的见解和技术帮助您从Claude和Claude Code中获得更多价值。
+
+##### 旅程开始
+
+欢迎来到ClaudeLog，您掌握Claude Code的全面指南。这里的每一个技术、机制和见解都来自社区，并已在真实开发场景中由社区测试！
+
+<img src="/img/discovery/036_cl_orange.png" alt="ClaudeLog Orange Logo" style="max-width: 165px; height: auto;" />
+
+* * *
+
+## Claude Code设置[​](#claude-code设置)
+
+如果您需要安装Claude Code，我们的[安装指南](install-claude-code.html)可以帮助您。有关高级设置和优化，请参阅我们的[配置指南](configuration.html)。
+
+-   [什么是Claude？](#什么是claude)
+-   [什么是Claude Code？](#什么是claude-code)
+-   [转折点](#转折点)
+-   [Claude Code设置](#claude-code设置)

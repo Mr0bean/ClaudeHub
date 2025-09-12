@@ -5,6 +5,40 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Project Overview
 This project scrapes the claudelog.com website and recreates it using VuePress, maintaining the exact structure and hierarchy of the source site. The project includes both English (original) and Chinese (translated) versions.
 
+## Post-Scraping Validation Rules
+After completing the scraping and VuePress conversion process, the following validation steps MUST be performed:
+
+### 1. **Scraper to VuePress Conversion**
+- Complete the scraping process first
+- Convert scraped content to VuePress format
+
+### 2. **Quality Assurance Checks**
+After conversion, verify the following by comparing with the original website:
+
+#### 2.1 **Sidebar Order Validation**
+- Check that sidebar items appear in the same order as the original site
+- Verify all sections and subsections are correctly nested
+- Ensure collapsible sections function properly
+
+#### 2.2 **Sidebar Link Functionality**
+- Test that all sidebar links are clickable
+- Verify each link navigates to the correct page
+- Confirm no 404 errors occur when clicking links
+
+#### 2.3 **Image Sizing Verification**
+- Validate all images display at correct sizes:
+  - Discovery images: max-width: 165px
+  - Profile images: 25x25px with border-radius: 50%
+  - Supporter images: max-width: 150px
+  - Logo images: max-width: 80px
+- Compare visual appearance with original site
+
+#### 2.4 **Internal Link Validation**
+- Test all internal navigation links work correctly
+- Verify proper `.html` extension usage (except homepage)
+- Check cross-page references resolve properly
+- Ensure anchor links within pages function correctly
+
 ## ⚠️ COMPREHENSIVE ISSUES AND SOLUTIONS SUMMARY (2024-12)
 
 ### 🔴 CRITICAL ISSUES THAT MUST BE FIXED

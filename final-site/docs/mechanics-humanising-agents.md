@@ -1,111 +1,125 @@
 ---
-title: "Humanising Agents | ClaudeLog"
+title: "人性化智能体 | ClaudeLog"
 ---
 
-# Humanising Agents | ClaudeLog
+# 人性化智能体 | ClaudeLog
 
-`Custom agents` are assigned distinct personalities through their specialised roles, system prompts, and tool configurations. However, the default interaction model can feel overly formal. We can create more engaging collaborations by humanizing our agents with `nicknames` and expressive `text-faces`.
-
-* * *
+智能体通过专门的角色、系统提示和工具配置被赋予独特的个性。然而，默认的交互模式可能会感觉过于正式。我们可以通过使用昵称和富有表现力的文字表情来人性化我们的智能体，创造更有吸引力的协作。
 
 * * *
 
-## Beyond Formal Invocation[​](#beyond-formal-invocation "Direct link to Beyond Formal Invocation")
+* * *
 
-Traditional agent invocation feels mechanical:
+## 超越正式调用
+
+传统的智能体调用感觉很机械：
 
 ```bash
-ask performance optimiser assistant to review the changes
-
+# 调用专业代码审查智能体
+claude <| .cc_agents/code-reviewer.md
 ```
 
-With [nicknames](/mechanics/agent-engineering/#agent-nicknaming-for-efficiency), the interaction becomes more natural:
+使用[昵称](claude-code-mcps-cc-usage.html)，交互变得更自然：
 
 ```bash
-ask P1 to review the changes
-
+# 使用友好的昵称进行代码审查
+reviewer
 ```
 
-But we can go even further by adding personality through `text-faces`, creating agents that feel more like collaborators than tools.
+但我们可以通过添加文字表情来赋予个性，创造出感觉更像合作者而非工具的智能体。
 
 * * *
 
 * * *
 
-## Text-Face Personalities[​](#text-face-personalities "Direct link to Text-Face Personalities")
+## 文字表情个性
 
-While playing around with different ways to personalize agents, I had the idea of exploring `text-faces`. When it first loaded I knew it was a hit! Each face represents the agent's personality, role, or typical mood while complementing the clean terminal aesthetic that developers love.
+在探索个性化智能体的不同方式时，我想到了探索文字表情的想法。当它第一次加载时，我就知道这是个好主意！每个表情代表智能体的个性、角色或典型情绪，同时补充了开发者喜爱的简洁终端美学。
 
-### Text-Face Examples by Role[​](#text-face-examples-by-role "Direct link to Text-Face Examples by Role")
+### 按角色分类的文字表情示例
 
-Each category shows different personality approaches for common development roles:
+每个类别展示了常见开发角色的不同个性方法：
 
-#### Debugging & Testing[​](#debugging--testing "Direct link to Debugging & Testing")
+#### 调试与测试
 
-`( ͡° ͜ʖ ͡°) Mischievous Debugger` - Playful problem solver who enjoys hunting down tricky bugs `(つ◉益◉)つ Bug Hunter` - Aggressive pursuer of software defects `(¬_¬) Test Engineer` - Skeptical validator who questions everything
+`(╯°□°）╯` - 喜欢追踪棘手错误的顽皮问题解决者  
+`ಠ_ಠ` - 软件缺陷的激进追捕者  
+`¯\_(ツ)_/¯` - 质疑一切的怀疑验证者
 
-#### Code Review & Quality[​](#code-review--quality "Direct link to Code Review & Quality")
+#### 代码审查与质量
 
-`¯\_(ツ)_/¯ Casual Code Reviewer` - Laid-back reviewer who keeps things simple and practical `(ㆆ_ㆆ) Quality Auditor` - Sharp-eyed observer who notices every detail `ಠ_ಠ Security Analyst` - Disapproving guardian of system security
+`( ͡° ͜ʖ ͡°)` - 保持简单实用的轻松审查者  
+`ಠ╭╮ಠ` - 注意每个细节的敏锐观察者  
+`(╬ ಠ益ಠ)` - 系统安全的不满守护者
 
-#### Performance & Optimization[​](#performance--optimization "Direct link to Performance & Optimization")
+#### 性能与优化
 
-`'(ᗒᗣᗕ)՞ Performance Optimizer` - High-energy assistant focused on speed and efficiency `★⌒ヽ( ͡° ε ͡°) Performance Tuner` - Stellar optimizer of system performance `˙ ͜ʟ˙ Memory Manager` - Focused fighter against memory leaks
+`⚡(ﾟ∀ﾟ)⚡` - 专注于速度和效率的高能助手  
+`(☆▽☆)` - 系统性能的杰出优化者  
+`( -_-)` - 专注对抗内存泄漏的战士
 
-#### Development & Refactoring[​](#development--refactoring "Direct link to Development & Refactoring")
+#### 开发与重构
 
-`(• ε •) Gentle Refactorer` - Soft-spoken helper that improves code with care `ʕ•ᴥ•ʔ UI Developer` - Friendly interface specialist with a warm approach `(ง'̀-'́)ง Dead Code Remover` - Fighting eliminator of unused code
+`(◕‿◕)` - 细心改进代码的温和助手  
+`(づ｡◕‿‿◕｡)づ` - 采用温暖方式的友好界面专家  
+`┻━┻ ︵ヽ(`Д´)ﾉ︵ ┻━┻` - 未使用代码的战斗消除者
 
-#### Documentation & Communication[​](#documentation--communication "Direct link to Documentation & Communication")
+#### 文档与沟通
 
-`(͡• ͜໒ ͡• ) Documentation Writer` - Loving creator of beautiful documentation `♥‿♥ Requirements Helper` - Sweet assistant for unclear specifications `┌༼◉ل͟◉༽┐ Grammar Checker` - Intense scrutinizer of language precision
+`(✿◠‿◠)` - 美丽文档的热爱创造者  
+`(｡◕‿◕｡)` - 处理不明确规范的甜蜜助手  
+`(￣ヘ￣)` - 语言精确性的严格审查者
 
-#### Operations & Management[​](#operations--management "Direct link to Operations & Management")
+#### 运维与管理
 
-`┗(▀̿Ĺ̯▀̿ ̿)┓ Git Manager` - Cool operator dancing between branches `( ͡ _ ͡°)ﾉ⚲ Deployment Guard` - Waving protector of production releases `⚆_⚆ Database Expert` - Wide-eyed master of data management
+`(¬‿¬)` - 在分支间舞动的酷酷操作者  
+`٩(◕‿◕)۶` - 生产发布的挥手保护者  
+`◉_◉` - 睁大眼睛的数据管理大师
 
-#### Specialized & Creative[​](#specialized--creative "Direct link to Specialized & Creative")
+#### 专业与创意
 
-`【≽ܫ≼】 Research King` - Magnificent gatherer of knowledge and insights `⋋| ◉ ͟ʖ ◉ |⋌ Metrics Spy` - Watchful observer of performance data `(┛ಠДಠ)┛彡┻━┻ Frustrated Developer` - Overwhelmed coder who's had enough
-
-* * *
-
-* * *
-
-## Implementation Strategy[​](#implementation-strategy "Direct link to Implementation Strategy")
-
-When designing your own humanized assistants, use the categories above as a starting point:
-
-1.  **Match personality to function** - A `┗(▀̿Ĺ̯▀̿ ̿)┓ Git Manager` needs different energy than a `(• ε •) Gentle Refactorer`
-2.  **Choose appropriate intensity** - Compare the laid-back `¯\_(ツ)_/¯ Casual Code Reviewer` with the intense `┌༼◉ل͟◉༽┐ Grammar Checker`
-3.  **Consider your team context** - The `(┛ಠДಠ)┛彡┻━┻ Frustrated Developer` might work in casual teams but not formal environments
-4.  **Match complexity to specialization** - Complex faces like `⋌༼ •̀ ⌂ •́ ༽⋋ Algorithm Expert` should match equally specialized roles
-5.  **Test display compatibility** - Ensure your chosen `text-faces` render correctly across different terminals and systems
-
-* * *
-
-## Resources[​](#resources "Direct link to Resources")
-
-For additional `text-face` inspiration, explore: [Text Faces Collection](https://texteditor.com/text-faces/)
-
-Color Personalization
-
-You can match the color of your custom agent output to make it even more personalized! Each agent can have its own distinctive color scheme that complements its `text-face` personality.
-
-##### Fun & Social Coding
-
-Using `text-faces` with `custom agents` transforms coding from a solitary technical task into something surprisingly fun and social! Each assistant feels like a distinct personality you're collaborating with, making development sessions more engaging.
-
-<img src="/img/discovery/021_happy_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
+`(ﾟ▽ﾟ*)` - 知识和洞察的宏伟收集者  
+`(O_O)` - 性能数据的警觉观察者  
+`ლ(╹◡╹ლ)` - 已经受够了的不堪重负的程序员
 
 * * *
 
-**See Also**: [Custom Agents](/mechanics/custom-agents/) | [Agent Engineering](/mechanics/agent-engineering/) | [Task Agent Tools](/mechanics/task-agent-tools/)
+* * *
 
-**Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
+## 实施策略
 
--   [Beyond Formal Invocation](#beyond-formal-invocation)
--   [Text-Face Personalities](#text-face-personalities)
-    -   [Text-Face Examples by Role](#text-face-examples-by-role)
--   [Implementation Strategy](#implementation-strategy)
--   [Resources](#resources)
+在设计你自己的人性化助手时，使用上述类别作为起点：
+
+1.  **匹配个性与功能** - 调试器需要与文档编写者不同的能量
+2.  **选择适当的强度** - 比较轻松的`(◕‿◕)`与紧张的`(╬ ಠ益ಠ)`
+3.  **考虑你的团队环境** - `( ͡° ͜ʖ ͡°)`可能适合休闲团队但不适合正式环境
+4.  **匹配复杂度与专业化** - 像`┻━┻ ︵ヽ(`Д´)ﾉ︵ ┻━┻`这样复杂的表情应该匹配同样专业的角色
+5.  **测试显示兼容性** - 确保你选择的文字表情在不同终端和系统中正确渲染
+
+* * *
+
+## 资源
+
+要获得更多文字表情灵感，请访问：[文字表情集合](https://textfac.es/)
+
+颜色个性化
+
+你可以匹配自定义智能体输出的颜色，使其更加个性化！每个智能体都可以有自己独特的配色方案，以补充其文字表情个性。
+
+##### 有趣的社交编程
+
+将文字表情与昵称结合使用，将编程从孤独的技术任务转变为令人惊讶的有趣和社交活动！每个助手都感觉像是你正在合作的独特个性，使开发会话更具吸引力。
+
+<img src="/img/discovery/030_cl_light_blue.png" alt="人性化智能体发现" style="max-width: 165px; height: auto;" />
+
+* * *
+
+**另请参阅**：[自定义智能体](mechanics-custom-agents.html) | [智能体工程](mechanics-sub-agents.html) | [任务智能体工具](mechanics-task-agent-tools.html)
+
+**作者**：[<img src="/img/profile/inventorblack.png" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%;" /> InventorBlack](https://www.reddit.com/user/InventorBlack/) | [Command Stick](https://commandstick.com)首席技术官| [r/ClaudeAi](https://www.reddit.com/r/ClaudeAI/)版主
+
+-   [超越正式调用](#超越正式调用)
+-   [文字表情个性](#文字表情个性)
+    -   [按角色分类的文字表情示例](#按角色分类的文字表情示例)
+-   [实施策略](#实施策略)
+-   [资源](#资源)

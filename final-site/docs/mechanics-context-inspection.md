@@ -1,81 +1,81 @@
 ---
-title: "Context Inspection | ClaudeLog"
+title: "上下文检查 | ClaudeLog"
 ---
 
-# Context Inspection | ClaudeLog
+# 上下文检查 | ClaudeLog
 
-The `/context` slash command is a new feature which dropped in `v1.0.86` which allows you to see an approximation of your context usage across different components:
+`/context` 斜杠命令是在 Claude Code 中推出的新功能，它允许你查看不同组件的上下文使用情况的近似值：
 
--   **System Prompt** - Core instructions and behavior definitions
--   **System tools** - Built-in Claude Code functionality
--   **MCP tools** - Model Context Protocol server integrations
--   **Memory files** - `CLAUDE.md` and project context
--   **Custom Agents** - Specialized sub-agent definitions
--   **Messages** - Current conversation history
+-   **系统提示** - 核心指令和行为定义
+-   **系统工具** - 内置的 Claude Code 功能
+-   **MCP 工具** - Model Context Protocol 服务器集成
+-   **内存文件** - `CLAUDE.md` 和项目上下文
+-   **自定义代理** - 专业化子代理定义
+-   **消息** - 当前对话历史
 
-It shows how many tokens are used and what percentage of your context window is remaining.
+它显示了使用了多少令牌以及剩余多少百分比的上下文窗口。
 
-> This is the ultimate tool for `Context Engineers`.
-
-* * *
-
-* * *
-
-### Strategic Context Engineering[​](#strategic-context-engineering "Direct link to Strategic Context Engineering")
-
-I am particularly interested in the ease of access to metrics about [Custom agents](/mechanics/custom-agents/) and [MCP tools](/claude-code-mcps/). Given the existence of [context window based performance depletion](/mechanics/context-window-depletion/), it is important for us as context engineers to craft the context as efficiently as possible.
-
-We can now tactically enable/disable MCP tool functions with full knowledge about how many tokens are being consumed. No more guessing whether that MCP server functions is worth the context overhead.
-
-The same principle applies to `Custom Agents` which are designed by Anthropic to be easily discovered, shared, downloaded and invoked. As I mentioned in [Agent Engineering](/mechanics/agent-engineering/), it is important to refine your agents so that they can easily be activated but also so that they are context efficient. The `/context` command allows us to have better introspection into how efficient our `Custom Agents` are.
+> 这是进行上下文工程的终极工具。
 
 * * *
 
 * * *
 
-### Current Limitations and Future Potential[​](#current-limitations-and-future-potential "Direct link to Current Limitations and Future Potential")
+### 战略性上下文工程[​](#strategic-context-engineering)
 
-Initial use has flagged that the accuracy for context calculations can sometimes be off. However, I believe the value lies more in engineering what is fundamentally in your context, which affects your baseline performance. I anticipate the accuracy of the tool improving over time as Anthropic makes subtle adjustments to the way context is computed.
+我特别感兴趣的是轻松访问关于[自定义代理](/mechanics-custom-agents.html)和[MCP 工具](/claude-code-mcps.html)的指标。鉴于[基于上下文窗口的性能下降](/mechanics-context-window-depletion.html)的存在，作为上下文工程师，我们必须尽可能高效地设计上下文。
 
-A potential upgrade of this user interface would be being able to use the arrow keys to navigate through the items and toggle them on/off so we can effectively `free up` space within the context. This would likely require a Claude reload but it would create a more seamless `Context Engineering` experience.
+我们现在可以战略性地启用/禁用 MCP 工具功能，同时完全了解消耗了多少令牌。不再需要猜测那个 MCP 服务器功能是否值得上下文开销。
 
-### Integration with Other Mechanics[​](#integration-with-other-mechanics "Direct link to Integration with Other Mechanics")
-
-This tool in combination with features like the `Micro compact` feature which automatically frees up space within the context window related to tool calls helps create a more streamlined experience for managing context efficiently throughout long sessions.
+同样的原则适用于 Custom Agents，它们由 Claude Code 设计为易于发现、共享、下载和调用。正如我在[代理工程](/mechanics-custom-agents.html)中提到的，重要的是要优化你的代理，使它们能够轻松激活，但也要让它们在上下文上高效。`/context` 命令允许我们更好地内省我们的 Custom Agents 的效率。
 
 * * *
 
 * * *
 
-### Interactive Context Analysis[​](#interactive-context-analysis "Direct link to Interactive Context Analysis")
+### 当前限制和未来潜力[​](#current-limitations-and-future-potential)
 
-A cool thing I explored is after generating the context data, I asked Claude:
+初步使用表明上下文计算的准确性有时可能不准确。然而，我认为价值更多在于工程化基本上在你上下文中的内容，这会影响你的基线性能。我预期随着 Anthropic 对上下文计算方式进行细微调整，该工具的准确性会随着时间的推移而改善。
 
-> Where is my context potentially inefficient?
+该用户界面的潜在升级将是能够使用箭头键导航项目并将它们切换开/关，这样我们就可以有效地分配上下文内的空间。这可能需要 Claude Code 重新加载，但它将创造更无缝的上下文工程体验。
 
-And he provided suggestions about how the context could be engineered to be more efficient. This creates a feedback loop where you can identify bottlenecks and optimize accordingly.
+### 与其他机制的集成[​](#integration-with-other-mechanics)
 
-**Mechanic Benefits:**
-
--   **Token visibility**: Clear breakdown of context consumption across all components
--   **Strategic optimization**: Data-driven decisions about MCP tools and Custom Agents
--   **Performance engineering**: Identify context bloat before it impacts response quality
--   **Baseline awareness**: Understand your fundamental context overhead for better planning
--   **Interactive analysis**: Ask Claude to review and suggest context improvements
-
-##### Context Engineering
-
-Ask Claude to review your context usage and suggest optimizations. Use [Plan Mode](/mechanics/plan-mode/) combined with [ultrathink](/faqs/what-is-ultrathink/) for comprehensive analysis: "Where is my context potentially inefficient and how can I optimize it?"
-
-<img src="/img/discovery/013_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
+这个工具与诸如自动释放与工具调用相关的上下文窗口空间的功能相结合，有助于在长时间会话中创建更流畅的上下文高效管理体验。
 
 * * *
 
-**See Also**: [Context Window Depletion](/mechanics/context-window-depletion/)|[Agent Engineering](/mechanics/agent-engineering/)|[Custom Agents](/mechanics/custom-agents/)
+* * *
 
-**Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
+### 交互式上下文分析[​](#interactive-context-analysis)
 
--   [Strategic Context Engineering](#strategic-context-engineering)
--   [Current Limitations and Future Potential](#current-limitations-and-future-potential)
--   [Integration with Other Mechanics](#integration-with-other-mechanics)
--   [Interactive Context Analysis](#interactive-context-analysis)
+我探索的一个很酷的事情是，在生成上下文数据后，我询问 Claude：
+
+> 我的上下文在哪里可能效率不高？
+
+他提供了关于如何设计上下文以提高效率的建议。这创建了一个反馈循环，你可以识别瓶颈并相应地进行优化。
+
+**机制优势：**
+
+-   **令牌可见性**：清晰分解所有组件的上下文消耗
+-   **战略优化**：基于数据驱动的 MCP 工具和自定义代理决策
+-   **性能工程**：在上下文膨胀影响响应质量之前识别它
+-   **基线意识**：了解你的基本上下文开销以便更好的规划
+-   **交互式分析**：要求 Claude 审查并建议上下文改进
+
+##### 上下文工程
+
+要求 Claude 审查你的上下文使用情况并建议优化。结合使用[计划模式](/mechanics-plan-mode.html)和[超级思考](/mechanics-ultrathink-plus-plus.html)进行全面分析："我的上下文在哪里可能效率不高，我该如何优化它？"
+
+<img src="/img/discovery/036_cl_orange.png" alt="Context inspection" style="max-width: 165px; height: auto;" />
+
+* * *
+
+**另见**：[上下文窗口衰竭](/mechanics-context-window-depletion.html)|[代理工程](/mechanics-custom-agents.html)|[自定义代理](/mechanics-custom-agents.html)
+
+**作者**：[<img src="/img/agents/002_inventorblack.webp" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%;" /> InventorBlack](https://github.com/inventorblack)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI/)
+
+-   [战略性上下文工程](#strategic-context-engineering)
+-   [当前限制和未来潜力](#current-limitations-and-future-potential)
+-   [与其他机制的集成](#integration-with-other-mechanics)
+-   [交互式上下文分析](#interactive-context-analysis)

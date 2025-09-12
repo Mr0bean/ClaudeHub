@@ -1,36 +1,36 @@
 ---
-title: "Sponsor ClaudeLog | ClaudeLog"
+title: "赞助 ClaudeLog | ClaudeLog"
 ---
 
-# Sponsor ClaudeLog | ClaudeLog
+# 赞助 ClaudeLog | ClaudeLog
 
-We're looking for sponsors in the AI industry that are interested in sponsoring ClaudeLog. Partner with us to reach a `highly engaged community` of AI developers, Claude Code experts, and agentic workflow specialists.
+我们正在寻找对赞助 ClaudeLog 感兴趣的 AI 行业赞助商。与我们合作，接触`高度活跃的社区`，包括 AI 开发者、Claude Code 专家和智能体工作流专家。
 
-ClaudeLog serves a `curated community` of advanced AI developers who actively use AI tools in their daily workflows and implement cutting-edge agentic development processes.
+ClaudeLog 服务于一个`精选社区`，成员都是高级 AI 开发者，他们在日常工作流中积极使用 AI 工具，并实施前沿的智能体开发流程。
 
-We're particularly interested in sponsors developing solutions in these key areas:
+我们特别欢迎在以下关键领域开发解决方案的赞助商：
 
--   **AI Developer Tools & Platforms**: Agentic workflow solutions, AI terminal interfaces, AI-powered IDEs and code editors, AI debugging and testing frameworks, code generation and completion tools
+-   **AI 开发工具与平台**：智能体工作流解决方案、AI 终端界面、AI 驱动的 IDE 和代码编辑器、AI 调试和测试框架、代码生成和补全工具
     
--   **AI Solutions & Infrastructure**: Large Language Model providers, AI API services and gateways, MLOps and model deployment platforms, AI agent orchestration systems
+-   **AI 解决方案与基础设施**：大语言模型提供商、AI API 服务和网关、MLOps 和模型部署平台、AI 智能体编排系统
     
--   **Developer Productivity & Workflow**: CI/CD and DevOps automation, cloud development environments, developer infrastructure solutions, performance monitoring and optimization tools
+-   **开发者生产力与工作流**：CI/CD 和 DevOps 自动化、云开发环境、开发者基础设施解决方案、性能监控和优化工具
     
--   **Emerging AI Technologies**: Multi-agent systems and frameworks, custom AI model training platforms, AI workflow automation tools, next-generation developer interfaces
+-   **新兴 AI 技术**：多智能体系统和框架、自定义 AI 模型训练平台、AI 工作流自动化工具、下一代开发者界面
     
 
-Sponsoring ClaudeLog connects you directly with decision-makers who evaluate and implement AI development solutions.
+赞助 ClaudeLog 让您直接接触到评估和实施 AI 开发解决方案的决策者。
 
 * * *
 
-Ready to explore `partnership opportunities`? Contact us to receive our comprehensive `sponsor package` with detailed audience insights, sponsorship tiers, and partnership benefits.
+准备探索`合作机会`？联系我们以获取包含详细受众洞察、赞助层级和合作权益的综合`赞助方案`。
 
-**Email Us** [hello@claudelog.com](mailto:hello@claudelog.com)
+**给我们发邮件** [hello@claudelog.com](mailto:hello@claudelog.com)
 
 * * *
 
-##### Strategic Partnerships
+##### 战略合作伙伴关系
 
-Advance the future of AI-assisted development through `strategic partnerships` and targeted sponsorship opportunities.
+通过`战略合作伙伴关系`和有针对性的赞助机会，推动 AI 辅助开发的未来。
 
 <img src="/img/discovery/042_japan.png" alt="Custom image" style="max-width: 165px; height: auto;" />

@@ -4,122 +4,89 @@ title: "Puppeteer MCP | ClaudeLog"
 
 # Puppeteer MCP | ClaudeLog
 
-**Web automation with AI vision capabilities for Claude Code**
+**为 Claude Code 提供 AI 视觉能力的网页自动化工具**
 
-**Author**: [Model Context Protocol](https://github.com/modelcontextprotocol)  |  [GitHub Repo](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer)  |  65.5k Stars|7.7k Forks|MIT License|Updated Aug 24, 2025
-
-* * *
-
-### Overview[​](#overview "Direct link to Overview")
-
-Puppeteer MCP brings powerful web automation to Claude Code through the Model Context Protocol. Control headless Chrome browsers, scrape dynamic content, and automate complex web workflows with AI vision capabilities to handle cookies, captchas, and interactive elements automatically.
+**作者**: [模型上下文协议](https://github.com/modelcontextprotocol)  |  [GitHub 仓库](https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer)  |  65+ 星标|7+ 分叉|MIT 许可证|更新于 2025年8月24日
 
 * * *
 
-* * *
+### 概述[​](#概述)
 
-### Features[​](#features "Direct link to Features")
-
--   **AI Vision Integration** - Automatically handle cookies, captchas, and interactive elements
--   **Headless Browser Control** - Launch and control Chrome/Chromium instances programmatically
--   **Dynamic Content Scraping** - Extract data from JavaScript-heavy and SPA applications
--   **High-Quality Markdown** - Convert web pages to well-formatted markdown
--   **Screenshot & PDF Generation** - Capture visual content and generate documents
--   **Form Automation** - Fill out forms, submit data, and handle user interactions
+Puppeteer MCP 通过模型上下文协议为 Claude Code 带来强大的网页自动化功能。控制无头 Chrome 浏览器，抓取动态内容，并通过 AI 视觉能力自动化复杂的网页工作流，自动处理 cookie、验证码和交互元素。
 
 * * *
 
 * * *
 
-### Installation[​](#installation "Direct link to Installation")
+### 功能特性[​](#功能特性)
 
-**Prerequisites**
+-   **AI 视觉集成** - 自动处理 cookie、验证码和交互元素
+-   **无头浏览器控制** - 以编程方式启动和控制 Chrome/Chromium 实例
+-   **动态内容抓取** - 从 JavaScript 重度和 SPA 应用程序中提取数据
+-   **高质量 Markdown** - 将网页转换为格式良好的 markdown
+-   **截图和 PDF 生成** - 捕获视觉内容并生成文档
+-   **表单自动化** - 填写表单、提交数据并处理用户交互
 
--   Chrome or Chromium browser installed (auto-installed with NPX method)
+* * *
 
-**Setup MCP Server**
+* * *
+
+### 安装[​](#安装)
+
+**前置要求**
+
+-   安装 Chrome 或 Chromium 浏览器（NPX 方法自动安装）
+
+**设置 MCP 服务器**
 
 ```bash
-# Install via NPX (recommended)
-
-npx -y @modelcontextprotocol/server-puppeteer
-
+npx @modelcontextprotocol/server-puppeteer
 ```
 
-**Claude Code Configuration**
+**Claude Code 配置**
 
-```bash
+```json
 {
-
-  "projects": {
-
-    "/path/to/your/project": {
-
-      "mcpServers": {
-
-        "puppeteer": {
-
-          "command": "npx",
-
-          "args": ["-y", "@modelcontextprotocol/server-puppeteer"]
-
-        }
-
-      }
-
+  "mcpServers": {
+    "puppeteer": {
+      "command": "npx",
+      "args": ["@modelcontextprotocol/server-puppeteer"]
     }
-
   }
-
 }
-
 ```
 
 * * *
 
 * * *
 
-### Usage[​](#usage "Direct link to Usage")
+### 使用方法[​](#使用方法)
 
-**Basic Web Automation**
-
-```bash
-# Navigate and extract content with AI vision
-
-claude "Browse to the product page and extract all pricing information"
-
-# Handle complex interactions automatically
-
-claude "Navigate the login form and extract user dashboard data"
+**基础网页自动化**
 
 ```
-
-**Advanced Automation**
-
-```bash
-# AI-powered form filling
-
-claude "Fill out the registration form and handle any captchas"
-
-# Markdown conversion
-
-claude "Convert the documentation page to high-quality markdown"
-
+Help me scrape product prices from this e-commerce site and save them to a CSV file.
 ```
 
-For detailed automation examples and API reference, refer to the [official documentation](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer).
+**高级自动化**
 
-##### Community Feedback
+```
+Automate logging into this web portal, navigate to the reports section, and download the latest monthly report.
+```
 
-Developers find Puppeteer MCP valuable for complex web interactions that basic scraping tools can't handle. Particularly useful for navigating dynamic content, JavaScript-heavy sites, and automating multi-step workflows.
+有关详细的自动化示例和 API 参考，请参考[官方文档](https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer)。
 
-<img src="/img/discovery/018.png" alt="Custom image" style="max-width: 165px; height: auto;" />
+##### 社区反馈
+
+开发者发现 Puppeteer MCP 对于基础抓取工具无法处理的复杂网页交互非常有价值。特别适用于导航动态内容、JavaScript 重度网站和自动化多步骤工作流。
+
+<img src="/img/discovery/036_cl_orange.png" alt="Claude Code 发现图标" style="max-width: 165px; height: auto;" />
 
 * * *
 
-*Puppeteer MCP is part of the official Model Context Protocol servers and is licensed under the MIT License. For technical support and updates, please refer to the official GitHub repository.*
+*Puppeteer MCP 是官方模型上下文协议服务器的一部分，采用 MIT 许可证。如需技术支持和更新，请参考官方 GitHub 仓库。*
 
--   [Overview](#overview)
--   [Features](#features)
--   [Installation](#installation)
--   [Usage](#usage)
+-   [概述](#概述)
+-   [功能特性](#功能特性)
+-   [安装](#安装)
+-   [使用方法](#使用方法)

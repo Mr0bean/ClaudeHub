@@ -300,7 +300,7 @@ Multiple configuration locations exist due to legacy compatibility - you might e
 
 Claude Code can access multiple directories beyond your current working directory using:
 
--   **CLI argument:** `--add-dir` (added in [v1.0.18](/claude-code-changelog/#v1018)) when starting Claude Code
+-   **CLI argument:** `--add-dir` (added in [v1.0.18](/claude-code-changelog/#v1018.html)) when starting Claude Code
 -   **Slash command:** `/add-dir` mid-session for seamless workflow expansion
 
 This allows you to work across multiple projects or reference external resources without changing directories or restarting your session.
@@ -401,7 +401,7 @@ Proper configuration is the foundation of effective Claude Code usage. Understan
 
 * * *
 
-**See Also**: [Pricing Plans](/claude-code-pricing/)|[CLAUDE.md Guide](/mechanics/claude-md-supremacy/)|[MCPs & Add-ons](/claude-code-mcps/)|[FAQs](/faq/)
+**See Also**: [Pricing Plans](/claude-code-pricing/)|[CLAUDE.md Guide](/mechanics-claude-md-supremacy/)|[MCPs & Add-ons](/claude-code-mcps/)|[FAQs](/faq/)
 
 -   [API Key Setup](#api-key-setup)
 -   [Model Selection](#model-selection)

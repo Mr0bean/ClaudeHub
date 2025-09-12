@@ -1,49 +1,49 @@
 ---
-title: "Always Be Experimenting | ClaudeLog"
+title: "始终保持实验精神 | ClaudeLog"
 ---
 
-# Always Be Experimenting | ClaudeLog
+# 始终保持实验精神 | ClaudeLog
 
-One aspect that is often missing in this current AI wave is the `spirit of an engineer`. It fascinates me when seasoned engineers who have dedicated decades of their lives to solving complex problems put so little effort into exploring and testing the limits of AI.
+在当前的 AI 浪潮中，经常缺失的一个方面是`工程师精神`。让我感到着迷的是，那些投入了数十年生命来解决复杂问题的资深工程师，却很少花精力去探索和测试 AI 的极限。
 
-Sure, I am aware it has been recurring instances of `The boy who cried wolf` with the AI hype cycles, but the time is now. Agents are not something to shrug at.
-
-* * *
-
-* * *
-
-### The Engineering Paradox[​](#the-engineering-paradox "Direct link to The Engineering Paradox")
-
-Software engineers spend countless hours learning various frameworks but are reluctant to put their best foot forward with AI. It is truly strange behaviour from a community that should be naturally curious about new tools and technologies.
-
-Consider the natural evolution of our industry: we've collectively invested millions of hours mastering jQuery, Bootstrap, Flash/ActionScript, Internet Explorer quirks, CoffeeScript, and Bower. These technologies served us well and taught us valuable patterns, even as the ecosystem evolved past them. We've always embraced this cycle of learning, adapting, and moving forward. Yet when faced with AI, a technology with transformative potential, there's hesitation to apply that same learning spirit and push the possibilities.
+当然，我知道 AI 炒作周期中反复出现过`狼来了`的情况，但现在时机已到。智能体不是可以轻视的东西。
 
 * * *
 
 * * *
 
-### Early Adoption Phase[​](#early-adoption-phase "Direct link to Early Adoption Phase")
+### 工程悖论[​](#the-engineering-paradox "Direct link to 工程悖论")
 
-I am of the belief we are still in the innovator/early minority phase of the AI adoption curve. I believe this because skilled engineers are reluctant to come around to using the tools and I believe once they do come around the technology will be taken to even greater heights thanks to the open source community, MCPs and various other add-ons.
+软件工程师花费无数小时学习各种框架，但却不愿意全力以赴地使用 AI。对于一个本应对新工具和技术充满好奇的社区来说，这确实是奇怪的行为。
 
-### The A.B.E Mindset[​](#the-abe-mindset "Direct link to The A.B.E Mindset")
+考虑我们行业的自然演进：我们共同投入了数百万小时来掌握 jQuery、Bootstrap、Flash/ActionScript、Internet Explorer 的怪癖、CoffeeScript 和 Bower。这些技术很好地服务了我们，并教会了我们有价值的模式，即使生态系统已经超越了它们。我们一直拥抱这种学习、适应和前进的循环。然而，当面对具有变革潜力的 AI 技术时，却犹豫是否应用同样的学习精神并推动可能性的边界。
 
-When a new technology such as LLMs or the agentic implementation of LLMs arises we should `always be experimenting`, documenting and publishing our findings for other community members to challenge, invalidate, verify and innovate on top of.
+* * *
 
-We are at the beginning of a new era filled with opportunity so, A.B.E!
+* * *
 
-##### Engineering Spirit
+### 早期采用阶段[​](#early-adoption-phase "Direct link to 早期采用阶段")
 
-The AI revolution needs engineers willing to push boundaries. Every experiment you document today becomes tomorrow's breakthrough. Embrace uncertainty and turn curiosity into competitive advantage.
+我相信我们仍处于 AI 采用曲线的创新者/早期少数派阶段。我之所以这样认为，是因为熟练的工程师不愿意开始使用这些工具，我相信一旦他们开始使用，得益于开源社区、MCPs 和各种其他插件，这项技术将达到更高的高度。
+
+### A.B.E 思维模式[​](#the-abe-mindset "Direct link to A.B.E 思维模式")
+
+当出现像 LLMs 或 LLMs 的智能体实现这样的新技术时，我们应该`始终保持实验精神`，记录并发布我们的发现，供其他社区成员挑战、验证和创新。
+
+我们正处于充满机遇的新时代的开端，所以，A.B.E！
+
+##### 工程师精神
+
+AI 革命需要愿意突破界限的工程师。你今天记录的每一个实验都会成为明天的突破。拥抱不确定性，将好奇心转化为竞争优势。
 
 <img src="/img/discovery/024_excite_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
-**See Also**: [Context Window Constraints as Training](/mechanics/context-window-constraints-as-training/)
+**另请参阅**：[上下文窗口限制作为训练](/mechanics-context-window-constraints-as-training/)
 
-**Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
+**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|[Command Stick](https://commandstick.com) CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
 
--   [The Engineering Paradox](#the-engineering-paradox)
--   [Early Adoption Phase](#early-adoption-phase)
--   [The A.B.E Mindset](#the-abe-mindset)
+-   [工程悖论](#the-engineering-paradox)
+-   [早期采用阶段](#early-adoption-phase)
+-   [A.B.E 思维模式](#the-abe-mindset)

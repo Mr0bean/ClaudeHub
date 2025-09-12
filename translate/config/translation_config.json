@@ -1,0 +1,64 @@
+{
+  "translation": {
+    "source_language": "English",
+    "target_language": "Chinese", 
+    "model": "sonnet",
+    "timeout": 300,
+    "max_retries": 3,
+    "chinese_threshold": 0.3
+  },
+  "file_processing": {
+    "backup_enabled": true,
+    "max_file_size": 100000,
+    "min_file_size": 10,
+    "exclude_patterns": [
+      "**/node_modules/**",
+      "**/.git/**",
+      "**/.*/**",
+      "**/*.backup_*"
+    ]
+  },
+  "content_protection": {
+    "protected_terms": [
+      "Claude", "ChatGPT", "GPT", "API", "CLI", "JSON", "XML", "HTML", "CSS",
+      "JavaScript", "TypeScript", "Python", "Node.js", "npm", "yarn", "pip",
+      "git", "GitHub", "GitLab", "VuePress", "Vue.js", "React", "Angular",
+      "Next.js", "Nuxt.js", "Express", "FastAPI", "Django", "Flask", 
+      "Docker", "Kubernetes", "AWS", "Azure", "GCP", "MCP", "MCPs",
+      "claude.ai", "Anthropic", "Sonnet", "Haiku", "Opus", "OAuth", "JWT",
+      "REST", "GraphQL", "WebSocket", "HTTP", "HTTPS", "SSL", "TLS",
+      "SQL", "NoSQL", "MongoDB", "PostgreSQL", "MySQL", "Redis", "Swagger", "OpenAPI",
+      "Postman", "GitBook", "RESTful", "Vue", "md", "markdown", "bash", "sh", "json",
+      "js", "ts", "py", "yml", "yaml", "config", "README", "LICENSE", "CHANGELOG"
+    ],
+    "custom_patterns": {
+      "version_numbers": "\\d+\\.\\d+\\.\\d+",
+      "file_extensions": "\\.\\w{2,4}",
+      "environment_vars": "\\$\\{[^}]+\\}|\\$\\w+",
+      "urls": "https?://[^\\s)]+[^\\s.,)]",
+      "email_addresses": "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}",
+      "ip_addresses": "\\b(?:[0-9]{1,3}\\.){3}[0-9]{1,3}\\b"
+    }
+  },
+  "validation": {
+    "enabled": true,
+    "min_score": 60.0,
+    "strict_mode": false,
+    "check_links": true,
+    "check_code_blocks": true,
+    "check_html_tags": true
+  },
+  "logging": {
+    "level": "INFO",
+    "console_output": true,
+    "file_output": true,
+    "log_directory": "translate/logs",
+    "max_log_files": 10
+  },
+  "batch_processing": {
+    "max_concurrent": 2,
+    "progress_reporting": true,
+    "stop_on_error": false,
+    "retry_failed": true
+  }
+}

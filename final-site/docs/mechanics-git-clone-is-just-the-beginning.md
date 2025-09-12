@@ -1,43 +1,43 @@
 ---
-title: "Git Clone Is Just The Beginning | ClaudeLog"
+title: "Git Clone 只是开始 | ClaudeLog"
 ---
 
-# Git Clone Is Just The Beginning | ClaudeLog
+# Git Clone 只是开始 | ClaudeLog
 
-Claude Code has fundamentally transformed how I interface with repositories.
+Claude Code 从根本上改变了我与仓库交互的方式。
 
-**The Old Workflow:**
+**旧的工作流程：**
 
-**What's Now Possible:**
+**现在可以做什么：**
 
-With Claude Code, repositories become **scaffolding** that Claude can build upon rather than finished products.
+使用 Claude Code，仓库变成了 Claude 可以在其上构建的**脚手架**，而不是成品。
 
-When I found the Reddit and WhatsApp MCPs, I did not spend ages understanding their architecture or bother the authors to ask them to implement functionality specific to my intended usecase.
+当我找到 Reddit 和 WhatsApp MCP 时，我没有花费大量时间去理解它们的架构，也没有打扰作者请求他们实现我特定用例的功能。
 
-I simply asked Claude:
+我只是问 Claude：
 
-> Research the underlying libraries and their full APIs. What features aren't being used? Suggest functionality that could be built.
+> 研究底层库和它们的完整 API。有哪些功能没有被使用？建议可以构建的功能。
 
-This works because MCPs are usually wrappers around existing libraries or APIs. The WhatsApp MCP uses Whatsmeow, which defines what's actually possible.
+这之所以有效，是因为 MCP 通常是现有库或 API 的包装器。WhatsApp MCP 使用 Whatsmeow，它定义了实际可能实现的功能。
 
-Rather than being limited by what the MCP currently implements, Claude researches the underlying library's full API capabilities and suggests functionality that could be built within those constraints.
-
-* * *
+Claude 不受 MCP 当前实现的限制，而是研究底层库的完整 API 功能，并建议可以在这些约束条件下构建的功能。
 
 * * *
 
-**The New Workflow:**
+* * *
 
-This workflow eliminates the traditional bottleneck of either implementing complex features yourself or waiting for maintainers to prioritize your specific use case, while giving Claude a solid foundation and established patterns to build upon.
+**新的工作流程：**
 
-##### Big 'em up!
+这个工作流程消除了传统的瓶颈——要么自己实现复杂功能，要么等待维护者优先处理你的特定用例，同时给 Claude 一个坚实的基础和既定的模式来构建。
 
-None of this would be possible without the open source community. The maintainers who build these repositories, contributors who add features, and developers who create the underlying libraries are the real MVPs.
+##### 向他们致敬！
 
-<img src="/img/discovery/025.png" alt="Custom image" style="max-width: 165px; height: auto;" />
+如果没有开源社区，这一切都不可能实现。构建这些仓库的维护者、添加功能的贡献者，以及创建底层库的开发者才是真正的 MVP。
+
+<img src="/img/supporters/inventorblack.png" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%;" />
 
 * * *
 
-**See Also**: [Bash Scripts](/mechanics/bash-scripts/)|[Tight Feedback Loops](/mechanics/tight-feedback-loops/)|[CLAUDE.md Supremacy](/mechanics/claude-md-supremacy/)
+**另请参阅**：[Bash 脚本](/mechanics-bash-scripts.html)|[紧密反馈循环](/mechanics-tight-feedback-loops.html)|[CLAUDE.md 至上](/mechanics-claude-md-supremacy.html)
 
-**Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
+**作者**：[<img src="/img/supporters/inventorblack.png" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%;" />InventorBlack](https://github.com/InventorBlack/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/claudeai)

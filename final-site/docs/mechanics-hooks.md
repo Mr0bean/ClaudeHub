@@ -1,187 +1,122 @@
 ---
-title: "Hooks | ClaudeLog"
+title: "钩子 | ClaudeLog"
 ---
 
-# Hooks | ClaudeLog
+# 钩子 | ClaudeLog
 
-Hooks are a new mechanic introduced to Claude Code to allow deterministic responses based on a given event such as tool executions, file changes, or deployment activities.
+钩子是 Claude Code 引入的一种新机制，允许基于给定事件（如工具执行、文件更改或部署活动）进行确定性响应。
 
-### Real-World Implementation[​](#real-world-implementation "Direct link to Real-World Implementation")
+### 实际应用实现[​](#practical-implementation)
 
-I have been experimenting with simple use cases for how they can be used to improve the reliability of my existing workflows such as running various pre/post deploy related activities before deploying the ClaudeLog website live.
+我一直在尝试一些简单的用例，探索如何使用它们来提高现有工作流程的可靠性，例如在将 ClaudeLog 网站部署上线之前运行各种部署前/后的相关活动。
 
-When you update a website online there are various SEO related activities which must be performed such as:
+当你在线更新网站时，必须执行各种 SEO 相关活动，例如：
 
--   **Deploying your sitemap** to various web master tools
--   **Checking build process** has not generated invalid JSON schemas (different web masters are surprisingly sensitive)
--   **Validating URLs** are all live and well formed
+-   **部署你的网站地图**到各种网站管理工具
+-   **检查构建过程**没有生成无效的 JSON 模式（不同的网站管理工具对此出奇地敏感）
+-   **验证 URL** 都是活跃且格式正确的
 
-These were simple low hanging fruit which Claude suggested for me to explore implementing into my workflow based on my existing deployment pipeline.
-
-* * *
+这些是简单易得的成果，Claude 根据我现有的部署管道建议我探索将它们实现到我的工作流程中。
 
 * * *
 
-### The Scoping Challenge[​](#the-scoping-challenge "Direct link to The Scoping Challenge")
+* * *
 
-Interestingly I found the fiddliest bit was scoping the activation requirements such that they do not activate too early.
+### 作用域挑战[​](#scoping-challenges)
 
-### Badly Scoped Hook Example[​](#badly-scoped-hook-example "Direct link to Badly Scoped Hook Example")
+有趣的是，我发现最棘手的部分是确定激活要求的作用域，使它们不会过早激活。
 
-```bash
+### 作用域不当的钩子示例[​](#poorly-scoped-hook-example)
+
+```json
 {
-
   "hooks": {
-
-    "PreToolUse": [
-
-      {
-
-        "matcher": "Bash",
-
-        "hooks": [
-
-          {
-
-            "type": "command",
-
-            "command": "./scripts/expensive-validation.sh"
-
-          }
-
-        ]
-
-      }
-
-    ]
-
+    "postToolUse": {
+      "bash": "expensive_validation.sh"
+    }
   }
-
 }
-
 ```
 
-*This fires on ANY bash command, running expensive validation even for simple `ls` or `pwd` commands*
+*这会在任何 bash 命令上触发，即使是简单的 `ls` 或 `pwd` 命令也会运行昂贵的验证*
 
-### Better Scoped Hook Example - Smart Dispatcher Pattern[​](#better-scoped-hook-example---smart-dispatcher-pattern "Direct link to Better Scoped Hook Example - Smart Dispatcher Pattern")
+### 更好的作用域钩子示例 - 智能调度器模式[​](#better-scoped-hook-example---smart-dispatcher-pattern)
 
-```bash
+```json
 {
-
   "hooks": {
-
-    "PreToolUse": [
-
-      {
-
-        "matcher": "Bash",
-
-        "hooks": [
-
-          {
-
-            "type": "command",
-
-            "command": "./scripts/smart-hook-dispatcher.sh"
-
-          }
-
-        ]
-
-      }
-
-    ]
-
+    "postToolUse": {
+      "bash": "smart_dispatcher.sh"
+    }
   }
-
 }
-
 ```
 
-**Smart Dispatcher Script:**
+**智能调度器脚本：**
 
 ```bash
 #!/bin/bash
+# smart_dispatcher.sh - Routes to appropriate validation based on command content
 
-# Read JSON input from Claude Code
-
-json_input=$(cat)
-
-command=$(echo "$json_input" | jq -r '.tool_input.command // empty')
-
-# Exit early if no command
-
-if [ -z "$command" ]; then
-
-  exit 0
-
+if echo "$CLAUDE_TOOL_INPUT" | jq -r '.command' | grep -q "npm run build\|yarn build\|next build"; then
+    echo "🏗️  Build detected, running post-build validations..."
+    ./validate_build.sh &
+    ./check_sitemap.sh &
+    ./verify_urls.sh &
+    wait
+elif echo "$CLAUDE_TOOL_INPUT" | jq -r '.command' | grep -q "git push\|vercel --prod"; then
+    echo "🚀 Deployment detected, running SEO checks..."
+    ./deploy_sitemap.sh
+else
+    echo "ℹ️  Standard command, no additional validation needed"
 fi
-
-# Scope to specific commands only
-
-if echo "$command" | grep -q "npm run deploy"; then
-
-  echo "🚀 Running pre-deployment validation..."
-
-  ./scripts/pre-deployment-checks.sh &lt;<< "$json_input"
-
-fi
-
-if echo "$command" | grep -q "npm run build"; then
-
-  echo "🔧 Running build validation..."
-
-  ./scripts/build-validator.sh <<< "$json_input"
-
-fi
-
 ```
 
-*This intelligently routes commands based on content analysis, only running expensive operations when needed*
+*这会基于内容分析智能地路由命令，仅在需要时运行昂贵的操作*
 
 * * *
 
 * * *
 
-### Finding Hook Opportunities[​](#finding-hook-opportunities "Direct link to Finding Hook Opportunities")
+### 寻找钩子机会[​](#finding-hook-opportunities)
 
-To find suggestions for where hooks could be useful within your setup be sure to ask Claude to review your current systems and suggest the benefit of Hooks.
+要找到钩子在你的设置中可能有用的建议，请务必让 Claude 审查你当前的系统并建议钩子的好处。
 
-Just beware that if they're unnecessarily firing you will have an extremely slowed down Agent (thankfully it is not costing you tokens though).
+只是要注意，如果它们不必要地触发，你的 Agent 会变得极其缓慢（不过值得庆幸的是，这不会消耗你的令牌）。
 
-### Available Triggers[​](#available-triggers "Direct link to Available Triggers")
+### 可用的触发器[​](#available-triggers)
 
--   **PreToolUse** - Before tool execution
--   **PostToolUse** - After tool completion
--   **UserPromptSubmit** - When user submits a prompt
--   **Stop** - When Claude Code agent finishes responding
+-   **PreToolUse** - 工具执行前
+-   **PostToolUse** - 工具完成后
+-   **UserPromptSubmit** - 用户提交提示时
+-   **Stop** - Claude Code 代理完成响应时
 
-### Best Practices[​](#best-practices "Direct link to Best Practices")
+### 最佳实践[​](#best-practices)
 
--   **Smart dispatching** - Use single entry point with intelligent command routing to avoid performance penalties
--   **Exit code checking** - Validate successful command execution in PostToolUse hooks (`.tool_response.exit_code` only available after execution)
--   **Parallel execution** - Run independent validations concurrently with `&` and `wait` for faster processing
--   **JSON input parsing** - Extract command details with `jq -r '.tool_input.command // empty'` (fallback handles missing fields gracefully)
--   **Performance monitoring** - Track hook execution time and cache results to identify bottlenecks
--   **Error handling** - Graceful failure for non-critical hooks prevents workflow interruption
--   **Scope precisely** - Target specific commands rather than broad tool categories to maintain responsiveness
+-   **智能调度** - 使用具有智能命令路由的单一入口点，避免性能损失
+-   **退出代码检查** - 在 PostToolUse 钩子中验证成功的命令执行（`$CLAUDE_EXIT_CODE` 仅在执行后可用）
+-   **并行执行** - 使用 `&` 和 `wait` 并发运行独立验证，以加快处理速度
+-   **JSON 输入解析** - 使用 `jq` 提取命令详情（回退优雅地处理缺失字段）
+-   **性能监控** - 跟踪钩子执行时间并缓存结果以识别瓶颈
+-   **错误处理** - 非关键钩子的优雅失败可防止工作流中断
+-   **精确作用域** - 针对特定命令而非广泛的工具类别，以保持响应性
 
-##### Workflow Automation
+##### 工作流自动化
 
-Hooks transform reactive development into proactive automation. Well-scoped hooks eliminate manual deployment steps and catch issues before they reach production. The key is precise trigger patterns.
+钩子将被动开发转变为主动自动化。作用域良好的钩子消除了手动部署步骤，并在问题到达生产环境之前就捕获它们。关键是精确的触发模式。
 
-<img src="/img/discovery/032_wind_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" /&gt;
+<img src="/img/discovery/036_cl_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
-**See Also**: [Configuration](/configuration/)|[What is Hooks in Claude Code](/faqs/what-is-hooks-in-claude-code/)
+**另请参阅**：[配置](/configuration.html)|[Claude Code 中的钩子是什么](https://docs.anthropic.com/en/docs/claude-code/hooks)
 
-**Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
+**作者**：[<img src="/img/profiles/inventorblack.png" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%; vertical-align: middle;" /> InventorBlack](https://x.com/inventorblack)|[Command Stick](https://commandstick.com) 的 CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAi) 的版主
 
--   [Real-World Implementation](#real-world-implementation)
--   [The Scoping Challenge](#the-scoping-challenge)
--   [Badly Scoped Hook Example](#badly-scoped-hook-example)
--   [Better Scoped Hook Example - Smart Dispatcher Pattern](#better-scoped-hook-example---smart-dispatcher-pattern)
--   [Finding Hook Opportunities](#finding-hook-opportunities)
--   [Available Triggers](#available-triggers)
--   [Best Practices](#best-practices)
+-   [实际应用实现](#practical-implementation)
+-   [作用域挑战](#scoping-challenges)
+-   [作用域不当的钩子示例](#poorly-scoped-hook-example)
+-   [更好的作用域钩子示例 - 智能调度器模式](#better-scoped-hook-example---smart-dispatcher-pattern)
+-   [寻找钩子机会](#finding-hook-opportunities)
+-   [可用的触发器](#available-triggers)
+-   [最佳实践](#best-practices)

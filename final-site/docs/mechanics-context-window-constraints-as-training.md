@@ -1,79 +1,79 @@
 ---
-title: "Learn from the Constraint | ClaudeLog"
+title: "从约束中学习 | ClaudeLog"
 ---
 
-# Learn from the Constraint | ClaudeLog
+# 从约束中学习 | ClaudeLog
 
-At the time of writing (June 2025), context windows of ~200K tokens are viewed as a negative technical constraint. This need not be the case: the constraint becomes the training ground for developing the skills to efficiently wield larger contexts.
-
-* * *
-
-* * *
-
-### The Training Effect[​](#the-training-effect "Direct link to The Training Effect")
-
-Working within token limits forces deliberate choices about what to include, how to structure information, and when to start fresh. Like optimizing code for slower hardware, these constraints develop fundamental skills.
-
-**Without limits:**
-
--   Dump entire codebases into context without curation
--   Include tangential information "just in case"
--   Rely on the model to sort through noise and irrelevant details
--   Write vague prompts expecting the model to figure out intent
-
-**With constraints:**
-
--   **Explicit file selection** - Deliberately include/exclude specific files based on relevance
--   **Clear task definition** - Break down objectives into concrete, actionable steps
--   **Context-sized chunking** - Divide large tasks into pieces that fit within token limits
--   **Modular refactoring** - Structure code into lean, focused modules that can be selectively read
--   **Compact examples** - Provide minimal but representative examples for the model to learn patterns
--   **Precise prompting** - Write targeted requests that specify exactly what's needed and in what order
--   **Priority-based organization** - Structure information with most critical details first
+在撰写本文时（2025年6月），约20万token的上下文窗口被视为一个负面的技术约束。但情况不必如此：约束可以成为培养有效利用更大上下文技能的训练场。
 
 * * *
 
 * * *
 
-### Performance Degradation[​](#performance-degradation "Direct link to Performance Degradation")
+### 训练效应[​](#the-training-effect "Direct link to The Training Effect")
 
-As context windows fill up, LLM performance actually decreases. Models become less precise, are more prone to error, and struggle with complex reasoning when operating near token limits.
+在token限制内工作迫使我们对包含什么内容、如何组织信息以及何时重新开始做出深思熟虑的选择。就像为较慢的硬件优化代码一样，这些约束培养了基本技能。
 
-The goal becomes providing the minimum context necessary to execute the task effectively. This approach maximizes performance, token efficiency, and cost efficiency simultaneously.
+**没有限制时：**
 
-Like optimizing an algorithm for better time complexity, you're eliminating unnecessary operations by reducing informational overhead while maintaining the same effective output.
+-   毫无筛选地将整个代码库倾倒到上下文中
+-   "以防万一"地包含切线信息
+-   依赖模型来筛选噪音和不相关的细节
+-   编写模糊的提示，期望模型自己理解意图
 
-### Skills That Scale[​](#skills-that-scale "Direct link to Skills That Scale")
+**有约束时：**
 
-Token constraints teach you to:
+-   **显式文件选择** - 根据相关性有意地包含/排除特定文件
+-   **明确任务定义** - 将目标分解为具体的、可操作的步骤
+-   **上下文大小的分块** - 将大任务分割成适合token限制的片段
+-   **模块化重构** - 将代码构建为精简、专注的模块，可以选择性地读取
+-   **简洁示例** - 提供最少但有代表性的示例让模型学习模式
+-   **精确提示** - 编写有针对性的请求，准确指定需要什么以及按什么顺序
+-   **基于优先级的组织** - 将最关键的细节放在首位来组织信息
 
--   Identify essential context while aggressively filtering out irrelevant details
--   Utilize `CLAUDE.md` to get better results
--   Understand how different pieces of information connect and depend on each other
--   Distinguish between project-specific context and general knowledge the model already possesses
--   Choose examples that efficiently demonstrate patterns rather than exhaustively covering cases
+* * *
 
-These skills make you more effective even with unlimited context.
+* * *
 
-### The Paradox[​](#the-paradox "Direct link to The Paradox")
+### 性能退化[​](#performance-degradation "Direct link to Performance Degradation")
 
-Developers who learn with unlimited context may develop inefficient habits. Those who embrace constraints become better collaborators regardless of context size.
+随着上下文窗口填满，LLM的性能实际上会下降。模型变得不那么精确，更容易出错，在接近token限制时难以进行复杂推理。
 
-Working within limits teaches the fundamentals that scale beyond any technical constraint.
+目标是提供有效执行任务所需的最少上下文。这种方法同时最大化了性能、token效率和成本效率。
 
-##### The Paradox
+就像优化算法以获得更好的时间复杂度一样，你通过减少信息开销来消除不必要的操作，同时保持相同的有效输出。
 
-Developers who learn with unlimited context may develop inefficient habits. Those who embrace constraints become better collaborators regardless of context size.
+### 可扩展的技能[​](#skills-that-scale "Direct link to Skills That Scale")
+
+Token约束教会你：
+
+-   识别必要上下文，同时积极过滤掉无关细节
+-   利用 `CLAUDE.md` 获得更好的结果
+-   理解不同信息片段之间的连接和依赖关系
+-   区分项目特定上下文和模型已拥有的通用知识
+-   选择高效展示模式的示例，而不是穷尽地覆盖所有情况
+
+这些技能即使在无限上下文的情况下也会让你更有效。
+
+### 悖论[​](#the-paradox "Direct link to The Paradox")
+
+在无限上下文中学习的开发者可能会养成低效的习惯。而拥抱约束的人无论上下文大小如何都会成为更好的协作者。
+
+在限制内工作教会了超越任何技术约束的基本原理。
+
+##### 悖论
+
+在无限上下文中学习的开发者可能会养成低效的习惯。而拥抱约束的人无论上下文大小如何都会成为更好的协作者。
 
 <img src="/img/discovery/008.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
-**See Also**: [Context Window Depletion](/mechanics/context-window-depletion/)|[Dynamic Memory](/mechanics/dynamic-memory/)|[Tactical Model Selection](/mechanics/tactical-model-selection/)
+**另见**: [上下文窗口耗尽](/mechanics-context-window-depletion.html)|[动态内存](/mechanics-dynamic-memory.html)|[战术模型选择](/mechanics-tactical-model-selection.html)
 
 **Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
 
--   [The Training Effect](#the-training-effect)
--   [Performance Degradation](#performance-degradation)
--   [Skills That Scale](#skills-that-scale)
--   [The Paradox](#the-paradox)
+-   [训练效应](#the-training-effect)
+-   [性能退化](#performance-degradation)
+-   [可扩展的技能](#skills-that-scale)
+-   [悖论](#the-paradox)

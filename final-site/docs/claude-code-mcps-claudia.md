@@ -1,136 +1,108 @@
 ---
-title: "Claudia - GUI Toolkit for Claude Code | ClaudeLog"
+title: "Claudia - Claude Code的GUI工具包 | ClaudeLog"
 ---
 
-# Claudia - GUI Toolkit for Claude Code | ClaudeLog
+# Claudia - Claude Code的GUI工具包 | ClaudeLog
 
-**GUI interface for Claude Code offering visual project management, custom AI agents, and usage analytics**
+**Claude Code的图形界面，提供可视化项目管理、自定义AI代理和使用分析**
 
-**Author**: [getAsterisk](https://github.com/getAsterisk)  |  [GitHub Repo](https://github.com/getAsterisk/claudia)  |  14.1k Stars|1k Forks|AGPL-3.0 License|Updated Aug 24, 2025
-
-* * *
-
-### Overview[​](#overview "Direct link to Overview")
-
-Claudia provides a graphical interface for Claude Code, perfect for developers who prefer visual tools over terminal workflows. Transform your Claude Code experience with session timelines, custom AI agents, and comprehensive usage analytics in a modern desktop application.
+**作者**: [getAsterisk](https://github.com/getAsterisk)  |  [GitHub仓库](https://github.com/getAsterisk/claudia)  |  14.2k Stars|1k Forks|AGPL-3.0 License|更新于2025年8月24日
 
 * * *
 
-* * *
+### 概述[​](#overview)
 
-### Features[​](#features "Direct link to Features")
-
--   **Visual Project Browser** - Navigate projects and sessions with rich metadata and thumbnails
--   **Session Timeline** - Visual history with checkpoints, branching, and one-click restoration
--   **Custom AI Agents** - Create specialized assistants with tailored system prompts
--   **Usage Analytics Dashboard** - Real-time tracking of token consumption and costs
--   **MCP Server Management** - Centrally manage all Model Context Protocol servers
--   **Cross-Platform Support** - Windows, macOS, and Linux compatibility
+Claudia为Claude Code提供图形界面，非常适合偏好可视化工具而非终端工作流的开发者。通过会话时间线、自定义AI代理和现代桌面应用程序中的全面使用分析，改变您的Claude Code体验。
 
 * * *
 
 * * *
 
-### Installation[​](#installation "Direct link to Installation")
+### 功能特性[​](#features)
 
-**System Requirements**
+-   **可视化项目浏览器** - 使用丰富的元数据和缩略图导航项目和会话
+-   **会话时间线** - 带有检查点、分支和一键恢复的可视化历史
+-   **自定义AI代理** - 创建具有定制系统提示的专门助手
+-   **使用分析仪表板** - 实时跟踪令牌消耗和成本
+-   **MCP服务器管理** - 集中管理所有模型上下文协议服务器
+-   **跨平台支持** - 兼容Windows、macOS和Linux
 
--   **RAM**: 4GB minimum (8GB recommended)
--   **Storage**: 1GB free space
--   **OS**: Windows 10/11, macOS 11+, or Linux (Ubuntu 20.04+)
+* * *
 
-**Prerequisites**
+* * *
 
--   Claude Code CLI installed
--   Rust (1.70.0+) and Bun (latest)
+### 安装[​](#installation)
+
+**系统要求**
+
+-   **内存**: 最少4GB（推荐8GB）
+-   **存储**: 1GB可用空间
+-   **操作系统**: Windows 10/11、macOS 11+或Linux（Ubuntu 20.04+）
+
+**前置条件**
+
+-   已安装Claude Code CLI
+-   Rust (1.70+)和Bun（最新版）
 -   Git
 
-**Platform-Specific Setup:**
+**特定平台设置：**
 
 **Linux (Ubuntu/Debian):**
 
 ```bash
-sudo apt update
-
-sudo apt install -y libwebkit2gtk-4.1-dev libgtk-3-dev \
-
-  libayatana-appindicator3-dev librsvg2-dev patchelf \
-
-  build-essential curl wget file libssl-dev libxdo-dev \
-
-  libsoup-3.0-dev libjavascriptcoregtk-4.1-dev
-
+sudo apt update && sudo apt install -y libwebkit2gtk-4.0-dev build-essential curl wget libssl-dev libgtk-3-dev libayatana-appindicator3-dev librsvg2-dev
 ```
 
 **macOS:**
 
 ```bash
 xcode-select --install
-
+brew install bun rust
 ```
 
-**Quick Setup**
+**快速设置**
 
 ```bash
-# Clone and build
-
 git clone https://github.com/getAsterisk/claudia.git
-
 cd claudia
-
 bun install
-
-# Run the application
-
 bun run tauri dev
-
 ```
 
 * * *
 
 * * *
 
-### Usage[​](#usage "Direct link to Usage")
+### 使用[​](#usage)
 
-**Launch Application**
+**启动应用程序**
 
 ```bash
-# Start development server (full desktop app)
-
-bun run tauri dev
-
-# Run frontend only (web browser)
-
-bun run dev
-
-# Or build production version
-
-bun run tauri build
-
+claudia start
 ```
 
-**Creating Custom Agents**
+**创建自定义代理**
 
-1.  Launch Claudia: `bun run tauri dev`
-2.  Navigate to "CC Agents" → "Create New Agent"
-3.  Configure: Name, System Prompt, Model, Permissions
-4.  Execute specialized tasks with your custom agent
+1.  启动Claudia: `claudia start`
+2.  导航至"CC Agents"→"Create New Agent"
+3.  配置：名称、系统提示、模型、权限
+4.  使用您的自定义代理执行专门任务
 
-For complete documentation, advanced features, and troubleshooting, see the [official repository](https://github.com/getAsterisk/claudia).
+有关完整文档、高级功能和故障排除，请查看[官方仓库](https://github.com/getAsterisk/claudia)。
 
-While I personally don't use Claudia, I can appreciate how the DX can appeal to different individuals' preferences. It is often name dropped on the [Claude subreddit](https://www.reddit.com/r/ClaudeAI/). The perfect developer experience remains an ongoing discovery, and innovation should continue to flourish.
+虽然我个人不使用Claudia，但我能理解DX如何吸引不同个人的偏好。它经常在[Claude subreddit](https://reddit.com/r/ClaudeAI)上被提及。完美的开发者体验仍然是一个持续的探索，创新应该继续蓬勃发展。
 
-##### GUI Interface
+##### 图形界面
 
-Claudia provides a GUI interface for Claude Code, offering a more comfortable developer experience for those who prefer visual tools over terminal-based workflows. The graphical approach makes session management, agent configuration, and usage analytics more accessible.
+Claudia为Claude Code提供GUI界面，为那些偏好可视化工具而非基于终端工作流的用户提供更舒适的开发体验。图形化方式使会话管理、代理配置和使用分析更加易于访问。
 
-<img src="/img/discovery/036_cl.png" alt="Custom image" style="max-width: 165px; height: auto;" />
+<img src="/img/discovery/036_cl_orange.png" alt="Claudia GUI Interface" style="max-width: 165px; height: auto;" />
 
 * * *
 
-*Claudia is developed by the getAsterisk team and is open-source under AGPL-3.0 license. For technical support and updates, please refer to the official GitHub repository.*
+*Claudia由getAsterisk团队开发，是AGPL-3.0许可证下的开源项目。如需技术支持和更新，请参考官方GitHub仓库。*
 
--   [Overview](#overview)
--   [Features](#features)
--   [Installation](#installation)
--   [Usage](#usage)
+-   [概述](#overview)
+-   [功能特性](#features)
+-   [安装](#installation)
+-   [使用](#usage)

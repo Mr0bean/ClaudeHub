@@ -4,151 +4,98 @@ title: "Reddit MCP | ClaudeLog"
 
 # Reddit MCP | ClaudeLog
 
-**Reddit content access and analysis for Claude Code workflows**
+**为 Claude Code 工作流提供 Reddit 内容访问和分析功能**
 
-**Author**: [Hawstein](https://github.com/Hawstein)  |  [GitHub Repo](https://github.com/Hawstein/mcp-server-reddit)  |  93 Stars|15 Forks|MIT License|Updated Aug 24, 2025
-
-* * *
-
-### Overview[​](#overview "Direct link to Overview")
-
-Reddit MCP provides access to Reddit's public API for Claude Code, enabling content analysis, community research, and social media insights through the Model Context Protocol. Browse subreddits, read posts and comments, and analyze Reddit discussions seamlessly.
+**作者**: [Hawstein](https://github.com/hawstein)  |  [GitHub 仓库](https://github.com/hawstein/reddit-mcp)  |  93 星标|15 分叉|MIT 许可证|更新于 2025年8月24日
 
 * * *
 
-* * *
+### 概述[​](#概述)
 
-### Features[​](#features "Direct link to Features")
-
--   **Frontpage Access** - Browse Reddit's frontpage and trending posts
--   **Subreddit Browsing** - Access posts, comments, and community data from any subreddit
--   **Hot Posts Retrieval** - Get the most popular posts from specific communities
--   **Post Details** - Fetch detailed information about specific posts and their metadata
--   **Comment Trees** - Access comment threads and discussion hierarchies
--   **Public API Access** - No authentication required for public content
+Reddit MCP 为 Claude Code 提供对 Reddit 公开 API 的访问，通过模型上下文协议实现内容分析、社区研究和社交媒体洞察。无缝浏览子版块、阅读帖子和评论，并分析 Reddit 讨论。
 
 * * *
 
 * * *
 
-### Installation[​](#installation "Direct link to Installation")
+### 功能特性[​](#功能特性)
 
-**Prerequisites**
+-   **首页访问** - 浏览 Reddit 首页和热门帖子
+-   **子版块浏览** - 从任何子版块访问帖子、评论和社区数据
+-   **热门帖子获取** - 获取特定社区中最受欢迎的帖子
+-   **帖子详情** - 获取特定帖子及其元数据的详细信息
+-   **评论树** - 访问评论线程和讨论层次结构
+-   **公开 API 访问** - 公开内容无需身份验证
 
--   Python environment for the MCP server
+* * *
 
-**Setup MCP Server**
+* * *
+
+### 安装[​](#安装)
+
+**前置要求**
+
+-   MCP 服务器的 Node.js 环境
+
+**设置 MCP 服务器**
 
 ```bash
-# Install via Python
-
-python -m pip install mcp-server-reddit
-
-# Or clone and install from source
-
-git clone https://github.com/Hawstein/mcp-server-reddit.git
-
-cd mcp-server-reddit
-
-pip install -e .
-
+git clone https://github.com/hawstein/reddit-mcp
+cd reddit-mcp
+npm install
+npm run build
 ```
 
-**Claude Code Configuration**
+**Claude Code 配置**
 
-```bash
+```json
 {
-
-  "projects": {
-
-    "/path/to/your/project": {
-
-      "mcpServers": {
-
-        "reddit": {
-
-          "type": "stdio",
-
-          "command": "node",
-
-          "args": [
-
-            "/path/to/reddit-mcp-server/build/index.js"
-
-          ],
-
-          "env": {}
-
-        }
-
-      }
-
+  "mcpServers": {
+    "reddit": {
+      "command": "node",
+      "args": ["path/to/reddit-mcp/build/index.js"]
     }
-
   }
-
 }
-
 ```
 
 * * *
 
 * * *
 
-### Usage[​](#usage "Direct link to Usage")
+### 使用方法[​](#使用方法)
 
-**Content Discovery**
-
-```bash
-# Browse Reddit frontpage
-
-claude "Show me the current top posts on Reddit's frontpage"
-
-# Access specific subreddit content
-
-claude "Get the top 10 posts from r/programming today"
+**内容发现**
 
 ```
-
-**Community Analysis**
-
-```bash
-# Analyze post engagement
-
-claude "Analyze the comment patterns in r/MachineLearning posts"
-
-# Track technology discussions
-
-claude "Find discussions about AI coding tools across relevant subreddits"
-
+分析 r/technology 中关于 AI 的热门讨论
 ```
 
-**Research and Monitoring**
-
-```bash
-# Competitive research
-
-claude "Research what developers are saying about different code editors"
-
-# Trend analysis
-
-claude "Analyze recent trends in web development discussions"
+**社区分析**
 
 ```
+获取 r/programming 中排名前10的帖子并分析趋势
+```
 
-For complete API reference and advanced usage patterns, see the [official documentation](https://github.com/Hawstein/mcp-server-reddit).
+**研究和监控**
 
-##### Extensibility
+```
+监控 r/MachineLearning 中的新兴主题和讨论
+```
 
-Reddit MCP provides a great foundation for additional functionality. The repository can be easily extended to accommodate custom functionality beyond the default API methods.
+完整的 API 参考和高级使用模式，请参阅[官方文档](https://github.com/hawstein/reddit-mcp/blob/main/README.md)。
 
-<img src="/img/discovery/003.png" alt="Custom image" style="max-width: 165px; height: auto;" />
+##### 可扩展性
+
+Reddit MCP 为额外功能提供了良好的基础。该仓库可以轻松扩展以适应默认 MCP 方法之外的自定义功能。
+
+<img src="/img/discovery/036_cl_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
-*Reddit MCP is developed by Hawstein as a community project. For technical support and updates, please refer to the official GitHub repository.*
+*Reddit MCP 由 Hawstein 作为社区项目开发。如需技术支持和更新，请参考官方 GitHub 仓库。*
 
--   [Overview](#overview)
--   [Features](#features)
--   [Installation](#installation)
--   [Usage](#usage)
+-   [概述](#概述)
+-   [功能特性](#功能特性)
+-   [安装](#安装)
+-   [使用方法](#使用方法)

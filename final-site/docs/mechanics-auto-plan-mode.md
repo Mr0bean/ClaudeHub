@@ -1,48 +1,48 @@
 ---
-title: "Auto Plan Mode | ClaudeLog"
+title: "自动计划模式 | ClaudeLog"
 ---
 
-# Auto Plan Mode | ClaudeLog
+# 自动计划模式 | ClaudeLog
 
-`--append-system-prompt` was added in Claude Code [v1.0.51](/claude-code-changelog/#v1051), it allows you to add custom instructions to Claude's system prompt when starting a session. Since its release I have been experimenting looking for new mechanics and boy do I have one!
+`--append-system-prompt` 在 Claude Code [v1.0.51](/claude-code-changelog/#v1051.html) 版本中添加，它允许你在启动会话时向 Claude 的系统提示添加自定义指令。自发布以来，我一直在试验寻找新的机制，天哪，我找到了一个！
 
-`Auto Plan Mode` (I coined the term) is a mechanic where you utilize the system prompt to empower Claude to dynamically enter `Plan Mode` based on conditions.
+`自动计划模式`（我创造的术语）是一种机制，你可以利用系统提示让 Claude 根据条件动态进入`计划模式`。
 
-This defensive approach ensures Claude always checks that he has completed a plan and got approval from you prior to starting a task.
-
-* * *
-
-* * *
-
-## Plan Mode vs Auto Plan Mode[​](#plan-mode-vs-auto-plan-mode "Direct link to Plan Mode vs Auto Plan Mode")
-
-`Plan Mode` is a manual feature activated with `shift+tab` twice that restricts Claude to read-only operations until you approve a plan. It provides safety and structured planning but requires you to remember to activate it.
-
-`Auto Plan Mode` automatically triggers the planning workflow without manual activation. Instead of relying on you to remember when to activate `Plan Mode`, it uses a system prompt to force Claude into `Plan Mode` whenever he's about to execute potentially destructive operations. This removes the mental overhead of constantly evaluating whether a task warrants activating `Plan Mode`, while also providing valuable educational insights into Claude's decision-making process.
+这种防御性方法确保 Claude 在开始任务之前始终检查他是否已完成计划并获得你的批准。
 
 * * *
 
 * * *
 
-## Key Advantages[​](#key-advantages "Direct link to Key Advantages")
+## 计划模式 vs 自动计划模式[​](#plan-mode-vs-auto-plan-mode "Direct link to 计划模式 vs 自动计划模式")
 
-**Eliminates Manual Activation** - You do not have to remember to enter `Plan Mode`. Claude will automatically present plans whenever attempting potentially destructive actions.
+`计划模式`是一个手动功能，通过按两次 `shift+tab` 激活，它将 Claude 限制为只读操作，直到你批准计划。它提供了安全性和结构化规划，但需要你记住激活它。
 
-**Reduces Mental Load** - Takes the guesswork out of figuring whether a task is `Plan Mode` worthy. The system makes this decision automatically.
-
-**Educational Value** - Provides insights into the simplest routines Claude will perform. In my early testing I was able to get it to activate on any potentially destructive action like Write, Edit, Bash, Grep, Glob, etc.
-
-**Perfect for New Users** - Ensures they get the benefits of `Plan Mode` without having to learn when to activate it manually.
+`自动计划模式`无需手动激活即可自动触发规划工作流程。它不依赖你记住何时激活`计划模式`，而是使用系统提示在 Claude 即将执行潜在破坏性操作时强制他进入`计划模式`。这消除了不断评估任务是否值得激活`计划模式`的心理负担，同时还提供了对 Claude 决策过程的宝贵教育见解。
 
 * * *
 
 * * *
 
-## Implementation[​](#implementation "Direct link to Implementation")
+## 主要优势[​](#key-advantages "Direct link to 主要优势")
 
-This mechanic is enabled by a combination of the hidden `exit_plan_mode` tool and `--append-system-prompt` flag which can be used when starting Claude Code.
+**消除手动激活** - 你不必记住进入`计划模式`。Claude 在尝试潜在破坏性操作时会自动呈现计划。
 
-**Additional System Prompt**:
+**减少心理负担** - 消除了判断任务是否值得`计划模式`的猜测。系统会自动做出这个决定。
+
+**教育价值** - 提供对 Claude 将执行的最简单例程的洞察。在我的早期测试中，我能够让它在任何潜在破坏性操作上激活，如 Write、Edit、Bash、Grep、Glob 等。
+
+**非常适合新用户** - 确保他们获得`计划模式`的好处，而无需学习何时手动激活它。
+
+* * *
+
+* * *
+
+## 实现[​](#implementation "Direct link to 实现")
+
+这个机制通过隐藏的 `exit_plan_mode` 工具和启动 Claude Code 时可以使用的 `--append-system-prompt` 标志的组合来实现。
+
+**附加系统提示**：
 
 ```bash
 CRITICAL WORKFLOW REQUIREMENT
@@ -89,16 +89,16 @@ CRITICAL WORKFLOW REQUIREMENT
 
 * * *
 
-## Usage Options[​](#usage-options "Direct link to Usage Options")
+## 使用选项[​](#usage-options "Direct link to 使用选项")
 
-**Direct usage**:
+**直接使用**：
 
 ```bash
 claude --append-system-prompt "[paste system prompt above]"
 
 ```
 
-**Save to file for reusability**:
+**保存到文件以便重复使用**：
 
 ```bash
 # Save the system prompt to auto-plan-mode.txt
@@ -109,37 +109,37 @@ claude --append-system-prompt "$(cat auto-plan-mode.txt)"
 
 ```
 
-The system prompt leverages the `exit_plan_mode` tool to force Claude into a planning workflow before any potentially destructive operations. This creates a defensive layer that activates automatically rather than requiring manual intervention.
+系统提示利用 `exit_plan_mode` 工具在任何潜在破坏性操作之前强制 Claude 进入规划工作流程。这创建了一个自动激活的防御层，而不需要手动干预。
 
-I find Auto Plan Mode particularly useful when starting work in unfamiliar codebases or trying new techniques. The automatic planning helps me understand the environment before making changes.
+我发现自动计划模式在开始处理不熟悉的代码库或尝试新技术时特别有用。自动规划帮助我在进行更改之前了解环境。
 
-I am looking forward to hearing on [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/) what you all do with this mechanic and what other interesting combinations you discover. I have yet to experiment with fine-tuning the activation conditions.
+我期待在 [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/) 上听到大家如何使用这个机制以及你们发现的其他有趣组合。我还没有尝试微调激活条件。
 
-Combine with Manual Plan Mode
+与手动计划模式结合
 
-You can still manually activate Plan Mode with `shift+tab` twice for pure research tasks. Auto Plan Mode complements rather than replaces manual activation.
+对于纯研究任务，你仍然可以通过按两次 `shift+tab` 手动激活计划模式。自动计划模式是对手动激活的补充而不是替代。
 
-Works with Opus Plan Mode
+与 Opus 计划模式配合使用
 
-Auto Plan Mode works seamlessly with Opus Plan Mode for automatic intelligent planning. When you select option 4 in `/model` command (Opus Plan Mode), the system will automatically use Opus 4.1 for planning phases and Sonnet 4 for execution—providing maximum intelligence where it matters most while maintaining cost efficiency.
+自动计划模式与 Opus 计划模式无缝配合，实现自动智能规划。当你在 `/model` 命令中选择选项 4（Opus 计划模式）时，系统将自动在规划阶段使用 Opus 4.1，在执行阶段使用 Sonnet 4——在最重要的地方提供最大的智能，同时保持成本效率。
 
-Customize Trigger Conditions
+自定义触发条件
 
-Modify the system prompt to target specific tools or add conditions based on your workflow. For example, you might want planning only for Write and Edit operations but allow Read operations to proceed immediately.
+修改系统提示以针对特定工具或根据你的工作流程添加条件。例如，你可能只希望对 Write 和 Edit 操作进行规划，但允许 Read 操作立即进行。
 
-##### Defensive Excellence
+##### 卓越的防御性
 
-You get the safety of `Plan Mode` with automatic activation. No more wondering "should I have planned this first?"
+你获得了`计划模式`的安全性和自动激活。不再疑惑"我应该先计划这个吗？"
 
 <img src="/img/discovery/041_japan_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
-**See Also**: [Plan Mode](/mechanics/plan-mode/)|[How to Update System Prompt](/faqs/how-to-update-system-prompt/)
+**另请参见**：[计划模式](/mechanics-plan-mode/)|[如何更新系统提示](/faqs/how-to-update-system-prompt/)
 
-**Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
+**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|[Command Stick](https://commandstick.com) 首席技术官|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
 
--   [Plan Mode vs Auto Plan Mode](#plan-mode-vs-auto-plan-mode)
--   [Key Advantages](#key-advantages)
--   [Implementation](#implementation)
--   [Usage Options](#usage-options)
+-   [计划模式 vs 自动计划模式](#plan-mode-vs-auto-plan-mode)
+-   [主要优势](#key-advantages)
+-   [实现](#implementation)
+-   [使用选项](#usage-options)

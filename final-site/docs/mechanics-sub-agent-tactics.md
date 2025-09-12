@@ -1,61 +1,61 @@
 ---
-title: "Sub-agent Tactics | ClaudeLog"
+title: "子代理策略 | ClaudeLog"
 ---
 
-# Sub-agent Tactics | ClaudeLog
+# 子代理策略 | ClaudeLog
 
-Many folks on the [Claude AI subreddit](https://www.reddit.com/r/ClaudeAI/) have been asking:
+[Claude AI 子版块](https://www.reddit.com/r/ClaudeAI/)上的许多朋友一直在问：
 
-> How do I utilise `sub-agents` to perform tasks?
+> 我如何利用 `子代理` 来执行任务？
 
-### Understanding Task Types[​](#understanding-task-types "Direct link to Understanding Task Types")
+### 理解任务类型[​](#understanding-task-types "Direct link to Understanding Task Types")
 
-There are different aspects you must take into account before utilising `sub-agents`. Firstly, whether the task is non-destructive or potentially destructive and the kinds of dependencies that exist within the task you are intending to action.
-
-* * *
-
-* * *
-
-### Perfect Parallelizable Tasks[​](#perfect-parallelizable-tasks "Direct link to Perfect Parallelizable Tasks")
-
-If you have a task where you want Claude to research 8 different MCPs and write up a report of their pros/cons and how they can be applicable to the goals defined in your `vision.md`. This is a perfect task for parallelisation because each Claude is working in isolation and does not interfere with the existing codebase or each other, they can provide all their finding to the main Claude agent or write individual findings files which can be read and consolidated by the main Claude agent.
-
-This task being non-destructive and easily parallelisible is the kind of thing you should immediately jump to utilise `sub-agents` for.
-
-### Developing an Itch for Parallelism[​](#developing-an-itch-for-parallelism "Direct link to Developing an Itch for Parallelism")
-
-After performing multiple parallel tasks of this type you should begin to develop an `itch for parallelism`.
-
-Another example is reviewing diffs prior to committing. I often utilise `sub-agents` to perform parallel, redundancy, security, factuality, time-complexity checks. After all, they run in parallel so it does not hurt to instantiate `sub-agents`. Prior to instantiating the `sub-agents`, I would enter `Plan Mode` to ensure the task is executed in a non-destructive way since the `sub-agents` could potentially attempt to make file changes.
+在使用 `子代理` 之前，您必须考虑不同的方面。首先，任务是非破坏性的还是潜在破坏性的，以及您打算执行的任务中存在什么样的依赖关系。
 
 * * *
 
 * * *
 
-### The Consolidation Strategy[​](#the-consolidation-strategy "Direct link to The Consolidation Strategy")
+### 完美可并行化的任务[​](#perfect-parallelizable-tasks "Direct link to Perfect Parallelizable Tasks")
 
-My goal with this tactic is to consolidate the suggestions and then action on them from a single Claude model, often after clearing the context to allow him to start on his best foot.
+如果您有一个任务，想让 Claude 研究 8 个不同的 MCP，并撰写一份关于它们的优缺点以及如何适用于您在 `vision.md` 中定义的目标的报告。这是一个完美的并行化任务，因为每个 Claude 都在独立工作，不会干扰现有的代码库或彼此，它们可以将所有发现提供给主 Claude 代理，或者编写单独的发现文件，这些文件可以被主 Claude 代理读取和整合。
 
-Day by day, week by week I find myself learning to utilise `sub-agents` in more and more creative ways! Who knows what new mechanic next week will bring.
+这个任务是非破坏性的且易于并行化，是您应该立即使用 `子代理` 的那种任务。
 
-### How to Use Sub-agents[​](#how-to-use-sub-agents "Direct link to How to Use Sub-agents")
+### 培养并行化的直觉[​](#developing-an-itch-for-parallelism "Direct link to Developing an Itch for Parallelism")
 
-To answer the original question: you can explicitly request the number of `sub-agents` by stating `Use 3 sub-agents to handle this task` or `Create a sub-agent for each file that needs updating`. Claude also automatically uses `sub-agents` for non-destructive tasks when appropriate, but being explicit gives you control over the parallelisation strategy.
+在执行多个这种类型的并行任务后，您应该开始培养一种 `并行化的直觉`。
 
-##### Parallel Processing
+另一个例子是在提交之前审查差异。我经常利用 `子代理` 来执行并行的冗余、安全、事实性、时间复杂度检查。毕竟，它们是并行运行的，所以实例化 `子代理` 并没有坏处。在实例化 `子代理` 之前，我会进入 `计划模式` 以确保任务以非破坏性的方式执行，因为 `子代理` 可能会尝试进行文件更改。
 
-Think like a CPU scheduler for AI agents. Queue up non-destructive tasks, spawn multiple `sub-agents`, then consolidate their findings and progressively step through their suggestions whilst overseeing Claude in interactive mode.
+* * *
+
+* * *
+
+### 整合策略[​](#the-consolidation-strategy "Direct link to The Consolidation Strategy")
+
+我使用这种策略的目标是整合建议，然后从单个 Claude 模型中对它们采取行动，通常是在清除上下文之后，让它以最佳状态开始。
+
+日复一日，周复一周，我发现自己正在学习以越来越有创意的方式使用 `子代理`！谁知道下周会带来什么新的机制。
+
+### 如何使用子代理[​](#how-to-use-sub-agents "Direct link to How to Use Sub-agents")
+
+要回答最初的问题：您可以通过声明 `使用 3 个子代理来处理这个任务` 或 `为每个需要更新的文件创建一个子代理` 来明确请求 `子代理` 的数量。Claude 也会在适当的时候自动为非破坏性任务使用 `子代理`，但明确说明可以让您控制并行化策略。
+
+##### 并行处理
+
+像 AI 代理的 CPU 调度器一样思考。排队非破坏性任务，生成多个 `子代理`，然后整合它们的发现，并在交互模式下监督 Claude 逐步执行它们的建议。
 
 <img src="/img/discovery/022_excite_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
-**See Also**: [Task Agent Tools](/mechanics/task-agent-tools/)|[Split Role Sub-Agents](/mechanics/split-role-sub-agents/)
+**另请参阅**：[任务代理工具](/mechanics-task-agent-tools/)|[分割角色子代理](/mechanics-split-role-sub-agents/)
 
-**Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
+**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|[Command Stick](https://commandstick.com) CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
 
--   [Understanding Task Types](#understanding-task-types)
--   [Perfect Parallelizable Tasks](#perfect-parallelizable-tasks)
--   [Developing an Itch for Parallelism](#developing-an-itch-for-parallelism)
--   [The Consolidation Strategy](#the-consolidation-strategy)
--   [How to Use Sub-agents](#how-to-use-sub-agents)
+-   [理解任务类型](#understanding-task-types)
+-   [完美可并行化的任务](#perfect-parallelizable-tasks)
+-   [培养并行化的直觉](#developing-an-itch-for-parallelism)
+-   [整合策略](#the-consolidation-strategy)
+-   [如何使用子代理](#how-to-use-sub-agents)

@@ -51,7 +51,7 @@ By engineering products to be agent-first, you can unlock `infinite variations f
 
 * * *
 
-**See Also**: [Custom Agents](/mechanics/custom-agents/)|[Agent Engineering](/mechanics/agent-engineering/)|[Task Agent Tools](/mechanics/task-agent-tools/)
+**See Also**: [Custom Agents](/mechanics-custom-agents/)|[Agent Engineering](/mechanics-agent-engineering/)|[Task Agent Tools](/mechanics-task-agent-tools/)
 
 **Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
 

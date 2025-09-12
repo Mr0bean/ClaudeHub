@@ -1,18 +1,18 @@
 ---
-title: "Claude Code Router | ClaudeLog"
+title: "Claude Code 路由器 | ClaudeLog"
 ---
 
-# Claude Code Router | ClaudeLog
+# Claude Code 路由器 | ClaudeLog
 
-**Use Claude Code without an Anthropic account through intelligent AI provider routing**
+**通过智能 AI 提供商路由，无需 Anthropic 账户即可使用 Claude Code**
 
-**Author**: [@musistudio](https://github.com/musistudio)  |  [GitHub Repo](https://github.com/musistudio/claude-code-router)  |  15k Stars|1.1k Forks|MIT License|Updated Aug 24, 2025
+**作者**: [@musistudio](https://github.com/musistudio)  |  [GitHub 仓库](https://github.com/musistudio/claude-code-router)  |  15k Stars|1.1k Forks|MIT License|Updated Aug 24, 2025
 
 * * *
 
-### Overview[​](#overview "Direct link to Overview")
+### 概述[​](#概述 "直接链接到概述")
 
-Claude Code Router is a proxy tool that enables Claude Code functionality without requiring an Anthropic account. It intercepts Claude Code requests and routes them to alternative AI providers like OpenRouter, DeepSeek, Ollama, and Gemini, giving you access to Claude Code's interface while using any supported AI model.
+Claude Code 路由器是一个代理工具，无需 Anthropic 账户即可启用 Claude Code 功能。它拦截 Claude Code 请求并将其路由到替代 AI 提供商，如 OpenRouter、DeepSeek、Ollama 和 Gemini，让您在使用任何支持的 AI 模型的同时访问 Claude Code 的界面。
 
 * * *
 
@@ -24,36 +24,36 @@ Claude Code Router is a proxy tool that enables Claude Code functionality withou
 
 * * *
 
-### Features[​](#features "Direct link to Features")
+### 功能特性[​](#功能特性 "直接链接到功能特性")
 
--   **No Anthropic Account Required** - Use Claude Code interface with alternative AI providers
--   **8+ Supported Providers** - OpenRouter, DeepSeek, Ollama, Gemini, VolcEngine, SiliconFlow, ModelScope, DashScope
--   **Dynamic Model Switching** - Change models mid-session with `/model provider,model_name` commands
--   **Context-Based Routing** - Automatic routing for default, background, reasoning, and long-context tasks
--   **Custom Transformers** - Configure request/response transformations for provider compatibility
--   **GitHub Actions Integration** - CI/CD workflow support with automated model routing
-
-* * *
+-   **无需 Anthropic 账户** - 使用替代 AI 提供商的 Claude Code 界面
+-   **支持 8+ 个提供商** - OpenRouter、DeepSeek、Ollama、Gemini、VolcEngine、SiliconFlow、ModelScope、DashScope
+-   **动态模型切换** - 使用 `/model provider,model_name` 命令在会话中切换模型
+-   **基于上下文的路由** - 为默认、后台、推理和长上下文任务自动路由
+-   **自定义转换器** - 配置请求/响应转换以实现提供商兼容性
+-   **GitHub Actions 集成** - 支持自动模型路由的 CI/CD 工作流
 
 * * *
 
-### Installation[​](#installation "Direct link to Installation")
+* * *
 
-**Prerequisites**
+### 安装[​](#安装 "直接链接到安装")
 
--   Node.js runtime environment
+**先决条件**
+
+-   Node.js 运行环境
 -   Claude Code: `npm install -g @anthropic-ai/claude-code`
 
-**Install Router**
+**安装路由器**
 
 ```bash
-# Install the router globally
+# 全局安装路由器
 
 npm install -g @musistudio/claude-code-router
 
 ```
 
-**Configuration Setup** Create `~/.claude-code-router/config.json` with your preferred AI providers:
+**配置设置** 创建 `~/.claude-code-router/config.json` 配置您喜欢的 AI 提供商：
 
 ```bash
 {
@@ -106,21 +106,21 @@ npm install -g @musistudio/claude-code-router
 
 * * *
 
-### Usage[​](#usage "Direct link to Usage")
+### 使用方法[​](#使用方法 "直接链接到使用方法")
 
-**Start Claude Code with Router**
+**使用路由器启动 Claude Code**
 
 ```bash
-# Use this command instead of regular Claude Code
+# 使用此命令代替常规 Claude Code
 
 ccr code
 
 ```
 
-**Dynamic Model Switching** During your session, switch models with:
+**动态模型切换** 在会话期间，使用以下命令切换模型：
 
 ```bash
-# Switch to different provider and model
+# 切换到不同的提供商和模型
 
 /model deepseek,deepseek-chat
 
@@ -130,26 +130,26 @@ ccr code
 
 ```
 
-**Context-Based Routing** The router automatically selects models based on task context:
+**基于上下文的路由** 路由器根据任务上下文自动选择模型：
 
--   **Default**: General development tasks
--   **Background**: Simple, cost-effective operations
--   **Think**: Complex reasoning and analysis
--   **Long Context**: Tasks requiring extensive context windows
+-   **默认**：常规开发任务
+-   **后台**：简单、经济高效的操作
+-   **思考**：复杂的推理和分析
+-   **长上下文**：需要大量上下文窗口的任务
 
-For detailed configuration options and routing rules, read the [official documentation](https://github.com/musistudio/claude-code-router).
+有关详细的配置选项和路由规则，请阅读[官方文档](https://github.com/musistudio/claude-code-router)。
 
-##### No Anthropic Account Needed
+##### 无需 Anthropic 账户
 
-Access Claude Code's interface using alternative AI providers without requiring an Anthropic subscription.
+使用替代 AI 提供商访问 Claude Code 的界面，无需 Anthropic 订阅。
 
 <img src="/img/discovery/004.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
-*Claude Code Router is an independent community project. For technical support and updates, please refer to the official GitHub repository.*
+*Claude Code 路由器是一个独立的社区项目。如需技术支持和更新，请参考官方 GitHub 仓库。*
 
--   [Overview](#overview)
--   [Features](#features)
--   [Installation](#installation)
--   [Usage](#usage)
+-   [概述](#概述)
+-   [功能特性](#功能特性)
+-   [安装](#安装)
+-   [使用方法](#使用方法)

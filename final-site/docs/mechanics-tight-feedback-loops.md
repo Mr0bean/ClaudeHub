@@ -1,44 +1,44 @@
 ---
-title: "Tight Feedback Loops | ClaudeLog"
+title: "紧密反馈循环 | ClaudeLog"
 ---
 
-# Tight Feedback Loops | ClaudeLog
+# 紧密反馈循环 | ClaudeLog
 
-Tight feedback loops enable Claude to reliably build modular functionality.
+紧密反馈循环使 Claude 能够可靠地构建模块化功能。
 
-> How tight is tight?
+> 有多紧密？
 
-Claude writes a bash script, executes it, and if it fails, Claude iterates based on the error output until it works as requested with no compilation step, no framework setup, no build process, just write, execute, iterate.
+Claude 编写一个 bash 脚本，执行它，如果失败，Claude 会根据错误输出进行迭代，直到按要求工作为止，没有编译步骤，没有框架设置，没有构建过程，只是编写、执行、迭代。
 
-This setup creates the tightest agentic debug loop I have observed, thanks to the result appearing immediately in the same terminal where Claude is working, giving him all the necessary data to act autonomously. Bash's lightweight nature means zero startup time, no runtime overhead, and instant feedback without layers of abstraction.
+这种设置创建了我所观察到的最紧密的智能体调试循环，得益于结果立即出现在 Claude 工作的同一终端中，为他提供了自主行动所需的所有必要数据。Bash 的轻量级特性意味着零启动时间、无运行时开销，以及没有抽象层的即时反馈。
 
-Currently, I am primarily using this setup to build data visualisation tools and experimental orchestration frameworks. Today is day zero, and I believe we have not scratched the surface of what this setup is capable of.
-
-* * *
+目前，我主要使用这种设置来构建数据可视化工具和实验性编排框架。今天是第零天，我相信我们还没有触及这种设置能力的表面。
 
 * * *
 
-**Tips for working with Claude and autonomously generated scripts:**
+* * *
 
--   Instruct Claude to document any unusual behavior, edge cases, or implementation quirks encountered during script creation. This creates invaluable context for future modifications and debugging sessions.
+**与 Claude 和自主生成脚本协作的技巧：**
+
+-   指示 Claude 记录脚本创建过程中遇到的任何异常行为、边缘情况或实现怪癖。这为未来的修改和调试会话创建了宝贵的上下文。
     
--   Keep scripts focused and modular to fit comfortably within Claude's context window.
+-   保持脚本专注和模块化，以便舒适地适应 Claude 的上下文窗口。
     
--   Design the overall system architecture yourself, then delegate individual script components to Claude. The clearer you define and specify the expected input & output signatures the better.
+-   自己设计整体系统架构，然后将各个脚本组件委托给 Claude。你定义和指定预期的输入和输出签名越清晰越好。
     
--   Instruct Claude to create a guide document for using the bash script (like a `CLAUDE.md` file). As he tests the script with your prompts, have him iteratively update the guide document based on any issues discovered during actual usage.
+-   指示 Claude 为使用 bash 脚本创建一个指南文档（如 `CLAUDE.md` 文件）。当他用你的提示测试脚本时，让他根据实际使用过程中发现的任何问题迭代更新指南文档。
     
 
-I can imagine a future where dozens of scripts work together seamlessly, with Claude autonomously generating ephemeral problem solving scripts on demand during task execution. The ephemeral scripts could even be created by one sub-agent and used by another sub-agent, creating a dynamic ecosystem of autonomous tool generation and consumption where solutions emerge organically.
+我可以想象一个未来，数十个脚本无缝协作，Claude 在任务执行期间按需自主生成临时问题解决脚本。临时脚本甚至可以由一个子代理创建并由另一个子代理使用，创建一个自主工具生成和消费的动态生态系统，解决方案有机地涌现。
 
-##### Ephemeral Scripts
+##### 临时脚本
 
-The future of development might involve Claude autonomously generating temporary problem-solving scripts during task execution, creating a dynamic ecosystem of tool generation and consumption.
+开发的未来可能涉及 Claude 在任务执行期间自主生成临时问题解决脚本，创建一个工具生成和消费的动态生态系统。
 
 <img src="/img/discovery/020_happy_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
-**See Also**: [You Are the Main Thread](/mechanics/you-are-the-main-thread/)|[Todo Lists as Instruction Mirrors](/mechanics/todo-lists-as-instruction-mirrors/)|[Git Clone is Just the Beginning](/mechanics/git-clone-is-just-the-beginning/)
+**另见**: [你是主线程](/mechanics-you-are-the-main-thread/)|[待办事项列表作为指令镜像](/mechanics-todo-lists-as-instruction-mirrors/)|[Git Clone 只是开始](/mechanics-git-clone-is-just-the-beginning/)
 
-**Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
+**作者**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)

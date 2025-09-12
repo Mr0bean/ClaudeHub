@@ -1,95 +1,95 @@
 ---
-title: "Output Styles | ClaudeLog"
+title: "输出样式 | ClaudeLog"
 ---
 
-# Output Styles | ClaudeLog
+# 输出样式
 
-Over the months of using Claude Code daily, I have observed a clear trend: Anthropic progressively removing constraints and empowering us to shape Claude Code into the perfect tool for our varied tasks. We started with basic `CLAUDE.md` customization and simple [sub-agents](/mechanics/sub-agents/). Then came `--append-system-prompt`, letting us adjust Claude's behavior while keeping the software engineering focus. Most recently, we gained fully customizable sub-agents with isolated system prompts, custom tool selection, and separate context windows.
+在过去几个月每天使用 Claude Code 的过程中，我观察到一个明显的趋势：Anthropic 逐步移除限制，赋予我们能力，将 Claude Code 塑造成适合各种任务的完美工具。我们从基本的 `CLAUDE.md` 自定义和简单的[子代理](/mechanics-sub-agents.html)开始。然后出现了 `--append-system-prompt`，让我们在保持软件工程重点的同时调整 Claude 的行为。最近，我们获得了完全可自定义的子代理，带有独立的系统提示、自定义工具选择和独立的上下文窗口。
 
-Anthropic has been on a roll, dropping more and more mechanics in Claude Code week over week. However, a major foundational constraint has been that the `delegating agent` was always steered at a system level to be an assistant for software development. With the release of `Output Styles`, the `delegating agent` can be customized in the same manner as the customizable `sub-agents`.
+Anthropic 一直在持续发力，每周都为 Claude Code 推出越来越多的机制。然而，一个主要的基础限制是 `claude` （委托代理）始终在系统级别被引导为软件开发助手。随着 `output-styles`（输出样式）的发布，`claude` 可以像可自定义的 `sub-agents` 一样进行自定义。
 
-Interestingly enough, this unlocks the possibility for `Claude Code` being `Claude Anything`, since the system prompt is no longer steering the base model towards code.
+有趣的是，这解锁了 `claude` 成为 `non-coder` 的可能性，因为系统提示不再将基础模型引导向代码方向。
 
-This is new ground so I am fascinated to explore having a specialised `delegating agent`, to match and control my [Custom Agents](/mechanics/custom-agents/).
-
-* * *
-
-* * *
-
-### Untapped Potential[​](#untapped-potential "Direct link to Untapped Potential")
-
-Unlike other Claude Code mechanics that augment or delegate from the base software engineering behavior, `Output Styles` completely replace the core personality while preserving all the powerful capabilities that make Claude Code exceptional.
-
-**What stays**: CLAUDE.md project context system, complete tool ecosystem, `sub-agent`/`Custom Agent` delegation, MCP integrations, context management, automation workflows, file system operations, project continuity **What changes**: System prompt personality, domain assumptions, task prioritization, interaction patterns, response formatting
-
-By removing software engineering assumptions at the system prompt level, each domain gets a cleaner, more focused experience. No [context pollution](/mechanics/poison-context-awareness/) from irrelevant expertise areas means better performance in their specific domains. The tool adapts its reasoning patterns to match domain-appropriate thinking rather than forcing domain experts to work within software engineering paradigms.
-
-Crucially, it will communicate with you using the language, density, and verbosity appropriate for its role.
+这是全新的领域，所以我很着迷于探索拥有一个专门的 `claude`，来匹配和控制我的[自定义代理](/mechanics-custom-agents.html)。
 
 * * *
 
 * * *
 
-### How This Differs from Other Mechanics[​](#how-this-differs-from-other-mechanics "Direct link to How This Differs from Other Mechanics")
+### 未开发的潜力
 
-Understanding `Output Styles` requires seeing how they fundamentally differ from Claude Code's other customization approaches:
+与其他增强或委托基础软件工程行为的 Claude Code 机制不同，`output-styles` 完全替换核心个性，同时保留使 Claude Code 卓越的所有强大功能。
 
-#### vs CLAUDE.md[​](#vs-claudemd "Direct link to vs CLAUDE.md")
+**保留的内容**：Claude.md 项目上下文系统、完整的工具生态系统、`sub-agent`/`task` 委托、MCP 集成、上下文管理、自动化工作流、文件系统操作、项目连续性 **改变的内容**：系统提示个性、领域假设、任务优先级、交互模式、响应格式
 
--   **CLAUDE.md**: Creates an instruction adherence hierarchy that adds project context, workflows, and process definitions within the existing software engineering framework
--   **`Output Styles`**: Completely replaces the software engineering system prompt with domain-specific behavioral instructions, removing coding assumptions entirely
+通过在系统提示级别移除软件工程假设，每个领域都获得了更清晰、更专注的体验。没有来自无关专业领域的[上下文污染](/mechanics-poison-context-awareness.html)意味着在其特定领域中性能更好。该工具调整其推理模式以匹配适合领域的思维，而不是强迫领域专家在软件工程范式中工作。
 
-#### vs --append-system-prompt[​](#vs---append-system-prompt "Direct link to vs --append-system-prompt")
-
--   **\--append-system-prompt**: Augments Claude's existing software engineering behavior with specialized focus areas (security, performance, database expertise) while maintaining core helpful coding assistant nature
--   **`Output Styles`**: Removes software engineering assumptions entirely and substitutes completely different domain expertise and interaction patterns
-
-#### vs Custom Agents[​](#vs-custom-agents "Direct link to vs Custom Agents")
-
--   **Custom Agents**: Create specialized assistants with isolated contexts, custom system prompts, and tool selection that automatically activate for specific tasks while the main agent remains software-focused
--   **`Output Styles`**: Transforms the main `delegating agent` personality and domain assumptions rather than creating separate specialists
-
-#### vs Sub-agents[​](#vs-sub-agents "Direct link to vs Sub-agents")
-
--   **Sub-agents**: Enable manual orchestration using the [Task tool](/mechanics/task-agent-tools/) for parallel processing and multi-perspective analysis while inheriting the main software engineering system prompt
--   **`Output Styles`**: Changes the fundamental assumptions about what types of tasks are appropriate and how to approach them from the ground up
+至关重要的是，它将使用适合其角色的语言、密度和详细程度与您交流。
 
 * * *
 
 * * *
 
-### Cross-Domain Applications[​](#cross-domain-applications "Direct link to Cross-Domain Applications")
+### 与其他机制的区别
 
-This is where the `Claude Anything` vision becomes reality. Output Styles unlock Claude Code's capabilities for entirely new domains:
+理解 `output-styles` 需要了解它们与 Claude Code 其他自定义方法的根本区别：
 
-**Content Strategy** - Create brand-specific content specialists that speak only in your brand's voice and maintain brand values throughout all interactions. Analyze markdown files, reorganize documentation structure, and optimize for audience engagement while helping you think from your brand's perspective. Train team members to adopt consistent brand thinking patterns and responses to similar problems.
+#### 对比 CLAUDE.md
 
-**Research Analysis** - Process academic papers with consistent structure and formatting, always collating and citing sources verbatim without interpretation. Organize findings systematically across files while maintaining research project tracking with full file system integration for reliable, unbiased information delivery.
+-   **CLAUDE.md**：创建一个指令遵守层次结构，在现有软件工程框架内添加项目上下文、工作流和流程定义
+-   **`output-styles`**：完全用特定领域的行为指令替换软件工程系统提示，完全移除编码假设
 
-**Business Analysis** - Create domain-specific analysts tailored to your exact field, such as law-oriented specialists that use the precise level of specificity needed to ensure unambiguous communication. Examine data files, generate reports, and track project metrics with industry-appropriate terminology and standards.
+#### 对比 --append-system-prompt
 
-**Design Systems** - Experiment with `SVG` specialists who are trained to make incremental changes to vector graphics with deep knowledge of design standards and `SVG` specifications. Audit component libraries, analyze usage patterns, and maintain consistency documentation with complete file manipulation capabilities.
+-   **\--append-system-prompt**：通过专门的重点领域（安全、性能、数据库专业知识）增强 Claude 现有的软件工程行为，同时保持核心的有用编码助手性质
+-   **`output-styles`**：完全移除软件工程假设，并替换为完全不同的领域专业知识和交互模式
 
-Each domain gets Claude Code's full toolset adapted to their specific thinking patterns and needs.
+#### 对比自定义代理
 
-I am looking forward to seeing the new cross-domain pollination possibilities and exploring what the community develops at [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/).
+-   **自定义代理**：创建具有隔离上下文、自定义系统提示和工具选择的专门助手，这些助手会自动激活以执行特定任务，而主代理仍保持软件重点
+-   **`output-styles`**：转换主 `claude` 的个性和领域假设，而不是创建单独的专家
 
-Domain Transformation
+#### 对比子代理
 
-Start with one focused output style for your primary domain. Test how it changes Claude's reasoning patterns and communication style before creating multiple specialists.
-
-##### Platform Evolution
-
-Output Styles transform Claude Code from software engineering tool to universal intelligent platform. The same powerful capabilities, adapted to any domain's specific needs and thinking patterns.
-
-<img src="/img/discovery/036_cl_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
+-   **子代理**：使用[任务工具](/mechanics-task-agent-tools.html)进行手动编排，用于并行处理和多视角分析，同时继承主软件工程系统提示
+-   **`output-styles`**：从根本上改变关于哪些类型的任务是合适的以及如何处理它们的基本假设
 
 * * *
 
-**See Also**: [CLAUDE.md Supremacy](/mechanics/claude-md-supremacy/)|[Custom Agents](/mechanics/custom-agents/)|[Configuration](/configuration/)
+* * *
 
-**Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
+### 跨领域应用
 
--   [Untapped Potential](#untapped-potential)
--   [How This Differs from Other Mechanics](#how-this-differs-from-other-mechanics)
--   [Cross-Domain Applications](#cross-domain-applications)
+这就是 `non-coder` 愿景成为现实的地方。输出样式为全新领域解锁了 Claude Code 的功能：
+
+**内容策略** - 创建特定品牌的内容专家，只使用您品牌的声音说话，并在所有交互中保持品牌价值观。分析 markdown 文件，重组文档结构，优化受众参与度，同时帮助您从品牌的角度思考。培训团队成员对类似问题采用一致的品牌思维模式和响应。
+
+**研究分析** - 以一致的结构和格式处理学术论文，始终逐字整理和引用来源，不进行解释。系统地组织文件中的发现，同时通过完整的文件系统集成维护研究项目跟踪，以提供可靠、无偏见的信息交delivery。
+
+**业务分析** - 创建针对您确切领域量身定制的特定领域分析师，例如使用精确特定级别以确保明确沟通的法律导向专家。检查数据文件，生成报告，并使用行业适当的术语和标准跟踪项目指标。
+
+**设计系统** - 尝试使用 `SVG` 专家，他们经过训练可以对矢量图形进行增量更改，并深入了解设计标准和 `CSS` 规范。审计组件库，分析使用模式，并通过完整的文件操作功能维护一致性文档。
+
+每个领域都能获得适应其特定思维模式和需求的 Claude Code 完整工具集。
+
+我期待看到新的跨领域融合可能性，并探索社区在 [r/ClaudeAI](https://reddit.com/r/ClaudeAI) 上的开发成果。
+
+领域转型
+
+从为您的主要领域定制一个专注的输出样式开始。在创建多个专家之前，测试它如何改变 Claude 的推理模式和交流风格。
+
+##### 平台演进
+
+输出样式将 Claude Code 从软件工程工具转变为通用智能平台。相同的强大功能，适应任何领域的特定需求和思维模式。
+
+<img src="/img/discovery/038_cl_green.png" alt="Custom image" style="max-width: 165px; height: auto;" />
+
+* * *
+
+**另请参阅**：[CLAUDE.md 至上](/mechanics-claude-md-supremacy.html)|[自定义代理](/mechanics-custom-agents.html)|[配置](/watch-control.html)
+
+**作者**：<img src="/img/profile/inventorblack.png" alt="Profile" style="width: 25px; height: 25px; border-radius: 50%; vertical-align: middle;" />InventorBlack|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
+
+-   [未开发的潜力](#未开发的潜力)
+-   [与其他机制的区别](#与其他机制的区别)
+-   [跨领域应用](#跨领域应用)

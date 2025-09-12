@@ -4,63 +4,63 @@ title: "Browser Tools MCP | ClaudeLog"
 
 # Browser Tools MCP | ClaudeLog
 
-**Comprehensive browser automation and monitoring toolkit providing real-time web debugging, performance analysis, and automated testing through MCP integration.**
+**全面的浏览器自动化和监控工具包，通过 MCP 集成提供实时网页调试、性能分析和自动化测试。**
 
-**Author**: [AgentDeskAI](https://github.com/AgentDeskAI)  |  [GitHub Repo](https://github.com/AgentDeskAI/browser-tools-mcp)  |  6.3k Stars|468 Forks|MIT License|Updated Aug 24, 2025
-
-* * *
-
-### Overview[​](#overview "Direct link to Overview")
-
-Browser Tools MCP provides a comprehensive suite for browser automation and monitoring through Model Context Protocol integration. It enables real-time browser log monitoring, automated performance analysis, and seamless IDE integration for web development workflows. The server combines browser automation capabilities with detailed debugging tools for enhanced development productivity.
+**作者**: [AgentDeskAI](https://github.com/AgentDeskAI)  |  [GitHub 仓库](https://github.com/AgentDeskAI/browser-tools-mcp)  |  6.3k Stars|468 Forks|MIT License|Updated Aug 24, 2025
 
 * * *
 
-* * *
+### 概述[​](#overview "Direct link to Overview")
 
-### Features[​](#features "Direct link to Features")
-
--   **Real-Time Browser Monitoring** - Monitor console logs, network requests, and errors directly from IDE
--   **Comprehensive Audit Suite** - SEO, performance, accessibility analysis via Lighthouse integration
--   **Chrome Extension Integration** - Browser extension for seamless data collection and auto-paste functionality
--   **WCAG Compliance Checking** - Automated accessibility testing and compliance reporting
--   **Cursor Integration** - Primarily designed for Cursor with auto-paste functionality
--   **Automated Testing** - Puppeteer-based automation for end-to-end testing scenarios
+Browser Tools MCP 通过模型上下文协议集成提供了一套全面的浏览器自动化和监控工具。它能够实现实时浏览器日志监控、自动化性能分析，以及用于网页开发工作流程的无缝 IDE 集成。该服务器将浏览器自动化功能与详细的调试工具相结合，提升开发生产力。
 
 * * *
 
 * * *
 
-### Installation[​](#installation "Direct link to Installation")
+### 功能特性[​](#features "Direct link to Features")
 
-**Prerequisites**
+-   **实时浏览器监控** - 直接从 IDE 监控控制台日志、网络请求和错误
+-   **全面的审计套件** - 通过 Lighthouse 集成实现 SEO、性能、可访问性分析
+-   **Chrome 扩展集成** - 用于无缝数据收集和自动粘贴功能的浏览器扩展
+-   **WCAG 合规性检查** - 自动化可访问性测试和合规报告
+-   **Cursor 集成** - 主要为 Cursor 设计，具有自动粘贴功能
+-   **自动化测试** - 基于 Puppeteer 的端到端测试场景自动化
 
--   Node.js 14 or higher
--   Chrome browser for extension functionality
--   MCP-compatible IDE (Cursor recommended, VS Code, Claude Desktop)
+* * *
 
-**Chrome Extension Setup**
+* * *
 
-1.  Download the extension ZIP from: [https://github.com/AgentDeskAI/browser-tools-mcp/releases/download/v1.2.0/BrowserTools-1.2.0-extension.zip](https://github.com/AgentDeskAI/browser-tools-mcp/releases/download/v1.2.0/BrowserTools-1.2.0-extension.zip)
-2.  Extract the ZIP file
-3.  Open Chrome → Extensions → Enable "Developer mode"
-4.  Click "Load unpacked" and select the extracted extension folder
-5.  Enable the extension for browser automation features
+### 安装[​](#installation "Direct link to Installation")
 
-**MCP Server Setup**
+**前置要求**
+
+-   Node.js 14 或更高版本
+-   Chrome 浏览器用于扩展功能
+-   兼容 MCP 的 IDE（推荐 Cursor、VS Code、Claude Desktop）
+
+**Chrome 扩展设置**
+
+1.  从以下地址下载扩展 ZIP 文件：[https://github.com/AgentDeskAI/browser-tools-mcp/releases/download/v1.2.0/BrowserTools-1.2.0-extension.zip](https://github.com/AgentDeskAI/browser-tools-mcp/releases/download/v1.2.0/BrowserTools-1.2.0-extension.zip)
+2.  解压 ZIP 文件
+3.  打开 Chrome → 扩展程序 → 启用"开发者模式"
+4.  点击"加载已解压的扩展程序"并选择解压后的扩展文件夹
+5.  启用扩展以使用浏览器自动化功能
+
+**MCP 服务器设置**
 
 ```bash
-# Install and run MCP server (Terminal 1)
+# 安装并运行 MCP 服务器（终端 1）
 
 npx @agentdeskai/browser-tools-mcp@1.2.0
 
-# Start local server (Terminal 2)
+# 启动本地服务器（终端 2）
 
 npx @agentdeskai/browser-tools-server@1.2.0
 
 ```
 
-**Claude Desktop Configuration**
+**Claude Desktop 配置**
 
 ```bash
 {
@@ -81,55 +81,55 @@ npx @agentdeskai/browser-tools-server@1.2.0
 
 ```
 
-**Important Notes**
+**重要说明**
 
--   Keep both servers running simultaneously
--   Ensure only one Chrome DevTools panel is open
--   Restart Chrome if connectivity issues occur
-
-* * *
+-   同时保持两个服务器运行
+-   确保只打开一个 Chrome DevTools 面板
+-   如果出现连接问题，请重启 Chrome
 
 * * *
 
-### Usage[​](#usage "Direct link to Usage")
+* * *
 
-**Development Workflow**
+### 使用方法[​](#usage "Direct link to Usage")
+
+**开发工作流程**
 
 ```bash
-# Example MCP interactions through AI:
+# 通过 AI 进行 MCP 交互示例：
 
-# "Monitor console errors on the current page"
+# "监控当前页面的控制台错误"
 
-# "Run a Lighthouse audit for performance analysis"
+# "运行 Lighthouse 审计进行性能分析"
 
-# "Check accessibility compliance for form elements"
+# "检查表单元素的可访问性合规性"
 
-# "Capture network requests for the login flow"
+# "捕获登录流程的网络请求"
 
 ```
 
-The server provides seamless integration between browser debugging and AI-assisted development. You can monitor real-time browser activity, automate testing procedures, and analyze web performance - all through natural language interactions with your AI coding assistant.
+该服务器在浏览器调试和 AI 辅助开发之间提供无缝集成。您可以监控实时浏览器活动、自动化测试程序并分析网页性能 - 所有这些都可以通过与 AI 编码助手的自然语言交互来完成。
 
-**Advanced Features**
+**高级功能**
 
--   **Auto-Paste Integration**: Browser extension automatically pastes captured data into Cursor
--   **Performance Monitoring**: Real-time metrics collection and analysis
--   **Error Tracking**: Comprehensive JavaScript error monitoring and reporting
--   **Accessibility Auditing**: WCAG 2.1 compliance checking with detailed reports
+-   **自动粘贴集成**：浏览器扩展自动将捕获的数据粘贴到 Cursor 中
+-   **性能监控**：实时指标收集和分析
+-   **错误跟踪**：全面的 JavaScript 错误监控和报告
+-   **可访问性审计**：带有详细报告的 WCAG 2.1 合规性检查
 
 * * *
 
-##### Community Insight
+##### 社区洞察
 
-Browser Tools MCP has earned a 4.8/5 star rating with users praising the auto-paste functionality that "streamlines debugging workflow by automatically sending browser data to Cursor." Real-time monitoring has proven invaluable for frontend developers.
+Browser Tools MCP 获得了 4.8/5 星评级，用户称赞其自动粘贴功能"通过自动将浏览器数据发送到 Cursor 来简化调试工作流程"。实时监控已被证明对前端开发人员非常宝贵。
 
 <img src="/img/discovery/022_excite.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
-*Browser Tools MCP is developed by AgentDeskAI and is open-source. For technical support, feature requests, and community discussions, please refer to the official GitHub repository.*
+*Browser Tools MCP 由 AgentDeskAI 开发并且是开源的。如需技术支持、功能请求和社区讨论，请参考官方 GitHub 仓库。*
 
--   [Overview](#overview)
--   [Features](#features)
--   [Installation](#installation)
--   [Usage](#usage)
+-   [概述](#overview)
+-   [功能特性](#features)
+-   [安装](#installation)
+-   [使用方法](#usage)

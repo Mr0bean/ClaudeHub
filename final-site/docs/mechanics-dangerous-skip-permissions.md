@@ -1,59 +1,59 @@
 ---
-title: "Dangerous Skip Permissions | ClaudeLog"
+title: "危险跳过权限 | ClaudeLog"
 ---
 
-# Dangerous Skip Permissions | ClaudeLog
+# 危险跳过权限
 
-Dangerous skip permissions is a mechanic in Claude Code that uses the `--dangerously-skip-permissions` flag to enter YOLO mode, bypassing all permission checks and eliminating safety guardrails entirely.
+危险跳过权限是 Claude Code 中的一种机制，它使用 `--dangerously-skip-permissions` 标志进入 YOLO 模式，绕过所有权限检查并完全消除安全防护措施。
 
-In YOLO mode, Claude Code executes all operations without any permission prompts, including file modifications, command execution, and system operations. The flag name deliberately includes "dangerously" to signal the security implications of removing all restrictions.
+在 YOLO 模式下，Claude Code 无需任何权限提示即可执行所有操作，包括文件修改、命令执行和系统操作。该标志名称中故意包含"dangerously"一词，以提示移除所有限制的安全隐患。
 
-I found myself tempted by this approach when constant permission interruptions broke my workflow, but I learned that explicit `allowedTools` configuration provides superior control and transparency compared to the blanket bypass approach. I have also observed horror stories on [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/) where folks have had their development environments destroyed by Claude running wild with unrestricted permissions.
+当持续的权限中断破坏我的工作流程时，我发现自己被这种方法所吸引，但我了解到，与全面绕过方法相比，显式的 `allowedTools` 配置提供了更好的控制和透明度。我还在 [r/ClaudeAI](https://reddit.com/r/ClaudeAI) 上观察到一些恐怖故事，人们的开发环境被无限制权限下失控的 Claude 所破坏。
 
-This mechanic represents the most permissive end of the safety spectrum, going beyond [Auto-Accept Permissions](/mechanics/auto-accept-permissions/) to remove all safety mechanisms rather than just permission prompts.
-
-* * *
-
-* * *
-
-### The Nuclear Temptation[​](#the-nuclear-temptation "Direct link to The Nuclear Temptation")
-
-The appeal of YOLO mode becomes obvious during extended autonomous work sessions, particularly research phases or when following well defined implementation plans that would normally require dozens of individual approvals. Instead of managing constant interruptions, you want Claude working independently while you focus on other tasks.
-
-I observe this desire has led to creative solutions across the community, from containerized environments to quick setup guides, all seeking the same goal of uninterrupted Claude execution.
-
-### Why AllowedTools Configuration is Superior[​](#why-allowedtools-configuration-is-superior "Direct link to Why AllowedTools Configuration is Superior")
-
-The `allowedTools` configuration provides granular control over permissions rather than the nuclear approach of disabling all safety checks. Instead of granting blanket access to everything, you explicitly specify which tools Claude can use without prompts.
-
-I observe this approach creates better workflow transparency because you understand exactly which operations are automated and which still require oversight. You might allow `Read(*)` and `Grep(*)` for research tasks while maintaining prompts for `Bash(*)` and `Edit(*)` operations that modify your system.
-
-This explicit configuration persists across sessions and projects, creating consistent behavior without the security risks of completely bypassed permissions. I use the `~/.claude.json` file structure as it is the place I most reliably configure allowed tools, making it visible and auditable rather than a hidden runtime flag (see [Allowed Tools](/configuration/#allowed-tools) for specific examples).
+这种机制代表了安全范围内最宽松的一端，超越了[自动接受权限](mechanics-auto-accept-permissions.html)，不仅仅是移除权限提示，而是移除所有安全机制。
 
 * * *
 
 * * *
 
-### Security and Isolation Considerations[​](#security-and-isolation-considerations "Direct link to Security and Isolation Considerations")
+### 核武器诱惑
 
-The dangerous flag removes all permission barriers, meaning Claude can execute any operation including potentially destructive commands, file deletions, or system modifications. This creates compound risk where a single misinterpreted instruction could cascade into significant damage.
+YOLO 模式的吸引力在扩展的自主工作会话期间变得明显，特别是在研究阶段或遵循明确定义的实施计划时，这些通常需要数十个单独的批准。你希望 Claude 独立工作，而你专注于其他任务，而不是管理持续的中断。
 
-Some community members have addressed this by implementing Docker isolation containers that safely contain the dangerous permissions within disposable environments. While this approach works for development contexts, it adds complexity and infrastructure overhead that explicit tool configuration avoids entirely.
+我观察到这种需求在社区中催生了创造性的解决方案，从容器化环境到快速设置指南，都在寻求同样的目标：不间断的 Claude 执行。
 
-The allowedTools approach maintains the principle of least privilege by granting only necessary permissions rather than universal access, creating safer defaults while preserving workflow efficiency.
+### 为什么 AllowedTools 配置更优越
 
-##### Security Transparency
+`allowedTools` 配置提供了对权限的细粒度控制，而不是采用禁用所有安全检查的核武器方法。你可以明确指定 Claude 可以在没有提示的情况下使用哪些工具，而不是授予对所有内容的全面访问权限。
 
-I observe that explicit allowedTools configuration creates better security awareness compared to blanket permission bypassing. You understand exactly which operations are automated, making it easier to audit and adjust permissions as needed.
+我观察到这种方法创建了更好的工作流透明度，因为你确切地了解哪些操作是自动化的，哪些仍然需要监督。你可以允许 `Read` 和 `Grep` 用于研究任务，同时保持对修改系统的 `Write` 和 `Bash` 操作的提示。
 
-<img src="/img/discovery/005_scary_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
+这种显式配置在会话和项目之间持续存在，创建一致的行为，而没有完全绕过权限的安全风险。我使用 `CLAUDE.md` 文件结构，因为它是我最可靠地配置允许工具的地方，使其可见和可审计，而不是隐藏的运行时标志（参见[允许的工具](mechanics-auto-accept-permissions.html)获取具体示例）。
 
 * * *
 
-**See Also**: [Auto-Accept Permissions](/mechanics/auto-accept-permissions/)|[Plan Mode](/mechanics/plan-mode/)|[Configuration](/configuration/)
+* * *
 
-**Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
+### 安全和隔离考虑
 
--   [The Nuclear Temptation](#the-nuclear-temptation)
--   [Why AllowedTools Configuration is Superior](#why-allowedtools-configuration-is-superior)
--   [Security and Isolation Considerations](#security-and-isolation-considerations)
+危险标志移除了所有权限屏障，这意味着 Claude 可以执行任何操作，包括潜在的破坏性命令、文件删除或系统修改。这创建了复合风险，其中一个被误解的指令可能级联成重大损害。
+
+一些社区成员通过实施 Docker 隔离容器来解决这个问题，这些容器可以在可丢弃的环境中安全地包含危险权限。虽然这种方法适用于开发环境，但它增加了显式工具配置可以避免的复杂性和基础设施开销。
+
+allowedTools 方法通过只授予必要的权限而不是通用访问权限来维护最小权限原则，在保持工作流效率的同时创建更安全的默认值。
+
+##### 安全透明度
+
+我观察到，与全面权限绕过相比，显式的 allowedTools 配置创建了更好的安全意识。你确切地了解哪些操作是自动化的，使得根据需要更容易审计和调整权限。
+
+<img src="/img/profile/inventorblack.jpg" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%; vertical-align: middle; margin-right: 8px;" />
+
+* * *
+
+**另请参阅**: [自动接受权限](mechanics-auto-accept-permissions.html)|[计划模式](mechanics-plan-mode.html)|[配置](support-claudelog.html)
+
+**作者**:[<img src="/img/profile/inventorblack.jpg" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%; vertical-align: middle; margin-right: 8px;" />InventorBlack](https://github.com/InventorBlack)|CTO at [Command Stick](https://commandstick.com/)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
+
+-   [核武器诱惑](#核武器诱惑)
+-   [为什么 AllowedTools 配置更优越](#为什么-allowedtools-配置更优越)
+-   [安全和隔离考虑](#安全和隔离考虑)

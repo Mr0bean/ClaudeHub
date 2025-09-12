@@ -1,62 +1,61 @@
 ---
-title: "Todo Lists as Instruction Mirrors | ClaudeLog"
+title: "待办清单作为指令镜子 | ClaudeLog"
 ---
 
-# Todo Lists as Instruction Mirrors | ClaudeLog
+# 待办清单作为指令镜子 | ClaudeLog
 
-The Todo list tool is my second favourite Claude Code tool, second only to the Task/Agent tool. The Todo list tool serves a purpose beyond just tracking progress, it reveals how Claude interprets your instructions.
+待办清单工具是我第二喜欢的 Claude Code 工具，仅次于任务/代理工具。待办清单工具不仅仅是跟踪进度——它揭示了 Claude 如何解释你的指令。
 
-I often benchmark my instructions against Claude's todos, particularly for step by step processes I am aspiring for a mirror like reflection. When his todos mirror my intentions, I know my instructions are grokked. When his todos diverge, it flags an area for potential improvement in my communication.
-
-* * *
+我经常使用 Claude 的待办清单来衡量我的指令，特别是对于那些我期望能够镜像反映的分步过程。当他的待办清单反映了我的意图时，我知道我的指令被理解了。当他的待办清单偏离时，它标志着我沟通中可能需要改进的地方。
 
 * * *
 
-**Todo List Divergence**
+* * *
 
--   **Out of Order**: Instructions specify step A then B, but Claude's todos list B then A
--   **Missing Todo Item**: Instructions mention running tests, but Claude's todo list omits this step entirely
--   **Extra Todo Item**: Claude adds "backup existing files" when instructions never mentioned this
--   **Wrong Granularity**: Instructions say "update documentation" but Claude creates separate todos for each individual file
--   **Misinterpreted Step**: Instructions say "review changes" but Claude lists "commit changes" instead
+**待办清单差异**
 
-**Real-Time Steering**
+-   **错误顺序**：指令指定先做步骤A再做B，但 Claude 的待办清单列出B然后A
+-   **缺失待办**：指令提到运行测试，但 Claude 的待办清单完全忽略了这一步
+-   **额外待办**：Claude 添加"备份现有文件"，而指令从未提及此事
+-   **错误粒度**：指令说"更新文档"，但 Claude 为每个单独的文件创建单独的待办
+-   **误解步骤**：指令说"审查更改"，但 Claude 列出"提交更改"
 
-Claude's todo list communicates the effects of real-time steering of Claude's goals. You can steer future todo items as Claude reviews your prompts mid-task and uses them to update his planning.
+**实时引导**
 
-Consider a basic example of changing an element's colour. Properly utilising the todo list allows for clearer steering of future todos as you can see exactly what he plans to do.
+Claude 的待办清单传达了实时引导 Claude 目标的效果。当 Claude 在任务中期审查你的提示并用它们来更新他的计划时，你可以引导未来的待办。
 
-**Before Steering:**
+考虑一个更改元素颜色的基本例子。正确利用待办清单可以更清楚地引导未来的待办，因为你可以确切看到他计划做什么。
 
--    Fix the navigation menu alignment
--    Update the footer text
--    Add new contact form validation
--    Change the button background color to `blue`
--    Update documentation
+**引导前：**
 
-**Mid-task Steering:**
+-    修复导航菜单对齐
+-    更新页脚文本
+-    添加新的联系表单验证
+-    将按钮背景颜色更改为 `#ff0000`
+-    更新文档
 
-```bash
-Actually make it green instead
+**任务中期引导：**
 
 ```
+Actually, let's change the button color to blue (#0066cc) instead of red
+```
 
-**After Steering:**
+**引导后：**
 
--    Fix the navigation menu alignment
--    Update the footer text
--    Add new contact form validation
--    Change the button background color to `green`
--    Update documentation
+-    修复导航菜单对齐
+-    更新页脚文本
+-    添加新的联系表单验证
+-    将按钮背景颜色更改为 `#0066cc`
+-    更新文档
 
-##### Experiment
+##### 实验
 
-Try encouraging Claude to be granular with his todos. Instead of "style the navbar," get Claude to reveal specific adjustments: "change height from 60px to 80px," "reduce padding-top from 16px to 12px," "adjust background from #ffffff to rgba(255,255,255,0.95)." This transparency exposes Claude's design decisions before he makes them, letting you approve or redirect his aesthetic choices.
+尝试鼓励 Claude 在他的待办中更加精细。不是"设置导航栏样式"，让 Claude 揭示具体的调整："将高度从60px改为80px"，"将padding-top从16px减少到12px"，"将背景从#ffffff调整为rgba(255,255,255,0.9)"。这种透明度在 Claude 做出设计决定之前就暴露了他的决定，让你能够批准或重新引导他的美学选择。
 
-<img src="/img/discovery/024_excite_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
+<img src="/img/supporters/inventorblack.jpg" alt="InventorBlack" style="max-width: 25px; height: 25px; border-radius: 50%;" />
 
 * * *
 
-**See Also**: [You Are the Main Thread](/mechanics/you-are-the-main-thread/)|[Tight Feedback Loops](/mechanics/tight-feedback-loops/)|[CLAUDE.md Supremacy](/mechanics/claude-md-supremacy/)
+**另见**：[你是主线程](/mechanics-you-are-the-main-thread.html)|[紧密反馈循环](/mechanics-tight-feedback-loops.html)|[CLAUDE.md 至上](/mechanics-claude-md-supremacy.html)
 
-**Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
+**作者**：[<img src="/img/supporters/inventorblack.jpg" alt="InventorBlack" style="max-width: 25px; height: 25px; border-radius: 50%;" />InventorBlack](https://x.com/InventorBlack)|[Command Stick](https://commandstick.com) 首席技术官|[r/ClaudeAi](https://reddit.com/r/ClaudeAi) 版主

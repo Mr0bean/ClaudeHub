@@ -1,76 +1,76 @@
 ---
-title: "Auto-Accept Permissions | ClaudeLog"
+title: "自动接受权限 | ClaudeLog"
 ---
 
-# Auto-Accept Permissions | ClaudeLog
+# 自动接受权限 | ClaudeLog
 
-Auto-accept permissions is a mechanic in Claude Code that eliminates confirmation prompts, enabling Claude to execute actions immediately without interrupting the flow for approval.
+自动接受权限是 Claude Code 中的一项机制，它消除了确认提示，使 Claude 能够立即执行操作，而无需中断流程以获得批准。
 
-When activated, the UI displays "auto-accept edit on" and Claude will not pause to request permission before making file edits, running commands, or other operations. The permission request interface is typically presented when Claude determines a task could be potentially dangerous and requires explicit approval.
+激活后，UI 会显示"auto-accept edit on"，Claude 在进行文件编辑、运行命令或其他操作之前不会暂停请求权限。权限请求界面通常在 Claude 判断某项任务可能存在潜在危险并需要明确批准时出现。
 
-You can adjust which tools are allowed through auto-accept mode by updating your `allowedTools` configuration (see the [Claude Code Configuration Guide](/configuration/) for details).
+您可以通过更新 `allowedTools` 配置来调整哪些工具可以通过自动接受模式使用（详见 [Claude Code 配置指南](/configuration/)）。
 
-You activate it by pressing `shift+tab` repeatedly to cycle through modes: normal-mode, auto-accept edit on, and plan mode on as indicated within the Claude Code UI.
+您可以通过反复按 `shift+tab` 来激活它，以循环切换模式：普通模式、自动接受编辑开启和计划模式开启，如 Claude Code UI 中所示。
 
-This mechanic represents the opposite end of the safety spectrum from [Plan Mode](/mechanics/plan-mode/), prioritizing speed and uninterrupted execution over cautious verification. The seamless keyboard toggle makes it easy to switch modes as your workflow demands.
-
-* * *
-
-* * *
-
-### Prior to Auto-Accept[​](#prior-to-auto-accept "Direct link to Prior to Auto-Accept")
-
-I found myself constantly hitting `Enter` to approve Claude's actions when permission prompts appeared for file modifications, command execution, or system interactions.
-
-While these prompts serve an important safety function, they create friction when you're confident in Claude's approach and want uninterrupted execution.
-
-Folks on [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/) have expressed similar frustration with the constant permission requests, particularly during repetitive tasks like refactoring or when trying to achieve long agentic sprints for 10-40 minutes.
-
-### With Auto-Accept[​](#with-auto-accept "Direct link to With Auto-Accept")
-
-Auto-accept transforms Claude Code into a seamless execution environment (assuming your `allowedTools` are setup correctly). Claude proceeds immediately with file edits, command execution, and other operations without breaking flow.
-
-When I have a clear direction, auto-accept allows me to leave Claude working autonomously while I focus on other tasks. I can get in the zone on different work, only checking on Claude when he contacts me via the [bell notification](/faqs/claude-code-terminal-bell-notifications/) system.
-
-I observe this is particularly valuable during:
-
--   Researching codebases and documentation
--   Large refactoring operations across multiple files
--   Following long plans that have been thoroughly checked
-
-The result is dramatically faster iteration cycles and maintained focus on the problem rather than constant approval decisions.
+这一机制代表了与[计划模式](/mechanics-plan-mode/)相反的安全光谱端，优先考虑速度和不间断执行，而不是谨慎验证。无缝的键盘切换使得根据工作流程需求轻松切换模式变得容易。
 
 * * *
 
 * * *
 
-### Safety Considerations[​](#safety-considerations "Direct link to Safety Considerations")
+### 使用自动接受之前[​](#prior-to-auto-accept "Direct link to 使用自动接受之前")
 
-Use auto-accept cautiously. Without permission prompts, Claude would immediately execute all proposed changes. File modifications proceed without confirmation, bash commands run immediately, and potentially destructive operations occur without pause. Large scale modifications across multiple files happen in sequence, creating compound risk if something goes wrong.
+我发现自己在权限提示出现时，需要不断按 `Enter` 来批准 Claude 的操作，无论是文件修改、命令执行还是系统交互。
 
-### Permission Mode Cycling[​](#permission-mode-cycling "Direct link to Permission Mode Cycling")
+虽然这些提示具有重要的安全功能，但当您对 Claude 的方法有信心并希望不间断执行时，它们会产生摩擦。
 
-Pressing `shift+tab` cycles through Claude Code's permission modes:
+[r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/) 上的用户也表达了对持续权限请求的类似挫败感，特别是在重构等重复性任务期间，或者在尝试实现 10-40 分钟的长时间代理冲刺时。
 
--   **normal-mode** - Standard permission prompts for all operations
--   **auto-accept edit on** - Auto-accept all permissions for any operations
--   **plan mode on** - Read-only research and planning mode
+### 使用自动接受之后[​](#with-auto-accept "Direct link to 使用自动接受之后")
 
-The UI clearly indicates which mode is active, displaying the exact terminology as you cycle through each state.
+自动接受将 Claude Code 转变为无缝执行环境（假设您的 `allowedTools` 设置正确）。Claude 立即进行文件编辑、命令执行和其他操作，而不会中断流程。
 
-##### Execution Flow
+当我有明确的方向时，自动接受允许我让 Claude 自主工作，而我专注于其他任务。我可以专注于不同的工作，只有当他通过[铃声通知](/faqs/claude-code-terminal-bell-notifications/)系统联系我时才检查 Claude。
 
-Once auto-accept is enabled, Claude maintains continuous execution momentum. I observe this creates a distinctly different workflow rhythm compared to the deliberate verification pace of normal mode.
+我观察到这在以下情况下特别有价值：
+
+-   研究代码库和文档
+-   跨多个文件的大型重构操作
+-   遵循已经彻底检查过的长期计划
+
+结果是迭代周期大大加快，并保持对问题的关注，而不是不断的批准决策。
+
+* * *
+
+* * *
+
+### 安全注意事项[​](#safety-considerations "Direct link to 安全注意事项")
+
+请谨慎使用自动接受。没有权限提示，Claude 将立即执行所有建议的更改。文件修改无需确认即可进行，bash 命令立即运行，潜在的破坏性操作无需暂停即可发生。跨多个文件的大规模修改按顺序发生，如果出现问题会造成复合风险。
+
+### 权限模式循环[​](#permission-mode-cycling "Direct link to 权限模式循环")
+
+按 `shift+tab` 可循环切换 Claude Code 的权限模式：
+
+-   **普通模式** - 所有操作的标准权限提示
+-   **自动接受编辑开启** - 自动接受任何操作的所有权限
+-   **计划模式开启** - 只读研究和规划模式
+
+UI 清楚地指示哪种模式处于活动状态，在您循环切换每个状态时显示确切的术语。
+
+##### 执行流程
+
+一旦启用自动接受，Claude 会保持持续的执行动力。我观察到，与普通模式的审慎验证节奏相比，这创造了一种明显不同的工作流程节奏。
 
 <img src="/img/discovery/000_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
-**See Also**: [Plan Mode](/mechanics/plan-mode/)|[Allowed Tools Configuration](/configuration/#allowed-tools)|[Dangerous Skip Permissions](/mechanics/dangerous-skip-permissions/)
+**另请参阅**：[计划模式](/mechanics-plan-mode/)|[允许的工具配置](/configuration/#allowed-tools.html)|[危险的跳过权限](/mechanics-dangerous-skip-permissions/)
 
-**Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
+**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|[Command Stick](https://commandstick.com) 的 CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
 
--   [Prior to Auto-Accept](#prior-to-auto-accept)
--   [With Auto-Accept](#with-auto-accept)
--   [Safety Considerations](#safety-considerations)
--   [Permission Mode Cycling](#permission-mode-cycling)
+-   [使用自动接受之前](#prior-to-auto-accept)
+-   [使用自动接受之后](#with-auto-accept)
+-   [安全注意事项](#safety-considerations)
+-   [权限模式循环](#permission-mode-cycling)

@@ -1,43 +1,43 @@
 ---
-title: "Contact | ClaudeLog"
+title: "联系我们 | ClaudeLog"
 ---
 
-# Contact | ClaudeLog
+# 联系我们 | ClaudeLog
 
-## Get in Touch[​](#get-in-touch "Direct link to Get in Touch")
+## 联系方式[​](#联系方式)
 
-**Email** [hello@claudelog.com](mailto:hello@claudelog.com)
+**邮箱** [hello@claudelog.com](mailto:hello@claudelog.com)
 
-**Reddit** [InventorBlack](https://www.reddit.com/user/inventor_black/)
+**Reddit** [InventorBlack](https://reddit.com/u/InventorBlack)
 
-**LinkedIn** [Wilfred Kasekende](https://www.linkedin.com/in/wilfredkasekende/)
-
-* * *
-
-## CLAUDE.md Vault Submissions[​](#claudemd-vault-submissions "Direct link to CLAUDE.md Vault Submissions")
-
-Got a cool `CLAUDE.md` you'd like to share? Send it over! I'm always looking for interesting examples to add to the vault.
-
-**What to include:**
-
--   Your `CLAUDE.md` file
--   Brief description of what it does
--   Any setup notes or dependencies
-
-Contact me on Reddit: [InventorBlack](https://www.reddit.com/user/inventor_black/)
+**LinkedIn** [Wilfred Kasekende](https://www.linkedin.com/in/wilfred-kasekende-8ab31315a/)
 
 * * *
 
-## Community[​](#community "Direct link to Community")
+## CLAUDE.md 库提交[​](#claude-md-库提交)
 
-Join the discussion on [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/) where we talk about Claude Code mechanics, share tips, and help each other out.
+有一个很酷的 `CLAUDE.md` 想要分享？请发送给我！我一直在寻找有趣的示例来添加到库中。
 
-##### Want to Contribute?
+**请包含以下内容：**
 
-Want to contribute? Get in contact on Reddit! ClaudeLog is the culmination of the findings from [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/).
+-   你的 `CLAUDE.md` 文件
+-   关于它功能的简要描述
+-   任何设置说明或依赖项
 
-<img src="/img/discovery/022_excite.png" alt="Custom image" style="max-width: 165px; height: auto;" />
+在 Reddit 上联系我：[InventorBlack](https://reddit.com/u/InventorBlack)
 
--   [Get in Touch](#get-in-touch)
--   [CLAUDE.md Vault Submissions](#claudemd-vault-submissions)
--   [Community](#community)
+* * *
+
+## 社区[​](#社区)
+
+加入 [r/ClaudeAI](https://reddit.com/r/ClaudeAI) 的讨论，我们在那里讨论 Claude Code 机制、分享技巧并互相帮助。
+
+##### 想要贡献？
+
+想要贡献？请在 Reddit 上联系！ClaudeLog 是 [r/ClaudeAI](https://reddit.com/r/ClaudeAI) 研究成果的集大成者。
+
+<br/>
+
+-   [联系方式](#联系方式)
+-   [CLAUDE.md 库提交](#claude-md-库提交)
+-   [社区](#社区)

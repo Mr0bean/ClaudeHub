@@ -1,153 +1,153 @@
 ---
-title: "Claude Code Pricing | ClaudeLog"
+title: "Claude Code 定价 | ClaudeLog"
 ---
 
-# Claude Code Pricing | ClaudeLog
+# Claude Code 定价 | ClaudeLog
 
-Complete Claude AI price breakdown including Pro (from $17/month annually) vs Max (from $100/month) subscription plans, API costs, and usage limits. Choose the right Claude pricing plan for your development workflow and budget.
-
-* * *
+完整的 Claude AI 价格细分，包括 Pro（年付起价 $17/月）与 Max（起价 $100/月）订阅计划、API 费用和使用限制。为您的开发工作流程和预算选择合适的 Claude 定价计划。
 
 * * *
 
-## Claude AI Price Comparison: Pro vs Max Plans[​](#claude-ai-price-comparison-pro-vs-max-plans "Direct link to Claude AI Price Comparison: Pro vs Max Plans")
+* * *
 
-Plan
+## Claude AI 价格对比：Pro 与 Max 计划[​](#claude-ai-价格对比pro-与-max-计划 "直接链接到 Claude AI 价格对比：Pro 与 Max 计划")
 
-Price
+计划
 
-Claude Models
+价格
 
-Usage Limits
+Claude 模型
 
-Best For
+使用限制
 
-Claude Code Rating
+最适合
 
-Free
+Claude Code 评级
 
-$0/month
+免费版
 
-Limited Sonnet access
+$0/月
 
-Very limited
+有限的 Sonnet 访问
 
-Multi-platform access, web search
+非常有限
+
+多平台访问、网页搜索
 
 Pro
 
-$17/month annually ($200 upfront)  
-$20/month monthly
+年付 $17/月（预付 $200）  
+月付 $20/月
 
-Sonnet 4 + multiple models
+Sonnet 4 + 多个模型
 
-5x free tier
+免费版的 5 倍
 
-Development + Research + Integrations
+开发 + 研究 + 集成
 
 Max  
 $100
 
-$100/month
+$100/月
 
-Sonnet 4 + limited Opus
+Sonnet 4 + 有限的 Opus
 
-5x Pro limits + priority access
+Pro 限制的 5 倍 + 优先访问
 
-Professional + early features
+专业版 + 早期功能
 
 Max  
 $200
 
-$200/month
+$200/月
 
-All models + full Opus
+所有模型 + 完整 Opus
 
-20x Pro limits + priority access
+Pro 限制的 20 倍 + 优先访问
 
-Full professional + early features
+完整专业版 + 早期功能
 
 API
 
-Pay-per-use
+按使用付费
 
-All models
+所有模型
 
-Usage-based billing
+基于使用计费
 
-Custom needs
-
-* * *
-
-## Detailed Plan Breakdown[​](#detailed-plan-breakdown "Direct link to Detailed Plan Breakdown")
-
-### Claude Free - Limited Testing[​](#claude-free---limited-testing "Direct link to Claude Free - Limited Testing")
-
-The free plan provides limited Sonnet access for basic usage only, with very low usage limits that are quickly exhausted. It includes multi-platform access (web, iOS, Android, desktop), web search capability, and desktop extensions. However, the free plan does not support Claude Code access. You need at least a Pro subscription or API credits to [use Claude Code](/install-claude-code/).
+自定义需求
 
 * * *
 
-* * *
+## 详细计划分解[​](#详细计划分解 "直接链接到详细计划分解")
 
-### Claude Pro ($17/month annually, $20/month monthly) - Development + Research + Integrations[​](#claude-pro-17month-annually-20month-monthly---development--research--integrations "Direct link to Claude Pro ($17/month annually, $20/month monthly) - Development + Research + Integrations")
+### Claude 免费版 - 有限测试[​](#claude-免费版---有限测试 "直接链接到 Claude 免费版 - 有限测试")
 
-Claude Pro includes access to [Claude 4 Sonnet model](/model-comparison/) and additional models with 5x usage limits compared to the free tier. It includes Research access, Google Workspace integration (email, calendar, docs), remote MCP server connections for tool integrations, and extended thinking for complex work. However, it lacks access to the advanced [Claude 4 Opus model](/model-comparison/). For Claude Code, this plan works well for development, small projects, and learning, though you may hit usage limits with extensive coding sessions. Annual billing ($200 upfront) saves $36 per year compared to monthly billing.
-
-**Best For:**
-
--   **[Learning Claude Code](/faqs/how-to-get-started-with-claude-code/)** - Affordable way to get started
--   **Hobby projects** - Small personal development work with research needs
--   **Workspace integration** - Teams using Google Workspace
--   **Tool connectivity** - Developers wanting MCP server connections
--   **Budget constraints** - Cost-effective entry point with full features
+免费计划仅提供有限的 Sonnet 访问用于基本使用，使用限制非常低，很快就会耗尽。它包括多平台访问（网页、iOS、Android、桌面）、网页搜索功能和桌面扩展。然而，免费计划不支持 Claude Code 访问。您至少需要 Pro 订阅或 API 积分才能[使用 Claude Code](/install-claude-code/)。
 
 * * *
 
 * * *
 
-### Claude Max $100 ($100/month) - Professional Development with Limited Opus[​](#claude-max-100-100month---professional-development-with-limited-opus "Direct link to Claude Max $100 ($100/month) - Professional Development with Limited Opus")
+### Claude Pro（年付 $17/月，月付 $20/月）- 开发 + 研究 + 集成[​](#claude-pro年付-17月月付-20月---开发--研究--集成 "直接链接到 Claude Pro（年付 $17/月，月付 $20/月）- 开发 + 研究 + 集成")
 
-Claude Max $100 provides access to Claude 4 Sonnet with 5x higher usage limits than Pro, plus limited access to the advanced Claude 4.1 Opus model. It includes higher output limits for all tasks, early access to advanced Claude features, and priority access during high traffic times. For Claude Code, it handles professional development with moderate to large projects, extended coding sessions, and occasional access to Opus 4.1 for complex analysis when needed.
+Claude Pro 包括访问 [Claude 4 Sonnet 模型](/model-comparison/)和其他模型，使用限制是免费版的 5 倍。它包括研究访问、Google Workspace 集成（电子邮件、日历、文档）、用于工具集成的远程 MCP 服务器连接，以及用于复杂工作的扩展思考。然而，它无法访问高级 [Claude 4 Opus 模型](/model-comparison/)。对于 Claude Code，这个计划非常适合开发、小型项目和学习，尽管在大量编码会话中可能会达到使用限制。年付（预付 $200）比月付每年节省 $36。
 
-**Best For:**
+**最适合：**
 
--   **Professional developers** - Regular Claude Code usage with occasional complex needs
--   **Medium projects** - Projects that need some advanced analysis but not constantly
--   **Budget-conscious professionals** - Want Opus access without full Max cost
--   **Priority access needs** - Developers who need reliable access during peak times
-
-* * *
-
-* * *
-
-### Claude Max $200 ($200/month) - Full Professional Development[​](#claude-max-200-200month---full-professional-development "Direct link to Claude Max $200 ($200/month) - Full Professional Development")
-
-Claude Max provides access to all Claude models including the advanced Claude 4.1 Opus, with 20x higher usage limits than Pro. It includes higher output limits for all tasks, early access to advanced Claude features, and priority access during high traffic times. For Claude Code, this plan handles professional development with large projects and complex tasks, extended coding sessions without hitting limits, and full access to Opus 4.1 for architectural decisions and complex analysis.
-
-**Best For:**
-
--   **Professional developers** - Daily Claude Code usage who want the best model
--   **Large projects** - Complex codebases and architecture work
--   **Maximum productivity** - Unrestricted Claude Code workflow
--   **Early adopters** - Developers who want first access to new features
+-   **[学习 Claude Code](/faqs/how-to-get-started-with-claude-code/)** - 经济实惠的入门方式
+-   **爱好项目** - 具有研究需求的小型个人开发工作
+-   **工作空间集成** - 使用 Google Workspace 的团队
+-   **工具连接** - 需要 MCP 服务器连接的开发者
+-   **预算限制** - 具有完整功能的经济实惠入门点
 
 * * *
 
 * * *
 
-## API Pricing - Pay-Per-Use[​](#api-pricing---pay-per-use "Direct link to API Pricing - Pay-Per-Use")
+### Claude Max $100（$100/月）- 具有有限 Opus 的专业开发[​](#claude-max-100100月---具有有限-opus-的专业开发 "直接链接到 Claude Max $100（$100/月）- 具有有限 Opus 的专业开发")
 
-### Current API Rates (June 2025)[​](#current-api-rates-june-2025 "Direct link to Current API Rates (June 2025)")
+Claude Max $100 提供对 Claude 4 Sonnet 的访问，使用限制比 Pro 高 5 倍，外加对高级 Claude 4.1 Opus 模型的有限访问。它包括所有任务的更高输出限制、对高级 Claude 功能的早期访问，以及在高流量时期的优先访问。对于 Claude Code，它可以处理中型到大型项目的专业开发、扩展编码会话，以及在需要时偶尔访问 Opus 4.1 进行复杂分析。
 
-Model
+**最适合：**
 
-Input Tokens
+-   **专业开发者** - 定期使用 Claude Code，偶尔有复杂需求
+-   **中型项目** - 需要一些高级分析但不是经常性的项目
+-   **注重预算的专业人士** - 想要 Opus 访问但不需要完整 Max 费用
+-   **优先访问需求** - 需要在高峰时期可靠访问的开发者
 
-Output Tokens
+* * *
 
-Context Window
+* * *
 
-Best For
+### Claude Max $200（$200/月）- 完整专业开发[​](#claude-max-200200月---完整专业开发 "直接链接到 Claude Max $200（$200/月）- 完整专业开发")
+
+Claude Max 提供对所有 Claude 模型的访问，包括高级 Claude 4.1 Opus，使用限制比 Pro 高 20 倍。它包括所有任务的更高输出限制、对高级 Claude 功能的早期访问，以及在高流量时期的优先访问。对于 Claude Code，这个计划可以处理大型项目和复杂任务的专业开发、不会达到限制的扩展编码会话，以及完全访问 Opus 4.1 进行架构决策和复杂分析。
+
+**最适合：**
+
+-   **专业开发者** - 每天使用 Claude Code 并希望获得最佳模型的用户
+-   **大型项目** - 复杂的代码库和架构工作
+-   **最大生产力** - 无限制的 Claude Code 工作流程
+-   **早期采用者** - 希望首先获得新功能的开发者
+
+* * *
+
+* * *
+
+## API 定价 - 按使用付费[​](#api-定价---按使用付费 "直接链接到 API 定价 - 按使用付费")
+
+### 当前 API 费率（2025 年 6 月）[​](#当前-api-费率2025-年-6-月 "直接链接到当前 API 费率（2025 年 6 月）")
+
+模型
+
+输入令牌
+
+输出令牌
+
+上下文窗口
+
+最适合
 
 Claude 4.1 Opus
 
@@ -155,21 +155,21 @@ $15.00 / 1M
 
 $75.00 / 1M
 
-200K tokens
+200K 令牌
 
-Complex reasoning, architecture
+复杂推理、架构
 
 Claude 4 Sonnet
 
 $3.00 / 1M  
-($6.00 / 1M for prompts >200K)
+（提示词 >200K 时 $6.00 / 1M）
 
 $15.00 / 1M  
-($22.50 / 1M for prompts >200K)
+（提示词 >200K 时 $22.50 / 1M）
 
-1M tokens\*
+1M 令牌\*
 
-Daily development, large codebases
+日常开发、大型代码库
 
 Claude 3.5 Sonnet
 
@@ -177,9 +177,9 @@ $3.00 / 1M
 
 $15.00 / 1M
 
-200K tokens
+200K 令牌
 
-Cost-effective development
+经济高效的开发
 
 Claude 3.5 Haiku
 
@@ -187,75 +187,76 @@ $0.80 / 1M
 
 $4.00 / 1M
 
-200K tokens
+200K 令牌
 
-Simple tasks, high volume
+简单任务、大批量
 
-\***Claude 4 Sonnet's 1M token context window is currently available via API only. This feature is likely coming to Claude Max subscriptions in the future.**
+\***Claude 4 Sonnet 的 1M 令牌上下文窗口目前仅通过 API 提供。此功能可能在未来会加入 Claude Max 订阅。**
 
-**Extended Context Pricing:** For prompts exceeding 200K tokens, Claude 4 Sonnet uses higher rates ($6.00 input / $22.50 output per 1M tokens) to account for increased processing costs and latency.
+**扩展上下文定价：** 对于超过 200K 令牌的提示词，Claude 4 Sonnet 使用更高的费率（每 1M 令牌 $6.00 输入 / $22.50 输出）来弥补增加的处理成本和延迟。
 
-**API Benefits:** The API provides precise cost control by charging only for actual usage, with access to all models including latest releases and no usage limits for scaling as needed. Most notably, Claude 4 Sonnet via API offers a massive **1M token context window** - perfect for loading entire codebases without chunking or context management issues. Enterprise features and custom configurations are also available.
+**API 优势：** API 通过仅对实际使用收费提供精确的成本控制，可以访问包括最新版本在内的所有模型，并且没有使用限制，可根据需要扩展。最值得注意的是，通过 API 的 Claude 4 Sonnet 提供了巨大的 **1M 令牌上下文窗口** - 非常适合加载整个代码库而无需分块或上下文管理问题。还提供企业功能和自定义配置。
 
-**API Considerations:** However, costs can be variable and expensive with heavy usage, requiring monitoring of token usage and billing complexity.
-
-* * *
-
-* * *
-
-## Usage Monitoring and Optimization[​](#usage-monitoring-and-optimization "Direct link to Usage Monitoring and Optimization")
-
-### Context Management[​](#context-management "Direct link to Context Management")
-
-The new `/context` command (added in v1.0.86) helps users debug context issues and optimize token usage for better cost management. This command is particularly useful for understanding when you're approaching context limits that could impact pricing.
-
-### Track Your Usage[​](#track-your-usage "Direct link to Track Your Usage")
-
-**For Subscription Users:**
-
--   **CC Usage Tool:** [Install ccusage](https://github.com/ryoppippi/ccusage) for detailed tracking
--   **Monitor patterns:** Understand your typical monthly usage
--   **Optimize workflow:** Use appropriate models for different tasks
-
-**For API Users:**
-
--   **Anthropic Console:** Monitor usage at [console.anthropic.com](https://console.anthropic.com)
--   **Set alerts:** Configure billing alerts to avoid surprises
--   **Token optimization:** Use efficient prompting to reduce costs
+**API 注意事项：** 然而，大量使用时成本可能会变化且昂贵，需要监控令牌使用和计费复杂性。
 
 * * *
 
 * * *
 
-### Cost Optimization Tips[​](#cost-optimization-tips "Direct link to Cost Optimization Tips")
+## 使用监控和优化[​](#使用监控和优化 "直接链接到使用监控和优化")
 
-For [model selection strategy](/mechanics/tactical-model-selection/), use Sonnet 4 for daily development work as it provides the best balance of capability and cost. Switch to Opus 4.1 only when you need complex analysis or architectural decisions. Use Haiku for simple, repetitive tasks to save costs, and try to batch similar tasks together to maximize efficiency.
+### 上下文管理[​](#上下文管理 "直接链接到上下文管理")
 
-For usage efficiency, employ strategic compacting to [manage context costs](/mechanics/context-window-depletion/), plan your sessions to minimize redundant processing, and use the `/model` command to switch between models and optimize cost per task type.
+新的 `/context` 命令（在 v1.0.86 中添加）帮助用户调试上下文问题并优化令牌使用以实现更好的成本管理。此命令特别有助于了解何时接近可能影响定价的上下文限制。
 
-Choose Models Strategically for Cost Control
+### 跟踪您的使用情况[​](#跟踪您的使用情况 "直接链接到跟踪您的使用情况")
 
-Use Sonnet 4 for 80% of your Claude Code tasks - it offers the best price-to-performance ratio at $3/1M input tokens. Reserve Opus 4.1 ($15/1M input) only for complex architectural decisions and code reviews. This approach can reduce API costs by 60-70% compared to using Opus for everything.
+**对于订阅用户：**
 
-##### Smart Pricing Strategy
+-   **CC Usage 工具：** [安装 ccusage](https://github.com/ryoppippi/ccusage) 进行详细跟踪
+-   **监控模式：** 了解您的典型月度使用情况
+-   **优化工作流程：** 为不同任务使用适当的模型
 
-Most developers find their optimal Claude Code plan within the first month of usage. Start with Pro for learning and light development, upgrade to Max $100 for professional work with occasional Opus needs, or choose Max $200 for full unrestricted access. Track usage with [CC Usage tool](/claude-code-mcps/cc-usage/) to optimize your plan selection.
+**对于 API 用户：**
+
+-   **Anthropic 控制台：** 在 [console.anthropic.com](https://console.anthropic.com) 监控使用情况
+-   **设置警报：** 配置计费警报以避免意外
+-   **令牌优化：** 使用高效的提示以降低成本
+
+* * *
+
+* * *
+
+### 成本优化技巧[​](#成本优化技巧 "直接链接到成本优化技巧")
+
+对于[模型选择策略](/mechanics-tactical-model-selection/)，使用 Sonnet 4 进行日常开发工作，因为它提供了能力和成本的最佳平衡。仅在需要复杂分析或架构决策时切换到 Opus 4.1。使用 Haiku 处理简单、重复的任务以节省成本，并尝试将类似任务批处理以最大化效率。
+
+为了提高使用效率，采用策略性压缩来[管理上下文成本](/mechanics-context-window-depletion/)，规划您的会话以最小化冗余处理，并使用 `/model` 命令在模型之间切换，优化每种任务类型的成本。
+
+策略性地选择模型以控制成本
+
+为您 80% 的 Claude Code 任务使用 Sonnet 4 - 它以 $3/1M 输入令牌提供最佳的性价比。仅为复杂的架构决策和代码审查保留 Opus 4.1（$15/1M 输入）。与对所有任务使用 Opus 相比，这种方法可以将 API 成本降低 60-70%。
+
+##### 智能定价策略
+
+大多数开发者在使用的第一个月内就找到了他们的最佳 Claude Code 计划。从 Pro 开始进行学习和轻度开发，升级到 Max $100 进行偶尔需要 Opus 的专业工作，或选择 Max $200 获得完全无限制的访问。使用 [CC Usage 工具](/claude-code-mcps/cc-usage/)跟踪使用情况以优化您的计划选择。
 
 <img src="/img/discovery/020_happy.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
-**See Also**: [Model Comparison](/model-comparison/)|[Installation Guide](/install-claude-code/)|[Getting Started](/faqs/how-to-get-started-with-claude-code/)|[Is Claude Code Free](/claude-ai-free/)|[CC Usage Add-on](/claude-code-mcps/cc-usage/)
+**另请参阅**: [模型比较](/model-comparison/)|[安装指南](/install-claude-code/)|[入门指南](/faqs/how-to-get-started-with-claude-code/)|[Claude Code 是否免费](/claude-ai-free/)|[CC Usage 插件](/claude-code-mcps/cc-usage/)
 
--   [Claude AI Price Comparison: Pro vs Max Plans](#claude-ai-price-comparison-pro-vs-max-plans)
--   [Detailed Plan Breakdown](#detailed-plan-breakdown)
-    -   [Claude Free - Limited Testing](#claude-free---limited-testing)
-    -   [Claude Pro ($17/month annually, $20/month monthly) - Development + Research + Integrations](#claude-pro-17month-annually-20month-monthly---development--research--integrations)
-    -   [Claude Max $100 ($100/month) - Professional Development with Limited Opus](#claude-max-100-100month---professional-development-with-limited-opus)
-    -   [Claude Max $200 ($200/month) - Full Professional Development](#claude-max-200-200month---full-professional-development)
--   [API Pricing - Pay-Per-Use](#api-pricing---pay-per-use)
-    -   [Current API Rates (June 2025)](#current-api-rates-june-2025)
--   [Usage Monitoring and Optimization](#usage-monitoring-and-optimization)
-    -   [Context Management](#context-management)
-    -   [Track Your Usage](#track-your-usage)
-    -   [Cost Optimization Tips](#cost-optimization-tips)
+-   [Claude AI 价格对比：Pro 与 Max 计划](#claude-ai-价格对比pro-与-max-计划)
+-   [详细计划分解](#详细计划分解)
+    -   [Claude 免费版 - 有限测试](#claude-免费版---有限测试)
+    -   [Claude Pro（年付 $17/月，月付 $20/月）- 开发 + 研究 + 集成](#claude-pro年付-17月月付-20月---开发--研究--集成)
+    -   [Claude Max $100（$100/月）- 具有有限 Opus 的专业开发](#claude-max-100100月---具有有限-opus-的专业开发)
+    -   [Claude Max $200（$200/月）- 完整专业开发](#claude-max-200200月---完整专业开发)
+-   [API 定价 - 按使用付费](#api-定价---按使用付费)
+    -   [当前 API 费率（2025 年 6 月）](#当前-api-费率2025-年-6-月)
+-   [使用监控和优化](#使用监控和优化)
+    -   [上下文管理](#上下文管理)
+    -   [跟踪您的使用情况](#跟踪您的使用情况)
+    -   [成本优化技巧](#成本优化技巧)
+````，这不是实际的英文文档内容。，我会立即进行翻译。

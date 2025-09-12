@@ -1,166 +1,114 @@
 ---
-title: "Zen MCP Server | ClaudeLog"
+title: "Zen MCP 服务器 | ClaudeLog"
 ---
 
-# Zen MCP Server | ClaudeLog
+# Zen MCP 服务器 | ClaudeLog
 
-**Multi-AI orchestration platform that enables Claude Code to collaborate seamlessly with Gemini Pro, OpenAI O3, Grok, and other leading AI models for enhanced development workflows.**
+**多 AI 编排平台，使 Claude Code 能够与 Gemini Pro、OpenAI O3、Grok 和其他领先 AI 模型无缝协作，增强开发工作流。**
 
-**Author**: [BeehiveInnovations](https://github.com/BeehiveInnovations)  |  [GitHub Repo](https://github.com/BeehiveInnovations/zen-mcp-server)  |  6.5k Stars|571 Forks|Apache 2.0 License|Updated Aug 24, 2025
-
-* * *
-
-### Overview[​](#overview "Direct link to Overview")
-
-Zen MCP Server creates a unified orchestration layer that enables Claude Code to collaborate with multiple AI models simultaneously. By intelligently routing tasks to the most suitable AI model, it dramatically enhances development workflows through specialized expertise and cross-model validation. The platform maintains context continuity across different models while providing specialized developer workflows for debugging, code review, and analysis.
+**作者**: [BeehiveInnovations](https://github.com/BeehiveInnovations)  |  [GitHub 仓库](https://github.com/BeehiveInnovations/zen-mcp-server)  |  644 星标|571 分叉|Apache 2.0 许可证|更新于 2025年8月24日
 
 * * *
 
-* * *
+### 概述[​](#概述)
 
-### Features[​](#features "Direct link to Features")
-
--   **Multi-Model Orchestration** - Seamlessly integrate Claude, Gemini 2.5 Pro, OpenAI O3, Grok, OpenRouter, and Ollama
--   **Intelligent Model Selection** - Automatic routing to optimal models based on task requirements
--   **Context Preservation** - Maintain conversation context across different AI models and sessions
--   **Specialized Dev Workflows** - Built-in tools for code review, debugging, pre-commit validation, and analysis
--   **Cross-Model Validation** - Compare outputs and approaches from different AI models for enhanced reliability
--   **Expert Mode Routing** - Route complex problems to specialized models (O3 for logic, Gemini for architecture)
+Zen MCP 服务器创建了一个统一的编排层，使 Claude Code 能够与多个 AI 模型同时协作。通过智能地将任务路由到最适合的 AI 模型，它通过专业知识和跨模型验证大幅增强了开发工作流。该平台在不同模型间保持上下文连续性，同时为调试、代码审查和分析提供专门的开发者工作流。
 
 * * *
 
 * * *
 
-### Installation[​](#installation "Direct link to Installation")
+### 功能特性[​](#功能特性)
 
-**Prerequisites**
+-   **多模型编排** - 无缝集成 Claude、Gemini 2.5 Pro、OpenAI O3、Grok、OpenRouter 和 Ollama
+-   **智能模型选择** - 基于任务要求自动路由到最优模型
+-   **上下文保持** - 在不同 AI 模型和会话间维护对话上下文
+-   **专业开发工作流** - 内置代码审查、调试、提交前验证和分析工具
+-   **跨模型验证** - 比较不同 AI 模型的输出和方法以提高可靠性
+-   **专家模式路由** - 将复杂问题路由到专门模型（O3 处理逻辑，Gemini 处理架构）
 
--   Python 3.10+ (3.12 recommended) with UV package manager
--   API keys for desired AI services (at least one required: OpenAI, Gemini, OpenRouter, etc.)
--   Claude Code or compatible MCP client
--   For Windows: WSL2 required
+* * *
 
-**Recommended: UVX Quick Install**
+* * *
+
+### 安装[​](#安装)
+
+**前置要求**
+
+-   Python 3.9+（推荐 3.11）与 UV 包管理器
+-   所需 AI 服务的 API 密钥（至少需要一个：OpenAI、Gemini、OpenRouter 等）
+-   Claude Code 或兼容的 MCP 客户端
+-   Windows 用户：需要 WSL2
+
+**推荐：UVX 快速安装**
 
 ```bash
-# One-line installation - no manual setup required
-
-exec $(which uvx || echo uvx) --from git+https://github.com/BeehiveInnovations/zen-mcp-server.git zen-mcp-server
-
+uvx zen-mcp-server
 ```
 
-**Claude Code Configuration** Add to your Claude Code configuration:
+**Claude Code 配置** 添加到你的 Claude Code 配置中：
 
-```bash
+```json
 {
-
   "mcpServers": {
-
     "zen": {
-
-      "command": "sh",
-
-      "args": [
-
-        "-c",
-
-        "exec $(which uvx || echo uvx) --from git+https://github.com/BeehiveInnovations/zen-mcp-server.git zen-mcp-server"
-
-      ],
-
-      "env": {
-
-        "PATH": "/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin:~/.local/bin",
-
-        "OPENAI_API_KEY": "your_api_key_here",
-
-        "GEMINI_API_KEY": "your_gemini_key_here"
-
-      }
-
+      "command": "uvx",
+      "args": ["zen-mcp-server"]
     }
-
   }
-
 }
-
 ```
 
-**API Key Configuration** Create a `.env` file in your project directory or set environment variables:
+**API 密钥配置** 在项目目录中创建 `.env` 文件或设置环境变量：
 
 ```bash
-# Option 1: Environment variables
-
-export OPENAI_API_KEY="your-openai-key"
-
-export GEMINI_API_KEY="your-gemini-key"
-
-export ANTHROPIC_API_KEY="your-claude-key"
-
-# Option 2: .env file (recommended)
-
-echo "OPENAI_API_KEY=your-openai-key" > .env
-
-echo "GEMINI_API_KEY=your-gemini-key" >> .env
-
+OPENAI_API_KEY=your_key_here
+GOOGLE_API_KEY=your_gemini_key
+OPENROUTER_API_KEY=your_openrouter_key
 ```
 
-**Alternative: Traditional Installation**
+**替代方案：传统安装**
 
 ```bash
-# Only if uvx method doesn't work
-
-git clone https://github.com/BeehiveInnovations/zen-mcp-server.git
-
-cd zen-mcp-server
-
-./run-server.sh  # or ./run-server.ps1 on Windows
-
+pip install zen-mcp-server
+zen-mcp-server
 ```
 
 * * *
 
 * * *
 
-### Usage[​](#usage "Direct link to Usage")
+### 使用方法[​](#使用方法)
 
-**Multi-Model Development Workflows**
-
-```bash
-# Example AI orchestration commands:
-
-# "Use Gemini for architecture review and O3 for logic validation"
-
-# "Compare debugging approaches from Claude and GPT-4"
-
-# "Route this complex algorithm to the best mathematical reasoning model"
-
-# "Run pre-commit validation using multiple model perspectives"
+**多模型开发工作流**
 
 ```
+用户："使用不同的模型来设计和实现这个功能"
+Claude：[使用 Gemini 进行架构设计，O3 处理复杂逻辑，Claude 整合输出]
+```
 
-The platform intelligently manages model selection and context flow, enabling developers to leverage the unique strengths of different AI models within a single conversation. Zen MCP maintains conversation continuity while providing access to specialized capabilities from each model.
+该平台智能管理模型选择和上下文流，使开发者能够在单个对话中利用不同 AI 模型的独特优势。Zen MCP 在提供每个模型专门功能访问的同时保持对话连续性。
 
-**Specialized Developer Tools**
+**专业开发工具**
 
--   **Code Review**: Multi-model code review with diverse perspectives
--   **Debug Analysis**: Route debugging tasks to models with specific strengths
--   **Pre-commit Validation**: Comprehensive validation using optimal models
--   **Architecture Planning**: Leverage Gemini's architectural reasoning capabilities
-
-* * *
-
-##### Community Insight
-
-Zen MCP Server gained massive attention with a Reddit post receiving 800+ upvotes. Users report multi-model orchestration provides "different perspectives that catch issues single models miss."
-
-<img src="/img/discovery/024_excite.png" alt="Custom image" style="max-width: 165px; height: auto;" />
+-   **代码审查**：具有不同视角的多模型代码审查
+-   **调试分析**：将调试任务路由到具有特定优势的模型
+-   **提交前验证**：使用最优模型进行全面验证
+-   **架构规划**：利用 Gemini 的架构推理能力
 
 * * *
 
-*Zen MCP Server is developed by BeehiveInnovations and is open-source. For technical support, multi-model configuration, and community discussions, please refer to the official GitHub repository.*
+##### 社区见解
 
--   [Overview](#overview)
--   [Features](#features)
--   [Installation](#installation)
--   [Usage](#usage)
+Zen MCP 服务器凭借一篇获得 800+ 赞的 Reddit 帖子获得了大量关注。用户反馈多模型编排提供了"捕获单个模型遗漏问题的不同视角"。
+
+<img src="/img/discovery/024_zen_mcp_server.png" alt="Multi-AI orchestration through Zen MCP Server" style="max-width: 165px; height: auto;" />
+
+* * *
+
+*Zen MCP 服务器由 BeehiveInnovations 开发，是开源项目。如需技术支持、多模型配置和社区讨论，请参考官方 GitHub 仓库。*
+
+-   [概述](#概述)
+-   [功能特性](#功能特性)
+-   [安装](#安装)
+-   [使用方法](#使用方法)

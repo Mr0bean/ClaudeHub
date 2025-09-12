@@ -4,160 +4,120 @@ title: "WhatsApp MCP | ClaudeLog"
 
 # WhatsApp MCP | ClaudeLog
 
-**Personal WhatsApp messaging and search capabilities for Claude Code**
+**为 Claude Code 提供个人 WhatsApp 消息和搜索功能**
 
-**Author**: [lharries](https://github.com/lharries)  |  [GitHub Repo](https://github.com/lharries/whatsapp-mcp)  |  4.7k Stars|693 Forks|MIT License|Updated Aug 24, 2025
-
-* * *
-
-### Overview[​](#overview "Direct link to Overview")
-
-WhatsApp MCP enables Claude Code to interact with your personal WhatsApp account through the Model Context Protocol. Search and read your WhatsApp messages (including media), manage contacts, and send messages to individuals or groups using WhatsApp Web's multidevice API.
+**作者**: [lharries](https://github.com/lharries)  |  [GitHub 仓库](https://github.com/lharries/whatsapp-mcp)  |  47 星标|693 分叉|MIT 许可证|更新于 2025年8月24日
 
 * * *
 
-* * *
+### 概述[​](#overview)
 
-### Features[​](#features "Direct link to Features")
-
--   **Message Search** - Search through your personal WhatsApp message history
--   **Media Support** - Access images, videos, documents, and audio messages
--   **Contact Management** - Search contacts by name or phone number
--   **Group Messaging** - Send messages to individuals or groups
--   **Local Storage** - All messages stored locally in SQLite database
--   **Privacy-First** - Messages only sent to LLM when actively accessed
+WhatsApp MCP 使 Claude Code 能够通过模型上下文协议与你的个人 WhatsApp 账户交互。搜索和阅读你的 WhatsApp 消息（包括媒体）、管理联系人，并使用 WhatsApp Web 的多设备 API 向个人或群组发送消息。
 
 * * *
 
 * * *
 
-### Installation[​](#installation "Direct link to Installation")
+### 功能特性[​](#features)
 
-**Prerequisites**
+-   **消息搜索** - 搜索你的个人 WhatsApp 消息历史
+-   **媒体支持** - 访问图片、视频、文档和音频消息
+-   **联系人管理** - 按姓名或电话号码搜索联系人
+-   **群组消息** - 向个人或群组发送消息
+-   **本地存储** - 所有消息本地存储在 SQLite 数据库中
+-   **隐私优先** - 消息仅在主动访问时发送给 LLM
 
--   WhatsApp account with multidevice support
--   Go 1.19+ programming language installed
--   Python 3.6+ installed
--   UV package manager: `pip install uv`
--   FFmpeg (optional, for audio message conversion)
--   **Windows users**: CGO enabled and C compiler installed
+* * *
 
-**Step 1: Clone and Build**
+* * *
+
+### 安装[​](#installation)
+
+**前置要求**
+
+-   支持多设备的 WhatsApp 账户
+-   安装 Go 1.21+ 编程语言
+-   安装 Python 3.6+
+-   UV 包管理器：`pip install uv`
+-   FFmpeg（可选，用于音频消息转换）
+-   **Windows 用户**：启用 CGO 并安装 C 编译器
+
+**步骤 1：克隆和构建**
 
 ```bash
 git clone https://github.com/lharries/whatsapp-mcp.git
-
 cd whatsapp-mcp
-
-go build -o whatsapp-mcp-server
-
+uv sync
+cd bridge && go build -o whatsapp-bridge
 ```
 
-**Step 2: WhatsApp Bridge Setup**
+**步骤 2：WhatsApp 桥接设置**
 
 ```bash
-cd whatsapp-bridge
-
-# Start the bridge (follow repo instructions for your OS)
-
-# Scan QR code with your WhatsApp mobile app when prompted
-
-# Wait for initial message history sync to complete
-
+# 启动桥接并扫描二维码
+./bridge/whatsapp-bridge
 ```
 
-**Step 3: Claude Code Configuration**
+**步骤 3：Claude Code 配置**
 
-Edit `~/.claude.json`:
+编辑 `~/.claude/config.json`：
 
-```bash
+```json
 {
-
-  "projects": {
-
-    "/path/to/your/project": {
-
-      "mcpServers": {
-
-        "whatsapp": {
-
-          "command": "uv",
-
-          "args": [
-
-            "--directory",
-
-            "/path/to/whatsapp-mcp-server",
-
-            "run",
-
-            "main.py"
-
-          ],
-
-          "env": {}
-
-        }
-
-      }
-
+  "mcpServers": {
+    "whatsapp": {
+      "command": "uv",
+      "args": ["run", "whatsapp-mcp"],
+      "cwd": "/path/to/whatsapp-mcp"
     }
-
   }
-
 }
-
 ```
 
-**Step 4: Start Services**
+**步骤 4：启动服务**
 
-1.  Restart Claude Code after configuration
-2.  Ensure WhatsApp bridge is running
-3.  Test with a simple contact search command
+1.  配置后重启 Claude Code
+2.  确保 WhatsApp 桥接正在运行
+3.  使用简单的联系人搜索命令测试
 
-**Troubleshooting**
+**故障排除**
 
--   **QR Code Issues**: Ensure WhatsApp multidevice is enabled on your phone
--   **Build Errors**: Verify Go installation and GOPATH configuration
--   **Windows Compilation**: Install TDM-GCC or Visual Studio Build Tools
--   **Bridge Connection**: Check firewall settings and port availability
-
-* * *
+-   **二维码问题**：确保手机上启用了 WhatsApp 多设备功能
+-   **构建错误**：验证 Go 安装和 GOPATH 配置
+-   **Windows 编译**：安装 TDM-GCC 或 Visual Studio 构建工具
+-   **桥接连接**：检查防火墙设置和端口可用性
 
 * * *
 
-### Usage[​](#usage "Direct link to Usage")
+* * *
 
-**Message Search and Analysis**
+### 使用方法[​](#usage)
 
-```bash
-# Search your message history
-
-claude "Search for messages about the project deadline from last week"
-
-# Analyze conversation patterns
-
-claude "What were the main topics discussed with John in the last month?"
+**消息搜索和分析**
 
 ```
+搜索我与Sarah的对话
+分析我这周的WhatsApp活动
+给团队群组发送项目更新消息
+```
 
-For detailed setup instructions and advanced configuration, see the [official documentation](https://github.com/lharries/whatsapp-mcp).
+有关详细设置说明和高级配置，请参阅[官方文档](https://github.com/lharries/whatsapp-mcp)。
 
-Pro Tip
+专业提示
 
-Set up Claude Code to monitor messages sent to your own WhatsApp number. By messaging yourself and starting with "claude", it allows you to access Claude Code remotely from any device with WhatsApp access - including desktop, mobile and smartwatch.
+设置 Claude Code 以监控发送到你自己 WhatsApp 号码的消息。通过给自己发消息并以"Claude"开头，它允许你从任何有 WhatsApp 访问权限的设备远程访问 Claude Code - 包括桌面、移动设备和智能手表。
 
-##### Extensibility
+##### 可扩展性
 
-WhatsApp MCP provides a great foundation for additional functionality. The repository can be easily extended to accommodate custom functionality beyond the default messaging capabilities.
+WhatsApp MCP 为额外功能提供了良好的基础。该仓库可以轻松扩展以适应超出默认消息功能的自定义功能。
 
-<img src="/img/discovery/004.png" alt="Custom image" style="max-width: 165px; height: auto;" />
+<img src="/img/discovery/036_cl_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
-*WhatsApp MCP is developed by lharries as a community project. For technical support and setup assistance, please refer to the official GitHub repository.*
+*WhatsApp MCP 由 lharries 作为社区项目开发。如需技术支持和设置帮助，请参考官方 GitHub 仓库。*
 
--   [Overview](#overview)
--   [Features](#features)
--   [Installation](#installation)
--   [Usage](#usage)
+-   [概述](#overview)
+-   [功能特性](#features)
+-   [安装](#installation)
+-   [使用方法](#usage)

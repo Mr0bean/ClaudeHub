@@ -1,0 +1,95 @@
+---
+title: "输出样式 | ClaudeLog"
+---
+
+# 输出样式 | ClaudeLog
+
+在过去几个月每天使用 Claude Code 的过程中，我观察到一个明显的趋势：Anthropic 逐步移除限制，赋予我们能力，将 Claude Code 塑造成适合各种任务的完美工具。我们从基本的 `CLAUDE.md` 自定义和简单的[子代理](/mechanics/sub-agents/)开始。然后出现了 `--append-system-prompt`，让我们在保持软件工程重点的同时调整 Claude 的行为。最近，我们获得了完全可自定义的子代理，带有独立的系统提示、自定义工具选择和独立的上下文窗口。
+
+Anthropic 一直在持续发力，每周都为 Claude Code 推出越来越多的机制。然而，一个主要的基础限制是 `delegating agent`（委托代理）始终在系统级别被引导为软件开发助手。随着 `Output Styles`（输出样式）的发布，`delegating agent` 可以像可自定义的 `sub-agents` 一样进行自定义。
+
+有趣的是，这解锁了 `Claude Code` 成为 `Claude Anything` 的可能性，因为系统提示不再将基础模型引导向代码方向。
+
+这是全新的领域，所以我很着迷于探索拥有一个专门的 `delegating agent`，来匹配和控制我的[自定义代理](/mechanics/custom-agents/)。
+
+* * *
+
+* * *
+
+### 未开发的潜力[​](#untapped-potential "Direct link to Untapped Potential")
+
+与其他增强或委托基础软件工程行为的 Claude Code 机制不同，`Output Styles` 完全替换核心个性，同时保留使 Claude Code 卓越的所有强大功能。
+
+**保留的内容**：CLAUDE.md 项目上下文系统、完整的工具生态系统、`sub-agent`/`Custom Agent` 委托、MCP 集成、上下文管理、自动化工作流、文件系统操作、项目连续性 **改变的内容**：系统提示个性、领域假设、任务优先级、交互模式、响应格式
+
+通过在系统提示级别移除软件工程假设，每个领域都获得了更清晰、更专注的体验。没有来自无关专业领域的[上下文污染](/mechanics/poison-context-awareness/)意味着在其特定领域中性能更好。该工具调整其推理模式以匹配适合领域的思维，而不是强迫领域专家在软件工程范式中工作。
+
+至关重要的是，它将使用适合其角色的语言、密度和详细程度与您交流。
+
+* * *
+
+* * *
+
+### 与其他机制的区别[​](#how-this-differs-from-other-mechanics "Direct link to How This Differs from Other Mechanics")
+
+理解 `Output Styles` 需要了解它们与 Claude Code 其他自定义方法的根本区别：
+
+#### 对比 CLAUDE.md[​](#vs-claudemd "Direct link to vs CLAUDE.md")
+
+-   **CLAUDE.md**：创建一个指令遵守层次结构，在现有软件工程框架内添加项目上下文、工作流和流程定义
+-   **`Output Styles`**：完全用特定领域的行为指令替换软件工程系统提示，完全移除编码假设
+
+#### 对比 --append-system-prompt[​](#vs---append-system-prompt "Direct link to vs --append-system-prompt")
+
+-   **\--append-system-prompt**：通过专门的重点领域（安全、性能、数据库专业知识）增强 Claude 现有的软件工程行为，同时保持核心的有用编码助手性质
+-   **`Output Styles`**：完全移除软件工程假设，并替换为完全不同的领域专业知识和交互模式
+
+#### 对比自定义代理[​](#vs-custom-agents "Direct link to vs Custom Agents")
+
+-   **自定义代理**：创建具有隔离上下文、自定义系统提示和工具选择的专门助手，这些助手会自动激活以执行特定任务，而主代理仍保持软件重点
+-   **`Output Styles`**：转换主 `delegating agent` 的个性和领域假设，而不是创建单独的专家
+
+#### 对比子代理[​](#vs-sub-agents "Direct link to vs Sub-agents")
+
+-   **子代理**：使用[任务工具](/mechanics/task-agent-tools/)进行手动编排，用于并行处理和多视角分析，同时继承主软件工程系统提示
+-   **`Output Styles`**：从根本上改变关于哪些类型的任务是合适的以及如何处理它们的基本假设
+
+* * *
+
+* * *
+
+### 跨领域应用[​](#cross-domain-applications "Direct link to Cross-Domain Applications")
+
+这就是 `Claude Anything` 愿景成为现实的地方。输出样式为全新领域解锁了 Claude Code 的功能：
+
+**内容策略** - 创建特定品牌的内容专家，只使用您品牌的声音说话，并在所有交互中保持品牌价值观。分析 markdown 文件，重组文档结构，优化受众参与度，同时帮助您从品牌的角度思考。培训团队成员对类似问题采用一致的品牌思维模式和响应。
+
+**研究分析** - 以一致的结构和格式处理学术论文，始终逐字整理和引用来源，不进行解释。系统地组织文件中的发现，同时通过完整的文件系统集成维护研究项目跟踪，以提供可靠、无偏见的信息交付。
+
+**业务分析** - 创建针对您确切领域量身定制的特定领域分析师，例如使用精确特定级别以确保明确沟通的法律导向专家。检查数据文件，生成报告，并使用行业适当的术语和标准跟踪项目指标。
+
+**设计系统** - 尝试使用 `SVG` 专家，他们经过训练可以对矢量图形进行增量更改，并深入了解设计标准和 `SVG` 规范。审计组件库，分析使用模式，并通过完整的文件操作功能维护一致性文档。
+
+每个领域都能获得适应其特定思维模式和需求的 Claude Code 完整工具集。
+
+我期待看到新的跨领域融合可能性，并探索社区在 [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/) 上的开发成果。
+
+领域转型
+
+从为您的主要领域定制一个专注的输出样式开始。在创建多个专家之前，测试它如何改变 Claude 的推理模式和交流风格。
+
+##### 平台演进
+
+输出样式将 Claude Code 从软件工程工具转变为通用智能平台。相同的强大功能，适应任何领域的特定需求和思维模式。
+
+<img src="/img/discovery/036_cl_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
+
+* * *
+
+**另请参阅**：[CLAUDE.md 至上](/mechanics/claude-md-supremacy/)|[自定义代理](/mechanics/custom-agents/)|[配置](/configuration/)
+
+**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
+
+-   [未开发的潜力](#untapped-potential)
+-   [与其他机制的区别](#how-this-differs-from-other-mechanics)
+-   [跨领域应用](#cross-domain-applications)

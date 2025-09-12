@@ -1,43 +1,43 @@
 ---
-title: "Context Window Depletion | ClaudeLog"
+title: "上下文窗口耗尽 | ClaudeLog"
 ---
 
-# Context Window Depletion | ClaudeLog
+# 上下文窗口耗尽 | ClaudeLog
 
-I have observed significant performance degradation during context window depletion. Generally I avoid running Claude to the limit, as response quality declines on tasks which touch multiple parts of a codebase.
+我观察到在上下文窗口耗尽期间性能会显著下降。通常我会避免让 Claude 运行到极限，因为在处理涉及代码库多个部分的任务时，响应质量会下降。
 
-I avoid the last fifth of the context window specifically for tasks which require editing multiple parts of the codebase, such medium-large refactors. During memory intensive tasks, Claude needs substantial working memory to maintain awareness of component relationships, naming patterns, architectural decisions, and cross-file references.
-
-* * *
+我特别避免在需要编辑代码库多个部分的任务（如中大型重构）中使用上下文窗口的最后五分之一。在内存密集型任务期间，Claude 需要大量的工作内存来维持对组件关系、命名模式、架构决策和跨文件引用的感知。
 
 * * *
 
-**Memory-Intensive Tasks (Higher Context Sensitivity):**
+* * *
 
--   Large-scale refactoring across multiple files
--   Feature implementation spanning several components
--   Debugging complex interaction patterns
--   Code review requiring architectural understanding
+**内存密集型任务（对上下文较敏感）：**
 
-**Isolated Tasks (Lower Context Sensitivity):**
+-   跨多个文件的大规模重构
+-   跨越多个组件的功能实现
+-   调试复杂的交互模式
+-   需要理解架构的代码审查
 
--   Single-file edits with clear scope
--   Independent utility function creation
--   Documentation updates
--   Simple bug fixes with localized impact
+**隔离任务（对上下文较不敏感）：**
 
-To get reliable results whilst accommodating the context window limits, I strategically dice my tasks into smaller chunks so that they can be finished without entering the last fifth of the context window. This involves identifying natural breakpoints in complex workflows. For example, completing individual components before moving on to integration or finishing all research phases before beginning implementation. I lean towards getting Claude to make thorough notes at each checkpoint, e.g. 'Make notes on all the aspects which might be useful to remember when editing this file at a future date'.
+-   范围明确的单文件编辑
+-   独立实用函数的创建
+-   文档更新
+-   具有局部影响的简单错误修复
 
-The overhead of context switching between chunks is typically offset by the improved quality and consistency of responses when Claude operates within optimal memory constraints.
+为了在适应上下文窗口限制的同时获得可靠的结果，我会策略性地将任务分割成更小的块，以便它们可以在不进入上下文窗口最后五分之一的情况下完成。这涉及在复杂工作流中识别自然断点。例如，在进行集成之前完成各个组件，或在开始实现之前完成所有研究阶段。我倾向于让 Claude 在每个检查点做详尽的笔记，例如"记录所有在将来编辑此文件时可能有用的方面"。
 
-##### Size doesn't matter
+当 Claude 在最佳内存约束内操作时，响应质量和一致性的提高通常会抵消块之间上下文切换的开销。
 
-Claude may have a relatively small context window compared to other models, but Claude's uncanny ability to adhere to instructions is its greatest strength. Utilise the mechanics in this log to work around the limitations.
+##### 大小并不重要
+
+Claude 相比其他模型可能有相对较小的上下文窗口，但 Claude 超乎寻常的遵循指令的能力是它最大的优势。利用这个日志中的机制来解决这些限制。
 
 <img src="/img/discovery/018_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
-**See Also**: [Context Window Constraints](/mechanics/context-window-constraints-as-training/)|[Dynamic Memory](/mechanics/dynamic-memory/)|[Task Agent Tools](/mechanics/task-agent-tools/)|[Tactical Model Selection](/mechanics/tactical-model-selection/)
+**另请参阅**：[上下文窗口约束](/mechanics-context-window-constraints-as-training/)|[动态内存](/mechanics-dynamic-memory/)|[任务代理工具](/mechanics-task-agent-tools/)|[战术模型选择](/mechanics-tactical-model-selection/)
 
-**Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
+**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|[Command Stick](https://commandstick.com) CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主

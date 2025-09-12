@@ -128,7 +128,7 @@ export default defineUserConfig({
             "/claude-code-mcps-reddit-mcp.html",
             "/claude-code-mcps-whatsapp-mcp.html",
             "/claude-code-mcps-awesome-mcp-servers.html",
-            "/claude-code-mcps-awesome-claude-code.html",
+            { text: "Awesome Claude Code | ClaudeLog", link: "/claude-code-mcps-awesome-claude-code.html" },
             "/claude-code-mcps-github-mcp-server.html",
             "/claude-code-mcps-blender-mcp.html",
             "/claude-code-mcps-browser-tools-mcp.html",

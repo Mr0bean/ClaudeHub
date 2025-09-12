@@ -4,15 +4,15 @@ title: "Rev the Engine | ClaudeLog"
 
 # Rev the Engine | ClaudeLog
 
-Revving the engine is a nickname I gave for performing multiple rounds of [ultrathink](/mechanics/ultrathink-plus-plus/) + [Plan Mode](/mechanics/plan-mode/). The goal is to define the most apt plan possible prior to letting Claude take action.
+Revving the engine is a nickname I gave for performing multiple rounds of [ultrathink](/mechanics-ultrathink-plus-plus/) + [Plan Mode](/mechanics-plan-mode/). The goal is to define the most apt plan possible prior to letting Claude take action.
 
 ### The Performance Multiplier[​](#the-performance-multiplier "Direct link to The Performance Multiplier")
 
-I have found this tactic can push Claude's capabilities far beyond the base capabilities of `Claude 4 Sonnet` + `Plan Mode` + `ultrathink`. This approach maximizes Sonnet's potential through strategic planning before considering even more expensive alternatives like [sub-agent](/mechanics/split-role-sub-agents/) orchestration or `Claude 4 Opus`.
+I have found this tactic can push Claude's capabilities far beyond the base capabilities of `Claude 4 Sonnet` + `Plan Mode` + `ultrathink`. This approach maximizes Sonnet's potential through strategic planning before considering even more expensive alternatives like [sub-agent](/mechanics-split-role-sub-agents/) orchestration or `Claude 4 Opus`.
 
 ### Resource Responsibility[​](#resource-responsibility "Direct link to Resource Responsibility")
 
-I believe it is incredibly important that we use the right tool for the job as AI model resources carry significant economic costs. Understanding pricing/performance helps us make more informed choices about when to opt for expensive models. This connects directly to [tactical model selection](/mechanics/tactical-model-selection/) principles.
+I believe it is incredibly important that we use the right tool for the job as AI model resources carry significant economic costs. Understanding pricing/performance helps us make more informed choices about when to opt for expensive models. This connects directly to [tactical model selection](/mechanics-tactical-model-selection/) principles.
 
 * * *
 
@@ -66,7 +66,7 @@ Building proficiency with strategic model selection and techniques like `revving
 
 ### The Innovation Challenge[​](#the-innovation-challenge "Direct link to The Innovation Challenge")
 
-The more creative and innovative we can be with the strategic allocation of resources, the better. Understanding the cost/performance ratio of each model enables informed decision-making about when to apply enhanced techniques to cheaper models versus upgrading to premium models. This optimization mindset aligns with [agent-first design](/mechanics/agent-first-design/) principles.
+The more creative and innovative we can be with the strategic allocation of resources, the better. Understanding the cost/performance ratio of each model enables informed decision-making about when to apply enhanced techniques to cheaper models versus upgrading to premium models. This optimization mindset aligns with [agent-first design](/mechanics-agent-first-design/) principles.
 
 Learning these optimization techniques now sets me up for whatever changes come to models or pricing. I am ready for whatever AI evolution comes next, ideally Claude 4 Haiku...
 
@@ -78,7 +78,7 @@ Revving the engine transforms Sonnet into a precision instrument. Multiple criti
 
 * * *
 
-**See Also**: [Ultrathink++](/mechanics/ultrathink-plus-plus/)|[Plan Mode](/mechanics/plan-mode/)|[Tactical Model Selection](/mechanics/tactical-model-selection/)
+**See Also**: [Ultrathink++](/mechanics-ultrathink-plus-plus/)|[Plan Mode](/mechanics-plan-mode/)|[Tactical Model Selection](/mechanics-tactical-model-selection/)
 
 **Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
 

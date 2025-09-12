@@ -1,71 +1,71 @@
 ---
-title: "Poison.md | ClaudeLog"
+title: "毒化上下文感知 | ClaudeLog"
 ---
 
-# Poison.md | ClaudeLog
+# 毒化上下文感知 | ClaudeLog
 
-In my experience, it's remarkably easy to self sabotage through poisoning my agent's context. There are countless ways I could accidentally contaminate my Claude Code sessions and create dangerous unintended associations that persist throughout a session.
+根据我的经验，通过污染我的代理上下文来自我破坏是非常容易的。我可能会在无数种方式中意外污染我的 Claude Code 会话，并创建在整个会话中持续存在的危险的意外关联。
 
-### How I Learned This[​](#how-i-learned-this "Direct link to How I Learned This")
+### 我是如何学到这一点的[​](#我是如何学到这一点的)
 
-I discovered this the hard way when something as simple as telling Claude to update code and then requesting deployment unknowingly poisoned my future update requests. Claude began associating every code update with immediate deployment, even when I was just experimenting or working on incomplete features. This taught me that every action pairing in my context creates potential training patterns that can work against me later.
-
-* * *
-
-* * *
-
-### How I Think About Context Contamination[​](#how-i-think-about-context-contamination "Direct link to How I Think About Context Contamination")
-
-Each piece of information I add to my context or series of actions I perform can potentially combine to create unintended behavior patterns. I've learned to stay vigilant about which combinations of context might be misinterpreted by Claude, actively scanning for dangerous associations before they take root. This is especially important when tasking it with agentic tasks that go on for extended periods of time.
-
-### Common Poison Patterns[​](#common-poison-patterns "Direct link to Common Poison Patterns")
-
-**Context Bleeding** - Without explicit markers indicating where one task ends and another begins, Claude may carry forward expectations, settings, or approaches from previous tasks into new ones, creating unexpected behavior and inconsistent results
-
--   **Unclear boundaries** - Task transitions without clear separation markers
--   **Implicit assumptions** - Hidden expectations about coding style, deployment preferences, or workflow patterns that conflict when switching between different project types or requirements
-
-**Instruction Contamination** - Too many instruction types competing for attention and priority, creating decision paralysis
-
--   **Overloaded context** - Multiple conflicting instruction sets active simultaneously
--   **Contradictory guidance** - Having instructions that tell Claude to `always test before deploying` alongside emergency hotfix procedures that require `immediate deployment without full testing` creates decision paralysis where Claude can't determine which guidance takes precedence
--   **Temporal confusion** - Earlier session instructions contaminating current task execution with outdated context
+我通过艰难的方式发现了这一点，当我简单地告诉 Claude 更新代码然后请求部署时，不知不觉地污染了我未来的更新请求。Claude 开始将每次代码更新与立即部署关联起来，即使我只是在实验或处理未完成的功能。这让我明白，我在上下文中的每一个动作配对都会创建潜在的训练模式，这些模式以后可能会对我不利。
 
 * * *
 
 * * *
 
-### Prevention and Antidotes[​](#prevention-and-antidotes "Direct link to Prevention and Antidotes")
+### 我如何思考上下文污染[​](#我如何思考上下文污染)
 
-I've developed strategies both to prevent context poisoning and to remedy it when it occurs. For prevention, I use markdown formatting extensively in my `Claude.md` files to prevent instructions from bleeding into each other, and I've learned to be deliberately explicit in all my communications with Claude. When I suspect my context has already been poisoned, I have antidotes: the `/clear` command or starting a fresh session can immediately reset contaminated behavioral patterns.
+我添加到上下文中的每一条信息或执行的一系列动作都可能结合起来创建意外的行为模式。我已经学会对哪些上下文组合可能被 Claude 误解保持警惕，在危险关联生根之前主动扫描它们。当让它执行长时间的代理任务时，这一点尤其重要。
 
--   **Separate contexts** - I use different sessions for different types of work to avoid cross-contamination
--   **Context reset** - When I detect poisoned patterns, I use `/clear` or start a new session to eliminate contamination
--   **Clear boundaries** - I explicitly announce when I'm switching between task types
--   **Markdown structure** - I use proper formatting to create clean instruction separation
--   **Explicit communication** - I state my assumptions and expectations clearly rather than relying on implicit understanding
--   **Regular context review** - I periodically assess what behavioral associations I might have accidentally created
+### 常见的污染模式[​](#常见的污染模式)
 
-### The Discipline of Context Hygiene[​](#the-discipline-of-context-hygiene "Direct link to The Discipline of Context Hygiene")
+**上下文渗透** - 没有明确的标记指示一个任务在哪里结束，另一个任务在哪里开始，Claude 可能会将先前任务的期望、设置或方法带入新任务中，创建意外行为和不一致的结果
 
-Poison context awareness has become foundational to how I approach Claude Code. Just as I wouldn't write sloppy code and expect clean results, I can't maintain sloppy context and expect consistent AI collaboration.
+-   **不清晰的边界** - 任务转换没有明确的分隔标记
+-   **隐含假设** - 关于编码风格、部署偏好或工作流模式的隐藏期望，在不同项目类型或需求之间切换时会产生冲突
 
-Context awareness can make a significant difference. Unpredictable behavior, inconsistent results, and mysterious failures may often stem from contaminated context patterns that are easy to create unknowingly.
+**指令污染** - 太多指令类型争夺注意力和优先级，造成决策瘫痪
 
-##### Context Vigilance
-
-Context poisoning is the silent assassin of AI collaboration. Every carelessly paired action creates invisible behavioral patterns that persist throughout your session. Maintaining context hygiene is as critical as code hygiene, both prevent future disasters through present discipline.
-
-<img src="/img/discovery/010_scary_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
+-   **超载的上下文** - 多个冲突的指令集同时处于活动状态
+-   **矛盾的指导** - 有指令告诉 Claude `仔细测试一切`，同时又有紧急热修复程序要求`现在就推送`，这会造成决策瘫痪，Claude 无法确定哪个指导优先
+-   **时间混淆** - 早期会话指令用过时的上下文污染当前任务执行
 
 * * *
 
-**See Also**: [CLAUDE.md Supremacy](/mechanics/claude-md-supremacy/)|[Dynamic Memory](/mechanics/dynamic-memory/)
+* * *
 
-**Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
+### 预防和解毒剂[​](#预防和解毒剂)
 
--   [How I Learned This](#how-i-learned-this)
--   [How I Think About Context Contamination](#how-i-think-about-context-contamination)
--   [Common Poison Patterns](#common-poison-patterns)
--   [Prevention and Antidotes](#prevention-and-antidotes)
--   [The Discipline of Context Hygiene](#the-discipline-of-context-hygiene)
+我已经开发了预防上下文污染和在发生时修复它的策略。为了预防，我在 `CLAUDE.md` 文件中广泛使用 markdown 格式来防止指令相互渗透，我已经学会在与 Claude 的所有通信中都要刻意明确。当我怀疑我的上下文已经被污染时，我有解毒剂：`/clear` 命令或开始一个新会话可以立即重置被污染的行为模式。
+
+-   **分离上下文** - 我为不同类型的工作使用不同的会话以避免交叉污染
+-   **上下文重置** - 当我检测到污染模式时，我使用 `/clear` 或开始新会话来消除污染
+-   **清晰的边界** - 我在任务类型之间切换时明确宣告
+-   **Markdown 结构** - 我使用适当的格式来创建清晰的指令分隔
+-   **明确的沟通** - 我清楚地陈述我的假设和期望，而不是依赖隐含的理解
+-   **定期上下文审查** - 我定期评估我可能无意中创建了哪些行为关联
+
+### 上下文卫生的纪律[​](#上下文卫生的纪律)
+
+污染上下文意识已成为我使用 Claude Code 方法的基础。就像我不会编写草率的代码并期望得到干净的结果一样，我不能维护草率的上下文并期望一致的 AI 协作。
+
+上下文意识可以产生重大影响。不可预测的行为、不一致的结果和神秘的失败通常可能源于被污染的上下文模式，这些模式很容易在不知情的情况下创建。
+
+##### 上下文警惕
+
+上下文污染是 AI 协作的无声杀手。每一个粗心配对的动作都会创建在整个会话中持续存在的无形行为模式。维护上下文卫生与代码卫生同样重要，两者都通过当前的纪律来防止未来的灾难。
+
+<img src="/img/supporters/supporters_inventorblack.png" alt="InventorBlack" style="max-width: 25px; height: 25px; border-radius: 50%; margin-right: 8px;" />
+
+* * *
+
+**另请参阅**: [CLAUDE.md 至上主义](/mechanics-claude-md-supremacy.html)|[动态记忆](/mechanics-dynamic-memory.html)
+
+**作者**:[<img src="/img/supporters/supporters_inventorblack.png" alt="InventorBlack" style="max-width: 25px; height: 25px; border-radius: 50%; margin-right: 8px;" />InventorBlack](https://x.com/InventorBlack)|[Command Stick](https://commandstick.com) CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
+
+-   [我是如何学到这一点的](#我是如何学到这一点的)
+-   [我如何思考上下文污染](#我如何思考上下文污染)
+-   [常见的污染模式](#常见的污染模式)
+-   [预防和解毒剂](#预防和解毒剂)
+-   [上下文卫生的纪律](#上下文卫生的纪律)

@@ -1,366 +1,322 @@
 ---
-title: "Terms of Service | ClaudeLog"
+title: "服务条款 | ClaudeLog"
 ---
 
-# Terms of Service | ClaudeLog
+# 服务条款 | ClaudeLog
 
-**Effective Date**: August 26, 2025 **Last Updated**: August 26, 2025
-
-* * *
-
-## Acceptance of Terms[​](#acceptance-of-terms "Direct link to Acceptance of Terms")
-
-By accessing and using ClaudeLog ([https://www.claudelog.com](https://www.claudelog.com)), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
+**生效日期**: 2025年8月26日 **最后更新**: 2025年8月26日
 
 * * *
 
-## Eligibility and Age Requirements[​](#eligibility-and-age-requirements "Direct link to Eligibility and Age Requirements")
+## 接受条款[​](#acceptance-of-terms)
 
-### Minimum Age[​](#minimum-age "Direct link to Minimum Age")
-
-You must be at least 13 years old to use our Service. If you are under 18 years of age, you must have your parent or guardian read and agree to these Terms of Service before you use our Service.
-
-### Parental Consent[​](#parental-consent "Direct link to Parental Consent")
-
-If you are under 18, your parent or guardian must consent to these Terms of Service and supervise your use of our Service. By allowing your child to use our Service, you agree to be bound by these Terms of Service in respect of your child's use.
-
-### Prohibited Users[​](#prohibited-users "Direct link to Prohibited Users")
-
-Our Service is not available to:
-
--   Children under 13 years of age
--   Persons who have been previously suspended or removed from our Service
--   Persons who are prohibited from receiving our services under applicable law
+通过访问和使用 ClaudeLog (https://claudelog.com)，您接受并同意受本协议条款和条件的约束。如果您不同意遵守上述条款，请不要使用本服务。
 
 * * *
 
-## Description of Service[​](#description-of-service "Direct link to Description of Service")
+## 资格和年龄要求[​](#eligibility-and-age-requirements)
 
-ClaudeLog is a documentation website providing guides, tutorials, best practices, and insights about Claude Code, Claude AI, and related technologies. We offer:
+### 最低年龄[​](#minimum-age)
 
--   Technical documentation and tutorials
--   Community-driven FAQ system
--   Best practices and optimization techniques
--   News and updates about Claude Code
+您必须年满13岁才能使用我们的服务。如果您未满18岁，在使用我们的服务之前，您必须让您的父母或监护人阅读并同意这些服务条款。
 
-* * *
+### 家长同意[​](#parental-consent)
 
-## Use License[​](#use-license "Direct link to Use License")
+如果您未满18岁，您的父母或监护人必须同意这些服务条款并监督您使用我们的服务。通过允许您的孩子使用我们的服务，您同意就您孩子的使用受这些服务条款的约束。
 
-Permission is granted to temporarily download one copy of the materials on ClaudeLog for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
+### 禁止用户[​](#prohibited-users)
 
--   Modify or copy the materials
--   Use the materials for any commercial purpose or for any public display (commercial or non-commercial)
--   Attempt to decompile or reverse engineer any software contained on ClaudeLog
--   Remove any copyright or other proprietary notations from the materials
+我们的服务不适用于：
 
-This license shall automatically terminate if you violate any of these restrictions and may be terminated by us at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.
+-   13岁以下的儿童
+-   之前被暂停或移除我们服务的人员
+-   根据适用法律被禁止接受我们服务的人员
 
 * * *
 
-## User Content and Contributions[​](#user-content-and-contributions "Direct link to User Content and Contributions")
+## 服务描述[​](#service-description)
 
-### Submissions[​](#submissions "Direct link to Submissions")
+ClaudeLog 是一个文档网站，提供关于 Claude Code、Claude AI 和相关技术的指南、教程、最佳实践和见解。我们提供：
 
-When you submit content to ClaudeLog (such as CLAUDE.md files, comments, suggestions, or support contributions including images), you grant us a non-exclusive, royalty-free, perpetual, and worldwide license to use, modify, and display your content for the purpose of operating and improving our service.
-
-### Support Contributions[​](#support-contributions "Direct link to Support Contributions")
-
-When you contribute to ClaudeLog through our support platform or provide images, personal information, or other content:
-
--   We reserve the sole discretion to determine whether and how to display your contributions publicly
--   Providing an image or personal information does not guarantee it will be displayed on our website
--   We may choose to feature, modify, or exclude any contributions based on our editorial judgment
--   You retain ownership of your original content, but grant us usage rights as described above
-
-### Responsibility for Content[​](#responsibility-for-content "Direct link to Responsibility for Content")
-
-You are solely responsible for any content you submit. You represent and warrant that:
-
--   You own or have the necessary rights to submit the content
--   The content does not infringe on any third-party rights
--   The content is not defamatory, obscene, or otherwise objectionable
--   The content does not contain viruses or malicious code
-
-### Content Moderation[​](#content-moderation "Direct link to Content Moderation")
-
-We reserve the right to remove or modify any user-submitted content at our sole discretion, without notice.
+-   技术文档和教程
+-   社区驱动的常见问题系统
+-   最佳实践和优化技术
+-   关于 Claude Code 的新闻和更新
 
 * * *
 
-## Intellectual Property Rights[​](#intellectual-property-rights "Direct link to Intellectual Property Rights")
+## 使用许可[​](#license-to-use)
 
-### Our Content[​](#our-content "Direct link to Our Content")
+授予您仅出于个人、非商业性暂时查看目的，临时下载 ClaudeLog 上材料的一份副本的许可。这是许可的授予，而不是所有权的转让，在此许可下您不得：
 
-The content on ClaudeLog, including but not limited to text, graphics, logos, images, and software, is owned by us or our content suppliers and is protected by copyright and other intellectual property laws.
+-   修改或复制材料
+-   将材料用于任何商业目的或任何公开展示（商业或非商业）
+-   尝试反编译或逆向工程 ClaudeLog 上包含的任何软件
+-   从材料中删除任何版权或其他专有标记
 
-### Third-Party Content[​](#third-party-content "Direct link to Third-Party Content")
-
-We respect the intellectual property rights of others and expect our users to do the same. References to Claude Code, Claude AI, and Anthropic are for informational purposes. We are not affiliated with Anthropic.
-
-* * *
-
-## Digital Millennium Copyright Act (DMCA)[​](#digital-millennium-copyright-act-dmca "Direct link to Digital Millennium Copyright Act (DMCA)")
-
-### Copyright Infringement Notification[​](#copyright-infringement-notification "Direct link to Copyright Infringement Notification")
-
-If you believe that your copyrighted work has been copied and is accessible on our Service in a way that constitutes copyright infringement, you may notify us by providing our designated copyright agent with the following information:
-
-**Required Information for DMCA Takedown Notice:**
-
--   A physical or electronic signature of the copyright owner or authorized representative
--   Identification of the copyrighted work claimed to have been infringed
--   Identification of the material claimed to be infringing and information reasonably sufficient to permit us to locate the material
--   Your contact information, including address, telephone number, and email address
--   A statement that you have a good faith belief that the use of the material is not authorized by the copyright owner, its agent, or the law
--   A statement that the information in the notification is accurate and, under penalty of perjury, that you are authorized to act on behalf of the copyright owner
-
-**DMCA Agent Contact Information:** Email: [hello@claudelog.com](mailto:hello@claudelog.com) Subject: DMCA Copyright Takedown Request
-
-### Counter-Notification[​](#counter-notification "Direct link to Counter-Notification")
-
-If you believe that material you posted was removed or disabled by mistake or misidentification, you may file a counter-notification with our DMCA agent by providing:
-
--   Your physical or electronic signature
--   Identification of the material and its location before removal
--   A statement under penalty of perjury that the material was removed by mistake or misidentification
--   Your name, address, telephone number, and consent to jurisdiction of the federal court in Uganda or your local jurisdiction
-
-### Repeat Infringer Policy[​](#repeat-infringer-policy "Direct link to Repeat Infringer Policy")
-
-We will terminate the accounts of users who are repeat infringers in appropriate circumstances.
+如果您违反这些限制中的任何一项，本许可将自动终止，我们可能随时终止。在终止查看这些材料或本许可终止后，您必须销毁您拥有的所有下载材料，无论是电子版还是印刷版。
 
 * * *
 
-## Privacy[​](#privacy "Direct link to Privacy")
+## 用户内容和贡献[​](#user-content-and-contributions)
 
-Your privacy is important to us. Please review our [Privacy Policy](/privacy-policy/), which also governs your use of the Service.
+### 提交内容[​](#submitted-content)
 
-* * *
+当您向 ClaudeLog 提交内容（如 CLAUDE.md 文件、评论、建议或包括图片在内的支持贡献）时，您授予我们非独占的、免版税的、永久的、全球范围的许可，以使用、修改和展示您的内容，用于运营和改进我们的服务。
 
-## Disclaimer of Warranties[​](#disclaimer-of-warranties "Direct link to Disclaimer of Warranties")
+### 支持贡献[​](#support-contributions)
 
-The materials on ClaudeLog are provided on an 'as is' basis. We make no warranties, expressed or implied, and hereby disclaim and negate all other warranties including without limitation:
+当您通过我们的支持平台向 ClaudeLog 贡献或提供图片、个人信息或其他内容时：
 
--   Implied warranties or conditions of merchantability
--   Fitness for a particular purpose
--   Non-infringement of intellectual property or other violation of rights
+-   我们保留决定是否以及如何公开展示您的贡献的唯一裁量权
+-   提供图片或个人信息并不保证它会在我们的网站上展示
+-   我们可能根据我们的编辑判断选择展示、修改或排除任何贡献
+-   您保留原始内容的所有权，但授予我们如上所述的使用权
 
-Further, we do not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.
+### 内容责任[​](#content-responsibility)
 
-* * *
+您对您提交的任何内容承担全部责任。您声明并保证：
 
-## Limitations of Liability[​](#limitations-of-liability "Direct link to Limitations of Liability")
+-   您拥有或拥有提交内容的必要权利
+-   内容不侵犯任何第三方权利
+-   内容不包含诽谤、淫秽或其他令人反感的内容
+-   内容不包含病毒或恶意代码
 
-In no event shall ClaudeLog or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on ClaudeLog, even if ClaudeLog or a ClaudeLog authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.
+### 内容审核[​](#content-moderation)
 
-* * *
-
-## Indemnification[​](#indemnification "Direct link to Indemnification")
-
-You agree to defend, indemnify, and hold harmless ClaudeLog, its officers, directors, employees, agents, and affiliates from and against any and all claims, damages, obligations, losses, liabilities, costs, or debt, and expenses (including but not limited to attorney's fees) arising from:
-
--   Your use of our Service
--   Your violation of these Terms of Service
--   Your violation of any third-party right, including without limitation any copyright, property, or privacy right
--   Any content you submit, post, or transmit through our Service
--   Your violation of any applicable law or regulation
-
-This indemnification obligation will survive the termination of these Terms of Service and your use of our Service.
+我们保留在不另行通知的情况下，根据我们的唯一裁量权删除或修改任何用户提交内容的权利。
 
 * * *
 
-## Accuracy of Materials[​](#accuracy-of-materials "Direct link to Accuracy of Materials")
+## 知识产权[​](#intellectual-property)
 
-The materials appearing on ClaudeLog could include technical, typographical, or photographic errors. We do not warrant that any of the materials on its website are accurate, complete, or current. We may make changes to the materials contained on its website at any time without notice. However, we do not make any commitment to update the materials.
+### 我们的内容[​](#our-content)
 
-* * *
+ClaudeLog 上的内容，包括但不限于文本、图形、标志、图像和软件，由我们或我们的内容供应商拥有，受版权和其他知识产权法律保护。
 
-## Links to Third-Party Websites[​](#links-to-third-party-websites "Direct link to Links to Third-Party Websites")
+### 第三方内容[​](#third-party-content)
 
-ClaudeLog may contain links to third-party websites or services that are not owned or controlled by us. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party websites or services.
-
-* * *
-
-## Prohibited Uses[​](#prohibited-uses "Direct link to Prohibited Uses")
-
-You may not use our Service:
-
--   For any unlawful purpose or to solicit others to perform illegal acts
--   To violate any international, federal, provincial, or state regulations, rules, laws, or local ordinances
--   To infringe upon or violate our intellectual property rights or the intellectual property rights of others
--   To harass, abuse, insult, harm, defame, slander, disparage, intimidate, or discriminate
--   To submit false or misleading information
--   To upload or transmit viruses or any other type of malicious code
--   To spam, phish, pharm, pretext, spider, crawl, or scrape
--   For any obscene or immoral purpose
--   To interfere with or circumvent the security features of the Service or any related website
+我们尊重他人的知识产权，并期望我们的用户也这样做。对 Claude Code、Claude AI 和 Anthropic 的引用仅供参考。我们与 Anthropic 没有关联。
 
 * * *
 
-## Export Control and International Compliance[​](#export-control-and-international-compliance "Direct link to Export Control and International Compliance")
+## 数字千年版权法 (DMCA)[​](#digital-millennium-copyright-act-dmca)
 
-### Export Control Laws[​](#export-control-laws "Direct link to Export Control Laws")
+### 版权侵权通知[​](#copyright-infringement-notice)
 
-You acknowledge that our Service, content, and technical information may be subject to export control laws and regulations, including those of the United States, Uganda, and other countries. You agree to comply with all applicable export control laws and regulations.
+如果您认为您的受版权保护的作品被复制并以构成版权侵权的方式在我们的服务上可访问，您可以通过向我们指定的版权代理提供以下信息来通知我们：
 
-### International Use[​](#international-use "Direct link to International Use")
+**DMCA 下架通知所需信息：**
 
-Our Service is hosted and operated from Uganda. If you access our Service from other countries, you are responsible for compliance with local laws in your jurisdiction, including but not limited to:
+-   版权所有者或授权代表的实体或电子签名
+-   声称被侵权的受版权保护作品的标识
+-   声称侵权的材料的标识以及合理充分的信息，以便我们找到该材料
+-   您的联系信息，包括地址、电话号码和电子邮件地址
+-   您善意相信材料的使用未经版权所有者、其代理或法律授权的声明
+-   通知中的信息准确的声明，并在伪证处罚下，您被授权代表版权所有者行事
 
--   Data protection and privacy regulations
--   Import/export restrictions
--   Content accessibility requirements
--   Tax and reporting obligations
+**DMCA 代理联系信息：** 电子邮件：hello@claudelog.com 主题：DMCA 版权下架请求
 
-### Restricted Access[​](#restricted-access "Direct link to Restricted Access")
+### 反通知[​](#counter-notice)
 
-We reserve the right to restrict access to our Service from certain countries or territories if required by applicable law or if we determine it necessary for legal compliance.
+如果您认为您发布的材料因错误或误认而被删除或禁用，您可以通过向我们的 DMCA 代理提供以下内容提交反通知：
 
-* * *
+-   您的实体或电子签名
+-   材料的标识及其删除前的位置
+-   在伪证处罚下的声明，即材料因错误或误认而被删除
+-   您的姓名、地址、电话号码，以及同意乌干达联邦法院或您当地司法管辖区的管辖权
 
-## Newsletter and Communications[​](#newsletter-and-communications "Direct link to Newsletter and Communications")
+### 重复侵权者政策[​](#repeat-infringer-policy)
 
-By subscribing to our newsletter, you agree to receive periodic emails from us. You may unsubscribe at any time by using the unsubscribe link in our emails or by contacting us directly.
-
-* * *
-
-## Termination[​](#termination "Direct link to Termination")
-
-We may terminate or suspend your access to our Service immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.
-
-* * *
-
-## Force Majeure[​](#force-majeure "Direct link to Force Majeure")
-
-ClaudeLog shall not be liable for any failure or delay in performance of our Service due to events beyond our reasonable control, including but not limited to:
-
--   Acts of God, natural disasters, epidemics, or pandemics
--   War, terrorism, civil unrest, or government actions
--   Internet or telecommunications outages not caused by ClaudeLog
--   Power outages or hardware failures beyond our control
--   Labor disputes or strikes affecting third-party service providers
--   Changes in laws or regulations that affect our ability to provide the Service
-
-During any such force majeure event, ClaudeLog will use reasonable efforts to minimize service disruption and will resume normal operations as soon as reasonably possible.
+在适当的情况下，我们将终止重复侵权用户的账户。
 
 * * *
 
-## Governing Law and Dispute Resolution[​](#governing-law-and-dispute-resolution "Direct link to Governing Law and Dispute Resolution")
+## 隐私[​](#privacy)
 
-### Governing Law[​](#governing-law "Direct link to Governing Law")
-
-These terms and conditions are governed by and construed in accordance with the laws of Uganda, without regard to conflict of law principles.
-
-### Dispute Resolution Process[​](#dispute-resolution-process "Direct link to Dispute Resolution Process")
-
-For any disputes arising out of or relating to these Terms or your use of our Service:
-
-**Step 1: Direct Communication** You agree to first contact us at [hello@claudelog.com](mailto:hello@claudelog.com) to attempt to resolve the dispute informally.
-
-**Step 2: Mediation** If informal resolution fails, either party may initiate non-binding mediation through a mutually agreed mediator.
-
-**Step 3: Arbitration or Court Proceedings** If mediation is unsuccessful, disputes may be resolved through:
-
--   Binding arbitration under the rules of a mutually agreed arbitration organization, OR
--   Court proceedings in the appropriate courts of Uganda
-
-### Jurisdiction[​](#jurisdiction "Direct link to Jurisdiction")
-
-You irrevocably submit to the jurisdiction of the courts of Uganda for any court proceedings, and waive any objection to venue in such courts.
+您的隐私对我们很重要。请查看我们的隐私政策，它也管理您对服务的使用。
 
 * * *
 
-## Assignment and Transfer[​](#assignment-and-transfer "Direct link to Assignment and Transfer")
+## 保证免责声明[​](#disclaimer-of-warranties)
 
-ClaudeLog may assign, transfer, or delegate any or all of our rights and obligations under these Terms without your consent to:
+ClaudeLog 上的材料以"现状"提供。我们不做任何明示或暗示的保证，并在此否认和否定所有其他保证，包括但不限于：
 
--   An affiliate or subsidiary company
--   A successor entity through merger, acquisition, or sale of assets
--   Any party in connection with any business restructuring
+-   适销性的暗示保证或条件
+-   特定目的的适用性
+-   不侵犯知识产权或其他权利的侵犯
 
-You may not assign, transfer, or delegate your rights or obligations under these Terms without our prior written consent. Any attempted assignment without such consent will be void.
-
-These Terms are binding upon and will inure to the benefit of the parties and their respective successors and permitted assigns.
+此外，我们不保证或就其网站上材料使用的准确性、可能的结果或可靠性作出任何陈述，或与此类材料相关的其他内容或此站点链接的任何站点。
 
 * * *
 
-## Changes to Terms[​](#changes-to-terms "Direct link to Changes to Terms")
+## 责任限制[​](#limitation-of-liability)
 
-We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material, we will try to provide at least 30 days notice prior to any new terms taking effect.
-
-* * *
-
-## Severability[​](#severability "Direct link to Severability")
-
-If any provision of these Terms is held to be unenforceable or invalid, such provision will be changed and interpreted to accomplish the objectives of such provision to the greatest extent possible under applicable law and the remaining provisions will continue in full force and effect.
+在任何情况下，ClaudeLog 或其供应商均不对因使用或无法使用 ClaudeLog 上的材料而产生的任何损害（包括但不限于数据或利润损失或业务中断造成的损害）承担责任，即使 ClaudeLog 或 ClaudeLog 授权代表已被口头或书面通知此类损害的可能性。由于某些司法管辖区不允许对暗示保证的限制，或对间接或附带损害的责任限制，这些限制可能不适用于您。
 
 * * *
 
-## Entire Agreement[​](#entire-agreement "Direct link to Entire Agreement")
+## 赔偿[​](#indemnification)
 
-These Terms of Service, together with our [Privacy Policy](/privacy-policy/) and any other policies or agreements referenced herein, constitute the entire agreement between you and ClaudeLog regarding your use of our Service. This agreement supersedes all prior or contemporaneous communications, proposals, and agreements between you and ClaudeLog relating to the subject matter herein.
+您同意为 ClaudeLog、其高级职员、董事、员工、代理人和关联公司辩护、赔偿并使其免受因以下原因产生的任何和所有索赔、损害、义务、损失、责任、成本或债务以及费用（包括但不限于律师费）的损害：
 
-No waiver, modification, or amendment of these Terms will be effective unless in writing and signed by ClaudeLog. No failure or delay by ClaudeLog in exercising any right, power, or privilege under these Terms will operate as a waiver thereof.
+-   您使用我们的服务
+-   您违反这些服务条款
+-   您侵犯任何第三方权利，包括但不限于任何版权、财产或隐私权
+-   您通过我们的服务提交、发布或传输的任何内容
+-   您违反任何适用的法律或法规
 
-* * *
-
-## Contact Information[​](#contact-information "Direct link to Contact Information")
-
-If you have any questions about these Terms of Service, please contact us at:
-
-**Email**: [hello@claudelog.com](mailto:hello@claudelog.com)
+此赔偿义务将在这些服务条款终止和您使用我们的服务后继续有效。
 
 * * *
 
-## Acknowledgment[​](#acknowledgment "Direct link to Acknowledgment")
+## 材料的准确性[​](#accuracy-of-materials)
 
-By using ClaudeLog, you acknowledge that you have read and understood these Terms of Service and agree to be bound by them.
+出现在 ClaudeLog 上的材料可能包括技术、排版或摄影错误。我们不保证其网站上的任何材料是准确、完整或最新的。我们可能随时更改其网站上包含的材料，恕不另行通知。但是，我们不承诺更新这些材料。
 
 * * *
 
-**Note**: This website provides information about Claude Code and Claude AI but is not affiliated with Anthropic. Claude Code and Claude AI are products of Anthropic.
+## 第三方网站链接[​](#links-to-third-party-websites)
 
--   [Acceptance of Terms](#acceptance-of-terms)
--   [Eligibility and Age Requirements](#eligibility-and-age-requirements)
-    -   [Minimum Age](#minimum-age)
-    -   [Parental Consent](#parental-consent)
-    -   [Prohibited Users](#prohibited-users)
--   [Description of Service](#description-of-service)
--   [Use License](#use-license)
--   [User Content and Contributions](#user-content-and-contributions)
-    -   [Submissions](#submissions)
-    -   [Support Contributions](#support-contributions)
-    -   [Responsibility for Content](#responsibility-for-content)
-    -   [Content Moderation](#content-moderation)
--   [Intellectual Property Rights](#intellectual-property-rights)
-    -   [Our Content](#our-content)
-    -   [Third-Party Content](#third-party-content)
--   [Digital Millennium Copyright Act (DMCA)](#digital-millennium-copyright-act-dmca)
-    -   [Copyright Infringement Notification](#copyright-infringement-notification)
-    -   [Counter-Notification](#counter-notification)
-    -   [Repeat Infringer Policy](#repeat-infringer-policy)
--   [Privacy](#privacy)
--   [Disclaimer of Warranties](#disclaimer-of-warranties)
--   [Limitations of Liability](#limitations-of-liability)
--   [Indemnification](#indemnification)
--   [Accuracy of Materials](#accuracy-of-materials)
--   [Links to Third-Party Websites](#links-to-third-party-websites)
--   [Prohibited Uses](#prohibited-uses)
--   [Export Control and International Compliance](#export-control-and-international-compliance)
-    -   [Export Control Laws](#export-control-laws)
-    -   [International Use](#international-use)
-    -   [Restricted Access](#restricted-access)
--   [Newsletter and Communications](#newsletter-and-communications)
--   [Termination](#termination)
--   [Force Majeure](#force-majeure)
--   [Governing Law and Dispute Resolution](#governing-law-and-dispute-resolution)
-    -   [Governing Law](#governing-law)
-    -   [Dispute Resolution Process](#dispute-resolution-process)
-    -   [Jurisdiction](#jurisdiction)
--   [Assignment and Transfer](#assignment-and-transfer)
--   [Changes to Terms](#changes-to-terms)
--   [Severability](#severability)
--   [Entire Agreement](#entire-agreement)
--   [Contact Information](#contact-information)
--   [Acknowledgment](#acknowledgment)
+ClaudeLog 可能包含指向非我们拥有或控制的第三方网站或服务的链接。我们对任何第三方网站或服务的内容、隐私政策或做法没有控制权，也不承担任何责任。
+
+* * *
+
+## 禁止用途[​](#prohibited-uses)
+
+您不得将我们的服务用于：
+
+-   任何非法目的或教唆他人进行非法行为
+-   违反任何国际、联邦、省或州的法规、规则、法律或地方条例
+-   侵犯或违反我们的知识产权或他人的知识产权
+-   骚扰、虐待、侮辱、伤害、诽谤、诋毁、贬低、恐吓或歧视
+-   提交虚假或误导性信息
+-   上传或传输病毒或任何其他类型的恶意代码
+-   垃圾邮件、网络钓鱼、网络仿冒、借口、爬虫、抓取或刮取
+-   任何淫秽或不道德的目的
+-   干扰或规避服务或任何相关网站的安全功能
+
+* * *
+
+## 出口管制和国际合规[​](#export-controls-and-international-compliance)
+
+### 出口管制法[​](#export-control-laws)
+
+您承认我们的服务、内容和技术信息可能受到出口管制法律法规的约束，包括美国、乌干达和其他国家的法律法规。您同意遵守所有适用的出口管制法律法规。
+
+### 国际使用[​](#international-use)
+
+我们的服务托管并从乌干达运营。如果您从其他国家访问我们的服务，您有责任遵守您所在司法管辖区的当地法律，包括但不限于：
+
+-   数据保护和隐私法规
+-   进出口限制
+-   内容可访问性要求
+-   税务和报告义务
+
+### 访问限制[​](#access-restrictions)
+
+如果适用法律要求或我们认为有必要进行法律合规，我们保留限制某些国家或地区访问我们服务的权利。
+
+* * *
+
+## 通讯订阅和通信[​](#newsletter-subscriptions-and-communications)
+
+通过订阅我们的通讯，您同意定期接收我们的电子邮件。您可以随时使用我们电子邮件中的退订链接或直接联系我们来取消订阅。
+
+* * *
+
+## 终止[​](#termination)
+
+我们可能会立即终止或暂停您对我们服务的访问，恕不另行通知或承担责任，无论出于何种原因，包括但不限于您违反条款的情况。
+
+* * *
+
+## 不可抗力[​](#force-majeure)
+
+ClaudeLog 不对由于超出我们合理控制范围的事件导致的服务执行失败或延迟承担责任，包括但不限于：
+
+-   天灾、自然灾害、流行病或大流行病
+-   战争、恐怖主义、内乱或政府行为
+-   非 ClaudeLog 造成的互联网或电信中断
+-   超出我们控制的停电或硬件故障
+-   影响第三方服务提供商的劳资纠纷或罢工
+-   影响我们提供服务能力的法律或法规变更
+
+在任何此类不可抗力事件期间，ClaudeLog 将尽合理努力最大限度地减少服务中断，并尽快恢复正常运营。
+
+* * *
+
+## 管辖法律和争议解决[​](#governing-law-and-dispute-resolution)
+
+### 管辖法律[​](#governing-law)
+
+这些条款和条件受乌干达法律管辖并据其解释，不考虑法律冲突原则。
+
+### 争议解决程序[​](#dispute-resolution-process)
+
+对于因这些条款或您使用我们的服务而产生或与之相关的任何争议：
+
+**步骤1：直接沟通** 您同意首先通过 hello@claudelog.com 联系我们，尝试非正式解决争议。
+
+**步骤2：调解** 如果非正式解决失败，任何一方都可以通过双方同意的调解员启动非约束性调解。
+
+**步骤3：仲裁或法院诉讼** 如果调解不成功，争议可以通过以下方式解决：
+
+-   根据双方同意的仲裁组织规则进行有约束力的仲裁，或
+-   在乌干达适当法院进行法院诉讼
+
+### 司法管辖权[​](#jurisdiction)
+
+您不可撤销地服从乌干达法院对任何法院诉讼的管辖权，并放弃对此类法院场地的任何异议。
+
+* * *
+
+## 转让和转移[​](#assignment-and-transfer)
+
+ClaudeLog 可以在未经您同意的情况下，将我们在这些条款下的任何或全部权利和义务转让、转移或委托给：
+
+-   关联公司或子公司
+-   通过合并、收购或资产出售的继承实体
+-   与任何业务重组相关的任何一方
+
+未经我们事先书面同意，您不得转让、转移或委托您在这些条款下的权利或义务。任何未经同意的转让尝试都将无效。
+
+这些条款对双方及其各自的继承人和被允许的受让人具有约束力，并将使其受益。
+
+* * *
+
+## 条款变更[​](#changes-to-terms)
+
+我们保留随时根据我们的唯一裁量权修改或替换这些条款的权利。如果修订是重大的，我们将尽力在新条款生效前至少提前30天通知。
+
+* * *
+
+## 可分割性[​](#severability)
+
+如果这些条款的任何条款被认定为不可执行或无效，则该条款将被更改和解释，以在适用法律下最大程度地实现该条款的目标，其余条款将继续完全有效。
+
+* * *
+
+## 完整协议[​](#entire-agreement)
+
+这些服务条款，连同我们的隐私政策和本文引用的任何其他政策或协议，构成您与 ClaudeLog 之间关于您使用我们服务的完整协议。本协议取代您与 ClaudeLog 之间关于本文主题的所有先前或同期的通信、提议和协议。
+
+除非以书面形式并由 ClaudeLog 签署，否则对这些条款的任何豁免、修改或修正都不会生效。ClaudeLog 未能或延迟行使这些条款下的任何权利、权力或特权不会构成对其的豁免。
+
+* * *
+
+## 联系信息[​](#contact-information)
+
+如果您对这些服务条款有任何疑问，请通过以下方式联系我们：
+
+**电子邮件**: hello@claudelog.com
+
+* * *
+
+## 确认[​](#acknowledgment)
+
+通过使用 ClaudeLog，您确认您已阅读并理解这些服务条款，并同意受其约束。
+
+* * *
+
+**注意**: 本网站提供有关 Claude Code 和 Claude AI 的信息，但与 Anthropic 无关。Claude Code 和 Claude AI 是 Anthropic 的产品。

@@ -1,57 +1,57 @@
 ---
-title: "Bash Scripts | ClaudeLog"
+title: "Bash 脚本"
 ---
 
-# Bash Scripts | ClaudeLog
+# Bash 脚本
 
-Claude Code operates within your development environment and can reliably create easy-medium complexity bash scripts to automate various processes. These scripts are particularly useful because he can iterate on them and test the functionality using standard system utilities.
+Claude Code 在您的开发环境中运行，可以可靠地创建简单到中等复杂度的 bash 脚本来自动化各种流程。这些脚本特别有用，因为可以使用标准系统工具对它们进行迭代并测试功能。
 
-During my usage of Claude Code I observed one of the slowest processes is edit/writing operations.
-
-* * *
-
-**Claude's explanation of the lag**
-
--   **Tool call overhead**: Each edit requires a separate API invocation with network latency
--   **Safety validation**: Every operation needs confirmation and error checking before execution
--   **Sequential processing**: File operations happen one-at-a-time rather than in parallel batches
--   **Context switching**: Managing state across multiple files creates cognitive overhead
--   **Token processing**: Large edits consume significant input/output token processing time
+在我使用 Claude Code 的过程中，我观察到最慢的过程之一是编辑/写入操作。
 
 * * *
 
-* * *
+**Claude 对延迟的解释**
 
-My solution was to create a Bash script that performs multiple write/edit operations asynchronously, reducing multiple tool call round trips into a single execution. The script takes a JSON input file defining the absolute file paths to target files, the specific file names to create or edit, the exact line numbers that need modification, and the new content that should replace or be inserted into those locations.
-
-My `CLAUDE.md` was then updated to inform Claude of the system's existence so that I could opt into using it when necessary.
-
-Performing multiple writes with a bash script is token efficient but not as fast as Task/ Agent based orchestration (though Task/ Agent based orchestration is more costly token wise).
-
-Implementing this mechanic can speed up write/edit dependent workflows significantly depending on how many write/edit operations you need to perform and their complexity.
+-   **工具调用开销**：每次编辑都需要单独的 API 调用，存在网络延迟
+-   **安全验证**：每个操作在执行前都需要确认和错误检查
+-   **顺序处理**：文件操作是逐个进行的，而不是并行批处理
+-   **上下文切换**：跨多个文件管理状态会产生认知开销
+-   **令牌处理**：大型编辑会消耗大量的输入/输出令牌处理时间
 
 * * *
 
 * * *
 
-**Mechanic Benefits:**
+我的解决方案是创建一个 Bash 脚本，异步执行多个写入/编辑操作，将多个工具调用往返减少为单次执行。该脚本接受一个 JSON 输入文件，定义目标文件的绝对文件路径、要创建或编辑的特定文件名、需要修改的确切行号，以及应该替换或插入到这些位置的新内容。
 
--   **Reduced API overhead**: Single tool call instead of multiple individual edit operations
--   **Batch processing**: Handle dozens of files simultaneously in one execution
--   **Token efficiency**: Lower overall token consumption compared to sequential edits
--   **Asynchronous execution**: Files processed in parallel rather than sequentially
--   **JSON-driven workflow**: Structured, predictable input format for complex operations
--   **Reusable automation**: Scripts can be saved and reused for similar future tasks
--   **Network latency reduction**: Eliminates multiple round-trips between Claude and your system
+然后更新我的 `CLAUDE.md` 以通知 Claude 系统的存在，这样我就可以在必要时选择使用它。
 
-##### Benchmark
+使用 bash 脚本执行多个写入操作在令牌效率上很高，但不如基于任务/代理的编排快速（尽管基于任务/代理的编排在令牌成本上更高）。
 
-Consider having Claude build a Bash-based benchmarking tool that can measure and compare different speed optimisation mechanics.
-
-<img src="/img/discovery/014.png" alt="Custom image" style="max-width: 165px; height: auto;" />
+实施这个机制可以显著加速依赖写入/编辑的工作流程，具体取决于您需要执行的写入/编辑操作的数量及其复杂性。
 
 * * *
 
-**See Also**: [Task Agent Tools](/mechanics/task-agent-tools/)|[Git Clone is Just the Beginning](/mechanics/git-clone-is-just-the-beginning/)|[Configuration](/configuration/)
+* * *
 
-**Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
+**机制优势：**
+
+-   **减少 API 开销**：单个工具调用而不是多个单独的编辑操作
+-   **批处理**：在一次执行中同时处理数十个文件
+-   **令牌效率**：与顺序编辑相比，总体令牌消耗更低
+-   **异步执行**：文件并行处理而不是顺序处理
+-   **JSON 驱动的工作流**：用于复杂操作的结构化、可预测的输入格式
+-   **可重用的自动化**：脚本可以保存并重用于未来的类似任务
+-   **减少网络延迟**：消除 Claude 和您的系统之间的多次往返
+
+##### 基准测试
+
+考虑让 Claude 构建一个基于 Bash 的基准测试工具，可以测量和比较不同的速度优化机制。
+
+<img src="/img/discovery/036_cl_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
+
+* * *
+
+**另请参阅**：[任务代理工具](/mechanics-task-agent-tools.html)|[Git Clone 只是开始](/mechanics-git-clone-is-just-the-beginning.html)|[钩子](/mechanics-hooks.html)
+
+**作者**：[<img src="/img/profiles/inventorblack.png" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%;" />InventorBlack](/support-claudelog.html)|[Command Stick](https://commandstick.com/) CTO|[r/ClaudeAi](https://www.reddit.com/r/ClaudeAI/) 版主

@@ -1,75 +1,75 @@
 ---
-title: "Skeleton Projects | ClaudeLog"
+title: "骨架项目 | ClaudeLog"
 ---
 
-# Skeleton Projects | ClaudeLog
+# 骨架项目
 
-When looking to implement a piece of functionality or vibe coding a full project, I have found nothing beats the efficiency of providing Claude with a great skeleton project which defines a battle proven structure for him to iterate from. This approach is particularly powerful when working in languages where you're not proficient, as the skeleton provides the architectural foundation and best practices that you might otherwise lack.
-
-* * *
-
-* * *
-
-### The Skeleton Strategy[​](#the-skeleton-strategy "Direct link to The Skeleton Strategy")
-
-The process of identifying GitHub skeleton projects can be taken on by Claude and an army of [sub-agents](/mechanics/split-role-sub-agents/) to further improve the process efficiency. I tend to approach it in one of two ways:
-
-### Method 1: Parallel Source Research[​](#method-1-parallel-source-research "Direct link to Method 1: Parallel Source Research")
-
-Get the [sub-agents](/mechanics/split-role-sub-agents/) to find resources in parallel from different sources:
-
--   **Agent 1** - utilise the Reddit MCP
--   **Agent 2** - search with Brave
--   **Agent 3** - search with Bing
--   **Agent 4** - search GitHub directly
-
-### Method 2: Evaluation Sub-agents[​](#method-2-evaluation-sub-agents "Direct link to Method 2: Evaluation Sub-agents")
-
-Have a singular Claude perform the research and then assign multiple [sub-agents](/mechanics/split-role-sub-agents/) different roles to evaluate all the discovered repositories:
-
--   **Security role** - vulnerability assessment
--   **Extensibility role** - how easy to modify and extend
--   **Relevance role** - how well it fits the use case
--   **Implementation role** - how the desired functionality would be added
--   **Language choice role** - optimal technology stack
--   **Documentation role** - quality of guides and examples
+当我想要实现某个功能或快速编码一个完整项目时，我发现没有什么比为 Claude 提供一个优秀的骨架项目更高效了，这个骨架项目定义了一个经过实战验证的结构供他迭代。这种方法在你使用不熟悉的语言时特别强大，因为骨架提供了你可能缺乏的架构基础和最佳实践。
 
 * * *
 
 * * *
 
-### The Efficiency Multiplier[​](#the-efficiency-multiplier "Direct link to The Efficiency Multiplier")
+### 骨架策略[​](#骨架策略)
 
-The above tactic allows me to fly through research tasks and provide Claude with a thoroughly tested skeleton to work within which has been reviewed and simultaneously jump starts him with a [plan](/mechanics/plan-mode/) for implementing your requested functionality.
+识别合适的骨架项目的过程可以由 Claude Code 和一组[子代理](/mechanics-sub-agents.html)来承担，以进一步提高流程效率。我倾向于用以下两种方式之一来处理：
 
-If Claude is unable to produce the desired functionality given a specific skeleton project, you can try one of the alternative repositories or if you're feeling ambitious clone the best two repos and build them both in parallel.
+### 方法 1：并行源研究[​](#方法-1：并行源研究)
 
-Our imaginations are the limiting factor.
+让[子代理](/mechanics-sub-agents.html)从不同来源并行查找资源：
 
-### Skeleton Selection Criteria[​](#skeleton-selection-criteria "Direct link to Skeleton Selection Criteria")
+-   **代理 1** - 利用 Reddit MCP
+-   **代理 2** - 使用 Brave 搜索
+-   **代理 3** - 使用 Bing 搜索
+-   **代理 4** - 直接搜索 GitHub
 
-When evaluating potential skeleton projects, consider:
+### 方法 2：评估子代理[​](#方法-2：评估子代理)
 
--   **Battle-tested** - proven in production environments
--   **Well-documented** - clear setup and usage instructions
--   **Active maintenance** - recent commits and responsive maintainers
--   **Modular structure** - easy to understand and modify
--   **Technology alignment** - matches your tech stack preferences
+让一个主代理进行研究，然后分配多个[子代理](/mechanics-sub-agents.html)不同的角色来评估所有发现的仓库：
 
-##### Foundation Strategy
-
-A great skeleton project is worth its weight in development time. Instead of starting from scratch, Claude can iterate within proven structures, dramatically reducing setup overhead and focusing on core value delivery.
-
-<img src="/img/discovery/018_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
+-   **安全角色** - 漏洞评估
+-   **可扩展性角色** - 修改和扩展的难易程度
+-   **相关性角色** - 与用例的匹配程度
+-   **实现角色** - 如何添加所需功能
+-   **语言选择角色** - 最优技术栈
+-   **文档角色** - 指南和示例的质量
 
 * * *
 
-**See Also**: [Git Clone is Just the Beginning](/mechanics/git-clone-is-just-the-beginning/)|[Split Role Sub-agents](/mechanics/split-role-sub-agents/)|[Task Agent Tools](/mechanics/task-agent-tools/)
+* * *
 
-**Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
+### 效率倍增器[​](#效率倍增器)
 
--   [The Skeleton Strategy](#the-skeleton-strategy)
--   [Method 1: Parallel Source Research](#method-1-parallel-source-research)
--   [Method 2: Evaluation Sub-agents](#method-2-evaluation-sub-agents)
--   [The Efficiency Multiplier](#the-efficiency-multiplier)
--   [Skeleton Selection Criteria](#skeleton-selection-criteria)
+上述策略让我能够快速完成研究任务，并为 Claude 提供一个经过全面测试的骨架供其工作，这个骨架已经过审查，同时为他提供了实现你所请求功能的[计划](/mechanics-plan-mode.html)。
+
+如果 Claude 无法基于特定骨架项目生成所需功能，你可以尝试其他备选仓库，或者如果你感觉雄心勃勃，可以克隆最好的两个仓库并同时构建它们。
+
+我们的想象力是唯一的限制因素。
+
+### 骨架选择标准[​](#骨架选择标准)
+
+评估潜在的骨架项目时，请考虑：
+
+-   **经过实战检验** - 在生产环境中得到验证
+-   **文档完善** - 清晰的设置和使用说明
+-   **积极维护** - 最近的提交和响应积极的维护者
+-   **模块化结构** - 易于理解和修改
+-   **技术对齐** - 匹配你的技术栈偏好
+
+##### 基础策略
+
+一个优秀的骨架项目价值连城，可以节省大量开发时间。Claude 无需从零开始，而是可以在经过验证的结构中迭代，大大减少设置开销，专注于核心价值交付。
+
+<img src="/img/discovery/036_cl_orange.png" alt="ClaudeLog logo" style="max-width: 165px; height: auto;" />
+
+* * *
+
+**另见**：[Git 克隆只是开始](/mechanics-git-clone-is-just-the-beginning.html)|[分角色子代理](/mechanics-split-role-sub-agents.html)|[任务代理工具](/mechanics-task-agent-tools.html)
+
+**作者**：[<img src="/img/supporters/inventor_black_25x25.png" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%;" />InventorBlack](https://x.com/inventorblack)|[Command Stick](https://commandstick.com) CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
+
+-   [骨架策略](#骨架策略)
+-   [方法 1：并行源研究](#方法-1：并行源研究)
+-   [方法 2：评估子代理](#方法-2：评估子代理)
+-   [效率倍增器](#效率倍增器)
+-   [骨架选择标准](#骨架选择标准)

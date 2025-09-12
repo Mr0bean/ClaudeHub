@@ -4,72 +4,72 @@ title: "Blender MCP | ClaudeLog"
 
 # Blender MCP | ClaudeLog
 
-**Revolutionary AI-powered 3D modeling that connects Blender to Claude AI for natural language scene creation and object manipulation.**
+**革命性的 AI 驱动 3D 建模工具，将 Blender 连接到 Claude AI，实现自然语言场景创建和对象操作。**
 
-**Author**: [ahujasid](https://github.com/ahujasid)  |  [GitHub Repo](https://github.com/ahujasid/blender-mcp)  |  13k Stars|1.2k Forks|MIT License|Updated Aug 24, 2025
-
-* * *
-
-### Overview[​](#overview "Direct link to Overview")
-
-Blender MCP creates a bidirectional bridge between Blender and Claude AI through the Model Context Protocol, enabling prompt-assisted 3D modeling and scene creation. This integration allows users to create, modify, and manipulate 3D objects using natural language instructions, democratizing 3D design for users of all skill levels.
+**作者**: [ahujasid](https://github.com/ahujasid)  |  [GitHub 仓库](https://github.com/ahujasid/blender-mcp)  |  13k Stars|1.2k Forks|MIT License|更新于 2025年8月24日
 
 * * *
 
-* * *
+### 概述[​](#概述 "Direct link to 概述")
 
-### Features[​](#features "Direct link to Features")
-
--   **Natural Language 3D Modeling** - Create and modify 3D objects using conversational prompts
--   **Two-Way Communication** - Socket-based server enabling real-time interaction with Blender
--   **Scene Management** - Comprehensive control over lighting, cameras, and scene properties
--   **Asset Integration** - Direct access to Poly Haven HDRIs, textures, and 3D models
--   **Python Code Execution** - Run arbitrary Python scripts in Blender through AI prompts
--   **Material Control** - Apply and modify materials, colors, and textures with AI assistance
+Blender MCP 通过模型上下文协议在 Blender 和 Claude AI 之间创建双向桥接，实现提示辅助的 3D 建模和场景创建。这种集成允许用户使用自然语言指令创建、修改和操作 3D 对象，为各种技能水平的用户实现 3D 设计的民主化。
 
 * * *
 
 * * *
 
-### Installation[​](#installation "Direct link to Installation")
+### 功能特性[​](#功能特性 "Direct link to 功能特性")
 
-**Prerequisites**
+-   **自然语言 3D 建模** - 使用对话式提示创建和修改 3D 对象
+-   **双向通信** - 基于套接字的服务器，实现与 Blender 的实时交互
+-   **场景管理** - 全面控制灯光、摄像机和场景属性
+-   **资源集成** - 直接访问 Poly Haven HDRIs、纹理和 3D 模型
+-   **Python 代码执行** - 通过 AI 提示在 Blender 中运行任意 Python 脚本
+-   **材质控制** - 使用 AI 辅助应用和修改材质、颜色和纹理
 
--   Blender 3.0 or newer (3.6+ recommended for full functionality)
--   Python 3.10 or newer
--   uv package manager
+* * *
 
-**Setup Commands**
+* * *
+
+### 安装[​](#安装 "Direct link to 安装")
+
+**先决条件**
+
+-   Blender 3.0 或更新版本（推荐 3.6+ 以获得完整功能）
+-   Python 3.10 或更新版本
+-   uv 包管理器
+
+**安装命令**
 
 ```bash
-# Install uv package manager (macOS)
+# 安装 uv 包管理器 (macOS)
 
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
-# Install uv package manager (Windows)
+# 安装 uv 包管理器 (Windows)
 
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 
-# Install uv package manager (Linux)
+# 安装 uv 包管理器 (Linux)
 
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
 ```
 
-**Blender Configuration**
+**Blender 配置**
 
 ```bash
-# 1. Download addon.py from the repository
+# 1. 从仓库下载 addon.py
 
-# 2. Open Blender → Edit → Preferences → Add-ons
+# 2. 打开 Blender → 编辑 → 偏好设置 → 插件
 
-# 3. Click "Install..." and select addon.py
+# 3. 点击"安装..."并选择 addon.py
 
-# 4. Enable "MCP Blender Bridge" addon
+# 4. 启用"MCP Blender Bridge"插件
 
 ```
 
-**Claude Desktop Configuration**
+**Claude Desktop 配置**
 
 ```bash
 {
@@ -94,45 +94,45 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 * * *
 
-### Usage[​](#usage "Direct link to Usage")
+### 使用方法[​](#使用方法 "Direct link to 使用方法")
 
-**Scene Creation Examples**
+**场景创建示例**
 
 ```bash
-# Natural language commands through Claude:
+# 通过 Claude 的自然语言命令：
 
-# "Create a beach scene with palm trees and rocks"
+# "创建一个有棕榈树和岩石的海滩场景"
 
-# "Add a sunset HDRI and adjust the lighting"
+# "添加日落 HDRI 并调整照明"
 
-# "Generate a low-poly character model"
+# "生成一个低多边形角色模型"
 
-# "Apply ocean materials to the water plane"
+# "将海洋材质应用到水平面"
 
 ```
 
-The integration supports complex 3D workflows through conversational interaction. Users can describe scenes, modify object properties, download assets from integrated libraries, and execute advanced modeling operations without deep Blender knowledge.
+该集成通过对话式交互支持复杂的 3D 工作流程。用户可以描述场景、修改对象属性、从集成库下载资源，并执行高级建模操作，而无需深入了解 Blender 知识。
 
-**Advanced Capabilities**
+**高级功能**
 
--   **Asset Download**: Automatic integration with Poly Haven and Hyper3D libraries
--   **Scene Analysis**: AI can inspect and describe current Blender scenes
--   **Code Generation**: Python scripts generated and executed for complex operations
--   **Reference-Based Creation**: Generate 3D scenes from reference images
+-   **资源下载**：与 Poly Haven 和 Hyper3D 库的自动集成
+-   **场景分析**：AI 可以检查和描述当前的 Blender 场景
+-   **代码生成**：为复杂操作生成并执行 Python 脚本
+-   **基于参考的创建**：从参考图像生成 3D 场景
 
 * * *
 
-##### Community Insight
+##### 社区见解
 
-Blender MCP has been called "a game-changer for 3D artists" with users reporting "amateur users who barely know Blender can use natural language to describe models." The integration represents "text-to-3D workflow playing out in real time" as similar servers emerge for Unity and Unreal Engine.
+Blender MCP 被称为"3D 艺术家的游戏规则改变者"，用户报告称"几乎不了解 Blender 的业余用户可以使用自然语言来描述模型。"该集成代表了"实时展现的文本到 3D 工作流程"，类似的服务器也在 Unity 和虚幻引擎中出现。
 
 <img src="/img/discovery/021_happy.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
-*Blender MCP is developed by ahujasid and sponsored by Warp. For technical support, contributions, and community discussions, please refer to the official GitHub repository and Discord community.*
+*Blender MCP 由 ahujasid 开发，由 Warp 赞助。如需技术支持、贡献和社区讨论，请参考官方 GitHub 仓库和 Discord 社区。*
 
--   [Overview](#overview)
--   [Features](#features)
--   [Installation](#installation)
--   [Usage](#usage)
+-   [概述](#概述)
+-   [功能特性](#功能特性)
+-   [安装](#安装)
+-   [使用方法](#使用方法)

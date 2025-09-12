@@ -98,7 +98,7 @@ Parallel task execution
 
 ## Custom Agent Design[​](#custom-agent-design "Direct link to Custom Agent Design")
 
-I believe one of the most important aspects when designing `custom agents` is to carefully engineer how many tokens your `custom agent` needs to initialize. Optimizing this serves multiple purposes: to improve initialization speed, reduce cost, maintain [peak performance](/mechanics/context-window-depletion/), and enable efficient chaining.
+I believe one of the most important aspects when designing `custom agents` is to carefully engineer how many tokens your `custom agent` needs to initialize. Optimizing this serves multiple purposes: to improve initialization speed, reduce cost, maintain [peak performance](/mechanics-context-window-depletion/), and enable efficient chaining.
 
 Each `custom agent` invocation carries a **variable initialization cost** based on tool count and configuration complexity. Design decisions should account for this:
 
@@ -247,7 +247,7 @@ The key insight is that this is **uncharted territory** - benchmark extensively 
 
 ## When to Use Custom Agents[​](#when-to-use-custom-agents "Direct link to When to Use Custom Agents")
 
-`Custom agents` excel in the same scenarios as [split role sub-agents](/mechanics/split-role-sub-agents/), but with enhanced portability and automatic activation:
+`Custom agents` excel in the same scenarios as [split role sub-agents](/mechanics-split-role-sub-agents/), but with enhanced portability and automatic activation:
 
 ### Specialized Domain Tasks[​](#specialized-domain-tasks "Direct link to Specialized Domain Tasks")
 
@@ -275,7 +275,7 @@ Unlike `sub-agents` tied to specific projects, `custom agents` can be refined on
 
 ### No CLAUDE.md Inheritance[​](#no-claudemd-inheritance "Direct link to No CLAUDE.md Inheritance")
 
-**Major Advantage**: Unlike traditional sub-agents, custom agents are designed to not automatically inherit the project's `CLAUDE.md` configuration. This prevents context pollution and ensures consistent behavior across projects. You can verify this with a [sanity check](/mechanics/sanity-check/).
+**Major Advantage**: Unlike traditional sub-agents, custom agents are designed to not automatically inherit the project's `CLAUDE.md` configuration. This prevents context pollution and ensures consistent behavior across projects. You can verify this with a [sanity check](/mechanics-sanity-check/).
 
 ### Coloring Your Custom Agent[​](#coloring-your-custom-agent "Direct link to Coloring Your Custom Agent")
 
@@ -418,7 +418,7 @@ Master the fundamentals of custom agents before diving into complex chaining. A 
 
 * * *
 
-**See Also**: [Custom Agents](/mechanics/custom-agents/)|[Task Agent Tools](/mechanics/task-agent-tools/)
+**See Also**: [Custom Agents](/mechanics-custom-agents/)|[Task Agent Tools](/mechanics-task-agent-tools/)
 
 **Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
 

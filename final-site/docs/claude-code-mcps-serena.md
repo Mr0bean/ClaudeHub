@@ -4,46 +4,46 @@ title: "Serena | ClaudeLog"
 
 # Serena | ClaudeLog
 
-**Powerful free AI coding agent toolkit providing semantic code retrieval, intelligent editing, and language server integration as an alternative to expensive coding assistants.**
+**强大的免费 AI 编程代理工具包，提供语义代码检索、智能编辑和语言服务器集成，作为昂贵编程助手的替代方案。**
 
-**Author**: [oraios](https://github.com/oraios)  |  [GitHub Repo](https://github.com/oraios/serena)  |  9.8k Stars|676 Forks|MIT License|Updated Aug 24, 2025
-
-* * *
-
-### Overview[​](#overview "Direct link to Overview")
-
-Serena is a comprehensive AI coding agent toolkit that provides semantic code understanding and intelligent editing capabilities through language server integration. Designed as a free alternative to expensive coding assistants like Cursor and Windsurf, it offers symbol-level code comprehension, multi-language support, and advanced project analysis through MCP integration with Claude Code and other AI platforms.
+**作者**: [oraios](https://github.com/oraios)  |  [GitHub 仓库](https://github.com/oraios/serena)  |  9.8k 星标|676 分叉|MIT 许可证|更新于 2025年8月24日
 
 * * *
 
-* * *
+### 概述[​](#overview "Direct link to 概述")
 
-### Features[​](#features "Direct link to Features")
-
--   **Semantic Code Retrieval** - Advanced code understanding through language server integration and symbol analysis
--   **Symbol-Level Intelligence** - Function, class, and variable level comprehension across codebases
--   **Multi-Language Support** - Works with Python, JavaScript, TypeScript, Rust, Go, and 8+ programming languages
--   **IDE-Like Functionality** - Provides IDE-level features through AI interaction without complex setup
--   **MCP Integration** - Seamless integration with Claude Code and other MCP-compatible AI clients
--   **Free & Open Source** - No subscription fees or usage limits, community-driven development
+Serena 是一个全面的 AI 编程代理工具包，通过语言服务器集成提供语义代码理解和智能编辑功能。作为 Cursor 和 Windsurf 等昂贵编程助手的免费替代方案，它通过与 Claude Code 和其他 AI 平台的 MCP 集成提供符号级代码理解、多语言支持和高级项目分析。
 
 * * *
 
 * * *
 
-### Installation[​](#installation "Direct link to Installation")
+### 功能特性[​](#features "Direct link to 功能特性")
 
-**Prerequisites**
+-   **语义代码检索** - 通过语言服务器集成和符号分析实现高级代码理解
+-   **符号级智能** - 跨代码库的函数、类和变量级理解
+-   **多语言支持** - 支持 Python、JavaScript、TypeScript、Rust、Go 等 8+ 种编程语言
+-   **类 IDE 功能** - 通过 AI 交互提供 IDE 级功能，无需复杂设置
+-   **MCP 集成** - 与 Claude Code 和其他兼容 MCP 的 AI 客户端无缝集成
+-   **免费开源** - 无订阅费用或使用限制，社区驱动的开发
 
--   Python 3.11+ (specifically, not 3.12+) with uv package manager
--   Git for repository cloning
--   Language servers for target programming languages (auto-installed)
--   Claude Code or compatible MCP client
+* * *
 
-**Recommended Installation (UVX)**
+* * *
+
+### 安装[​](#installation "Direct link to 安装")
+
+**前置要求**
+
+-   Python 3.11+（特别地，不是 3.12+）与 uv 包管理器
+-   用于仓库克隆的 Git
+-   目标编程语言的语言服务器（自动安装）
+-   Claude Code 或兼容的 MCP 客户端
+
+**推荐安装（UVX）**
 
 ```bash
-# Direct execution from GitHub (recommended for MCP)
+# 从 GitHub 直接执行（推荐用于 MCP）
 
 # Windows:
 
@@ -55,7 +55,7 @@ uvx --from git+https://github.com/oraios/serena serena-mcp-server
 
 ```
 
-**MCP Configuration**
+**MCP 配置**
 
 ```bash
 {
@@ -84,26 +84,26 @@ uvx --from git+https://github.com/oraios/serena serena-mcp-server
 
 ```
 
-**Alternative: Local Development Setup**
+**替代方案：本地开发设置**
 
 ```bash
-# 1. Clone the repository (REQUIRED)
+# 1. 克隆仓库（必需）
 
 git clone https://github.com/oraios/serena
 
 cd serena
 
-# 2. Optional: Copy configuration template
+# 2. 可选：复制配置模板
 
 cp src/serena/resources/serena_config.template.yml serena_config.yml
 
-# 3. Run the MCP server
+# 3. 运行 MCP 服务器
 
 uv run serena-mcp-server
 
 ```
 
-**For Local Installation MCP Configuration**
+**本地安装的 MCP 配置**
 
 ```bash
 {
@@ -134,16 +134,16 @@ uv run serena-mcp-server
 
 ```
 
-**Language Server Setup**
+**语言服务器设置**
 
 ```bash
-# Serena automatically installs language servers for:
+# Serena 自动为以下语言安装语言服务器：
 
-# Python (pylsp), JavaScript/TypeScript (typescript-language-server)
+# Python (pylsp)、JavaScript/TypeScript (typescript-language-server)
 
-# Rust (rust-analyzer), Go (gopls), and 8+ other languages
+# Rust (rust-analyzer)、Go (gopls) 及其他 8+ 种语言
 
-# No manual configuration required
+# 无需手动配置
 
 ```
 
@@ -151,45 +151,45 @@ uv run serena-mcp-server
 
 * * *
 
-### Usage[​](#usage "Direct link to Usage")
+### 使用方法[​](#usage "Direct link to 使用方法")
 
-**Semantic Code Analysis**
+**语义代码分析**
 
 ```bash
-# Example AI interactions through Claude Code:
+# 通过 Claude Code 的 AI 交互示例：
 
-# "Analyze the authentication flow in this project"
+# "分析此项目中的身份验证流程"
 
-# "Find all functions that handle user data validation"
+# "找出所有处理用户数据验证的函数"
 
-# "Explain the relationship between these classes"
+# "解释这些类之间的关系"
 
-# "Refactor this module to improve separation of concerns"
+# "重构此模块以改善关注点分离"
 
 ```
 
-Serena provides deep code understanding that goes beyond simple text analysis. It comprehends code structure, relationships, and semantics through language server integration, enabling sophisticated code analysis and intelligent editing suggestions through natural language interaction.
+Serena 提供深度代码理解，超越简单的文本分析。它通过语言服务器集成理解代码结构、关系和语义，通过自然语言交互实现复杂的代码分析和智能编辑建议。
 
-**Advanced Capabilities**
+**高级功能**
 
--   **Project Understanding**: Analyze entire codebases and understand architectural patterns
--   **Intelligent Editing**: Make precise code changes based on semantic understanding
--   **Cross-Reference Analysis**: Track function calls, imports, and dependencies
--   **Code Quality Assessment**: Identify potential issues and improvement opportunities
+-   **项目理解**: 分析整个代码库并理解架构模式
+-   **智能编辑**: 基于语义理解进行精确的代码更改
+-   **交叉引用分析**: 跟踪函数调用、导入和依赖关系
+-   **代码质量评估**: 识别潜在问题和改进机会
 
 * * *
 
-##### Community Insight
+##### 社区见解
 
-Serena has emerged as a popular free alternative with users reporting "90% of Cursor/Windsurf functionality without subscription costs." Users praise its code understanding capabilities.
+Serena 已成为受欢迎的免费替代方案，用户反馈"在没有订阅费用的情况下获得 Cursor/Windsurf 90% 的功能"。用户称赞其代码理解能力。
 
 <img src="/img/discovery/025.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
-*Serena is developed by oraios and is open-source. For technical support, language server configuration, and community contributions, please refer to the official GitHub repository.*
+*Serena 由 oraios 开发，是开源项目。如需技术支持、语言服务器配置和社区贡献，请参考官方 GitHub 仓库。*
 
--   [Overview](#overview)
--   [Features](#features)
--   [Installation](#installation)
--   [Usage](#usage)
+-   [概述](#overview)
+-   [功能特性](#features)
+-   [安装](#installation)
+-   [使用方法](#usage)

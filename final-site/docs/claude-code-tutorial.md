@@ -1,63 +1,63 @@
 ---
-title: "Tutorial | ClaudeLog"
+title: "教程 | ClaudeLog"
 ---
 
-# Tutorial | ClaudeLog
+# 教程 | ClaudeLog
 
-Now that you have Claude Code installed, let's set up your project and learn the basics of using Claude Code to enhance your development workflow. This beginner-friendly Claude Code tutorial covers essential commands, examples, best practices, and workflow optimization for new users.
-
-* * *
+现在您已经安装了 Claude Code，让我们设置您的项目并学习使用 Claude Code 来增强开发工作流程的基础知识。这个适合初学者的 Claude Code 教程涵盖了新用户的基本命令、示例、最佳实践和工作流程优化。
 
 * * *
 
-## Claude Code Project Setup and Configuration[​](#claude-code-project-setup-and-configuration "Direct link to Claude Code Project Setup and Configuration")
+* * *
 
-Before diving into commands and examples, let's configure your project to work optimally with Claude Code. Proper setup ensures Claude understands your project structure, coding standards, and development workflow from the start.
+## Claude Code 项目设置和配置[​](#claude-code-project-setup-and-configuration "Direct link to Claude Code Project Setup and Configuration")
 
-### CLAUDE.md Configuration[​](#claudemd-configuration "Direct link to CLAUDE.md Configuration")
+在深入了解命令和示例之前，让我们配置您的项目以便与 Claude Code 最佳配合。正确的设置可确保 Claude 从一开始就理解您的项目结构、编码标准和开发工作流程。
 
-Create a `CLAUDE.md` file in your project root to help Claude understand your project. This is one of the most important Claude Code best practices:
+### CLAUDE.md 配置[​](#claudemd-configuration "Direct link to CLAUDE.md Configuration")
+
+在项目根目录创建一个 `CLAUDE.md` 文件来帮助 Claude 理解您的项目。这是最重要的 Claude Code 最佳实践之一：
 
 ```bash
 # CLAUDE.md
 
-## Project Overview
+## 项目概述
 
-Brief description of your project, its purpose, and main technologies.
+项目的简要描述、目的和主要技术。
 
-## Development Guidelines
+## 开发指南
 
-- Coding standards and conventions
+- 编码标准和规范
 
-- File structure preferences
+- 文件结构偏好
 
-- Testing approaches
+- 测试方法
 
-## Important Commands
+## 重要命令
 
-- Build commands
+- 构建命令
 
-- Test commands
+- 测试命令
 
-- Development server commands
+- 开发服务器命令
 
 ```
 
-Claude Code automatically reads this file when it starts to provide project context.
+Claude Code 启动时会自动读取此文件以提供项目上下文。
 
 * * *
 
 * * *
 
-## Your First Claude Code Session: Step-by-Step Tutorial[​](#your-first-claude-code-session-step-by-step-tutorial "Direct link to Your First Claude Code Session: Step-by-Step Tutorial")
+## 您的第一个 Claude Code 会话：分步教程[​](#your-first-claude-code-session-step-by-step-tutorial "Direct link to Your First Claude Code Session: Step-by-Step Tutorial")
 
-Claude Code provides two main ways to interact:
+Claude Code 提供两种主要的交互方式：
 
-**Interactive mode:** Run `claude` to start a REPL session **One-shot mode:** Use `claude -p "query"` for quick commands
+**交互模式：** 运行 `claude` 启动 REPL 会话 **一次性模式：** 使用 `claude -p "查询"` 进行快速命令
 
-### Interactive Mode[​](#interactive-mode "Direct link to Interactive Mode")
+### 交互模式[​](#interactive-mode "Direct link to Interactive Mode")
 
-Start Claude Code in your project directory:
+在项目目录中启动 Claude Code：
 
 ```bash
 cd your-project
@@ -66,142 +66,142 @@ claude
 
 ```
 
-You'll see the Claude Code prompt, ready to assist with your development tasks.
+您将看到 Claude Code 提示符，准备协助您的开发任务。
 
-### One-shot Mode[​](#one-shot-mode "Direct link to One-shot Mode")
+### 一次性模式[​](#one-shot-mode "Direct link to One-shot Mode")
 
-For quick queries without starting a full session:
+用于快速查询而无需启动完整会话：
 
 ```bash
-claude -p "Show me the files in this directory"
+claude -p "显示此目录中的文件"
 
-claude -p "What kind of project is this?"
+claude -p "这是什么类型的项目？"
 
 ```
 
-This mode is perfect for quick questions or when you need fast answers without entering an interactive session.
+此模式非常适合快速提问或需要快速答案而不进入交互式会话时使用。
 
 * * *
 
 * * *
 
-## Claude Code Examples: Quick Wins for Beginners[​](#claude-code-examples-quick-wins-for-beginners "Direct link to Claude Code Examples: Quick Wins for Beginners")
+## Claude Code 示例：初学者的快速入门[​](#claude-code-examples-quick-wins-for-beginners "Direct link to Claude Code Examples: Quick Wins for Beginners")
 
-Here are some simple requests to get you comfortable with Claude Code:
+以下是一些简单的请求，让您熟悉 Claude Code：
 
-### Understanding Your Project[​](#understanding-your-project "Direct link to Understanding Your Project")
+### 理解您的项目[​](#understanding-your-project "Direct link to Understanding Your Project")
 
 ```bash
-Show me the files in this directory
+显示此目录中的文件
 
 ```
 
-Claude Code will list your project files and explain what it found.
+Claude Code 将列出您的项目文件并解释它发现了什么。
 
 ```bash
-What kind of project is this?
+这是什么类型的项目？
 
 ```
 
-Claude will analyze your project structure and tell you what type of application it is.
+Claude 将分析您的项目结构并告诉您这是什么类型的应用程序。
 
 ```bash
-Explain what this project does
+解释这个项目的作用
 
 ```
 
-Based on your files and documentation, Claude will summarize the project's purpose.
+基于您的文件和文档，Claude 将总结项目的目的。
 
-### Quick Analysis[​](#quick-analysis "Direct link to Quick Analysis")
+### 快速分析[​](#quick-analysis "Direct link to Quick Analysis")
 
 ```bash
-Show me the main entry point
+显示主入口点
 
 ```
 
-Claude will identify and show you the primary file that starts your application.
+Claude 将识别并显示启动应用程序的主要文件。
 
 ```bash
-What dependencies does this project have?
+这个项目有哪些依赖项？
 
 ```
 
-Claude will read your package.json, requirements.txt, or similar files and list dependencies.
+Claude 将读取您的 package.json、requirements.txt 或类似文件并列出依赖项。
 
 ```bash
-How do I run this project?
+如何运行这个项目？
 
 ```
 
-Claude will look for scripts and documentation to tell you how to start the project.
+Claude 将查找脚本和文档来告诉您如何启动项目。
 
-### Your First File Creation[​](#your-first-file-creation "Direct link to Your First File Creation")
+### 您的第一个文件创建[​](#your-first-file-creation "Direct link to Your First File Creation")
 
-Let's create your first file with Claude Code:
+让我们使用 Claude Code 创建您的第一个文件：
 
 ```bash
-Create a hello_world.txt file with a greeting message
+创建一个包含问候消息的 hello_world.txt 文件
 
 ```
 
-Claude Code will create the file, show you what it wrote, and confirm the creation. This demonstrates Claude's ability to understand natural language and take real actions in your project.
+Claude Code 将创建文件，向您展示它写了什么，并确认创建。这展示了 Claude 理解自然语言并在您的项目中执行实际操作的能力。
 
 * * *
 
 * * *
 
-## Essential Claude Code Commands and Examples[​](#essential-claude-code-commands-and-examples "Direct link to Essential Claude Code Commands and Examples")
+## 基本的 Claude Code 命令和示例[​](#essential-claude-code-commands-and-examples "Direct link to Essential Claude Code Commands and Examples")
 
-### File Operations[​](#file-operations "Direct link to File Operations")
+### 文件操作[​](#file-operations "Direct link to File Operations")
 
 ```bash
-# Read a file
+# 读取文件
 
 read src/components/Button.js
 
-# Edit a file
+# 编辑文件
 
 edit src/components/Button.js
 
-# Create a new file
+# 创建新文件
 
 write src/components/NewComponent.js
 
 ```
 
-### Code Analysis[​](#code-analysis "Direct link to Code Analysis")
+### 代码分析[​](#code-analysis "Direct link to Code Analysis")
 
 ```bash
-# Analyze code structure
+# 分析代码结构
 
 analyze this codebase
 
-# Find specific patterns
+# 查找特定模式
 
 find all React components
 
-# Explain code
+# 解释代码
 
 explain how authentication works
 
 ```
 
-### Development Tasks[​](#development-tasks "Direct link to Development Tasks")
+### 开发任务[​](#development-tasks "Direct link to Development Tasks")
 
 ```bash
-# Add new features
+# 添加新功能
 
 add a dark mode toggle to the app
 
-# Fix bugs
+# 修复错误
 
 fix the memory leak in the data fetcher
 
-# Refactor code
+# 重构代码
 
 refactor the user service to use TypeScript
 
-# Write tests
+# 编写测试
 
 write unit tests for the Button component
 
@@ -211,46 +211,46 @@ write unit tests for the Button component
 
 * * *
 
-## How to Use Claude Code: Natural Language Commands[​](#how-to-use-claude-code-natural-language-commands "Direct link to How to Use Claude Code: Natural Language Commands")
+## 如何使用 Claude Code：自然语言命令[​](#how-to-use-claude-code-natural-language-commands "Direct link to How to Use Claude Code: Natural Language Commands")
 
-Claude Code understands natural language requests, making it easier than traditional development tools:
+Claude Code 理解自然语言请求，使其比传统开发工具更容易使用：
 
 ```bash
-# Instead of complex git commands
+# 而不是复杂的 git 命令
 
-"Create a commit with all the changes I made to the user authentication"
+"为我对用户认证做的所有更改创建一个提交"
 
-# Instead of manual file operations
+# 而不是手动文件操作
 
-"Update all components to use the new theme system"
+"更新所有组件以使用新的主题系统"
 
-# Instead of searching through documentation
+# 而不是搜索文档
 
-"How do I set up database migrations in this project?"
+"如何在这个项目中设置数据库迁移？"
 
 ```
 
-##### Welcome to the Future
+##### 欢迎来到未来
 
-You've just taken your first steps into AI-powered development with Claude Code. The journey ahead leads to unprecedented productivity and creativity in software development.
+您刚刚迈出了使用 Claude Code 进行 AI 驱动开发的第一步。前方的旅程将带来软件开发中前所未有的生产力和创造力。
 
 <img src="/img/discovery/022_excite.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
-**See Also**: [Pricing Plans](/claude-code-pricing/)|[Plan Mode](/mechanics/plan-mode/)|[MCPs & Add-ons](/claude-code-mcps/)|[FAQs](/faq/)
+**另请参阅**: [定价计划](/claude-code-pricing/)|[计划模式](/mechanics-plan-mode/)|[MCPs 和附加组件](/claude-code-mcps/)|[常见问题](/faq/)
 
--   [Claude Code Project Setup and Configuration](#claude-code-project-setup-and-configuration)
-    -   [CLAUDE.md Configuration](#claudemd-configuration)
--   [Your First Claude Code Session: Step-by-Step Tutorial](#your-first-claude-code-session-step-by-step-tutorial)
-    -   [Interactive Mode](#interactive-mode)
-    -   [One-shot Mode](#one-shot-mode)
--   [Claude Code Examples: Quick Wins for Beginners](#claude-code-examples-quick-wins-for-beginners)
-    -   [Understanding Your Project](#understanding-your-project)
-    -   [Quick Analysis](#quick-analysis)
-    -   [Your First File Creation](#your-first-file-creation)
--   [Essential Claude Code Commands and Examples](#essential-claude-code-commands-and-examples)
-    -   [File Operations](#file-operations)
-    -   [Code Analysis](#code-analysis)
-    -   [Development Tasks](#development-tasks)
--   [How to Use Claude Code: Natural Language Commands](#how-to-use-claude-code-natural-language-commands)
+-   [Claude Code 项目设置和配置](#claude-code-project-setup-and-configuration)
+    -   [CLAUDE.md 配置](#claudemd-configuration)
+-   [您的第一个 Claude Code 会话：分步教程](#your-first-claude-code-session-step-by-step-tutorial)
+    -   [交互模式](#interactive-mode)
+    -   [一次性模式](#one-shot-mode)
+-   [Claude Code 示例：初学者的快速入门](#claude-code-examples-quick-wins-for-beginners)
+    -   [理解您的项目](#understanding-your-project)
+    -   [快速分析](#quick-analysis)
+    -   [您的第一个文件创建](#your-first-file-creation)
+-   [基本的 Claude Code 命令和示例](#essential-claude-code-commands-and-examples)
+    -   [文件操作](#file-operations)
+    -   [代码分析](#code-analysis)
+    -   [开发任务](#development-tasks)
+-   [如何使用 Claude Code：自然语言命令](#how-to-use-claude-code-natural-language-commands)

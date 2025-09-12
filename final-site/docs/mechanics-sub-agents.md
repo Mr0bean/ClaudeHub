@@ -1,16 +1,16 @@
 ---
-title: "Sub-Agents | ClaudeLog"
+title: "子代理 | ClaudeLog"
 ---
 
-# Sub-Agents | ClaudeLog
+# 子代理 | ClaudeLog
 
-Sub-agent usage in Claude Code has evolved from manual orchestration to intelligent automation. This guide covers the two approaches to sub-agent utilization: `manual sub-agents` and `custom agents`.
+Claude Code 中的子代理使用已经从手动编排演变为智能自动化。本指南涵盖了子代理利用的两种方法：`手动子代理`和`自定义代理`。
 
 * * *
 
-### Manual Sub-agents[​](#manual-sub-agents "Direct link to Manual Sub-agents")
+### 手动子代理[​](#manual-sub-agents "Direct link to Manual Sub-agents")
 
-The original approach using the [Task tool](/mechanics/task-agent-tools/) for explicit parallel processing:
+使用 [Task 工具](/mechanics-task-agent-tools/) 进行显式并行处理的原始方法：
 
 ```bash
 Use 3 sub-agents to analyze these files:
@@ -23,15 +23,15 @@ Use 3 sub-agents to analyze these files:
 
 ```
 
-**Benefits**: Direct control, predictable behavior **Drawbacks**: Manual orchestration overhead, no `tool/MCP selection` control, shared `system prompt` inheritance, same `model` for all tasks
+**优势**：直接控制、可预测的行为 **劣势**：手动编排开销、无法控制 `工具/MCP 选择`、共享 `系统提示` 继承、所有任务使用相同的 `模型`
 
 * * *
 
 * * *
 
-### Custom Agents[​](#custom-agents "Direct link to Custom Agents")
+### 自定义代理[​](#custom-agents "Direct link to Custom Agents")
 
-Specialized agents with isolated contexts, custom `system prompts` and `tool selection` that activate automatically (see [Custom Agents](/mechanics/custom-agents/) for detailed configuration):
+具有隔离上下文、自定义 `系统提示` 和 `工具选择` 的专用代理，能够自动激活（详细配置请参见 [自定义代理](/mechanics-custom-agents/)）：
 
 ```bash
 ---
@@ -50,48 +50,48 @@ You are a security expert specializing in authentication vulnerabilities...
 
 ```
 
-**Benefits**: Automatic activation, isolated contexts, token efficiency **Drawbacks**: Setup overhead, configuration complexity
+**优势**：自动激活、隔离的上下文、令牌效率 **劣势**：设置开销、配置复杂性
 
 * * *
 
-### Decision Framework[​](#decision-framework "Direct link to Decision Framework")
+### 决策框架[​](#decision-framework "Direct link to Decision Framework")
 
-Choose the right sub-agent approach based on your specific needs and workflow requirements:
+根据您的特定需求和工作流程要求选择正确的子代理方法：
 
-**Use Manual Sub-agents When**:
+**何时使用手动子代理**：
 
--   **Simple parallel operations**: File reads, searches, basic analysis
--   **One-off analysis**: Multi-perspective reviews where you want to specify exactly which viewpoints to use
--   **Quick turnaround needed**: No setup overhead
--   **You want explicit control**: Direct orchestration of which sub-agents handle which tasks
--   **Non-destructive work**: Research, analysis, comparison matrices
+-   **简单的并行操作**：文件读取、搜索、基本分析
+-   **一次性分析**：多视角审查，您希望准确指定使用哪些视角
+-   **需要快速周转**：无设置开销
+-   **您想要显式控制**：直接编排哪些子代理处理哪些任务
+-   **非破坏性工作**：研究、分析、比较矩阵
 
-**Use Custom Agents When**:
+**何时使用自定义代理**：
 
--   **Specialized expertise needed repeatedly**: Code review, security analysis, performance optimization that you do across multiple projects
--   **Domain-specific work**: UX review, SEO optimization, technical writing, accessibility audits
--   **Role-specific tool access required**: Security agents that only have access to Read and Grep tools, not file modification tools
--   **Long-term reusability**: Build once, use everywhere
--   **You prefer automatic delegation**: Let Claude intelligently route tasks to the right specialist based on context
--   **Team standardization**: Share the same agent configurations across your entire team
--   **Cross-project deployment**: Refined agents that work instantly in new codebases
+-   **重复需要专业知识**：您在多个项目中进行的代码审查、安全分析、性能优化
+-   **特定领域的工作**：UX 审查、SEO 优化、技术写作、可访问性审计
+-   **需要特定角色的工具访问**：只能访问 Read 和 Grep 工具的安全代理，而不是文件修改工具
+-   **长期可重用性**：一次构建，随处使用
+-   **您更喜欢自动委派**：让 Claude 根据上下文智能地将任务路由到正确的专家
+-   **团队标准化**：在整个团队中共享相同的代理配置
+-   **跨项目部署**：在新代码库中立即工作的精炼代理
 
-Building Your Agent Arsenal
+构建您的代理工具库
 
-As you progress through projects, amass a collection of specialized agents. Document common patterns, update your `CLAUDE.md` with sub-agent guidelines, and create [Custom Agents](/mechanics/custom-agents/) for repeatedly needed expertise.
+随着您在项目中的进展，积累一系列专用代理。记录常见模式，使用子代理指南更新您的 `CLAUDE.md`，并为重复需要的专业知识创建[自定义代理](/mechanics-custom-agents/)。
 
-##### Orchestrated Intelligence
+##### 协调智能
 
-Modern sub-agent usage provides both direct control of manual delegation and the efficiency of automatic specialization. Design your agent ecosystem like a high-performance development team where each specialist excels at their domain.
+现代子代理使用既提供了手动委派的直接控制，又提供了自动专业化的效率。像高性能开发团队一样设计您的代理生态系统，让每个专家在其领域中表现出色。
 
 <img src="/img/discovery/033_energy_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
-**See Also**: [Task Agent Tools](/mechanics/task-agent-tools/)|[Custom Agents](/mechanics/custom-agents/)|[Agent Engineering](/mechanics/agent-engineering/)|[Sub-agent Tactics](/mechanics/sub-agent-tactics/)
+**另请参阅**：[Task 代理工具](/mechanics-task-agent-tools/)|[自定义代理](/mechanics-custom-agents/)|[代理工程](/mechanics-agent-engineering/)|[子代理策略](/mechanics-sub-agent-tactics/)
 
-**Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
+**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|[Command Stick](https://commandstick.com) CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
 
--   [Manual Sub-agents](#manual-sub-agents)
--   [Custom Agents](#custom-agents)
--   [Decision Framework](#decision-framework)
+-   [手动子代理](#manual-sub-agents)
+-   [自定义代理](#custom-agents)
+-   [决策框架](#decision-framework)

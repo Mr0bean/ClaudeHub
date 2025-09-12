@@ -1,10 +1,10 @@
 ---
-title: "Sanity Check | ClaudeLog"
+title: "健全性检查 | ClaudeLog"
 ---
 
-# Sanity Check | ClaudeLog
+# 健全性检查 | ClaudeLog
 
-> Original: Prior to AI agents we ran sanity checks like:
+> 原文：在 AI 代理之前，我们运行的健全性检查类似于：
 
 ```bash
 console.log("sanity")
@@ -25,54 +25,54 @@ Log.d("test", "sanity")
 
 * * *
 
-When collaborating with AI agents we have to perform a different kind of sanity check.
+与 AI 代理协作时，我们必须执行不同类型的健全性检查。
 
-Add your name at the top of your `CLAUDE.md`:
+在你的 `CLAUDE.md` 顶部添加你的名字：
 
 **CLAUDE.md**
 
 ```bash
-# My name is {NAME}
+# 我的名字是 {NAME}
 
-This file provides guidance to Claude Code when working with this repository.
+这个文件为 Claude Code 在处理此仓库时提供指导。
 
-## Project Overview
+## 项目概述
 
-This is a React application built with TypeScript and Vite.
+这是一个使用 TypeScript 和 Vite 构建的 React 应用程序。
 
 ...
 
 ```
 
-Then ask Claude:
+然后询问 Claude：
 
 ```bash
-What is my name?
+我的名字是什么？
 
 ```
 
 * * *
 
-This works as a quick sanity check. If Claude knows your name, all is good. If he does not, then something is wrong.
+这可以作为快速的健全性检查。如果 Claude 知道你的名字，一切正常。如果不知道，那么就有问题了。
 
-There are various situations where things could go wrong:
+有多种情况可能出错：
 
--   Forgetting to set a `CLAUDE.md`
--   Putting the `CLAUDE.md` in the wrong folder
--   Accidentally deleting part of the `CLAUDE.md`
--   Mispelling `CLAUSE.md`
--   Running out of context window (sometimes unavoidable)
+-   忘记设置 `CLAUDE.md`
+-   将 `CLAUDE.md` 放在错误的文件夹中
+-   意外删除了 `CLAUDE.md` 的部分内容
+-   拼写错误为 `CLAUSE.md`
+-   上下文窗口用尽（有时不可避免）
 
-The simplest way to 'sanity check' your configuration is to place your name at the top of your `CLAUDE.md` and ask Claude your name.
+"健全性检查"配置的最简单方法是在 `CLAUDE.md` 顶部放置你的名字，然后询问 Claude 你的名字。
 
-##### Experiment
+##### 实验
 
-Random thought whilst writing this: it could be interesting to have 'sanity check points' dotted across your `CLAUDE.md` so you could check their integrity as the context window fills up.
+写这篇文章时的随机想法：在你的 `CLAUDE.md` 中分散设置"健全性检查点"可能会很有趣，这样你就可以在上下文窗口填满时检查它们的完整性。
 
 <img src="/img/discovery/016_scary_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
-**See Also**: [CLAUDE.md Supremacy](/mechanics/claude-md-supremacy/)|[Configuration](/configuration/)|[Context Window Constraints](/mechanics/context-window-constraints-as-training/)
+**另请参见**：[CLAUDE.md 至上](/mechanics-claude-md-supremacy/)|[配置](/configuration/)|[上下文窗口约束](/mechanics-context-window-constraints-as-training/)
 
-**Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
+**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|[Command Stick](https://commandstick.com) 首席技术官|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主

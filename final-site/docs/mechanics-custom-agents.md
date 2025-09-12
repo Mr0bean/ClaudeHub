@@ -1,86 +1,86 @@
 ---
-title: "Custom Agents | ClaudeLog"
+title: "自定义代理 | ClaudeLog"
 ---
 
-# Custom Agents | ClaudeLog
+# 自定义代理 | ClaudeLog
 
-`Sub-agents` were always one of Claude Code's greatest strengths. However, the expectation for users to know when to invoke them manually and remember what expertise to give them always held back the functionality for normal users. No longer...
+`子代理`一直是 Claude Code 最大的优势之一。然而，期望用户知道何时手动调用它们并记住要赋予它们什么专业知识，这总是阻碍了普通用户使用该功能。现在不再如此了...
 
-`Custom agents` are specialized agents that can be utilized to solve specific tasks. They are **automatically invoked by Claude** in a similar manner to how `Tools` are invoked automatically!
+`自定义代理`是可用于解决特定任务的专门代理。它们**由 Claude 自动调用**，调用方式类似于`工具`的自动调用！
 
-This approach brings incredible potential! Given how reliable and well-developed the MCP tools ecosystem has become, I envision a thriving future where we collaboratively build, share, and exchange agents. If you have cool agents or want to iterate on existing ones, be sure to head over to [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/).
+这种方法带来了难以置信的潜力！鉴于 MCP 工具生态系统已经变得如此可靠和完善，我设想一个繁荣的未来，我们可以协作构建、分享和交换代理。如果你有很酷的代理或想要迭代现有的代理，请务必前往 [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/)。
 
-Unlike traditional `sub-agents`, they have their own `custom system prompt`, tools, and context window separate from their `delegating agent`. `Custom agents` are engineered to be specialized, isolated and efficient. Their configuration is integrated natively within Claude Code, effectively removing the need for third-party persona orchestration tools.
-
-* * *
-
-* * *
-
-### The Game Will Never Be The Same[​](#the-game-will-never-be-the-same "Direct link to The Game Will Never Be The Same")
-
-**Automatic Delegation** - This mechanic is powerful and scalable because of the automatic delegation of tasks to specialized isolated agents. The integration process is seamless and builds on Claude's reliability when using tools. Claude delegates tasks based on the task description in your request, the description field in agent configurations, the current context, and available tools.
-
-**No Manual Invocation Required** - You no longer need to remember which role `sub-agent` to use or when. Claude intelligently routes tasks to the appropriate specialist, just like how it automatically selects the right tools. However, you will need to benchmark how reliable the task routing is within your setup, especially if you flood Claude with too many `custom agent` options.
-
-### Core Benefits[​](#core-benefits "Direct link to Core Benefits")
-
--   **Separate Context Windows** - Each `custom agent` operates with its own context window, separate from the `delegating agent`. This allows larger tasks to be completed without concerning the `delegating agent` with every detail, preventing different tasks from [poisoning the context](/mechanics/poison-context-awareness/) while maintaining peak performance.
-    
--   **Specialized System Prompts** - Individual `custom agent` system prompts can be scoped precisely, avoiding the inheritance of redundant context, thus preserving the limited context window.
-    
--   **Role-Specific Tools** - Agents can be configured with specific tools, helping prevent security issues by only allowing trusted agents to perform certain tasks. Specific agents can be tested and evaluated for reliability at their role. This first-party level of integration takes the concept of [Split role sub-agents](/mechanics/split-role-sub-agents/) to the next level!
-    
--   **Community Sharing** - Once refined, `custom agents` can be shared across projects, among teams, or even in [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/), creating a collaborative ecosystem of ever-evolving specialized agents.
-    
+与传统的`子代理`不同，它们拥有自己的`自定义系统提示`、工具和与其`委派代理`分离的上下文窗口。`自定义代理`被设计为专门化、隔离和高效的。它们的配置原生集成在 Claude Code 中，有效地消除了对第三方角色编排工具的需求。
 
 * * *
 
 * * *
 
-### Quick Start Guide[​](#quick-start-guide "Direct link to Quick Start Guide")
+### 游戏规则将永远改变[​](#the-game-will-never-be-the-same "Direct link to 游戏规则将永远改变")
 
-`Custom agents` were introduced in Claude Code [v1.0.60](/claude-code-changelog/#v1060)
+**自动委派** - 这种机制之所以强大且可扩展，是因为任务会自动委派给专门的隔离代理。集成过程是无缝的，并建立在 Claude 使用工具时的可靠性之上。Claude 根据你请求中的任务描述、代理配置中的描述字段、当前上下文和可用工具来委派任务。
 
-**1\. Open the Custom Agents Interface**
+**无需手动调用** - 你不再需要记住使用哪个角色`子代理`或何时使用。Claude 会智能地将任务路由到适当的专家，就像它自动选择正确的工具一样。然而，你需要在你的设置中测试任务路由的可靠性，特别是如果你用太多`自定义代理`选项淹没 Claude 的话。
+
+### 核心优势[​](#core-benefits "Direct link to 核心优势")
+
+-   **独立的上下文窗口** - 每个`自定义代理`都在自己的上下文窗口中运行，与`委派代理`分离。这允许完成更大的任务，而不需要让`委派代理`关注每个细节，防止不同任务[污染上下文](/mechanics-poison-context-awareness/)，同时保持峰值性能。
+    
+-   **专门的系统提示** - 单个`自定义代理`系统提示可以精确定义范围，避免继承冗余的上下文，从而保留有限的上下文窗口。
+    
+-   **角色特定的工具** - 代理可以配置特定的工具，通过只允许受信任的代理执行某些任务来帮助防止安全问题。特定代理可以在其角色上进行测试和评估可靠性。这种第一方级别的集成将[分离角色子代理](/mechanics-split-role-sub-agents/)的概念提升到了新的水平！
+    
+-   **社区共享** - 一旦完善，`自定义代理`可以在项目之间、团队之间共享，甚至在 [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/) 中共享，创建一个不断发展的专门代理的协作生态系统。
+    
+
+* * *
+
+* * *
+
+### 快速入门指南[​](#quick-start-guide "Direct link to 快速入门指南")
+
+`自定义代理`在 Claude Code [v1.0.60](/claude-code-changelog/#v1060.html) 中引入
+
+**1\. 打开自定义代理界面**
 
 ```bash
 /agents
 
 ```
 
-**2\. Select 'Create New Agent'** Choose whether to create a project-level or user-level `custom agent`.
+**2\. 选择"创建新代理"** 选择是创建项目级还是用户级`自定义代理`。
 
-**3\. Define Your Agent**
+**3\. 定义你的代理**
 
--   **Recommended**: Generate with Claude first, then customize to make it yours
--   Describe your agent in detail and when it should be used
--   Select specific tools or leave blank to inherit all tools
--   Edit the system prompt to define role, capabilities, and approach
--   Pick the color of your agent
--   Review the configuration of your `custom agent`
+-   **推荐**：先用 Claude 生成，然后自定义以使其成为你自己的
+-   详细描述你的代理以及何时应该使用它
+-   选择特定工具或留空以继承所有工具
+-   编辑系统提示以定义角色、能力和方法
+-   选择你的代理的颜色
+-   审查你的`自定义代理`的配置
 
-**4\. Save and Use** Your `custom agent` is now available! Claude will use it automatically when appropriate, or you can invoke it explicitly: `Use the algorithmic complexity specialist agent to analyze this function.`
+**4\. 保存并使用** 你的`自定义代理`现在可用了！Claude 会在适当的时候自动使用它，或者你可以显式调用它：`使用算法复杂度专家代理来分析这个函数。`
 
-**File Format**:
+**文件格式**：
 
 ```bash
 ---
 
 name: your-agent-name
 
-description: Description of when this agent should be invoked
+description: 描述何时应该调用此代理
 
-tools: tool1, tool2, tool3  # Optional - inherits all tools if omitted
+tools: tool1, tool2, tool3  # 可选 - 如果省略则继承所有工具
 
-model: sonnet  # Optional - sonnet, opus, or haiku. Inherits if omitted
+model: sonnet  # 可选 - sonnet、opus 或 haiku。如果省略则继承
 
 ---
 
-Your agent's system prompt goes here. Define the role, capabilities,
+你的代理系统提示放在这里。定义角色、能力
 
-and approach to solving problems. Include specific instructions,
+和解决问题的方法。包括具体说明、
 
-best practices, and any constraints the agent should follow.
+最佳实践以及代理应遵循的任何约束。
 
 ```
 
@@ -88,114 +88,114 @@ best practices, and any constraints the agent should follow.
 
 * * *
 
-### Basic Usage[​](#basic-usage "Direct link to Basic Usage")
+### 基本用法[​](#basic-usage "Direct link to 基本用法")
 
-**Automatic Invocation** - Once created, your `custom agents` work automatically. Claude will select and use the appropriate agent based on your request and the agent's description.
+**自动调用** - 一旦创建，你的`自定义代理`就会自动工作。Claude 会根据你的请求和代理的描述选择并使用适当的代理。
 
-**Manual Invocation** - You can also explicitly request a specific agent:
+**手动调用** - 你也可以显式请求特定代理：
 
 ```bash
-Use the algorithmic complexity specialist agent to analyze this function.
+使用算法复杂度专家代理来分析这个函数。
 
 ```
 
-**Task Delegation** - Claude intelligently routes tasks to specialized isolated agents, similar to how it automatically selects tools for different operations.
+**任务委派** - Claude 智能地将任务路由到专门的隔离代理，类似于它如何自动为不同操作选择工具。
 
 * * *
 
 * * *
 
-### Configuration[​](#configuration "Direct link to Configuration")
+### 配置[​](#configuration "Direct link to 配置")
 
-`Custom agents` are stored as Markdown files with YAML frontmatter in two possible locations:
+`自定义代理`作为带有 YAML frontmatter 的 Markdown 文件存储在两个可能的位置：
 
-Type
+类型
 
-Location
+位置
 
-Scope
+范围
 
-Priority
+优先级
 
-Project agents
+项目代理
 
 `.claude/agents/`
 
-Available in current project
+在当前项目中可用
 
-Highest
+最高
 
-User agents
+用户代理
 
 `~/.claude/agents/`
 
-Available across all projects
+在所有项目中可用
 
-Lower
+较低
 
-When agent names conflict, project-level agents take precedence over user-level agents.
+当代理名称冲突时，项目级代理优先于用户级代理。
 
-**Configuration Fields**
+**配置字段**
 
-Field
+字段
 
-Required
+必需
 
-Description
+描述
 
 name
 
-Yes
+是
 
-Unique identifier using lowercase letters and hyphens
+使用小写字母和连字符的唯一标识符
 
 description
 
-Yes
+是
 
-Natural language description of the agent's purpose
+代理目的的自然语言描述
 
 tools
 
-No
+否
 
-Comma-separated list of specific tools. If omitted, inherits all tools from the main thread
+特定工具的逗号分隔列表。如果省略，从主线程继承所有工具
 
 model
 
-No
+否
 
-Model to use for this agent: sonnet, opus, or haiku. If omitted, inherits model
-
-* * *
-
-### Best Practices[​](#best-practices "Direct link to Best Practices")
-
--   **Start with Claude Generation** - Generate your initial agent with Claude, then customize it to make it your own.
-    
--   **Separation of Concerns** - Like with programming, better separation of concerns in your `custom agents` leads to better performance, maintainability, inspectability, and shareability.
-    
--   **Provide Examples** - Include positive/negative examples in your system prompts. LLMs excel at pattern recognition and repetition, so be sure to provide a sufficient amount of distinct instances.
-    
--   **Progressive Tool Expansion** - Begin with a carefully scoped set of tools for your `custom agent` and progressively expand the tool scope as you validate its behavior and identify additional capabilities needed for optimal performance.
-    
+此代理使用的模型：sonnet、opus 或 haiku。如果省略，继承模型
 
 * * *
 
+### 最佳实践[​](#best-practices "Direct link to 最佳实践")
+
+-   **从 Claude 生成开始** - 用 Claude 生成你的初始代理，然后自定义以使其成为你自己的。
+    
+-   **关注点分离** - 就像编程一样，在你的`自定义代理`中更好地分离关注点会带来更好的性能、可维护性、可检查性和可共享性。
+    
+-   **提供示例** - 在你的系统提示中包含正面/负面示例。LLM 擅长模式识别和重复，所以一定要提供足够数量的不同实例。
+    
+-   **渐进式工具扩展** - 从为你的`自定义代理`精心定义的工具集开始，并在验证其行为并确定最佳性能所需的额外功能时逐步扩展工具范围。
+    
+
 * * *
 
-### Community Vision[​](#community-vision "Direct link to Community Vision")
+* * *
 
-I'm beyond excited for the future of agentic workflows! We should all work together to refine optimal instances of various agents and share them among each other. This kind of initiative is much more viable with automatic delegation since users don't need to understand when to activate agents.
+### 社区愿景[​](#community-vision "Direct link to 社区愿景")
 
-Sharing custom agents is as simple as copying a single Markdown file. For example, a `code-reviewer.md` agent created for one project can be instantly shared with teammates or the community:
+我对代理工作流的未来感到无比兴奋！我们都应该共同努力，完善各种代理的最佳实例并相互分享。由于用户不需要了解何时激活代理，这种自动委派使得这种倡议更加可行。
+
+分享自定义代理就像复制单个 Markdown 文件一样简单。例如，为一个项目创建的 `code-reviewer.md` 代理可以立即与队友或社区共享：
 
 ```bash
 ---
 
 name: code-reviewer
 
-description: Expert code review specialist. Proactively reviews code for quality, security, and maintainability. Use immediately after writing or modifying code.
+description: 专业代码审查专家。主动审查代码的质量、安全性和可维护性。在编写或修改代码后立即使用。
 
 tools: Read, Grep, Glob, Bash
 
@@ -203,82 +203,82 @@ model: opus
 
 ---
 
-You are a senior code reviewer ensuring high standards of code quality and security.
+你是一位高级代码审查员，确保代码质量和安全的高标准。
 
-When invoked:
+调用时：
 
-1. Run git diff to see recent changes
+1. 运行 git diff 查看最近的更改
 
-2. Focus on modified files
+2. 关注修改的文件
 
-3. Begin review immediately
+3. 立即开始审查
 
-Review checklist:
+审查清单：
 
-- Code is simple and readable
+- 代码简单易读
 
-- Functions and variables are well-named
+- 函数和变量命名良好
 
-- No duplicated code
+- 没有重复代码
 
-- Proper error handling
+- 正确的错误处理
 
-- No exposed secrets or API keys
+- 没有暴露的密钥或 API 密钥
 
-- Input validation implemented
+- 实现了输入验证
 
-- Good test coverage
+- 良好的测试覆盖率
 
-- Performance considerations addressed
+- 考虑了性能问题
 
-- Time complexity of algorithms analyzed
+- 分析了算法的时间复杂度
 
-- Licenses of integrated libraries checked
+- 检查了集成库的许可证
 
-Provide feedback organized by priority:
+按优先级组织反馈：
 
-- Critical issues (must fix)
+- 关键问题（必须修复）
 
-- Warnings (should fix)
+- 警告（应该修复）
 
-- Suggestions (consider improving)
+- 建议（考虑改进）
 
-Include specific examples of how to fix issues.
+包括如何修复问题的具体示例。
 
 ```
 
-Your goal should be to build a comprehensive collection of battle-tested `custom agents` from different domains, allowing you to effectively tackle any task.
+你的目标应该是从不同领域构建一个经过实战检验的`自定义代理`综合集合，使你能够有效地处理任何任务。
 
-**Official Documentation**: [Sub-agents Documentation](https://docs.anthropic.com/en/docs/claude-code/sub-agents)
+**官方文档**：[子代理文档](https://docs.anthropic.com/en/docs/claude-code-sub-agents)
 
-Community Collaboration
+社区协作
 
-The true power of custom agents emerges through community sharing and iteration. Build upon others' agents, share your specialized creations, and contribute to a growing ecosystem of battle-tested specialists. Visit [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/) to discover, share, and refine agents collaboratively.
+自定义代理的真正力量通过社区共享和迭代而显现。基于他人的代理进行构建，分享你的专门创作，并为不断增长的经过实战检验的专家生态系统做出贡献。访问 [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/) 以协作发现、分享和完善代理。
 
-Token Cost Awareness
+令牌成本意识
 
-Each custom agent invocation carries a variable initialization cost based on tool count and configuration complexity. Design your [agents](/mechanics/agent-engineering/) thoughtfully to ensure they provide sufficient value to justify this overhead, focusing on specialized tasks that benefit from dedicated context and expertise.
+每次自定义代理调用都会根据工具数量和配置复杂性产生可变的初始化成本。深思熟虑地设计你的[代理](/mechanics-agent-engineering/)，确保它们提供足够的价值来证明这种开销是合理的，专注于从专用上下文和专业知识中受益的专门任务。
 
-Model Selection Strategy
+模型选择策略
 
-This new capability opens unexplored territory! While logical pairings make sense (Haiku for simple tasks, opus for complex analysis), cross-experiment to discover surprising synergies.
+这种新能力开辟了未探索的领域！虽然逻辑配对是有意义的（Haiku 用于简单任务，opus 用于复杂分析），但要交叉实验以发现令人惊讶的协同效应。
 
-##### Specialized Intelligence
+##### 专门化智能
 
-Custom agents act like specialized team members - each with domain expertise, specific tools, and focused responsibilities. This creates a collaborative AI environment where the right specialist handles each task.
+自定义代理就像专门的团队成员 - 每个都有领域专业知识、特定工具和专注的职责。这创建了一个协作的 AI 环境，由合适的专家处理每项任务。
 
 <img src="/img/discovery/022_excite_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
-**See Also**: [Task Agent Tools](/mechanics/task-agent-tools/) | [Agent Engineering](/mechanics/agent-engineering/) | [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/)
+**另请参阅**：[任务代理工具](/mechanics-task-agent-tools/) | [代理工程](/mechanics-agent-engineering/) | [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/)
 
-**Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
+**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)| [Command Stick](https://commandstick.com) 首席技术官 | [r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
 
--   [The Game Will Never Be The Same](#the-game-will-never-be-the-same)
--   [Core Benefits](#core-benefits)
--   [Quick Start Guide](#quick-start-guide)
--   [Basic Usage](#basic-usage)
--   [Configuration](#configuration)
--   [Best Practices](#best-practices)
--   [Community Vision](#community-vision)
+-   [游戏规则将永远改变](#the-game-will-never-be-the-same)
+-   [核心优势](#core-benefits)
+-   [快速入门指南](#quick-start-guide)
+-   [基本用法](#basic-usage)
+-   [配置](#configuration)
+-   [最佳实践](#best-practices)
+-   [社区愿景](#community-vision)

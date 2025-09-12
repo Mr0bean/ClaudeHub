@@ -1,84 +1,84 @@
 ---
-title: "Task/Agent Tools | ClaudeLog"
+title: "任务/代理工具 | ClaudeLog"
 ---
 
-# Task/Agent Tools | ClaudeLog
+# 任务/代理工具 | ClaudeLog
 
-I consider the Task tool to be Claude's most powerful tool.
+我认为任务工具是 Claude 最强大的工具。
 
-It enables Claude to efficiently delegate tasks to sub-agents such as: basic file reads and writes, code searches, file analysis, bash operations, and research tasks.
+它使 Claude 能够高效地将任务委派给子代理，例如：基本文件读写、代码搜索、文件分析、bash 操作和研究任务。
 
-Due to the main agent being interactive and carrying various overheads it can be slow to perform tasks. Having to wait for human responses creates latency, while switching between different types of operations reduces execution efficiency.
+由于主代理是交互式的并且承载各种开销，执行任务可能会很慢。等待人类响应会产生延迟，而在不同类型的操作之间切换会降低执行效率。
 
-I have observed Claude utilises sub-agents in a reserved manner primarily for operations like reading files, fetching web content, searching for specific text patterns, etc. This cautious approach is likely to avoid potential conflicts from parallel write operations.
+我观察到 Claude 以保守的方式使用子代理，主要用于读取文件、获取网页内容、搜索特定文本模式等操作。这种谨慎的方法可能是为了避免并行写入操作可能产生的冲突。
 
-To maximize sub-agent usage you have to provide Claude with explicit steps including details which steps will be delegated to sub-agents. This is quite similar to programming to utilise multi-threads. The better you can orchestrate your steps the faster your overall workflow will complete.
+要最大化子代理的使用，你必须为 Claude 提供明确的步骤，包括哪些步骤将委派给子代理的详细信息。这与编程利用多线程非常相似。你越能更好地编排你的步骤，你的整体工作流程完成得就越快。
 
-However, you must balance token costs with performance gains. Grouping related tasks together is often more efficient than creating separate agents for every operation.
-
-* * *
+然而，你必须平衡 token 成本与性能收益。将相关任务组合在一起通常比为每个操作创建单独的代理更高效。
 
 * * *
 
-**Simplified Illustrative CLAUDE.md for task splitting:**
+* * *
+
+**用于任务拆分的简化示例 CLAUDE.md：**
 
 ```bash
-## Feature Implementation System Guidelines
+## 功能实现系统指南
 
-### Feature Implementation Priority Rules
+### 功能实现优先级规则
 
-- IMMEDIATE EXECUTION: Launch parallel Tasks immediately upon feature requests
+- 立即执行：在功能请求时立即启动并行任务
 
-- NO CLARIFICATION: Skip asking what type of implementation unless absolutely critical
+- 无需澄清：跳过询问实现类型，除非绝对关键
 
-- PARALLEL BY DEFAULT: Always use 7-parallel-Task method for efficiency
+- 默认并行：始终使用 7-并行任务方法以提高效率
 
-### Parallel Feature Implementation Workflow
+### 并行功能实现工作流程
 
-1. **Component**: Create main component file
+1. **组件**：创建主组件文件
 
-2. **Styles**: Create component styles/CSS
+2. **样式**：创建组件样式/CSS
 
-3. **Tests**: Create test files
+3. **测试**：创建测试文件
 
-4. **Types**: Create type definitions
+4. **类型**：创建类型定义
 
-5. **Hooks**: Create custom hooks/utilities
+5. **钩子**：创建自定义钩子/工具函数
 
-6. **Integration**: Update routing, imports, exports
+6. **集成**：更新路由、导入、导出
 
-7. **Remaining**: Update package.json, documentation, configuration files
+7. **剩余**：更新 package.json、文档、配置文件
 
-8. **Review and Validation**: Coordinate integration, run tests, verify build, check for conflicts
+8. **审查和验证**：协调集成、运行测试、验证构建、检查冲突
 
-### Context Optimization Rules
+### 上下文优化规则
 
-- Strip out all comments when reading code files for analysis
+- 在读取代码文件进行分析时去除所有注释
 
-- Each task handles ONLY specified files or file types
+- 每个任务仅处理指定的文件或文件类型
 
-- Task 7 combines small config/doc updates to prevent over-splitting
+- 任务 7 将小的配置/文档更新组合在一起，以防止过度拆分
 
-### Feature Implementation Guidelines
+### 功能实现指南
 
-- **CRITICAL**: Make MINIMAL CHANGES to existing patterns and structures
+- **关键**：对现有模式和结构进行最小化更改
 
-- **CRITICAL**: Preserve existing naming conventions and file organization
+- **关键**：保留现有的命名约定和文件组织
 
-- Follow project's established architecture and component patterns
+- 遵循项目既定的架构和组件模式
 
-- Use existing utility functions and avoid duplicating functionality
+- 使用现有的工具函数，避免重复功能
 
 ```
 
-##### Multi-Threading Mindset
+##### 多线程思维模式
 
-Like programming with threads, explicit orchestration of which steps get delegated to sub-agents yields the best results. Claude uses Task agents cautiously unless you provide detailed delegation instructions.
+就像使用线程编程一样，明确编排哪些步骤委派给子代理会产生最佳结果。除非你提供详细的委派指令，否则 Claude 会谨慎地使用任务代理。
 
-<img src="/img/discovery/026_japan.png" alt="Custom image" style="max-width: 165px; height: auto;" />
+<img src="/img/discovery/026_japan.png" alt="自定义图像" style="max-width: 165px; height: auto;" />
 
 * * *
 
-**See Also**: [Context Window Depletion](/mechanics/context-window-depletion/)|[Bash Scripts](/mechanics/bash-scripts/)|[You Are the Main Thread](/mechanics/you-are-the-main-thread/)
+**另请参阅**：[上下文窗口耗尽](/mechanics-context-window-depletion/)|[Bash 脚本](/mechanics-bash-scripts/)|[你是主线程](/mechanics-you-are-the-main-thread/)
 
-**Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
+**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)

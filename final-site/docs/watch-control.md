@@ -1,12 +1,12 @@
 ---
-title: "Watch Control Example | ClaudeLog"
+title: "手表控制示例 | ClaudeLog"
 ---
 
-# Watch Control Example | ClaudeLog
+# 手表控制示例 | ClaudeLog
 
-A `CLAUDE.md` example showing advanced automation workflows and command translation for Wear OS watch control.
+一个展示高级自动化工作流程和Wear OS手表控制命令转换的`CLAUDE.md`示例。
 
-Author: [InventorBlack](https://www.reddit.com/user/inventor_black/)
+作者：[InventorBlack](https://www.reddit.com/user/inventor_black/)
 
 * * *
 
@@ -15,34 +15,34 @@ Author: [InventorBlack](https://www.reddit.com/user/inventor_black/)
 ```
 \# CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+本文件为Claude Code (claude.ai/code)在此代码库中工作时提供指导。
 
-## Important
-- ALL instructions within this document MUST BE FOLLOWED, these are not optional unless explicitly stated.
-- ASK FOR CLARIFICATION If you are uncertain of any of thing within the document.
-- DO NOT edit more code than you have to.
-- DO NOT WASTE TOKENS, be succinct and concise.
+## 重要事项
+- 本文档中的所有指令必须遵守，除非明确说明，否则这些指令不是可选的。
+- 如果您对文档中的任何内容不确定，请要求澄清。
+- 不要编辑超出必要的代码。
+- 不要浪费令牌，保持简洁明了。
 
-## Watch Control System
-- IMPERATIVE: ANY time the user mentions "watch control", "watch-control", or similar variations, IMMEDIATELY run the watch-control command without question.
-- Execute using: \`bash "/path/to/project/.claude/functions/tools/watch\_control.sh"\` followed by the appropriate command-line options
-- You MUST use the EXACT path to the script: \`/path/to/project/.claude/functions/tools/watch\_control.sh\`
-- ALWAYS convert user's natural language requests to the appropriate command-line options with double-dashes
+## 手表控制系统
+- 必须执行：每当用户提到"watch control"、"watch-control"或类似变体时，立即毫无疑问地运行watch-control命令。
+- 使用以下方式执行：\`bash "/path/to/project/.claude/functions/tools/watch\_control.sh"\`后跟适当的命令行选项
+- 您必须使用脚本的确切路径：\`/path/to/project/.claude/functions/tools/watch\_control.sh\`
+- 始终将用户的自然语言请求转换为带双短横线的适当命令行选项
 
-### Command Format Translation:
-- The watch-control system accepts natural language but internally converts commands to proper format
-- Commands use double-dash format (e.g., \`--go-home\`, \`--switch-tool wearfx\`, \`--tool-preview\`)
-- You should handle this conversion automatically without showing the user the technical command format
-- For bracket notation in cycling commands, convert to comma-separated format with colon for delay:
+### 命令格式转换：
+- watch-control系统接受自然语言，但在内部将命令转换为正确格式
+- 命令使用双短横线格式（例如，\`--go-home\`、\`--switch-tool wearfx\`、\`--tool-preview\`）
+- 您应该自动处理此转换，而不向用户显示技术命令格式
+- 对于循环命令中的括号表示法，转换为逗号分隔格式，用冒号表示延迟：
   - \`\[watchface, wearfx\] with 2s delay\` → \`watchface,wearfx:2\`
   - \`\[0,1,2,3\] with 1s delay\` → \`0,1,2,3:1\`
 
-### Example Command Execution:
-- User says: "run watch control and go to home screen" 
-- You MUST execute: \`bash "/path/to/project/.claude/functions/tools/watch\_control.sh" --go-home\`
+### 命令执行示例：
+- 用户说："run watch control and go to home screen"
+- 您必须执行：\`bash "/path/to/project/.claude/functions/tools/watch\_control.sh" --go-home\`
 
-### Example Command Conversions:
-Basic commands:
+### 命令转换示例：
+基本命令：
 - "switch to wearfx tool" → \`bash "/path/to/project/.claude/functions/tools/watch\_control.sh" --switch-tool wearfx\`
 - "take a screenshot" → \`bash "/path/to/project/.claude/functions/tools/watch\_control.sh" --watch-screenshot\`
 - "preview current tool" / "show tool preview" / "tool preview" → \`bash "/path/to/project/.claude/functions/tools/watch\_control.sh" --tool-preview true\`
@@ -50,136 +50,136 @@ Basic commands:
 - "adjust tool clockwise" → \`bash "/path/to/project/.claude/functions/tools/watch\_control.sh" --adjust-tool true\`
 - "refresh background" / "update background" / "refresh watch background" → \`bash "/path/to/project/.claude/functions/tools/watch\_control.sh" --refresh-background\`
 
-Complex commands:
+复杂命令：
 - "cycle through tool indices \[0,1,2\] with 3s delay" → \`bash "/path/to/project/.claude/functions/tools/watch\_control.sh" --cycle-tool-indices 0,1,2:3\`
 - "cycle through tools \[watchface, scroll, wearfx\] with 3s delay" → \`bash "/path/to/project/.claude/functions/tools/watch\_control.sh" --cycle-tools watchface,scroll,wearfx:3\`
 - "record screen for 30 seconds" → \`bash "/path/to/project/.claude/functions/tools/watch\_control.sh" --record-wear-screen-background 30\`
 
-### Multi-step Command Examples:
-These examples demonstrate advanced usage with multiple operations and command-specific delays:
+### 多步骤命令示例：
+这些示例展示了具有多个操作和特定命令延迟的高级用法：
 
-1. \*\*Tool Showcase Sequence with Variable Delays\*\*:
+1. \*\*具有可变延迟的工具展示序列\*\*：
    \`\`\`
    bash "/path/to/project/.claude/functions/tools/watch\_control.sh" --go-home --delay 2 --tool-preview --delay 3 --switch-tool wearfx --delay 5 --cycle-tool-indices 0,1,2,3,2,1,0:2 --delay 1 --watch-screenshot
    \`\`\`
 
-2. \*\*Complete Testing Sequence\*\*:
+2. \*\*完整测试序列\*\*：
    \`\`\`
    bash "/path/to/project/.claude/functions/tools/watch\_control.sh" --enable-accessibility --go-home --delay 2 --tool-preview --delay 3 --cycle-tools watchface,wearfx,scroll,favourite\\ apps:3 --delay 2 --switch-tool wearfx --cycle-tool-indices 0,1,2,3,2,1,0:1 --delay 1 --watch-screenshot
    \`\`\`
 
-3. \*\*Recording Interactions with Variable Timing\*\*:
+3. \*\*具有可变时间的录制交互\*\*：
    \`\`\`
    bash "/path/to/project/.claude/functions/tools/watch\_control.sh" --go-home --delay 1 --record-wear-screen-background 30 --switch-tool volume --delay 2 --tool-preview --delay 3 --cycle-tool-indices 0,1,2,3,2,1,0:1
    \`\`\`
 
-### Understanding Order and Timing:
-- \*\*Flexible Command Order\*\*: Commands now execute in the EXACT order you specify them
-  - You can take screenshots after cycling, preview tools after recording, or any other sequence
-  - All operations respect the order given in your command, with no preset execution order
+### 理解顺序和时间：
+- \*\*灵活的命令顺序\*\*：命令现在按您指定的确切顺序执行
+  - 您可以在循环后截图，在录制后预览工具，或任何其他序列
+  - 所有操作都遵循您在命令中给出的顺序，没有预设的执行顺序
 
-- \*\*Command-specific delays\*\*: \`delay 2s\` creates a pause after ONLY the preceding command
-  - Example: \`go to home, delay 2s, tool preview, delay 5s, switch tool to wearfx\`
-  - This will wait 2s after going home and 5s after showing tool preview
-  - Each command can have its own unique delay length
-  - This is the most flexible way to control timing
+- \*\*特定命令延迟\*\*：\`delay 2s\`仅在前一个命令之后创建暂停
+  - 示例：\`go to home, delay 2s, tool preview, delay 5s, switch tool to wearfx\`
+  - 这将在回到主页后等待2秒，在显示工具预览后等待5秒
+  - 每个命令可以有自己独特的延迟长度
+  - 这是控制时间的最灵活方式
 
-- \*\*Between list items\*\*: When specified with a list (tools or indices), the delay applies BETWEEN items
-  - Example: \`switch tools \[watchface, wearfx\] 2s delay\` means cycle through these tools with 2 seconds between each
-  - Only applies to the specific cycling operation
+- \*\*列表项之间\*\*：当使用列表（工具或索引）指定时，延迟应用于项目之间
+  - 示例：\`switch tools \[watchface, wearfx\] 2s delay\`意味着以每个之间2秒的间隔循环这些工具
+  - 仅适用于特定的循环操作
 
-- \*\*Global function delay\*\*: \`function-delay 2\` adds a 2-second pause after EVERY operation
-  - Only use this when you want all operations to have the same delay
-  - Command-specific delays will override this for individual commands
+- \*\*全局函数延迟\*\*：\`function-delay 2\`在每个操作后添加2秒暂停
+  - 仅在您希望所有操作具有相同延迟时使用
+  - 特定命令的延迟将覆盖各个命令的此设置
 
-### Tool Index Range Constraints:
-- \*\*CRITICAL\*\*: By default, tool indices should be within the range of 0-3 unless specifically instructed otherwise
-- Only use higher indices (like 0-100) when the user explicitly requests or specifies them
-- Example safe range: \`switch tool index \[0,1,2,3,2,1,0\]\`
-- Example user-specified range: \`switch tool index \[0,1,5,10,100\]\` (only when requested)
-- Using indices outside the safe range without user specification may cause errors
-- Different tools may have different valid index ranges; when uncertain, stay within 0-3
+### 工具索引范围约束：
+- \*\*关键\*\*：默认情况下，工具索引应在0-3范围内，除非特别指示
+- 仅在用户明确请求或指定时使用更高的索引（如0-100）
+- 安全范围示例：\`switch tool index \[0,1,2,3,2,1,0\]\`
+- 用户指定范围示例：\`switch tool index \[0,1,5,10,100\]\`（仅在请求时）
+- 在没有用户指定的情况下使用安全范围之外的索引可能会导致错误
+- 不同的工具可能有不同的有效索引范围；不确定时，请保持在0-3范围内
 
-### IMPORTANT RULES:
-- DO NOT create new tools when using the watch control command
-- If a command references a non-existent tool like "rotate chair", inform the user and suggest existing tools
-- DO NOT question or ask for clarification when running watch-control - just execute it immediately
-- Watch control commands should NEVER be interpreted as requests to create tools
-- Always accept natural language descriptions and convert to appropriate command syntax
-- For recording, use \`record-wear-screen-background\` by default unless specifically requested otherwise
-- Tool preview can be requested in multiple ways (preview tool, show preview, tool preview, etc.) - recognize all variations
-- When cycling through tools or indices, use the bracket notation in the command but understand it's converted internally
-- When the user specifies delays, ALWAYS use command-specific delays (\`delay Ns\`) after each command rather than global function delay
-- Recognize delay commands in various formats: "delay 2s", "wait 2 seconds", "pause for 2s", etc.
-- The ORDER of operations in your command is exactly the order they will execute - this is very powerful!
+### 重要规则：
+- 使用watch control命令时不要创建新工具
+- 如果命令引用不存在的工具（如"rotate chair"），请通知用户并建议现有工具
+- 运行watch-control时不要质疑或要求澄清 - 立即执行
+- Watch control命令永远不应被解释为创建工具的请求
+- 始终接受自然语言描述并转换为适当的命令语法
+- 对于录制，默认使用\`record-wear-screen-background\`，除非特别请求
+- 工具预览可以通过多种方式请求（preview tool、show preview、tool preview等）- 识别所有变体
+- 当循环工具或索引时，在命令中使用括号表示法，但要理解它在内部被转换
+- 当用户指定延迟时，始终在每个命令后使用特定命令延迟（\`delay Ns\`），而不是全局函数延迟
+- 识别各种格式的延迟命令："delay 2s"、"wait 2 seconds"、"pause for 2s"等
+- 您命令中的操作顺序正是它们将执行的顺序 - 这非常强大！
 
-### Tool Type-Specific Operations:
-- IMPORTANT: Tools are categorized in toolNameMap.kt as either Single Broadcast or Multiple Broadcast
-- You MUST dynamically check the current categorization from toolNameMap.kt whenever handling watch-control commands
-- DO NOT rely on hardcoded lists of tools - always check the current categorization
+### 工具特定类型操作：
+- 重要：工具在toolNameMap.kt中被分类为单广播或多广播
+- 在处理watch-control命令时，您必须动态检查来自toolNameMap.kt的当前分类
+- 不要依赖硬编码的工具列表 - 始终检查当前分类
 
-\*\*Process for handling tool operations:\*\*
-1. When a user requests a watch-control command, check the current tool categorization:
-   - Read toolNameMap.kt to see which tools are marked as "Single Broadcast" vs "Multiple Broadcast"
-   - OR use \`--list-tools\` to get the current list of available tools, then refer to toolNameMap.kt for categorization
+\*\*处理工具操作的过程：\*\*
+1. 当用户请求watch-control命令时，检查当前工具分类：
+   - 读取toolNameMap.kt以查看哪些工具被标记为"单广播"与"多广播"
+   - 或使用\`--list-tools\`获取当前可用工具列表，然后参考toolNameMap.kt进行分类
 
-2. For \*\*Single Broadcast\*\* tools (currently: volume, scene, brightness, hue, saturation, scroll):
-   - These tools have a single index with a value that can be adjusted up/down
-   - IMPORTANT: Tools are NOT necessarily at index 0 - they may be at any position from previous adjustments
-   - TRANSLATE index operations to adjustment operations:
-     - For \`--change-tool-index N\`, use multiple \`--adjust-tool\` calls in the appropriate direction
-     - For incrementing values, use \`--adjust-tool true\` (clockwise)
-     - For decrementing values, use \`--adjust-tool false\` (counter-clockwise)
-     - Each adjustment changes the value by one increment
-   - Example: For volume tool, to increase by approximately 5 increments:
+2. 对于\*\*单广播\*\*工具（当前：volume、scene、brightness、hue、saturation、scroll）：
+   - 这些工具有一个可以上下调整值的单一索引
+   - 重要：工具不一定在索引0 - 它们可能因之前的调整而在任何位置
+   - 将索引操作转换为调整操作：
+     - 对于\`--change-tool-index N\`，在适当方向使用多个\`--adjust-tool\`调用
+     - 对于递增值，使用\`--adjust-tool true\`（顺时针）
+     - 对于递减值，使用\`--adjust-tool false\`（逆时针）
+     - 每次调整将值改变一个增量
+   - 示例：对于音量工具，要增加约5个增量：
      \`\`\`
      --adjust-tool true --delay 0.1 --adjust-tool true --delay 0.1 --adjust-tool true --delay 0.1 --adjust-tool true --delay 0.1 --adjust-tool true
      \`\`\`
-   - RESET OPTION: If the user explicitly requests to reset tools to 0th position, add a reset sequence
-     - This is only done when the user explicitly requests it
-     - Reset sequence: switch to each tool and apply multiple adjust-tool false operations
-     - Example reset for volume: \`--switch-tool volume --adjust-tool false --delay 0.1 \[...repeat 10+ times...\]\`
+   - 重置选项：如果用户明确请求将工具重置到第0个位置，添加重置序列
+     - 这仅在用户明确请求时执行
+     - 重置序列：切换到每个工具并应用多个adjust-tool false操作
+     - 音量重置示例：\`--switch-tool volume --adjust-tool false --delay 0.1 \[...重复10+次...\]\`
 
-3. For \*\*Multiple Broadcast\*\* tools (currently: wearfx, watchface, favourite apps, media actions):
-   - These tools have multiple distinct indices (options) to select between
-   - Use index operations normally:
-     - \`--change-tool-index N\` works correctly to select a specific option
-     - \`--cycle-tool-indices\` works correctly to cycle through options
+3. 对于\*\*多广播\*\*工具（当前：wearfx、watchface、favourite apps、media actions）：
+   - 这些工具有多个不同的索引（选项）可供选择
+   - 正常使用索引操作：
+     - \`--change-tool-index N\`正确工作以选择特定选项
+     - \`--cycle-tool-indices\`正确工作以循环选项
 
-YOU are responsible for this translation when constructing watch-control commands
+在构建watch-control命令时，您负责此转换
 
-### Optional Tool Reset:
-- Only perform a tool reset sequence when the user EXPLICITLY requests it with phrases like:
-  - "Reset all tools to 0" 
+### 可选工具重置：
+- 仅在用户明确请求时执行工具重置序列，如以下短语：
+  - "Reset all tools to 0"
   - "Zero out the tools"
   - "Reset tool positions"
-- IMPORTANT: Reset operations must be done BEFORE all other operations if requested
-- CRITICAL: Only reset the Single Broadcast tools that will be USED in the subsequent operations
-- The reset operation consists of:
-  1. Identify which Single Broadcast tools will be used in the upcoming operations
-  2. For each of these tools (EXCEPT scroll):
-     a. Switch to the tool
-     b. Apply multiple adjust-tool false operations (10+ times) to ensure it reaches 0th position
-     c. Add a small delay between adjustments
-- DO NOT include scroll tool in the reset operations
-- DO NOT reset tools that won't be used in the subsequent operations
-- Example reset sequence for operations that will use volume and brightness:
+- 重要：如果请求，重置操作必须在所有其他操作之前完成
+- 关键：仅重置将在后续操作中使用的单广播工具
+- 重置操作包括：
+  1. 确定哪些单广播工具将在即将进行的操作中使用
+  2. 对于这些工具中的每一个（除scroll外）：
+     a. 切换到工具
+     b. 应用多个adjust-tool false操作（10+次）以确保到达第0个位置
+     c. 在调整之间添加小延迟
+- 不要在重置操作中包括scroll工具
+- 不要重置不会在后续操作中使用的工具
+- 将使用音量和亮度的操作的重置序列示例：
   \`\`\`
-  --switch-tool volume --adjust-tool false --delay 0.1 \[repeat 10+ times\] 
-  --switch-tool brightness --adjust-tool false --delay 0.1 \[repeat 10+ times\]
-  --go-home \[then continue with other operations\]
+  --switch-tool volume --adjust-tool false --delay 0.1 \[重复10+次\] 
+  --switch-tool brightness --adjust-tool false --delay 0.1 \[重复10+次\]
+  --go-home \[然后继续其他操作\]
   \`\`\`
-- This is OPTIONAL and only used when specifically requested
+- 这是可选的，仅在特别请求时使用
 ```
 
-Last updated: June 2, 2025
+最后更新：2025年6月2日
 
-##### Advanced Automation
+##### 高级自动化
 
-This example demonstrates how `CLAUDE.md` can orchestrate complex workflows, transforming system commands into watch interactions through intelligent command translation and automation layers.
+此示例展示了`CLAUDE.md`如何协调复杂的工作流程，通过智能命令转换和自动化层将系统命令转换为手表交互。
 
 <img src="/img/discovery/002.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
-**See Also**: [Bash Scripts](/mechanics/bash-scripts/)|[Tool Maker](/tool-maker/)|[CLAUDE.md Supremacy](/mechanics/claude-md-supremacy/)
+**另请参阅**：[Bash脚本](/mechanics-bash-scripts/)|[工具制作器](/tool-maker/)|[CLAUDE.md至上](/mechanics-claude-md-supremacy/)
