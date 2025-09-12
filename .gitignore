@@ -1,0 +1,46 @@
+# Node modules
+node_modules/
+*/node_modules/
+
+# Build outputs
+dist/
+build/
+.vuepress/dist/
+
+# Backup directories
+*-backup/
+*-backup-*/
+final-site-working-*/
+final-site-current-backup/
+
+# Cache
+.cache/
+.temp/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+
+# Environment variables
+.env
+.env.local
+
+# npm/yarn
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
