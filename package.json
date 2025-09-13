@@ -12,12 +12,16 @@
     "validate": "python scripts/validation/comprehensive-scanner.py",
     "cleanup": "python scripts/utils/cleanup.py",
     "dev": "cd final-site && npm run dev",
+    "start": "cd final-site && npm run dev",
+    "serve": "cd final-site && npm run dev",
     "build": "cd final-site && npm run build",
     "preview": "cd final-site && npm run preview",
     "setup": "npm install && cd final-site && npm install",
+    "install-all": "npm install && cd final-site && npm install",
     "test": "npm run validate && npm run check-links",
     "format": "prettier --write \"**/*.{js,py,md}\"",
-    "help": "echo '可用命令: scrape, translate, dev, build, validate, cleanup'"
+    "deploy": "npm run build && echo 'Built successfully! Push to GitHub to deploy.'",
+    "help": "echo 'Available commands: start/dev/serve (development), build (production), setup (install), deploy (build & info)'"
   },
   "keywords": [
     "claude",
@@ -36,12 +40,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/claudelog-translate.git"
+    "url": "https://github.com/Mr0bean/ClaudeHub.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/claudelog-translate/issues"
+    "url": "https://github.com/Mr0bean/ClaudeHub/issues"
   },
-  "homepage": "https://github.com/your-username/claudelog-translate#readme",
+  "homepage": "https://mr0bean.github.io/ClaudeHub/",
   "dependencies": {
     "axios": "^1.6.0",
     "cheerio": "^1.0.0-rc.12",
