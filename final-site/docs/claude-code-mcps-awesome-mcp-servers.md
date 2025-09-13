@@ -6,7 +6,6 @@ title: "Awesome MCP 服务器 | Claude Hub"
 
 **用于扩展 AI 能力的模型上下文协议服务器的权威精选目录，涵盖各个领域。**
 
-**作者**: [punkpeye](https://github.com/punkpeye)  |  [GitHub 仓库](https://github.com/punkpeye/awesome-mcp-servers)  |  67★ Stars|5🍴 Forks|MIT License|Updated Aug 24, 2025
 
 * * *
 

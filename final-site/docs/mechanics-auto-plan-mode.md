@@ -4,7 +4,7 @@ title: "自动计划模式 | Claude Hub"
 
 # 自动计划模式 | Claude Hub
 
-`--append-system-prompt` 在 Claude Code [v1.0.51](/claude-code-changelog/#v1051.html) 版本中添加，它允许你在启动会话时向 Claude 的系统提示添加自定义指令。自发布以来，我一直在试验寻找新的机制，天哪，我找到了一个！
+`--append-system-prompt` 在 Claude Code [v1.0.51](/claude-code-changelog.html) 版本中添加，它允许你在启动会话时向 Claude 的系统提示添加自定义指令。自发布以来，我一直在试验寻找新的机制，天哪，我找到了一个！
 
 `自动计划模式`（我创造的术语）是一种机制，你可以利用系统提示让 Claude 根据条件动态进入`计划模式`。
 
@@ -134,4 +134,4 @@ claude --append-system-prompt "$(cat auto-plan-mode.txt)"
 
 * * *
 
-**另请参见**：[计划模式](/mechanics-plan-mode.html)|[如何更新系统提示](/faqs/how-to-update-system-prompt.html)
+**另请参见**：[计划模式](/mechanics-plan-mode.html)|[如何更新系统提示](/faq.html)

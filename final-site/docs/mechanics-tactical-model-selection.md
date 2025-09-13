@@ -74,7 +74,7 @@ title: "战术模型选择 | Claude Hub"
 
 * * *
 
-**另请参阅**：[模型比较](/model-comparison.html)|[上下文窗口耗尽](/mechanics-context-window-depletion.html)|[计划模式](/mechanics-plan-mode.html)
+**另请参阅**：[模型比较](/mechanics-tactical-model-selection.html)|[上下文窗口耗尽](/mechanics-context-window-depletion.html)|[计划模式](/mechanics-plan-mode.html)
 
 
 -   [模型选择策略](#model-selection-strategy)

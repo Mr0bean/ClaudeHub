@@ -6,7 +6,6 @@ title: "Blender MCP | Claude Hub"
 
 **革命性的 AI 驱动 3D 建模工具，将 Blender 连接到 Claude AI，实现自然语言场景创建和对象操作。**
 
-**作者**: [ahujasid](https://github.com/ahujasid)  |  [GitHub 仓库](https://github.com/ahujasid/blender-mcp)  |  13k Stars|1.2k Forks|MIT License|更新于 2025年8月24日
 
 * * *
 

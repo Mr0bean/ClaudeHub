@@ -12,7 +12,7 @@ Anthropic [公开讨论过](https://docs.anthropic.com/en/docs/build-with-claude
 
 > 你的角色是一位专门从事渗透测试的资深安全专家。
 
-社区的多位成员已经创建了用于编排子代理角色的复杂工具。[SuperClaude](/claude-code-mcps/super-claude.html) 提供了 **9 个认知角色**（架构师、前端、后端、安全、分析师、质量保证、性能、重构者、导师），可以作为通用标志应用于任何命令。[Claudia](/claude-code-mcps/claudia.html) 通过 GUI 界面提供**自定义 AI 代理**，具有定制的系统提示，用于协调不同的代理角色。
+社区的多位成员已经创建了用于编排子代理角色的复杂工具。[SuperClaude](/claude-code-mcps.html) 提供了 **9 个认知角色**（架构师、前端、后端、安全、分析师、质量保证、性能、重构者、导师），可以作为通用标志应用于任何命令。[Claudia](/claude-code-mcps-claudia.html) 通过 GUI 界面提供**自定义 AI 代理**，具有定制的系统提示，用于协调不同的代理角色。
 
 * * *
 

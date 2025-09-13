@@ -6,7 +6,6 @@ title: "Context7 MCP | Claude Hub"
 
 **Up-to-date code documentation and examples injected directly into your prompts**
 
-**Author**: [Upstash](https://github.com/upstash)  |  [GitHub Repo](https://github.com/upstash/context7)  |  27.1k Stars|1.4k Forks|MIT License|Updated Aug 24, 2025
 
 * * *
 

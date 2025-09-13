@@ -10,7 +10,7 @@ title: "危险跳过权限 | Claude Hub"
 
 当持续的权限中断破坏我的工作流程时，我发现自己被这种方法所吸引，但我了解到，与全面绕过方法相比，显式的 `allowedTools` 配置提供了更好的控制和透明度。我还在 [r/ClaudeAI](https://reddit.com/r/ClaudeAI) 上观察到一些恐怖故事，人们的开发环境被无限制权限下失控的 Claude 所破坏。
 
-这种机制代表了安全范围内最宽松的一端，超越了[自动接受权限](mechanics-auto-accept-permissions.html)，不仅仅是移除权限提示，而是移除所有安全机制。
+这种机制代表了安全范围内最宽松的一端，超越了[自动接受权限](configuration.html)，不仅仅是移除权限提示，而是移除所有安全机制。
 
 * * *
 
@@ -28,7 +28,7 @@ YOLO 模式的吸引力在扩展的自主工作会话期间变得明显，特别
 
 我观察到这种方法创建了更好的工作流透明度，因为你确切地了解哪些操作是自动化的，哪些仍然需要监督。你可以允许 `Read` 和 `Grep` 用于研究任务，同时保持对修改系统的 `Write` 和 `Bash` 操作的提示。
 
-这种显式配置在会话和项目之间持续存在，创建一致的行为，而没有完全绕过权限的安全风险。我使用 `CLAUDE.md` 文件结构，因为它是我最可靠地配置允许工具的地方，使其可见和可审计，而不是隐藏的运行时标志（参见[允许的工具](mechanics-auto-accept-permissions.html)获取具体示例）。
+这种显式配置在会话和项目之间持续存在，创建一致的行为，而没有完全绕过权限的安全风险。我使用 `CLAUDE.md` 文件结构，因为它是我最可靠地配置允许工具的地方，使其可见和可审计，而不是隐藏的运行时标志（参见[允许的工具](configuration.html)获取具体示例）。
 
 * * *
 
@@ -46,8 +46,6 @@ allowedTools 方法通过只授予必要的权限而不是通用访问权限来�
 
 我观察到，与全面权限绕过相比，显式的 allowedTools 配置创建了更好的安全意识。你确切地了解哪些操作是自动化的，使得根据需要更容易审计和调整权限。
 
-<img src="/img/claudes-greatest-soldier.png" alt="inventorblack" style="width: 25px; height: 25px; border-radius: 50%; display: inline-block; vertical-align: middle; margin: 0 3px;" />
-
 * * *
 
-**另请参阅**: [自动接受权限](mechanics-auto-accept-permissions.html)|[计划模式](mechanics-plan-mode.html)|[配置](support-.html)
+**另请参阅**: [自动接受权限](configuration.html)|[计划模式](mechanics-plan-mode.html)|[配置](contact.html)

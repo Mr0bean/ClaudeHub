@@ -6,7 +6,6 @@ title: "Claudia - Claude Code的GUI工具包 | Claude Hub"
 
 **Claude Code的图形界面，提供可视化项目管理、自定义AI代理和使用分析**
 
-**作者**: [getAsterisk](https://github.com/getAsterisk)  |  [GitHub仓库](https://github.com/getAsterisk/claudia)  |  14.2k Stars|1k Forks|AGPL-3.0 License|更新于2025年8月24日
 
 * * *
 

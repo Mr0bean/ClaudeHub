@@ -6,7 +6,6 @@ title: "Claude Code 路由器 | Claude Hub"
 
 **通过智能 AI 提供商路由，无需 Anthropic 账户即可使用 Claude Code**
 
-**作者**: [@musistudio](https://github.com/musistudio)  |  [GitHub 仓库](https://github.com/musistudio/claude-code-router)  |  15k Stars|1.1k Forks|MIT License|Updated Aug 24, 2025
 
 * * *
 

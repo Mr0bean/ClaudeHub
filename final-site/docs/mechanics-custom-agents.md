@@ -39,7 +39,7 @@ title: "自定义代理 | Claude Hub"
 
 ### 快速入门指南[​](#quick-start-guide "Direct link to 快速入门指南")
 
-`自定义代理`在 Claude Code [v1.0.60](/claude-code-changelog/#v1060.html) 中引入
+`自定义代理`在 Claude Code [v1.0.60](/claude-code-changelog.html) 中引入
 
 **1\. 打开自定义代理界面**
 
@@ -109,63 +109,21 @@ model: sonnet  # 可选 - sonnet、opus 或 haiku。如果省略则继承
 
 `自定义代理`作为带有 YAML frontmatter 的 Markdown 文件存储在两个可能的位置：
 
-类型
-
-位置
-
-范围
-
-优先级
-
-项目代理
-
-`.claude/agents/`
-
-在当前项目中可用
-
-最高
-
-用户代理
-
-`~/.claude/agents/`
-
-在所有项目中可用
-
-较低
+| 类型 | 位置 | 范围 | 优先级 |
+|------|------|------|--------|
+| 项目代理 | `.claude/agents/` | 在当前项目中可用 | 最高 |
+| 用户代理 | `~/.claude/agents/` | 在所有项目中可用 | 较低 |
 
 当代理名称冲突时，项目级代理优先于用户级代理。
 
 **配置字段**
 
-字段
-
-必需
-
-描述
-
-name
-
-是
-
-使用小写字母和连字符的唯一标识符
-
-description
-
-是
-
-代理目的的自然语言描述
-
-tools
-
-否
-
-特定工具的逗号分隔列表。如果省略，从主线程继承所有工具
-
-model
-
-否
-
-此代理使用的模型：sonnet、opus 或 haiku。如果省略，继承模型
+| 字段 | 必需 | 描述 |
+|------|------|------|
+| name | 是 | 使用小写字母和连字符的唯一标识符 |
+| description | 是 | 代理目的的自然语言描述 |
+| tools | 否 | 特定工具的逗号分隔列表。如果省略，从主线程继承所有工具 |
+| model | 否 | 此代理使用的模型：sonnet、opus 或 haiku。如果省略，继承模型 |
 
 * * *
 

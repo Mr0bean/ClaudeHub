@@ -38,43 +38,43 @@ title: "启动引擎"
 
 * * *
 
-### The Rev Process[​](#the-rev-process "Direct link to The Rev Process")
+### 启动流程[​](#the-rev-process "Direct link to 启动流程")
 
-### Round 1: Initial Planning[​](#round-1-initial-planning "Direct link to Round 1: Initial Planning")
+### 第一轮：初始规划[​](#round-1-initial-planning "Direct link to 第一轮：初始规划")
 
--   Use `ultrathink` + `Plan Mode` to create first plan
--   Identify potential gaps and weaknesses
--   Note areas requiring deeper consideration
+-   使用 `ultrathink` + `规划模式` 创建第一个计划
+-   识别潜在的缺口和弱点
+-   标记需要深入考虑的领域
 
-### Round 2: Critique and Refine[​](#round-2-critique-and-refine "Direct link to Round 2: Critique and Refine")
+### 第二轮：批评和完善[​](#round-2-critique-and-refine "Direct link to 第二轮：批评和完善")
 
--   Critique the initial plan for missing edge cases
--   Identify redundant aspects
--   Apply different viewpoints and alternative approaches
--   Optimize order and efficiency
+-   批评初始计划中遗漏的边缘情况
+-   识别冗余方面
+-   应用不同的视角和替代方法
+-   优化顺序和效率
 
-### Round 3: Final Optimization[​](#round-3-final-optimization "Direct link to Round 3: Final Optimization")
+### 第三轮：最终优化[​](#round-3-final-optimization "Direct link to 第三轮：最终优化")
 
--   Consolidate improvements from previous rounds
--   Validate assumptions and dependencies
--   Create the most robust plan possible
--   Prepare for execution with confidence
-
-* * *
+-   整合前几轮的改进
+-   验证假设和依赖关系
+-   创建最稳健的计划
+-   为充满信心的执行做好准备
 
 * * *
 
-### The Innovation Challenge[​](#the-innovation-challenge "Direct link to The Innovation Challenge")
+* * *
 
-The more creative and innovative we can be with the strategic allocation of resources, the better. Understanding the cost/performance ratio of each model enables informed decision-making about when to apply enhanced techniques to cheaper models versus upgrading to premium models. This optimization mindset aligns with [agent-first design](/mechanics-agent-first-design.html) principles.
+### 创新挑战[​](#the-innovation-challenge "Direct link to 创新挑战")
 
-Learning these optimization techniques now sets me up for whatever changes come to models or pricing. I am ready for whatever AI evolution comes next, ideally Claude 4 Haiku...
+我们在资源战略配置方面越有创意和创新性越好。理解每个模型的成本/性能比可以在何时对更便宜的模型应用增强技术与升级到高端模型之间做出明智的决策。这种优化思维与[代理优先设计](/mechanics-agent-first-design.html)原则相一致。
 
-##### Performance Tuning
+现在学习这些优化技术让我为模型或定价的任何变化做好准备。我已经准备好迎接下一个 AI 进化，理想情况下是 Claude 4 Haiku...
 
-Revving the engine transforms Sonnet into a precision instrument. Multiple critique rounds create plans so robust they can save you from opting for Opus. Master this technique to maximize single-agent performance before escalating to multi-agent workflows.
+##### 性能调优
+
+启动引擎将 Sonnet 转变为精密仪器。多轮批评创建的计划如此稳健，可以让你避免选择 Opus。掌握这项技术，在升级到多智能体工作流之前最大化单智能体性能。
 
 
 * * *
 
-**See Also**: [Ultrathink++](/mechanics-ultrathink-plus-plus.html)|[Plan Mode](/mechanics-plan-mode.html)|[Tactical Model Selection](/mechanics-tactical-model-selection.html)
+**另请参阅**: [Ultrathink++](/mechanics-ultrathink-plus-plus.html)|[规划模式](/mechanics-plan-mode.html)|[战术模型选择](/mechanics-tactical-model-selection.html)

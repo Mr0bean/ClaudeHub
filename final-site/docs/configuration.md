@@ -295,7 +295,7 @@ MCP 配置示例：
 
 Claude Code 可以访问当前工作目录之外的多个目录，使用：
 
--   **CLI 参数：** `--add-dir`（在 [v1.0.18](/claude-code-changelog/#v1018.html) 中添加）启动 Claude Code 时使用
+-   **CLI 参数：** `--add-dir`（在 [v1.0.18](/claude-code-changelog.html) 中添加）启动 Claude Code 时使用
 -   **斜杠命令：** `/add-dir` 在会话中无缝扩展工作流
 
 这允许您跨多个项目工作或引用外部资源，而无需更改目录或重启会话。

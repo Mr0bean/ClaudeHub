@@ -4,7 +4,7 @@ title: "Claude Code 更新日志 | Claude Hub"
 
 # Claude Code 更新日志 | Claude Hub
 
-Claude Code 发布的完整版本历史，从早期测试版到最新稳定版。每个版本都包含功能添加、错误修复和相关文档链接。 **需要降级？** 请查看我们的 [恢复 Claude Code 版本](/faqs/revert-claude-code-version.html)指南。
+Claude Code 发布的完整版本历史，从早期测试版到最新稳定版。每个版本都包含功能添加、错误修复和相关文档链接。 **需要降级？** 请查看我们的 [恢复 Claude Code 版本](/faq.html)指南。
 
 * * *
 
@@ -67,7 +67,7 @@ Claude Code 发布的完整版本历史，从早期测试版到最新稳定版�
 ### v1.0.93[​](#v1093 "直接链接到v1.0.93")
 
 -   Windows: 添加了alt + v从剪贴板粘贴图像的快捷方式
--   支持NO\_PROXY环境变量以绕过指定主机名和IP的代理
+-   支持 NO_PROXY 环境变量以绕过指定主机名和 IP 的代理
 
 8月 26, 2025
 
@@ -141,7 +141,7 @@ Claude Code 发布的完整版本历史，从早期测试版到最新稳定版�
 -   MCP: 改进了工具名称一致性
 -   Bash: 修复了 Claude 尝试自动读取大文件时的崩溃
 
-8月 16, 2025|另请参阅： [Claude Code SDK](https://docs.anthropic.com/en/docs/claude-code-sdk)|[配置](/configuration.html)|[MCP服务器](/faqs/what-is-mcp-server-in-claude-code.html)
+8月 16, 2025|另请参阅： [Claude Code SDK](https://docs.anthropic.com/en/docs/claude-code-sdk)|[配置](/configuration.html)|[MCP服务器](/faq.html)
 
 * * *
 
@@ -183,7 +183,7 @@ Claude Code 发布的完整版本历史，从早期测试版到最新稳定版�
 -   UI: 增强的旋转器动画和状态行视觉层次
 -   Linux: 添加了支持Alpine和基于musl的发行版 (需要单独安装ripgrep)
 
-8月 12, 2025|另请参阅： [MCP服务器](/faqs/what-is-mcp-server-in-claude-code.html)
+8月 12, 2025|另请参阅： [MCP服务器](/faq.html)
 
 * * *
 
@@ -200,17 +200,17 @@ Claude Code 发布的完整版本历史，从早期测试版到最新稳定版�
 -   Background 命令：(Ctrl-b) 在后台运行任何 Bash 命令，让 Claude 可以继续工作（非常适合开发服务器、跟踪日志等）
 -   可自定义状态行：使用 `/statusline` 将您的终端提示符添加到 Claude Code
 
-8月 8, 2025|另请参阅： [后台命令](/faqs/what-are-background-commands.html)|[可自定义状态行](/faqs/status-line-claude-code.html)
+8月 8, 2025|另请参阅： [后台命令](/faq.html)|[可自定义状态行](/faq.html)
 
 * * *
 
 ### v1.0.70[​](#v1070 "直接链接到v1.0.70")
 
 -   性能：优化了消息渲染以在大上下文中获得更好的性能
--   Windows: 修复了原生文件搜索、ripgrep和子代理功能
+-   Windows: 修复了原生文件搜索、ripgrep 和子代理功能
 -   添加了对 slash 命令参数中 @-mentions 的支持
 
-8月 7, 2025|另请参阅： [Windows 安装](/faqs/how-to-install-claude-code-on-windows.html)|[自定义 Slash 命令](/faqs/what-is-slash-commands-in-claude-code.html)|[自定义代理](/mechanics-custom-agents.html)
+8月 7, 2025|另请参阅： [Windows 安装](/faq.html)|[自定义 Slash 命令](/faq.html)|[自定义代理](/mechanics-custom-agents.html)
 
 * * *
 
@@ -220,7 +220,7 @@ Claude Code 发布的完整版本历史，从早期测试版到最新稳定版�
 
 -   升级了 Opus 到版本 4.1
 
-8月 5, 2025|另请参阅： [Claude 4.1 Opus](/faqs/what-is-claude-4-1-opus.html)
+8月 5, 2025|另请参阅： [Claude 4.1 Opus](/faq.html)
 
 * * *
 
@@ -234,7 +234,7 @@ Claude Code 发布的完整版本历史，从早期测试版到最新稳定版�
 -   添加了 `disableAllHooks` 设置
 -   改进了大型仓库中文件建议的性能
 
-05/08/2025|另请参阅： [Windows 安装](/faqs/how-to-install-claude-code-on-windows.html)|[Hooks](/mechanics-hooks.html)|[Claude Code SDK](https://docs.anthropic.com/en/docs/claude-code-sdk)
+05/08/2025|另请参阅： [Windows 安装](/faq.html)|[Hooks](/mechanics-hooks.html)|[Claude Code SDK](https://docs.anthropic.com/en/docs/claude-code-sdk)
 
 * * *
 
@@ -243,7 +243,7 @@ Claude Code 发布的完整版本历史，从早期测试版到最新稳定版�
 -   IDE: 修复了诊断的连接稳定性问题和错误处理
 -   Windows: 修复了没有 .bashrc 文件用户的 shell 环境设置
 
-01/08/25|另请参阅： [Windows 安装](/faqs/how-to-install-claude-code-on-windows.html)
+01/08/25|另请参阅： [Windows 安装](/faq.html)
 
 * * *
 
@@ -263,15 +263,15 @@ July30, 2025|另请参阅： [自定义代理](/mechanics-custom-agents.html)|[H
 
 -   Windows: 修复了文件搜索、@agent mentions 和自定义 slash 命令功能
 
-July29, 2025|另请参阅： [Windows 安装](/faqs/how-to-install-claude-code-on-windows.html)|[自定义代理](/mechanics-custom-agents.html)|[自定义 Slash 命令](/faqs/what-is-slash-commands-in-claude-code.html)
+July29, 2025|另请参阅： [Windows 安装](/faq.html)|[自定义代理](/mechanics-custom-agents.html)|[自定义 Slash 命令](/faq.html)
 
 * * *
 
 ### v1.0.62[​](#v1062 "直接链接到v1.0.62")
 
--   为自定义代理添加了带有预输入的 @-mention支持. @&lt;your-custom-agent&gt; 来调用它
--   Hooks: 添加了用于新会话初始化的SessionStarthook
--   /添加-dir命令现在支持目录路径的预输入
+-   为自定义代理添加了带有预输入的 @-mention 支持。@&lt;your-custom-agent&gt; 来调用它
+-   Hooks: 添加了用于新会话初始化的 SessionStart hook
+-   /add-dir 命令现在支持目录路径的预输入
 -   改进了网络连接检查的可靠性
 
 July28, 2025|另请参阅： [Custom Subagents](https://docs.anthropic.com/en/docs/claude-code-subagents)|[Hooks](/mechanics-hooks.html)
@@ -281,7 +281,7 @@ July28, 2025|另请参阅： [Custom Subagents](https://docs.anthropic.com/en/do
 ### v1.0.61[​](#v1061 "直接链接到v1.0.61")
 
 -   Transcript 模式 (Ctrl+R): 更改了 Esc 键为退出 transcript 模式而不是中断
--   Settings: 添加了 `--settings` 标志以从JSON文件加载设置
+-   Settings: 添加了 `--settings` 标志以从 JSON 文件加载设置
 -   Settings: 修复了符号链接设置文件路径的解析
 -   OTEL: 修复了身份验证更改后错误组织的报告
 -   Slash 命令：修复了 Bash 允许工具的权限检查
@@ -289,7 +289,7 @@ July28, 2025|另请参阅： [Custom Subagents](https://docs.anthropic.com/en/do
 -   IDE: 添加了 `CLAUDE_CODE_AUTO_CONNECT_IDE=false` 用于禁用 IDE 自动连接
 -   添加了 `CLAUDE_CODE_SHELL_PREFIX` 用于包装 Claude Code 运行的 Claude 和用户提供的 shell 命令
 
-July25, 2025|另请参阅： [配置](/configuration.html)|[自定义 Slash 命令](/faqs/what-is-slash-commands-in-claude-code.html)
+July25, 2025|另请参阅： [配置](/configuration.html)|[自定义 Slash 命令](/faq.html)
 
 * * *
 
@@ -297,7 +297,7 @@ July25, 2025|另请参阅： [配置](/configuration.html)|[自定义 Slash 命�
 
 -   您现在可以为专门任务创建自定义子代理！运行 /agents开始使用
 
-July24, 2025|另请参阅： [Task Agent Tools](/mechanics-task-agent-工具.html)|[Custom Subagents](https://docs.anthropic.com/en/docs/claude-code-subagents)
+July24, 2025|另请参阅： [Task Agent Tools](/mechanics-task-agent-tools.html)|[Custom Subagents](https://docs.anthropic.com/en/docs/claude-code-subagents)
 
 * * *
 
@@ -327,51 +327,51 @@ July23, 2025|另请参阅： [Hooks](/mechanics-hooks.html)|[MCPs](/claude-code-
 
 ### v1.0.57[​](#v1057 "直接链接到v1.0.57")
 
--   添加了在slash命令中指定模型的支持
--   改进了权限消息以帮助Claude理解允许的工具
--   修复：删除终端包装中bash输出的尾随换行符
+-   添加了在 slash 命令中指定模型的支持
+-   改进了权限消息以帮助 Claude 理解允许的工具
+-   修复：删除终端包装中 bash 输出的尾随换行符
 
-July23, 2025|另请参阅： [自定义 Slash 命令](/faqs/what-is-slash-commands-in-claude-code.html)|[Auto-Accep t Permissions](/mechanics-auto-accept-permissions.html)
+July23, 2025|另请参阅： [自定义 Slash 命令](/faq.html)|[Auto-Accep t Permissions](/mechanics-dangerous-skip-permissions.html)
 
 * * *
 
 ### v1.0.56[​](#v1056 "直接链接到v1.0.56")
 
--   Windows: 在支持终端VT模式的Node.js版本上启用了shift+tab模式切换
--   修复了WSLIDE检测
--   修复了aws Refres h Helper对 .aws目录的更改未被识别的问题
+-   Windows: 在支持终端 VT 模式的 Node.js 版本上启用了shift+tab 模式切换
+-   修复了WSL IDE 检测
+-   修复了aws Refresh Helper对 .aws 目录的更改未被识别的问题
 
-July23, 2025|另请参阅： [Windows 安装](/faqs/how-to-install-claude-code-on-windows.html)|[配置](/configuration.html)
+July23, 2025|另请参阅： [Windows 安装](/faq.html)|[配置](/configuration.html)
 
 * * *
 
 ### v1.0.55[​](#v1055 "直接链接到v1.0.55")
 
--   明确了Opus4 和Sonnet4 模型的知识截止日期
--   Windows: 修复了Ctrl+Z崩溃
+-   明确了 Opus4 和 Sonnet4 模型的知识截止日期
+-   Windows: 修复了 Ctrl+Z 崩溃
 -   SDK: 添加了捕获错误日志的能力
--   添加了 --system-prompt-file选项以在打印模式下覆盖系统提示
+-   添加了 --system-prompt-file 选项以在打印模式下覆盖系统提示
 
-July23, 2025|另请参阅： [Mode l Comparison](/model-comparison.html)|[Windows 安装](/faqs/how-to-install-claude-code-on-windows.html)|[Claude Code SDK](https://docs.anthropic.com/en/docs/claude-code-sdk)
+July23, 2025|另请参阅： [Mode l Comparison](/mechanics-tactical-model-selection.html)|[Windows 安装](/faq.html)|[Claude Code SDK](https://docs.anthropic.com/en/docs/claude-code-sdk)
 
 * * *
 
 ### v1.0.54[​](#v1054 "直接链接到v1.0.54")
 
--   Hooks: 添加了User Promp t Submithook和当前工作目录到hook输入
--   自定义slash命令：向前言添加了argument-hint
--   Windows: OAuthusesport45454andproperlyconstructsbrowser URL
+-   Hooks: 添加了User Prompt Submit hook和当前工作目录到hook 输入
+-   自定义 slash 命令：向前言添加了argument-hint
+-   Windows: OAuth 使用端口 45454 并正确构建浏览器 URL
 -   Windows: 模式切换现在使用alt + m，计划模式正确渲染
--   Shell: 切换到内存中的shell快照以避免文件相关错误
+-   Shell: 切换到内存中的shell 快照以避免文件相关错误
 
-July19, 2025|另请参阅： [Hooks](/mechanics-hooks.html)|[自定义 Slash 命令](/faqs/what-is-slash-commands-in-claude-code.html)|[Windows 安装](/faqs/how-to-install-claude-code-on-windows.html)
+July19, 2025|另请参阅： [Hooks](/mechanics-hooks.html)|[自定义 Slash 命令](/faq.html)|[Windows 安装](/faq.html)
 
 * * *
 
 ### v1.0.53[​](#v1053 "直接链接到v1.0.53")
 
--   更新了 @-mentionfiletruncationfrom100linesto2000lines
--   添加了AWS令牌刷新的辅助脚本设置：aws Aut h Refresh（用于前台操作如awsssologin）和aws Credentia l Export（用于类似STS响应的后台操作）
+-   更新了 @-mention 文件截断从 100 行到 2000 行
+-   添加了 AWS 令牌刷新的辅助脚本设置：aws Auth Refresh（用于前台操作如 aws sso login）和 aws Credential Export（用于类似 STS 响应的后台操作）
 
 July18, 2025|另请参阅： [配置](/configuration.html)
 
@@ -379,7 +379,7 @@ July18, 2025|另请参阅： [配置](/configuration.html)
 
 ### v1.0.52[​](#v1052 "直接链接到v1.0.52")
 
--   添加了支持for MCPserverinstructions
+-   添加了对 MCP 服务器指令的支持
 
 July18, 2025|另请参阅： [MCPs](/claude-code-mcps.html)
 
@@ -387,7 +387,7 @@ July18, 2025|另请参阅： [MCPs](/claude-code-mcps.html)
 
 ### v1.0.51[​](#v1051 "直接链接到v1.0.51")
 
--   添加了支持fornativ e Windows (requires Gitfo r Windows)
+-   添加了对原生 Windows 的支持（需要 Git for Windows）
 -   添加了支持fo r Bedrock APIkeysthroughenvironmentvariable AWS\_BEARER\_TOKEN\_BEDROCK
 -   Settings: /doctorcan现在helpyouidentifyand修复了invalid设置文件
 -   `--append-system-prompt` can现在beusedininteractivemode, notjust --print/-p.
@@ -397,7 +397,7 @@ July18, 2025|另请参阅： [MCPs](/claude-code-mcps.html)
 -   Customslash命令: 修复了user-level命令insubdirectories
 -   Planmode: 修复了问题whererejectedplanfromsub-taskwouldgetdiscarded
 
-July11, 2025|另请参阅： [计划模式](/mechanics-plan-mode.html)|[Windows 安装](/faqs/how-to-install-claude-code-on-windows.html)|[自定义 Slash 命令](/faqs/what-is-slash-commands-in-claude-code.html)
+July11, 2025|另请参阅： [计划模式](/mechanics-plan-mode.html)|[Windows 安装](/faq.html)|[自定义 Slash 命令](/faq.html)
 
 * * *
 
@@ -405,13 +405,13 @@ July11, 2025|另请参阅： [计划模式](/mechanics-plan-mode.html)|[Windows 
 
 ### v1.0.48[​](#v1048 "直接链接到v1.0.48")
 
--   修复了abugin [v1.0.45](#v1045) wheretheappwouldsometimesfreezeonlaunch
--   添加了progressmessagest o Bash工具basedonthelast5 linesof命令输出
--   添加了expandingvariables支持for MCPserverconfiguration
--   Movedshellsnapshotsfrom /tmpto ~/.claudeformorereliabl e Bash工具calls
--   改进了IDEextensionpathhandlingwhe n Claude Coderunsin WSL
--   Hooks: 添加了a Pr e Compacthook
--   Vimmode: 添加了c, f/F, t/T
+-   修复了错误在 [v1.0.45](#v1045) 应用有时会在启动时冻结
+-   添加了基于命令输出最后 5 行的 Bash 工具进度消息
+-   添加了对 MCP 服务器配置的变量扩展支持
+-   将 shell 快照从 /tmp 移至 ~/.claude 以便更可靠的 Bash 工具调用
+-   改进了 Claude Code 在 WSL 中运行时的 IDE 扩展路径处理
+-   Hooks: 添加了 Pre Compact hook
+-   Vim 模式：添加了 c, f/F, t/T
 
 July10, 2025|另请参阅： [Hooks](/mechanics-hooks.html)
 
@@ -419,14 +419,14 @@ July10, 2025|另请参阅： [Hooks](/mechanics-hooks.html)
 
 ### v1.0.45[​](#v1045 "直接链接到v1.0.45")
 
--   Redesigne d Search (Grep) 工具withnew工具输入parametersandfeatures
+-   重新设计了搜索（Grep）工具，具有新的工具输入参数和功能
 -   Disabled IDEdiffsfornotebook文件, 修复ing "Timeoutwaitingafter1000ms" error
 -   修复了configfilecorruption问题byenforcingatomicwrites
 -   更新了prompt输入undot o Ctrl+\_toavoidbreakingexistin g Ctrl+Ubehavior, matchingzsh'sundo快捷方式
 -   Sto p Hooks: 修复了transcriptpathafter /clearand修复了triggeringwhenloopendswith工具call
 -   Customslash命令: Restorednamespacingin命令namesbasedonsubdirectories. Forexample, .claude/frontend/component.mdis现在 /frontend:component, not /component.
 
-July9, 2025|另请参阅： [自定义 Slash 命令](/faqs/what-is-slash-commands-in-claude-code.html)|[Hooks](/mechanics-hooks.html)
+July9, 2025|另请参阅： [自定义 Slash 命令](/faq.html)|[Hooks](/mechanics-hooks.html)
 
 * * *
 
@@ -437,7 +437,7 @@ July9, 2025|另请参阅： [自定义 Slash 命令](/faqs/what-is-slash-command
 -   MCP: 工具annotationsand工具titles现在displayin /mcpview
 -   将Ctrl+Z更改为暂停Claude Code。通过运行 `fg` 恢复。提示输入撤销现在是Ctrl+U。
 
-July7, 2025|另请参阅： [MCPs](/claude-code-mcps.html)|[Suspend/Resume](/faqs/how-to-suspend-claude-code.html)
+July7, 2025|另请参阅： [MCPs](/claude-code-mcps.html)|[Suspend/Resume](/faq.html)
 
 * * *
 
@@ -454,17 +454,17 @@ July3, 2025|另请参阅： [Hooks](/mechanics-hooks.html)
 
 -   添加了tilde (`~`) expansion支持to `/添加-dir` 命令
 
-July3, 2025|另请参阅： [/添加-dir FAQ](/faqs/--添加-dir.html)
+July3, 2025|另请参阅： [/添加-dir FAQ](/faq.html)
 
 * * *
 
 ### v1.0.41[​](#v1041 "直接链接到v1.0.41")
 
--   Hooks: Split Stophooktriggeringinto Stopand Subagen t Stop
--   Hooks: Enabledoptionaltimeoutconfigurationforeach命令
--   Hooks: 添加了 "hook\_event\_name" tohook输入
--   修复了abugwhere MCP工具woulddisplaytwicein工具list
--   新增工具parameters JSONfo r Bash工具in `工具\_decision` event
+-   Hooks: 将 Stop hook 触发分为 Stop 和 Subagent Stop
+-   Hooks: 为每个命令启用了可选的超时配置
+-   Hooks: 添加了 "hook_event_name" 到 hook 输入
+-   修复了 MCP 工具在工具列表中显示两次的错误
+-   为 Bash 工具在 `tool_decision` 事件中新增了工具参数 JSON
 
 另请参阅： [Hooks](/mechanics-hooks.html)
 
@@ -630,7 +630,7 @@ June16, 2025|另请参阅： [Claude Code SDK](https://docs.anthropic.com/en/doc
 
 -   SDK: Renamed `total\_cost` to `total\_cost\_usd`
 
-June12, 2025|另请参阅： [CCUsage](/claude-code-mcps/cc-usage.html)
+June12, 2025|另请参阅： [CCUsage](/claude-code-mcps-cc-usage.html)
 
 * * *
 
@@ -657,7 +657,7 @@ June12, 2025
 -   添加了auto-reconnectionfor MCPSSEconnectionsondisconnect
 -   修复了问题wherepastedcontentwaslostwhendialogsappeared
 
-June10, 2025|另请参阅： [配置](/configuration/#mcp-configuration.html)|[Additional Workin g Directories](https://docs.anthropic.com/en/docs/claude-code-common-workflows#额外的-working-directories)|[MCPs](/claude-code-mcps.html)
+June10, 2025|另请参阅： [配置](/configuration.html)|[Additional Workin g Directories](https://docs.anthropic.com/en/docs/claude-code-common-workflows#额外的-working-directories)|[MCPs](/claude-code-mcps.html)
 
 * * *
 
@@ -688,7 +688,7 @@ June6, 2025
 -   改进了shellconfiguration错误处理
 -   改进了todolisthandlingduringcompaction
 
-June4, 2025|另请参阅： [Pricing](/claude-code-pricing.html)|[Mode l Comparison](/model-comparison.html)|[Installation](/install-claude-code.html)
+June4, 2025|另请参阅： [Pricing](/claude-code-pricing.html)|[Mode l Comparison](/mechanics-tactical-model-selection.html)|[Installation](/install-claude-code.html)
 
 * * *
 
@@ -710,7 +710,7 @@ June3, 2025
 -   添加了支持fortriggeringthinkingnon-Englishlanguages
 -   改进了compacting UI
 
-June2, 2025|另请参阅： [Restartin g Claude Code](/faqs/restarting-claude-code.html)|[Context Windo w Depletion](/mechanics-context-window-depletion.html)
+June2, 2025|另请参阅： [Restartin g Claude Code](/faq.html)|[Context Windo w Depletion](/mechanics-context-window-depletion.html)
 
 * * *
 
@@ -723,7 +723,7 @@ June2, 2025|另请参阅： [Restartin g Claude Code](/faqs/restarting-claude-co
 -   改进了错误处理for `/install-github-app`
 -   Bug修复, UIpolish, and工具reliability改进
 
-June2, 2025|另请参阅： [Auto-Accep t Permissions](/mechanics-auto-accept-permissions.html)|[配置](/configuration.html)
+June2, 2025|另请参阅： [Auto-Accep t Permissions](/mechanics-dangerous-skip-permissions.html)|[配置](/configuration.html)
 
 * * *
 
@@ -764,7 +764,7 @@ June2, 2025|另请参阅： [配置](/configuration.html)
 -   Claude Codeis现在generallyavailable
 -   Introducin g Sonnet4 an d Opus4 models
 
-5月 22, 2025|另请参阅： [Mode l Comparison](/model-comparison.html)|[Installation](/install-claude-code.html)|[Gettin g Started](/claude-code-tutorial.html)
+5月 22, 2025|另请参阅： [Mode l Comparison](/mechanics-tactical-model-selection.html)|[Installation](/install-claude-code.html)|[Gettin g Started](/claude-code-tutorial.html)
 
 * * *
 
@@ -877,7 +877,7 @@ April30, 2025
 -   添加了支持for `--disallowe d Tools`
 -   Renamed工具forconsistency: `LSTool` -> `LS`, `View` -> `Read`, etc.
 
-April25, 2025|另请参阅： [Auto-Accep t Permissions](/mechanics-auto-accept-permissions.html)|[配置](/configuration.html)
+April25, 2025|另请参阅： [Auto-Accep t Permissions](/mechanics-dangerous-skip-permissions.html)|[配置](/configuration.html)
 
 * * *
 
@@ -889,7 +889,7 @@ April25, 2025|另请参阅： [Auto-Accep t Permissions](/mechanics-auto-accept-
 -   Runone-off MCPserverswith `claude --mcp-config &lt;path-to-file&gt;`
 -   改进了performanceforfilenameauto-complete
 
-April21, 2025|另请参阅： [MCPs & Add-ons](/claude-code-mcps.html)|[配置](/configuration/#mcp-configuration.html)
+April21, 2025|另请参阅： [MCPs & Add-ons](/claude-code-mcps.html)|[配置](/configuration.html)
 
 * * *
 
@@ -994,7 +994,7 @@ April18, 2025
 -   Pres s Shift + Tabtotoggleauto-acceptforfileedits
 -   Automaticconversationcompactionforinfiniteconversationlength (togglewith `/config`)
 
-另请参阅： [Auto-Accep t Permissions](/mechanics-auto-accept-permissions.html)
+另请参阅： [Auto-Accep t Permissions](/mechanics-dangerous-skip-permissions.html)
 
 * * *
 
@@ -1023,7 +1023,7 @@ April18, 2025
 -   Import MCPserversfrom Claud e Desktopwith `claudemcp添加-from-claude-desktop`
 -   Add MCPserversas JSONstringswith `claudemcp添加-json &lt;n&gt; &lt;json&gt;`
 
-April21, 2025|另请参阅： [MCPs & Add-ons](/claude-code-mcps.html)|[配置](/configuration/#mcp-configuration.html)
+April21, 2025|另请参阅： [MCPs & Add-ons](/claude-code-mcps.html)|[配置](/configuration.html)
 
 * * *
 
@@ -1063,13 +1063,13 @@ April21, 2025|另请参阅： [MCPs & Add-ons](/claude-code-mcps.html)|[配置](
 -   Word-leveldiffdisplayfor改进了codereadability
 -   Fuzzymatchingforslash命令
 
-April21, 2025|另请参阅： [Auto-Accep t Permissions](/mechanics-auto-accept-permissions.html)|[配置](/configuration.html)
+April21, 2025|另请参阅： [Auto-Accep t Permissions](/mechanics-dangerous-skip-permissions.html)|[配置](/configuration.html)
 
 * * *
 
 ### v0.2.21[​](#v0221 "直接链接到v0.2.21")
 
--   Fuzzymatchingfor `/命令`
+-   为 `/命令` 添加了模糊匹配功能
 
 * * *
 

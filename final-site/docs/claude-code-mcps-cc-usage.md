@@ -6,7 +6,6 @@ title: "CC Usage | Claude Hub"
 
 **使用详细分析监控您的 Claude Code 使用情况和成本**
 
-**作者**: [@ryoppippi](https://github.com/ryoppippi)  |  [GitHub 仓库](https://github.com/ryoppippi/cc-usage)  |  725 Stars|215 Forks|MIT License|Updated Aug 24, 2025
 
 * * *
 

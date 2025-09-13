@@ -6,7 +6,6 @@ title: "Awesome Claude 提示词 |  Hub"
 
 **为开发、商业和创意工作流提供的全面优化 Claude 提示词集合，包含经过验证的模式和高级提示工程技术。**
 
-**作者**: [langgptai](https://github.com/langgptai)  |  [GitHub 仓库](https://github.com/langgptai/awesome-claude-prompts)  |  3.8k Stars|337 Forks|开源|更新于 2025年8月24日
 
 * * *
 
@@ -86,7 +85,6 @@ cd awesome-claude-prompts
 
 Awesome Claude 提示词已成为开发者的必备工具，用户报告使用 XML 结构化提示词后响应质量提高了 39%。"这些提示词将 Claude 从通用助手转变为专业的开发合作伙伴。"
 
-<img src="/img/discovery/021_happy.svg" alt="Happy discovery" style="max-width: 165px; height: auto;" />
 
 * * *
 

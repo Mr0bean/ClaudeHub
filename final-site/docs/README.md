@@ -1,75 +1,182 @@
 ---
-title: "Claude Code 文档、指南与最佳实践 | Claude Hub"
+title: "Claude Code 中文文档 | Claude Hub - 你的AI编程助手"
+description: "Claude Code 官方中文文档网站。提供完整的安装指南、配置教程、最佳实践和社区资源，帮助你掌握这个强大的AI编程工具。"
 ---
 
-# Claude Code 文档、指南与最佳实践 | Claude Hub
+<div style="text-align: center; margin: 2rem 0; padding: 3rem 2rem; background: #1a1a1a; border-radius: 16px; border: 1px solid #333;">
+  <h1 style="font-size: 3rem; color: #ffffff; margin-bottom: 1rem;">🤖 Claude Hub</h1>
+  <p style="font-size: 1.5rem; color: #b0b0b0; margin-bottom: 2rem;">你的 Claude Code 中文学习平台</p>
+  <p style="font-size: 1.1rem; color: #cccccc; max-width: 600px; margin: 0 auto 2rem auto; line-height: 1.6;">这里提供 Claude Code 的完整中文文档、实用教程和最佳实践，帮助你快速掌握这个革命性的AI编程工具。</p>
+</div>
 
+---
 
-##### 最新文章
+## 🚀 快速开始
 
-`/inspect` 版本中的 `context` 命令是上下文工程师的终极工具。获取MCP工具、自定义代理和内存文件的详细token分解，优化您的Claude Code性能。[了解更多关于上下文检查的信息](mechanics-context-inspection.html)
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
+  <div style="padding: 1.5rem; background: #2d2d2d; border: 1px solid #4a4a4a; border-radius: 12px; text-align: center; transition: border-color 0.3s;">
+    <h3 style="color: #ff6b6b; margin-bottom: 1rem;">🔰 新手入门</h3>
+    <p style="margin-bottom: 1rem; color: #cccccc;">从零开始学习 Claude Code</p>
+    <a href="/faq.html" style="color: #ff6b6b; font-weight: bold; text-decoration: none;">常见问题解答 →</a>
+  </div>
 
-## 什么是Claude？[​](#什么是claude)
+  <div style="padding: 1.5rem; background: #2d2d2d; border: 1px solid #4a4a4a; border-radius: 12px; text-align: center; transition: border-color 0.3s;">
+    <h3 style="color: #4dabf7; margin-bottom: 1rem;">⚙️ 安装配置</h3>
+    <p style="margin-bottom: 1rem; color: #cccccc;">快速安装并配置 Claude Code</p>
+    <a href="/install-claude-code.html" style="color: #4dabf7; font-weight: bold; text-decoration: none;">安装指南 →</a>
+  </div>
 
-Claude是由[Anthropic](https://www.anthropic.com/)开发的AI助手，旨在服务人类的长期福祉。通过网页聊天、桌面和移动应用以及API提供服务，Claude提供编程、研究、写作、客户支持和AI代理开发等功能。通过Claude Sonnet 4和Claude Haiku 4等模型，Claude致力于负责任的AI开发，注重安全性和可靠性。
+  <div style="padding: 1.5rem; background: #2d2d2d; border: 1px solid #4a4a4a; border-radius: 12px; text-align: center; transition: border-color 0.3s;">
+    <h3 style="color: #51cf66; margin-bottom: 1rem;">📚 学习教程</h3>
+    <p style="margin-bottom: 1rem; color: #cccccc;">通过实例学习使用技巧</p>
+    <a href="/claude-code-tutorial.html" style="color: #51cf66; font-weight: bold; text-decoration: none;">开始教程 →</a>
+  </div>
 
-有关最新文档，请访问[Anthropic的Claude文档](https://docs.anthropic.com/en/docs/intro-to-claude)
+  <div style="padding: 1.5rem; background: #2d2d2d; border: 1px solid #4a4a4a; border-radius: 12px; text-align: center; transition: border-color 0.3s;">
+    <h3 style="color: #ffd43b; margin-bottom: 1rem;">🔌 MCP 扩展</h3>
+    <p style="margin-bottom: 1rem; color: #cccccc;">探索强大的扩展功能</p>
+    <a href="/claude-code-mcps.html" style="color: #ffd43b; font-weight: bold; text-decoration: none;">浏览扩展 →</a>
+  </div>
+</div>
 
-* * *
+---
 
-* * *
+## 💡 为什么选择 Claude Code？
 
-## 什么是Claude Code？[​](#什么是claude-code)
+<div style="background: linear-gradient(135deg, #1e1e1e 0%, #2d2d2d 100%); color: #ffffff; padding: 2rem; border-radius: 12px; margin: 2rem 0; border: 1px solid #404040;">
+  <h3 style="color: #ffffff; margin-bottom: 1.5rem;">🎯 革命性的编程体验</h3>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+    <div>
+      <h4 style="color: #ff6b6b;">🧠 智能理解</h4>
+      <p style="color: #cccccc;">Claude Code 深度理解你的代码库，提供精准的建议和修改</p>
+    </div>
+    <div>
+      <h4 style="color: #4dabf7;">⚡ 极速开发</h4>
+      <p style="color: #cccccc;">自然语言命令，告别复制粘贴，大幅提升开发效率</p>
+    </div>
+    <div>
+      <h4 style="color: #51cf66;">🔧 无缝集成</h4>
+      <p style="color: #cccccc;">直接在终端中运行，与你的开发环境完美融合</p>
+    </div>
+    <div>
+      <h4 style="color: #ffd43b;">🌐 多语言支持</h4>
+      <p style="color: #cccccc;">支持几乎所有编程语言和框架，适应各种项目需求</p>
+    </div>
+  </div>
+</div>
 
-Claude Code是一个智能化编程工具，它存在于您的终端中，理解您的代码库，并通过自然语言命令帮助您更快地编写代码。通过直接与您的开发环境集成，Claude Code无需额外的服务器或复杂设置即可简化您的工作流程。
+## 📊 最新动态
 
-Claude Code提供：
+> **🆕 最新功能**
+> `/inspect` 命令现已推出！这是上下文工程师的终极工具，可以获取 MCP 工具、自定义代理和内存文件的详细 token 分解。[了解更多 →](/mechanics-context-inspection.html)
 
--   **终端集成**：直接在您的终端中运行，理解项目上下文并采取实际行动
--   **多文件能力**：在理解您的代码库和依赖关系的基础上，进行强大的多文件编辑
--   **企业集成**：与Amazon Bedrock或Google Vertex AI无缝连接，实现安全、合规的部署
--   **Git工作流管理**：读取问题、编写代码、运行测试和提交PR——全部在您的终端中完成
--   **扩展思考**：处理复杂的架构决策、具有挑战性的错误和多步骤实现
+---
 
-有关最新文档，请访问[Claude Code文档](https://docs.anthropic.com/en/docs/claude-code/overview)
+## 🎯 核心功能
 
-* * *
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
+  <div style="background: #2d2d2d; padding: 1.5rem; border-radius: 8px; border-left: 4px solid #ff6b6b; border: 1px solid #404040;">
+    <h4 style="color: #ffffff; margin-bottom: 1rem;">🖥️ 终端集成</h4>
+    <p style="color: #cccccc;">直接在您的终端中运行，理解项目上下文并采取实际行动</p>
+  </div>
 
-* * *
+  <div style="background: #2d2d2d; padding: 1.5rem; border-radius: 8px; border-left: 4px solid #4dabf7; border: 1px solid #404040;">
+    <h4 style="color: #ffffff; margin-bottom: 1rem;">📁 多文件编辑</h4>
+    <p style="color: #cccccc;">在理解您的代码库和依赖关系的基础上，进行强大的多文件编辑</p>
+  </div>
 
-## 转折点[​](#转折点)
+  <div style="background: #2d2d2d; padding: 1.5rem; border-radius: 8px; border-left: 4px solid #51cf66; border: 1px solid #404040;">
+    <h4 style="color: #ffffff; margin-bottom: 1rem;">🏢 企业集成</h4>
+    <p style="color: #cccccc;">与 Amazon Bedrock 或 Google Vertex AI 无缝连接，实现安全、合规的部署</p>
+  </div>
 
-当我第一次体验Claude Code时，它像一个破坏球一样击中了我，这项技术及其背后的机制可能会从根本上改变一切。与大多数AI编程工具定义的复制粘贴工作流不同，Claude Code引入了一个完全不同的范式，您可以设置任务、实时监控和引导进度，并审查已完成的工作，而不是反复手动地在AI环境之间复制粘贴信息。现在AI的环境直接与您的开发环境集成。
+  <div style="background: #2d2d2d; padding: 1.5rem; border-radius: 8px; border-left: 4px solid #ffd43b; border: 1px solid #404040;">
+    <h4 style="color: #ffffff; margin-bottom: 1rem;">🔄 Git 工作流</h4>
+    <p style="color: #cccccc;">读取问题、编写代码、运行测试和提交 PR——全部在您的终端中完成</p>
+  </div>
 
-作为产品设计、发明、HCI设计的实践者以及Command Stick™的开发者，我真的只有一个问题...
+  <div style="background: #2d2d2d; padding: 1.5rem; border-radius: 8px; border-left: 4px solid #9775fa; border: 1px solid #404040;">
+    <h4 style="color: #ffffff; margin-bottom: 1rem;">🧠 扩展思考</h4>
+    <p style="color: #cccccc;">处理复杂的架构决策、具有挑战性的错误和多步骤实现</p>
+  </div>
 
-> 它有多可靠？
+  <div style="background: #2d2d2d; padding: 1.5rem; border-radius: 8px; border-left: 4px solid #20c997; border: 1px solid #404040;">
+    <h4 style="color: #ffffff; margin-bottom: 1rem;">🔌 MCP 扩展</h4>
+    <p style="color: #cccccc;">通过模型上下文协议连接各种服务和工具，无限扩展功能</p>
+  </div>
+</div>
 
-在Command Stick™，我们开发了几个用于功能和主题的定制框架，所以我认为让Claude在新框架内开发功能将是一个很好的测试！
+---
 
-我兴奋极了！它用复选框指示其行动计划，传达其进度，并在必要时请求创建/编辑文件的权限。然而，当我尝试编译代码时，Android Studio抛出了错误。
+## 📚 热门资源
 
-我并没有因为错误而沮丧，相反，我很感兴趣并且兴高采烈！
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
+  <div style="background: #2d2d2d; padding: 1.5rem; border-radius: 8px; border: 1px solid #404040; transition: border-color 0.3s;">
+    <h4 style="color: #ff6b6b; margin-bottom: 1rem;">❓ 常见问题</h4>
+    <p style="margin-bottom: 1rem; color: #cccccc;">涵盖安装、配置、使用技巧等常见问题的完整解答</p>
+    <a href="/faq.html" style="color: #ff6b6b; font-weight: bold; text-decoration: none;">查看 FAQ →</a>
+  </div>
 
-> 如果我能让它遵循指令，我就能赚大钱了，我可以自动化功能和主题生成。
+  <div style="background: #2d2d2d; padding: 1.5rem; border-radius: 8px; border: 1px solid #404040; transition: border-color 0.3s;">
+    <h4 style="color: #4dabf7; margin-bottom: 1rem;">⚙️ 配置指南</h4>
+    <p style="margin-bottom: 1rem; color: #cccccc;">详细的配置说明和最佳实践，让你的 Claude Code 运行得更好</p>
+    <a href="/configuration.html" style="color: #4dabf7; font-weight: bold; text-decoration: none;">配置设置 →</a>
+  </div>
 
-在失败的尝试之后，我迭代了[`CLAUDE.md`](mechanics-claude-md-supremacy.html)，将其细化为任务上下文、规则、编号步骤和示例的模块，这引导Claude走向成功。这成为了本指南中记录的许多Claude Code最佳实践和优化技术的基础。
+  <div style="background: #2d2d2d; padding: 1.5rem; border-radius: 8px; border: 1px solid #404040; transition: border-color 0.3s;">
+    <h4 style="color: #51cf66; margin-bottom: 1rem;">🔧 核心机制</h4>
+    <p style="margin-bottom: 1rem; color: #cccccc;">深入了解 Claude Code 的高级功能和工作原理</p>
+    <a href="/mechanics-you-are-the-main-thread.html" style="color: #51cf66; font-weight: bold; text-decoration: none;">探索机制 →</a>
+  </div>
 
-当它工作时，就像魔法一样！
+  <div style="background: #2d2d2d; padding: 1.5rem; border-radius: 8px; border: 1px solid #404040; transition: border-color 0.3s;">
+    <h4 style="color: #ffd43b; margin-bottom: 1rem;">💰 定价信息</h4>
+    <p style="margin-bottom: 1rem; color: #cccccc;">Claude Code 的订阅计划和费用对比，选择最适合你的方案</p>
+    <a href="/claude-code-pricing.html" style="color: #ffd43b; font-weight: bold; text-decoration: none;">查看定价 →</a>
+  </div>
+</div>
 
-我继续让它生成各种功能片段，有些反复生成以查看实现中的差异程度，这也很有趣（稍后讨论）。
+---
 
-我抵制了开始生成大型项目的诱惑，专注于尝试理解是什么让Claude的按钮运转（就可靠性和速度而言），并将分享我的个人观察以及从[r/ClaudeAI](https://www.reddit.com/r/ClaudeAI)收集的观察。
+## 🌟 社区支持
 
-这个日志将通过实用的见解和技术帮助您从Claude和Claude Code中获得更多价值。
+<div style="background: #2d2d2d; padding: 2rem; border-radius: 12px; margin: 2rem 0; border: 1px solid #404040;">
+  <h3 style="text-align: center; margin-bottom: 2rem; color: #ffffff;">加入我们的社区</h3>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
+    <div style="text-align: center;">
+      <h4 style="color: #ff6b6b;">🗨️ Reddit 社区</h4>
+      <p style="color: #cccccc;">最活跃的 Claude Code 讨论社区</p>
+      <a href="https://www.reddit.com/r/ClaudeAI/" style="color: #ff6b6b; font-weight: bold; text-decoration: none;">访问 r/ClaudeAI →</a>
+    </div>
+    <div style="text-align: center;">
+      <h4 style="color: #cccccc;">🐙 GitHub</h4>
+      <p style="color: #cccccc;">报告问题和获取官方支持</p>
+      <a href="https://github.com/anthropics/claude-code/issues" style="color: #cccccc; font-weight: bold; text-decoration: none;">GitHub Issues →</a>
+    </div>
+    <div style="text-align: center;">
+      <h4 style="color: #4dabf7;">📖 官方文档</h4>
+      <p style="color: #cccccc;">Anthropic 官方英文文档</p>
+      <a href="https://docs.anthropic.com/en/docs/claude-code" style="color: #4dabf7; font-weight: bold; text-decoration: none;">English Docs →</a>
+    </div>
+  </div>
+</div>
 
-##### 旅程开始
+---
 
-欢迎来到Claude Hub，您掌握Claude Code的全面指南。这里的每一个技术、机制和见解都来自社区，并已在真实开发场景中由社区测试！
+## 🎉 立即开始
 
+<div style="text-align: center; padding: 2rem; background: linear-gradient(135deg, #1e1e1e 0%, #2d2d2d 100%); border-radius: 12px; color: #ffffff; margin: 2rem 0; border: 1px solid #404040;">
+  <h3 style="color: #ffffff; margin-bottom: 1rem;">准备好体验 AI 编程的未来了吗？</h3>
+  <p style="margin-bottom: 2rem; font-size: 1.1rem; color: #cccccc;">从安装到掌握，我们为你准备了完整的学习路径</p>
+  <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+    <a href="/install-claude-code.html" style="background: #4dabf7; color: #ffffff; padding: 0.8rem 1.5rem; border-radius: 6px; text-decoration: none; font-weight: bold; transition: background-color 0.3s;">开始安装</a>
+    <a href="/guide.html" style="background: transparent; color: #ffffff; padding: 0.8rem 1.5rem; border-radius: 6px; text-decoration: none; font-weight: bold; border: 2px solid #4dabf7; transition: all 0.3s;">使用指南</a>
+  </div>
+</div>
 
-* * *
+---
 
-## Claude Code设置[​](#claude-code设置)
-
-如果您需要安装Claude Code，我们的[安装指南](install-claude-code.html)可以帮助您。有关高级设置和优化，请参阅我们的[配置指南](configuration.html)。
+<div style="text-align: center; color: #888888; font-size: 0.9rem; margin: 2rem 0; padding: 1.5rem; background: #1a1a1a; border-radius: 8px; border: 1px solid #333;">
+  <p style="margin-bottom: 0.5rem;">💝 本网站是社区驱动的中文文档项目，持续更新中</p>
+  <p style="margin-bottom: 0;">如有建议或发现问题，欢迎通过社区渠道反馈</p>
+</div>

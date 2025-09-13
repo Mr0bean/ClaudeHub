@@ -52,8 +52,6 @@ Actually, let's change the button color to blue (#0066cc) instead of red
 
 尝试鼓励 Claude 在他的待办中更加精细。不是"设置导航栏样式"，让 Claude 揭示具体的调整："将高度从60px改为80px"，"将padding-top从16px减少到12px"，"将背景从#ffffff调整为rgba(255,255,255,0.9)"。这种透明度在 Claude 做出设计决定之前就暴露了他的决定，让你能够批准或重新引导他的美学选择。
 
-<img src="/img/claudes-greatest-soldier.png" alt="inventorblack" style="width: 25px; height: 25px; border-radius: 50%; display: inline-block; vertical-align: middle; margin: 0 3px;" />
-
 * * *
 
-**另见**：[你是主线程](/mechanics-you-are-the-main-thread.html)|[紧密反馈循环](/mechanics-tight-feedback-loops.html)|[CLAUDE.md 至上](/mechanics-claude-md-supremacy.html)
+**另见**：[你是主线程](/mechanics-you-are-the-main-thread.html)|[紧密反馈循环](/mechanics-context-window-depletion.html)|[CLAUDE.md 至上](/mechanics-claude-md-supremacy.html)

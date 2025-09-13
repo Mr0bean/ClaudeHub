@@ -37,231 +37,231 @@ Claude Hub（“我们”、“我方”或“本公司”）运营网站 [https
 
 * * *
 
-## How We Use Your Information[​](#how-we-use-your-information "Direct link to How We Use Your Information")
+## 我们如何使用您的信息[​](#how-we-use-your-information "Direct link to How We Use Your Information")
 
-We use the collected information for the following purposes, based on the legal grounds specified:
+我们基于指定的法律依据，将收集到的信息用于以下目的：
 
-**Service Operation** (Legal basis: Legitimate interest)
+**服务运营**（法律依据：合法权益）
 
--   Providing and maintaining our Service
--   Ensuring website functionality and security
+-   提供和维护我们的服务
+-   确保网站功能和安全
 
-**Communications** (Legal basis: Consent)
+**通信**（法律依据：同意）
 
--   Sending newsletters and updates (with your explicit consent)
--   Responding to your inquiries and requests
+-   发送新闻简报和更新（征得您的明确同意）
+-   回应您的询问和请求
 
-**Analytics and Improvement** (Legal basis: Legitimate interest)
+**分析和改进**（法律依据：合法权益）
 
--   Analyzing website usage and improving our Service
--   Understanding user preferences and behavior
+-   分析网站使用情况并改进我们的服务
+-   了解用户偏好和行为
 
-**Legal Compliance** (Legal basis: Legal obligation)
+**法律合规**（法律依据：法律义务）
 
--   Complying with applicable laws and regulations
--   Responding to legal requests from authorities
+-   遵守适用的法律法规
+-   响应当局的法律请求
 
 * * *
 
-## Cookies and Tracking Technologies[​](#cookies-and-tracking-technologies "Direct link to Cookies and Tracking Technologies")
+## Cookies 和跟踪技术[​](#cookies-and-tracking-technologies "Direct link to Cookies and Tracking Technologies")
 
-We use cookies and similar tracking technologies on our website. Cookies are small text files stored on your device that help us provide and improve our services.
+我们在网站上使用 cookies 和类似的跟踪技术。Cookies 是存储在您设备上的小文本文件，帮助我们提供和改进服务。
 
-### Cookie Categories[​](#cookie-categories "Direct link to Cookie Categories")
+### Cookie 类别[​](#cookie-categories "Direct link to Cookie Categories")
 
-**Essential Cookies** (Legal basis: Legitimate interest)
+**必要 Cookies**（法律依据：合法权益）
 
--   Required for basic website functionality
--   Enable core features like navigation and access to secure areas
--   Cannot be disabled without affecting website operation
+-   网站基本功能所必需
+-   启用导航和访问安全区域等核心功能
+-   无法在不影响网站运行的情况下禁用
 
-**Functional Cookies** (Legal basis: Consent)
+**功能性 Cookies**（法律依据：同意）
 
--   Remember your preferences and settings
--   Enhance user experience with personalized features
--   Include newsletter subscription preferences
+-   记住您的偏好和设置
+-   通过个性化功能增强用户体验
+-   包括新闻简报订阅偏好
 
-**Analytics Cookies** (Legal basis: Legitimate interest)
+**分析 Cookies**（法律依据：合法权益）
 
--   Help us understand how visitors interact with our website
--   Collect anonymous information about page views and user behavior
--   Used to improve website performance and content
+-   帮助我们了解访问者如何与网站互动
+-   收集关于页面浏览和用户行为的匿名信息
+-   用于改善网站性能和内容
 
-**Advertising Cookies** (Legal basis: Consent)
+**广告 Cookies**（法律依据：同意）
 
--   Enable personalized advertising through Google AdSense
--   Track your interests across websites for relevant ads
--   Allow measurement of advertising effectiveness
+-   通过 Google AdSense 启用个性化广告
+-   跨网站跟踪您的兴趣以提供相关广告
+-   允许衡量广告效果
 
 ### Google AdSense[​](#google-adsense "Direct link to Google AdSense")
 
-Third-party vendors, including Google, use cookies to serve ads based on a user's prior visits to your website or other websites. Google's use of advertising cookies enables it and its partners to serve ads to your users based on their visit to your sites and/or other sites on the Internet.
+包括 Google 在内的第三方供应商使用 cookies 根据用户之前对您网站或其他网站的访问来投放广告。Google 使用广告 cookies 使其及其合作伙伴能够根据用户对您网站和/或互联网上其他网站的访问向用户投放广告。
 
-Users may opt out of personalized advertising by visiting [Google's Ads Settings](https://www.google.com/settings/ads).
+用户可以通过访问 [Google 广告设置](https://www.google.com/settings/ads) 选择退出个性化广告。
 
 ### Google Analytics[​](#google-analytics "Direct link to Google Analytics")
 
-We use Google Analytics to analyze website traffic and user behavior. Google Analytics uses cookies to collect information about how visitors use our site, including:
+我们使用 Google Analytics 来分析网站流量和用户行为。Google Analytics 使用 cookies 收集关于访问者如何使用我们网站的信息，包括：
 
--   Pages visited and time spent
--   Geographic location (country/region level)
--   Browser and device information
--   Traffic sources and referrers
+-   访问的页面和停留时间
+-   地理位置（国家/地区级别）
+-   浏览器和设备信息
+-   流量来源和推荐网站
 
-**IP Anonymization**: We have enabled IP anonymization in Google Analytics, which means your IP address is truncated before storage to protect your privacy.
+**IP 匿名化**：我们在 Google Analytics 中启用了 IP 匿名化，这意味着您的 IP 地址在存储前会被截断以保护您的隐私。
 
-You can opt out of Google Analytics by installing the [Google Analytics Opt-out Browser Add-on](https://tools.google.com/dlpage/gaoptout).
+您可以通过安装 [Google Analytics 退出浏览器插件](https://tools.google.com/dlpage/gaoptout) 来选择退出 Google Analytics。
 
-### Newsletter Service (MailChimp)[​](#newsletter-service-mailchimp "Direct link to Newsletter Service (MailChimp)")
+### 新闻简报服务 (MailChimp)[​](#newsletter-service-mailchimp "Direct link to Newsletter Service (MailChimp)")
 
-We use MailChimp to manage our newsletter subscriptions. When you subscribe to our newsletter, your email address and any additional information you provide is stored on MailChimp's servers. Please review [MailChimp's Privacy Policy](https://mailchimp.com/legal/privacy/) for more information.
+我们使用 MailChimp 来管理新闻简报订阅。当您订阅我们的新闻简报时，您的电子邮件地址和您提供的任何其他信息都存储在 MailChimp 的服务器上。请查看 [MailChimp 隐私政策](https://mailchimp.com/legal/privacy/) 了解更多信息。
 
-### Support Platform (Buy Me a Coffee)[​](#support-platform-buy-me-a-coffee "Direct link to Support Platform (Buy Me a Coffee)")
+### 支持平台 (Buy Me a Coffee)[​](#support-platform-buy-me-a-coffee "Direct link to Support Platform (Buy Me a Coffee)")
 
-We use Buy Me a Coffee to facilitate community support and contributions to Claude Hub. When you support us through this platform:
+我们使用 Buy Me a Coffee 来促进社区支持和对 Claude Hub 的贡献。当您通过此平台支持我们时：
 
--   Your transaction data is processed by Buy Me a Coffee according to their privacy policy
--   We may receive basic supporter information (name, message, public profile details) as provided by the platform
--   Any images or personal information you voluntarily share in support messages are subject to our discretion regarding public display
+-   您的交易数据由 Buy Me a Coffee 根据其隐私政策处理
+-   我们可能会收到平台提供的基本支持者信息（姓名、消息、公开资料详细信息）
+-   您在支持消息中自愿分享的任何图像或个人信息是否公开显示由我们自行决定
 
-For more information, please review [Buy Me a Coffee's Privacy Policy](https://buymeacoffee.com/privacy).
-
-* * *
-
-## Data Sharing and Third Parties[​](#data-sharing-and-third-parties "Direct link to Data Sharing and Third Parties")
-
-We may share your information with third-party service providers who assist us in operating our website and conducting our business, including:
-
--   **Google AdSense** (for advertising) - [Privacy Policy](https://policies.google.com/privacy)
--   **Google Analytics** (for website analytics) - [Privacy Policy](https://policies.google.com/privacy)
--   **MailChimp** (for newsletter services) - [Privacy Policy](https://mailchimp.com/legal/privacy/)
--   **GitHub Pages** (for website hosting) - [Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement)
--   **Buy Me a Coffee** (for community support) - [Privacy Policy](https://buymeacoffee.com/privacy)
--   Other web service providers as necessary for website operation
-
-We do not sell, trade, or otherwise transfer your personal information to third parties for their marketing purposes without your consent.
-
-### Anthropic's Updated Consumer Terms (August 2025)[​](#anthropics-updated-consumer-terms-august-2025 "Direct link to Anthropic's Updated Consumer Terms (August 2025)")
-
-**Important Notice for Claude Code Users**
-
-If you use Claude Code through consumer Anthropic accounts (Free, Pro, or Max subscriptions), please be aware that Anthropic has updated their consumer terms and privacy policy regarding data usage for model training.
-
-**Consumer Account Policy Changes:**
-
--   Anthropic now requests permission to use chats and coding sessions for AI model training and improvement
--   This applies to Claude Free, Pro, and Max subscription accounts when used with Claude Code
--   You maintain full control and can opt-in, opt-out, or change your preference at any time
--   Only new or resumed sessions would be used for training (not historical data)
-
-**Commercial Accounts Unaffected:**
-
--   Anthropic API users are not subject to these consumer policy changes
--   Claude for Work, Education, and enterprise accounts operate under different terms
--   These accounts continue under existing commercial data processing agreements
-
-**Your Choices:** When using Claude Code, you can make informed decisions about data usage based on your privacy preferences and project requirements. For complete details about Anthropic's data policies, privacy protections, and your choices, please review [Anthropic's Privacy Policy](https://www.anthropic.com/privacy) and [Privacy Center](https://privacy.anthropic.com/).
-
-**Claude Hub's Role:** Claude Hub serves as a documentation resource and does not process your Claude Code interactions. Your data handling is governed by your relationship with Anthropic based on your chosen authentication method (consumer subscription vs. API).
+有关更多信息，请查看 [Buy Me a Coffee 隐私政策](https://buymeacoffee.com/privacy)。
 
 * * *
 
-## International Data Transfers[​](#international-data-transfers "Direct link to International Data Transfers")
+## 数据共享和第三方[​](#data-sharing-and-third-parties "数据共享和第三方的直接链接")
 
-Your information may be transferred to and processed in countries other than your country of residence. These countries may have data protection laws that are different from the laws of your country.
+我们可能会与协助我们运营网站和开展业务的第三方服务提供商共享您的信息，包括：
 
-* * *
+-   **Google AdSense**（用于广告）- [隐私政策](https://policies.google.com/privacy)
+-   **Google Analytics**（用于网站分析）- [隐私政策](https://policies.google.com/privacy)
+-   **MailChimp**（用于新闻简报服务）- [隐私政策](https://mailchimp.com/legal/privacy/)
+-   **GitHub Pages**（用于网站托管）- [隐私声明](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement)
+-   **Buy Me a Coffee**（用于社区支持）- [隐私政策](https://buymeacoffee.com/privacy)
+-   网站运营所必需的其他网络服务提供商
 
-## Your Rights Under Privacy Laws[​](#your-rights-under-privacy-laws "Direct link to Your Rights Under Privacy Laws")
+未经您同意，我们不会为了第三方的营销目的而向其出售、交易或转移您的个人信息。
 
-### General Rights[​](#general-rights "Direct link to General Rights")
+### Anthropic 更新的消费者条款（2025 年 8 月）[​](#anthropics-updated-consumer-terms-august-2025 "Anthropic 更新消费者条款的直接链接")
 
-Depending on your location, you may have the following rights regarding your personal information:
+**Claude Code 用户重要通知**
 
--   Right to access your personal data
--   Right to rectification of inaccurate data
--   Right to erasure ("right to be forgotten")
--   Right to restrict processing
--   Right to data portability
--   Right to object to processing
+如果您通过 Anthropic 消费者账户（免费、Pro 或 Max 订阅）使用 Claude Code，请注意 Anthropic 已更新其关于模型训练数据使用的消费者条款和隐私政策。
 
-### GDPR Rights (EU Residents)[​](#gdpr-rights-eu-residents "Direct link to GDPR Rights (EU Residents)")
+**消费者账户政策变更：**
 
-If you are located in the European Union, you have additional rights under the General Data Protection Regulation (GDPR), including the right to lodge a complaint with a supervisory authority.
+-   Anthropic 现在请求许可使用聊天和编码会话用于 AI 模型训练和改进
+-   这适用于与 Claude Code 一起使用的 Claude Free、Pro 和 Max 订阅账户
+-   您保持完全控制权，可以随时选择加入、退出或更改您的偏好
+-   只有新的或恢复的会话才会用于训练（不包括历史数据）
 
-### CCPA Rights (California Residents)[​](#ccpa-rights-california-residents "Direct link to CCPA Rights (California Residents)")
+**商业账户不受影响：**
 
-If you are a California resident, you have rights under the California Consumer Privacy Act (CCPA), including:
+-   Anthropic API 用户不受这些消费者政策变更影响
+-   Claude for Work、教育和企业账户在不同条款下运营
+-   这些账户继续在现有商业数据处理协议下运营
 
--   Right to know what personal information is collected
--   Right to delete personal information
--   Right to opt-out of the sale of personal information
--   Right to non-discrimination
+**您的选择：**在使用 Claude Code 时，您可以根据您的隐私偏好和项目要求做出关于数据使用的明智决定。有关 Anthropic 数据政策、隐私保护和您选择的完整详情，请查看 [Anthropic 隐私政策](https://www.anthropic.com/privacy) 和 [隐私中心](https://privacy.anthropic.com/)。
 
-* * *
-
-## Data Retention[​](#data-retention "Direct link to Data Retention")
-
-We retain your personal information only for as long as necessary to fulfill the purposes for which it was collected, comply with legal obligations, resolve disputes, and enforce our agreements.
-
--   Newsletter subscriptions: Until you unsubscribe
--   Contact form submissions: 2 years
--   Analytics data: As per Google Analytics retention settings (default 26 months)
--   Cookies: As specified in individual cookie settings
+**Claude Hub 的作用：**Claude Hub 作为文档资源，不处理您的 Claude Code 交互。您的数据处理由您与 Anthropic 的关系根据您选择的身份验证方法（消费者订阅 vs API）管理。
 
 * * *
 
-## Security[​](#security "Direct link to Security")
+## 国际数据传输[​](#international-data-transfers "国际数据传输的直接链接")
 
-We implement appropriate technical and organizational security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the internet or electronic storage is 100% secure.
-
-* * *
-
-## Data Breach Notification[​](#data-breach-notification "Direct link to Data Breach Notification")
-
-In the event of a data breach that poses a risk to your rights and freedoms, we will:
-
--   **Notify authorities**: Report the breach to relevant supervisory authorities within 72 hours where required by law
--   **Inform affected users**: Notify you via email or prominent website notice without undue delay if the breach poses a high risk to your rights
--   **Provide clear information**: Include details about the nature of the breach, potential consequences, and measures we're taking to address it
--   **Offer guidance**: Recommend steps you can take to protect yourself from potential harm
+您的信息可能会被传输到您居住国以外的国家并在这些国家处理。这些国家的数据保护法律可能与您所在国家的法律不同。
 
 * * *
 
-## Automated Decision-Making and Profiling[​](#automated-decision-making-and-profiling "Direct link to Automated Decision-Making and Profiling")
+## 您在隐私法律下的权利[​](#your-rights-under-privacy-laws "您在隐私法律下权利的直接链接")
 
-We do not engage in automated decision-making or profiling that produces legal effects or significantly affects you. Any automated processing we conduct (such as analytics) is solely for the purposes of:
+### 一般权利[​](#general-rights "一般权利的直接链接")
 
--   Improving website performance and user experience
--   Understanding aggregate user behavior patterns
--   Providing relevant content recommendations
+根据您的位置，您可能对您的个人信息拥有以下权利：
 
-You are not subject to automated decisions that could impact your rights, and human oversight is maintained for all significant processing activities.
+-   访问您个人数据的权利
+-   纠正不准确数据的权利
+-   删除权（“被遗忘权”）
+-   限制处理的权利
+-   数据可携带性权利
+-   反对处理的权利
 
-* * *
+### GDPR 权利（欧盟居民）[​](#gdpr-rights-eu-residents "GDPR 权利的直接链接")
 
-## Children's Privacy[​](#childrens-privacy "Direct link to Children's Privacy")
+如果您位于欧盟，您在《通用数据保护条例》(GDPR) 下拥有额外权利，包括向监管机构提出投诉的权利。
 
-Our Service is not intended for children under 13 years of age. We do not knowingly collect personally identifiable information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us so we can delete such information.
+### CCPA 权利（加利福尼亚居民）[​](#ccpa-rights-california-residents "CCPA 权利的直接链接")
 
-* * *
+如果您是加利福尼亚居民，您在《加利福尼亚消费者隐私法》(CCPA) 下拥有权利，包括：
 
-## Updates to This Privacy Policy[​](#updates-to-this-privacy-policy "Direct link to Updates to This Privacy Policy")
-
-We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.
-
-* * *
-
-## Contact Information[​](#contact-information "Direct link to Contact Information")
-
-If you have any questions about this Privacy Policy or our privacy practices, please contact us at:
-
-**Email**: [hello@](mailto:hello@)
+-   知道收集了哪些个人信息的权利
+-   删除个人信息的权利
+-   选择退出个人信息销售的权利
+-   不受歧视的权利
 
 * * *
 
-## Cookie Consent[​](#cookie-consent "Direct link to Cookie Consent")
+## 数据保留[​](#data-retention "数据保留的直接链接")
 
-By continuing to use our website, you consent to our use of cookies as described in this Privacy Policy. You can manage your cookie preferences through your browser settings.
+我们只在实现收集目的、遵守法律义务、解决争议和执行我们协议所必需的时间内保留您的个人信息。
+
+-   新闻简报订阅：直到您取消订阅
+-   联系表单提交：2 年
+-   分析数据：按照 Google Analytics 保留设置（默认 26 个月）
+-   Cookies：按照各个 cookie 设置指定
+
+* * *
+
+## 安全性[​](#security "安全性的直接链接")
+
+我们实施适当的技术和组织安全措施，以保护您的个人信息免受未经授权的访问、更改、披露或销毁。然而，通过互联网传输或电子存储的方法都不是 100% 安全的。
+
+* * *
+
+## 数据泄露通知[​](#data-breach-notification "数据泄露通知的直接链接")
+
+如果发生可能对您的权利和自由造成风险的数据泄露，我们将：
+
+-   **通知当局**：在法律要求的情况下，在72小时内向相关监管机构报告泄露事件
+-   **告知受影响用户**：如果泄露对您的权利造成高风险，我们将通过电子邮件或网站显著通知立即告知您
+-   **提供明确信息**：包括泄露性质、潜在后果和我们正在采取的应对措施的详细信息
+-   **提供指导**：建议您可以采取的步骤来保护自己免受潜在伤害
+
+* * *
+
+## 自动化决策和用户画像[​](#automated-decision-making-and-profiling "自动化决策和用户画像的直接链接")
+
+我们不从事产生法律效力或对您产生重大影响的自动化决策或用户画像。我们进行的任何自动化处理（如分析）仅用于：
+
+-   改善网站性能和用户体验
+-   了解用户聚合行为模式
+-   提供相关内容推荐
+
+您不受可能影响您权利的自动化决策的影响，所有重要处理活动都保持人工监督。
+
+* * *
+
+## 儿童隐私[​](#childrens-privacy "儿童隐私的直接链接")
+
+我们的服务不面向 13 岁以下的儿童。我们不会故意收集 13 岁以下儿童的个人身份识别信息。如果您是父母或监护人，并且认为您的孩子向我们提供了个人信息，请联系我们，我们将删除此类信息。
+
+* * *
+
+## 本隐私政策的更新[​](#updates-to-this-privacy-policy "本隐私政策更新的直接链接")
+
+我们可能会不时更新本隐私政策。我们将通过在本页面上发布新的隐私政策并更新“最后更新”日期来通知您任何更改。
+
+* * *
+
+## 联系信息[​](#contact-information "联系信息的直接链接")
+
+如果您对本隐私政策或我们的隐私做法有任何疑问，请联系我们：
+
+**电子邮件**: [hello@](mailto:hello@)
+
+* * *
+
+## Cookie 同意[​](#cookie-consent "Cookie 同意的直接链接")
+
+通过继续使用我们的网站，您同意我们按照本隐私政策中所述使用 cookies。您可以通过浏览器设置管理您的 cookie 偏好。
 
 * * *

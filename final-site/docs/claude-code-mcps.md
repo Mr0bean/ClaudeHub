@@ -58,7 +58,7 @@ WhatsApp MCP：通过模型上下文协议为 Claude Code 提供个人 WhatsApp 
 
 AI 驱动的 3D 建模，将 Blender 连接到 Claude AI，实现自然语言 3D 场景创建、对象操作和自动化工作流。
 
-## [浏览器工具 MCP](claude-code-mcps-browser-tools-mcp.html)
+## [浏览器工具 MCP](claude-code-mcps-puppeteer-mcp.html)
 
 用于实时网页调试、性能分析和开发工作流自动化测试的浏览器自动化 MCP 服务器。
 

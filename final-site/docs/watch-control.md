@@ -180,4 +180,4 @@ title: "手表控制示例 | Claude Hub"
 
 * * *
 
-**另请参阅**：[Bash脚本](/mechanics-bash-scripts.html)|[工具制作器](/tool-maker.html)|[CLAUDE.md至上](/mechanics-claude-md-supremacy.html)
+**另请参阅**：[Bash脚本](/mechanics-bash-scripts.html)|[工具制作器](/mechanics-task-agent-tools.html)|[CLAUDE.md至上](/mechanics-claude-md-supremacy.html)

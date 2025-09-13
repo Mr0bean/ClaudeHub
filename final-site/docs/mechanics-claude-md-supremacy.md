@@ -45,8 +45,6 @@ title: "CLAUDE.md 至高优先级 | Claude Hub"
 
 当你充分理解你正在构建的系统时，这个机制效果最佳。通过预先提供完整的上下文，你可以最大限度地减少 Claude 的猜测，从而获得更好的遵循性、更快的任务执行和 token 节省。
 
-<img src="/img/claudes-greatest-soldier.png" alt="inventorblack" style="width: 25px; height: 25px; border-radius: 50%; display: inline-block; vertical-align: middle; margin: 0 3px;">
-
 * * *
 
 **另请参阅**：[什么是 CLAUDE.md](/mechanics-claude-md-supremacy.html)|[完整性检查](/mechanics-sanity-check.html)|[动态内存](/mechanics-dynamic-memory.html)

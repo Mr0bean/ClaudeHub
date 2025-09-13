@@ -38,4 +38,4 @@ Claude 不受 MCP 当前实现的限制，而是研究底层库的完整 API 功
 
 * * *
 
-**另请参阅**：[Bash 脚本](/mechanics-bash-scripts.html)|[紧密反馈循环](/mechanics-tight-feedback-loops.html)|[CLAUDE.md 至上](/mechanics-claude-md-supremacy.html)
+**另请参阅**：[Bash 脚本](/mechanics-bash-scripts.html)|[紧密反馈循环](/mechanics-context-window-depletion.html)|[CLAUDE.md 至上](/mechanics-claude-md-supremacy.html)

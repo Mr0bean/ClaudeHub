@@ -19,29 +19,31 @@ export default defineUserConfig({
     logo: '/img/claude_log_star.svg',
     
     navbar: [
-      { text: 'Home', link: '/' },
-      { text: 'Install', link: '/install-claude-code.html' },
-      { text: 'Tutorial', link: '/claude-code-tutorial.html' },
-      { text: 'MCPs', link: '/claude-code-mcps.html' }
+      { text: '首页', link: '/' },
+      { text: '指南', link: '/guide.html' },
+      { text: '安装', link: '/install-claude-code.html' },
+      { text: '教程', link: '/claude-code-tutorial.html' },
+      { text: 'MCPs 扩展', link: '/claude-code-mcps.html' }
     ],
     
     sidebar: [
     {
-        "text": "Getting Started",
+        "text": "快速开始",
         "collapsible": false,
         "children": [
             "/",
+            "/guide.html",
             "/install-claude-code.html",
             "/claude-code-tutorial.html",
             "/configuration.html"
         ]
     },
     {
-        "text": "Mechanics",
+        "text": "核心机制",
         "collapsible": true,
         "children": [
             {
-                "text": "Foundation",
+                "text": "基础概念",
                 "collapsible": true,
                 "children": [
                     "/mechanics-you-are-the-main-thread.html",
@@ -59,7 +61,7 @@ export default defineUserConfig({
                 ]
             },
             {
-                "text": "Agents",
+                "text": "智能代理",
                 "collapsible": true,
                 "children": [
                     "/mechanics-task-agent-tools.html",
@@ -72,7 +74,7 @@ export default defineUserConfig({
                 ]
             },
             {
-                "text": "Performance",
+                "text": "性能优化",
                 "collapsible": true,
                 "children": [
                     "/mechanics-ultrathink-plus-plus.html",
@@ -84,7 +86,7 @@ export default defineUserConfig({
                 ]
             },
             {
-                "text": "Development",
+                "text": "开发实践",
                 "collapsible": true,
                 "children": [
                     "/mechanics-hooks.html",
@@ -98,14 +100,14 @@ export default defineUserConfig({
         ]
     },
     {
-        "text": "CLAUDE.md Vault",
+        "text": "CLAUDE.md 文档库",
         "collapsible": true,
         "children": [
             "/watch-control.html"
         ]
     },
     {
-        "text": "MCPs & Add-ons",
+        "text": "MCPs 插件与扩展",
         "collapsible": true,
         "children": [
             "/claude-code-mcps.html",
@@ -119,7 +121,7 @@ export default defineUserConfig({
             "/claude-code-mcps-reddit-mcp.html",
             "/claude-code-mcps-whatsapp-mcp.html",
             "/claude-code-mcps-awesome-mcp-servers.html",
-            { text: "Awesome Claude Code | ClaudeLog", link: "/claude-code-mcps-awesome-claude-code.html" },
+            { text: "精选 Claude Code 资源", link: "/claude-code-mcps-awesome-claude-code.html" },
             "/claude-code-mcps-github-mcp-server.html",
             "/claude-code-mcps-blender-mcp.html",
             "/claude-code-mcps-desktop-commander-mcp.html",
@@ -129,7 +131,7 @@ export default defineUserConfig({
         ]
     },
     {
-        "text": "Resources",
+        "text": "资源",
         "children": [
             "/faq.html",
             "/claude-code-pricing.html",
@@ -138,7 +140,7 @@ export default defineUserConfig({
         ]
     },
     {
-        "text": "Legal",
+        "text": "法律条款",
         "children": [
             "/privacy-policy.html",
             "/terms-of-service.html",
