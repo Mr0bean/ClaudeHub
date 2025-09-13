@@ -1,60 +1,60 @@
 ---
-title: "Agent-First Design | Claude Hub"
+title: "代理优先设计 | Claude Hub"
 ---
 
-# Agent-First Design | Claude Hub
+# 代理优先设计 | Claude Hub
 
-As I use Claude Code more and more I find myself fundamentally rethinking how I engineer products. Not just the code, but the entire product architecture, feature design, and even the business model to leverage what AI agents can uniquely deliver.
+随着我越来越多地使用 Claude Code，我发现自己正在从根本上重新思考如何设计产品。不仅仅是代码，还包括整个产品架构、功能设计，甚至是商业模式，以充分利用 AI 代理能够独特提供的能力。
 
-### The Paradigm Shift[​](#the-paradigm-shift "Direct link to The Paradigm Shift")
+### 范式转变[​](#the-paradigm-shift "Direct link to 范式转变")
 
-Right now, we engineer products optimized for ease of development by human teams. I believe the most successful products in the future will be engineered with AI agents as first-class participants in creation, iteration, and scaling. Everything changes. Product architecture, feature design, business models, go-to-market strategies.
+目前，我们设计的产品都是为了优化人类团队的开发便利性。我相信未来最成功的产品将把 AI 代理作为创建、迭代和扩展的一等参与者来设计。一切都会改变。产品架构、功能设计、商业模式、市场推广策略。
 
-I am already observing a shift in how we think about software architecture. Human-first design optimizes for readability and team productivity. Agent-first design builds on this foundation, adding optimization for what AI agents can rapidly generate, extend, and personalize at scale. The software architecture becomes the enabling infrastructure that allows agents to understand, modify, and scale the product efficiently.
-
-* * *
-
-* * *
-
-### Competitive Advantage Through Agent-Native Products[​](#competitive-advantage-through-agent-native-products "Direct link to Competitive Advantage Through Agent-Native Products")
-
-I believe that products will be engineered to maximize what AI agents can create, customize, and distribute on behalf of users. This unlocks entirely new business models around personalization, automated content creation, and dynamic feature generation that would be impossible with traditional human-driven approaches.
-
-I'm excited about the kinds of systems and processes we will need to collectively develop to enable it. Products engineered for AI agents to extend and personalize can achieve scaling patterns that weren't possible before: mass personalization, rapid feature iteration.
-
-Ever since coming to grips with Claude Code, I find myself asking:
-
-> What aspects of products have patterns such that an LLM can generate derivations which are still valuable to users?
-
-This question cuts to the heart of agent-first product design. It is not just about making features easier to build, but rather identifying the fundamental product patterns that AI agents can meaningfully extend, customize, and scale for individual users. The value lies not in the initial product, but in the `infinite variations and personalizations that agents can generate from well-designed foundations`.
+我已经在观察到我们对软件架构思考方式的转变。以人为本的设计优化了可读性和团队生产力。代理优先设计在此基础上构建，增加了对 AI 代理可以快速生成、扩展和大规模个性化的优化。软件架构成为使能基础设施，让代理能够高效地理解、修改和扩展产品。
 
 * * *
 
 * * *
 
-### Agent First Product Principles[​](#agent-first-product-principles "Direct link to Agent First Product Principles")
+### 通过原生代理产品获得竞争优势[​](#competitive-advantage-through-agent-native-products "Direct link to 通过原生代理产品获得竞争优势")
 
--   **Modular architecture** - Product built from discrete, combinable components with clear interfaces that agents can safely extend, modify, and recombine while maintaining system integrity.
+我相信产品将被设计为最大化 AI 代理能够代表用户创建、定制和分发的能力。这解锁了围绕个性化、自动内容创建和动态功能生成的全新商业模式，这在传统的人工驱动方法中是不可能实现的。
+
+我对我们需要共同开发的各种系统和流程感到兴奋。为 AI 代理扩展和个性化而设计的产品可以实现以前不可能的扩展模式：大规模个性化、快速功能迭代。
+
+自从掌握了 Claude Code 以来，我发现自己一直在问：
+
+> 产品的哪些方面具有这样的模式，使得 LLM 可以生成对用户仍然有价值的衍生内容？
+
+这个问题切中了代理优先产品设计的核心。这不仅仅是让功能更容易构建，而是识别 AI 代理可以有意义地扩展、定制和为个人用户扩展的基本产品模式。价值不在于初始产品，而在于`代理可以从精心设计的基础上生成的无限变化和个性化`。
+
+* * *
+
+* * *
+
+### 代理优先产品原则[​](#agent-first-product-principles "Direct link to 代理优先产品原则")
+
+-   **模块化架构** - 产品由离散的、可组合的组件构建，具有清晰的接口，代理可以安全地扩展、修改和重新组合，同时保持系统完整性。
     
--   **Templatable experiences** - User experience patterns that agents can confidently modify and generate variations from while maintaining quality and coherence.
+-   **可模板化体验** - 用户体验模式，代理可以自信地修改并从中生成变化，同时保持质量和连贯性。
     
--   **Scalable personalization** - System architecture that enables agents to create unique versions for individual users without exponentially increasing complexity or operational cost.
+-   **可扩展的个性化** - 系统架构使代理能够为个人用户创建独特版本，而不会指数级增加复杂性或运营成本。
     
--   **Automated validation** - Built-in mechanisms that let agents verify their modifications work correctly and provide value to users without constant human oversight.
+-   **自动化验证** - 内置机制让代理验证其修改是否正确工作并为用户提供价值，无需持续的人工监督。
     
 
-##### Future Products
+##### 未来产品
 
-By engineering products to be agent-first, you can unlock `infinite variations from finite foundations`. That is where future competitive advantage lies, not in the initial product, but in what agents can build from it.
+通过将产品设计为代理优先，您可以解锁`从有限基础产生无限变化`的能力。这就是未来竞争优势所在，不在于初始产品，而在于代理可以从中构建的内容。
 
 <img src="/img/discovery/033_energy_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
-**See Also**: [Custom Agents](/mechanics-custom-agents.html)|[Agent Engineering](/mechanics-agent-engineering.html)|[Task Agent Tools](/mechanics-task-agent-tools.html)
+**另请参阅**: [自定义代理](/mechanics-custom-agents.html)|[代理工程](/mechanics-agent-engineering.html)|[任务代理工具](/mechanics-task-agent-tools.html)
 
-**Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
+**作者**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
 
--   [The Paradigm Shift](#the-paradigm-shift)
--   [Competitive Advantage Through Agent-Native Products](#competitive-advantage-through-agent-native-products)
--   [Agent First Product Principles](#agent-first-product-principles)
+-   [范式转变](#the-paradigm-shift)
+-   [通过原生代理产品获得竞争优势](#competitive-advantage-through-agent-native-products)
+-   [代理优先产品原则](#agent-first-product-principles)

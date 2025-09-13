@@ -1,0 +1,84 @@
+/* 自定义品牌样式 */
+.navbar-brand {
+  .navbar-brand-link {
+    font-weight: 600 !important;
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 1.1rem !important;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      transform: translateY(-1px);
+      filter: brightness(1.1);
+    }
+  }
+  
+  .navbar-brand-title {
+    font-weight: 600 !important;
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 1.1rem !important;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      transform: translateY(-1px);
+      filter: brightness(1.1);
+    }
+  }
+}
+
+/* 针对 VuePress 默认主题的品牌区域 */
+.navbar .navbar-brand {
+  font-weight: 600 !important;
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 1.1rem !important;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-1px);
+    filter: brightness(1.1);
+  }
+}
+
+/* Logo 图片样式优化 */
+.navbar-brand .navbar-brand-logo {
+  height: 32px;
+  margin-right: 8px;
+  filter: drop-shadow(0 2px 4px rgba(79, 70, 229, 0.1));
+  transition: all 0.3s ease;
+  
+  &:hover {
+    filter: drop-shadow(0 4px 8px rgba(79, 70, 229, 0.2));
+    transform: scale(1.05);
+  }
+}
+
+/* 暗色模式适配 */
+html.dark {
+  .navbar-brand .navbar-brand-link,
+  .navbar-brand .navbar-brand-title,
+  .navbar .navbar-brand {
+    background: linear-gradient(135deg, #818cf8 0%, #a78bfa 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .navbar-brand .navbar-brand-logo {
+    filter: drop-shadow(0 2px 4px rgba(129, 140, 248, 0.2));
+    
+    &:hover {
+      filter: drop-shadow(0 4px 8px rgba(129, 140, 248, 0.3));
+    }
+  }
+}
