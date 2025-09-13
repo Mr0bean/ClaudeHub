@@ -12,14 +12,26 @@
             padding: 2rem;
             line-height: 1.6;
             color: #333;
+            background: #fafafa;
+        }
+        .container {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
         .header {
             text-align: center;
             margin-bottom: 3rem;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 2rem;
         }
         .logo {
-            font-size: 3rem;
+            font-size: 3.5rem;
             margin-bottom: 1rem;
+            background: linear-gradient(45deg, #5A2DD1, #8B5CF6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
         .main-link {
             display: inline-block;
@@ -29,99 +41,186 @@
             text-decoration: none;
             border-radius: 8px;
             font-weight: 500;
-            margin: 1rem;
-            transition: background-color 0.2s;
+            margin: 0.5rem;
+            transition: all 0.2s;
         }
         .main-link:hover {
             background: #4a25b8;
+            transform: translateY(-1px);
+        }
+        .secondary-link {
+            display: inline-block;
+            background: #f8f9fa;
+            color: #495057;
+            border: 1px solid #dee2e6;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 400;
+            margin: 0.5rem;
+            transition: all 0.2s;
+        }
+        .secondary-link:hover {
+            background: #e9ecef;
+            border-color: #adb5bd;
         }
         .status {
-            background: #f8f9fa;
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
             padding: 1rem;
             border-radius: 8px;
             margin: 2rem 0;
         }
-        .building {
-            color: #ff9500;
+        .alert-info {
+            background: #d1ecf1;
+            border: 1px solid #bee5eb;
+            color: #0c5460;
         }
-        .ready {
-            color: #28a745;
+        .code-block {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            padding: 1rem;
+            border-radius: 6px;
+            font-family: 'Monaco', 'Consolas', monospace;
+            font-size: 0.9rem;
+            margin: 1rem 0;
+            overflow-x: auto;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .card {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid #5A2DD1;
+        }
+        .card h4 {
+            margin: 0 0 0.5rem 0;
+            color: #5A2DD1;
+        }
+        .card p {
+            margin: 0;
+            color: #6c757d;
+            font-size: 0.9rem;
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <div class="logo">⭐ ClaudeHub</div>
-        <h1>Chinese Documentation Portal</h1>
-        <p>Professional documentation support for the Chinese Claude developer community</p>
-    </div>
+    <div class="container">
+        <div class="header">
+            <div class="logo">⭐ ClaudeHub</div>
+            <h1>Chinese Documentation Portal</h1>
+            <p>Claude 开发者中文文档门户 - 专业的技术文档翻译与本地化平台</p>
 
-    <div class="status">
-        <h3>🚀 Deployment Status</h3>
-        <p class="building">Building and deploying... Please wait a few minutes.</p>
-        <p>The main documentation site will be available soon via GitHub Actions automatic deployment.</p>
-    </div>
+            <div style="margin-top: 2rem;">
+                <a href="https://github.com/Mr0bean/ClaudeHub" class="main-link">📦 GitHub 仓库</a>
+                <a href="#local-setup" class="secondary-link">🚀 本地运行</a>
+                <a href="#features" class="secondary-link">📋 功能特性</a>
+            </div>
+        </div>
 
-    <div style="text-align: center;">
-        <a href="https://mr0bean.github.io/ClaudeHub/" class="main-link">📚 中文文档首页</a>
-        <a href="https://mr0bean.github.io/ClaudeHub/guide.html" class="main-link">📖 使用指南</a>
-        <a href="https://github.com/Mr0bean/ClaudeHub" class="main-link">📦 View Source</a>
-    </div>
+        <div class="status alert-info">
+            <h3>🔧 当前状态</h3>
+            <p><strong>GitHub Pages 部署中...</strong> VuePress 文档站点正在通过 GitHub Actions 自动部署。</p>
+            <p>完整的中文文档将在部署完成后可用。目前您可以通过以下方式访问项目：</p>
+        </div>
 
-    <div class="status">
-        <h3>🔧 本地开发</h3>
-        <p>要在本地运行此项目：</p>
-        <pre style="background: #f1f3f4; padding: 1rem; border-radius: 4px; text-align: left;">
-# 克隆仓库
+        <div id="local-setup" class="status">
+            <h3>🚀 本地运行指南</h3>
+            <p>要在本地查看完整的中文文档站点：</p>
+
+            <div class="code-block">
+# 1. 克隆项目
 git clone https://github.com/Mr0bean/ClaudeHub.git
 cd ClaudeHub
 
-# 安装依赖
+# 2. 安装所有依赖
 npm run setup
 
-# 启动开发服务器
+# 3. 启动开发服务器
 npm start
-# 或者
+# 或者使用其他命令
 npm run dev
+npm run serve
 
-# 访问 http://localhost:8080 或 http://localhost:8081
-        </pre>
-    </div>
+# 4. 访问本地站点
+# 通常是 http://localhost:8080 或 http://localhost:8081
+            </div>
+        </div>
 
-    <div>
-        <h3>📋 What's Included:</h3>
-        <ul>
-            <li>68+ pages of Chinese Claude documentation</li>
-            <li>Complete VuePress static site</li>
-            <li>Intelligent web scraping tools</li>
-            <li>Automated translation workflow</li>
-            <li>MCPs plugins and extensions guide</li>
-        </ul>
+        <div id="features">
+            <h3>🌟 项目特性</h3>
+            <div class="grid">
+                <div class="card">
+                    <h4>🌐 完整中文化</h4>
+                    <p>68+ 页面的专业技术文档，完整翻译自 claudelog.com</p>
+                </div>
+                <div class="card">
+                    <h4>🔄 自动化工具</h4>
+                    <p>智能网页爬取、批量翻译、自动化构建部署</p>
+                </div>
+                <div class="card">
+                    <h4>📚 VuePress 驱动</h4>
+                    <p>现代化静态站点生成，支持搜索和响应式设计</p>
+                </div>
+                <div class="card">
+                    <h4>🔌 MCPs 扩展</h4>
+                    <p>Claude Code 插件和扩展的完整中文指南</p>
+                </div>
+            </div>
+        </div>
 
-        <h3>🛠️ Technologies:</h3>
-        <ul>
-            <li>VuePress 2.0 + Vite</li>
-            <li>Node.js + Python</li>
-            <li>GitHub Pages deployment</li>
-            <li>Automated CI/CD pipeline</li>
-        </ul>
+        <div class="status">
+            <h3>📋 可用命令</h3>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+                <div>
+                    <strong>开发命令：</strong>
+                    <div class="code-block" style="margin: 0.5rem 0;">npm start<br>npm run dev<br>npm run build</div>
+                </div>
+                <div>
+                    <strong>工具命令：</strong>
+                    <div class="code-block" style="margin: 0.5rem 0;">npm run scrape<br>npm run translate<br>npm run validate</div>
+                </div>
+                <div>
+                    <strong>设置命令：</strong>
+                    <div class="code-block" style="margin: 0.5rem 0;">npm run setup<br>npm run install-all<br>npm run help</div>
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #e9ecef;">
+            <p style="color: #6c757d;">
+                <strong>ClaudeHub</strong> - 为中文 Claude 开发者社区提供专业文档支持<br>
+                <small>Last updated: September 13, 2025 | Total pages: 68+ | Issues resolved: 30+</small>
+            </p>
+        </div>
     </div>
 
     <script>
-        // Check if the main site is available and redirect
-        setTimeout(() => {
-            fetch('./final-site/docs/')
-                .then(() => {
-                    document.querySelector('.building').textContent = 'Ready! Redirecting to documentation...';
-                    document.querySelector('.building').className = 'ready';
-                    setTimeout(() => {
-                        window.location.href = './final-site/docs/';
-                    }, 2000);
-                })
-                .catch(() => {
-                    console.log('Main site not yet available, staying on landing page');
-                });
-        }, 3000);
+        // 添加平滑滚动
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // 检查部署状态
+        const checkDeployment = () => {
+            const statusDiv = document.querySelector('.alert-info');
+            // 这里可以添加检查逻辑
+            console.log('Checking deployment status...');
+        };
+
+        // 定期检查部署状态
+        setInterval(checkDeployment, 60000); // 每分钟检查一次
     </script>
 </body>
 </html>
