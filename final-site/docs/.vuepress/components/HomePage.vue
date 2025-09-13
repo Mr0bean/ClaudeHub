@@ -115,41 +115,41 @@
         </h2>
 
         <div class="links-grid">
-          <RouterLink to="/guide.html" class="link-card">
+          <a href="/ClaudeHub/guide.html" class="link-card">
             <div class="link-icon">📖</div>
             <div class="link-content">
               <h4>入门指南</h4>
               <p>从零开始学习 Claude Code</p>
             </div>
             <div class="link-arrow">→</div>
-          </RouterLink>
+          </a>
 
-          <RouterLink to="/mechanics-you-are-the-main-thread.html" class="link-card">
+          <a href="/ClaudeHub/mechanics-you-are-the-main-thread.html" class="link-card">
             <div class="link-icon">⚙️</div>
             <div class="link-content">
               <h4>核心机制</h4>
               <p>深入理解运行原理</p>
             </div>
             <div class="link-arrow">→</div>
-          </RouterLink>
+          </a>
 
-          <RouterLink to="/claude-code-mcps.html" class="link-card">
+          <a href="/ClaudeHub/claude-code-mcps.html" class="link-card">
             <div class="link-icon">🔌</div>
             <div class="link-content">
               <h4>MCPs 扩展</h4>
               <p>探索强大的扩展生态</p>
             </div>
             <div class="link-arrow">→</div>
-          </RouterLink>
+          </a>
 
-          <RouterLink to="/faq.html" class="link-card">
+          <a href="/ClaudeHub/faq.html" class="link-card">
             <div class="link-icon">❓</div>
             <div class="link-content">
               <h4>常见问题</h4>
               <p>快速解决常见问题</p>
             </div>
             <div class="link-arrow">→</div>
-          </RouterLink>
+          </a>
         </div>
       </div>
     </section>
@@ -215,21 +215,21 @@ export default {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 25%, #a5b4fc 50%, #8b5cf6 75%, #7c3aed 100%);
-  opacity: 0.15;
+  background: transparent;
+  opacity: 1;
 
   &::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: radial-gradient(circle at 20% 50%, rgba(0, 201, 255, 0.3) 0%, transparent 50%),
-                radial-gradient(circle at 80% 50%, rgba(126, 85, 255, 0.3) 0%, transparent 50%),
-                radial-gradient(circle at 50% 100%, rgba(90, 45, 209, 0.2) 0%, transparent 50%);
-    mix-blend-mode: multiply;
-    animation: heroGradient 15s ease-in-out infinite;
+    top: -50%;
+    left: -20%;
+    width: 140%;
+    height: 200%;
+    background: radial-gradient(circle at 30% 50%, rgba(99, 102, 241, 0.25) 0%, transparent 40%),
+                radial-gradient(circle at 70% 30%, rgba(139, 92, 246, 0.20) 0%, transparent 40%),
+                radial-gradient(circle at 50% 80%, rgba(59, 130, 246, 0.15) 0%, transparent 50%);
+    mix-blend-mode: screen;
+    animation: heroGradient 20s ease-in-out infinite;
   }
 
   &::after {
@@ -240,9 +240,9 @@ export default {
     right: 0;
     bottom: 0;
     background-image:
-      radial-gradient(circle at 1px 1px, rgba(126, 85, 255, 0.15) 1px, transparent 1px);
-    background-size: 40px 40px;
-    animation: dotMove 60s linear infinite;
+      radial-gradient(circle at 2px 2px, rgba(99, 102, 241, 0.1) 1px, transparent 1px);
+    background-size: 50px 50px;
+    animation: dotMove 40s linear infinite;
   }
 }
 
@@ -260,7 +260,7 @@ export default {
   position: relative;
   text-align: center;
   max-width: 900px;
-  z-index: 1;
+  z-index: 10;
 }
 
 .hero-badge {
@@ -345,31 +345,55 @@ export default {
   text-decoration: none;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
+  position: relative;
+  z-index: 10;
 
   .btn-icon {
     font-size: 20px;
   }
 
   &.btn-primary {
-    background: linear-gradient(135deg, #00C9FF 0%, #5A2DD1 100%);
-    color: white;
-    box-shadow: 0 4px 20px rgba(90, 45, 209, 0.3);
+    background: linear-gradient(135deg, #3B82F6 0%, #8B5CF6 100%);
+    color: white !important;
+    box-shadow: 0 4px 20px rgba(99, 102, 241, 0.3);
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 0;
+      height: 0;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.3);
+      transform: translate(-50%, -50%);
+      transition: width 0.6s, height 0.6s;
+    }
 
     &:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 30px rgba(90, 45, 209, 0.4);
+      transform: translateY(-3px);
+      box-shadow: 0 10px 40px rgba(99, 102, 241, 0.4);
+
+      &::before {
+        width: 300px;
+        height: 300px;
+      }
     }
   }
 
   &.btn-secondary {
-    background: white;
-    color: #5A2DD1;
-    border: 2px solid #E2E8F0;
+    background: rgba(255, 255, 255, 0.05);
+    color: #a5b4fc;
+    border: 2px solid rgba(99, 102, 241, 0.2);
+    backdrop-filter: blur(10px);
 
     &:hover {
-      background: #F8FAFC;
-      border-color: #5A2DD1;
-      transform: translateY(-2px);
+      background: rgba(99, 102, 241, 0.1);
+      border-color: #6366f1;
+      transform: translateY(-3px);
+      color: #c7d2fe;
     }
   }
 }
@@ -443,14 +467,17 @@ export default {
 
 .feature-card {
   position: relative;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(248, 250, 252, 0.9));
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(20px) saturate(180%);
   padding: 32px;
-  border-radius: 16px;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  border: 1px solid transparent;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   background-clip: padding-box;
   overflow: hidden;
+  z-index: 10;
+  cursor: pointer;
 
   &::before {
     content: '';
@@ -459,9 +486,9 @@ export default {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(126, 85, 255, 0.1), rgba(0, 201, 255, 0.1));
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.05), rgba(139, 92, 246, 0.05));
     opacity: 0;
-    transition: opacity 0.3s;
+    transition: opacity 0.4s;
     z-index: -1;
   }
 
@@ -469,26 +496,28 @@ export default {
     content: '';
     position: absolute;
     inset: 0;
-    border-radius: 16px;
+    border-radius: 20px;
     padding: 1px;
-    background: linear-gradient(135deg, #7E55FF, #00C9FF);
+    background: linear-gradient(135deg, #6366F1, #8B5CF6);
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
-    opacity: 0;
-    transition: opacity 0.3s;
+    opacity: 0.3;
+    transition: opacity 0.4s;
   }
 
   &:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 20px 40px -10px rgba(126, 85, 255, 0.3);
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 60px -10px rgba(99, 102, 241, 0.4);
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(99, 102, 241, 0.3);
 
     &::before {
       opacity: 1;
     }
 
     &::after {
-      opacity: 0.5;
+      opacity: 0.6;
     }
   }
 
@@ -558,6 +587,8 @@ export default {
   border-radius: 12px;
   text-decoration: none;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  z-index: 10;
 
   &:hover {
     border-color: #5A2DD1;

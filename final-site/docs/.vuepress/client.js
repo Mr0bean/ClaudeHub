@@ -10,52 +10,41 @@ export default defineClientConfig({
         const currentTheme = document.documentElement.getAttribute('data-theme')
         const isDark = currentTheme === 'dark'
 
-        // 同步添加 dark 类以支持我们的自定义样式
+        // 只同步添加 dark 类，不修改 data-theme
         if (isDark) {
           document.documentElement.classList.add('dark')
-          // 确保 data-theme 设置正确
-          document.documentElement.setAttribute('data-theme', 'dark')
         } else {
           document.documentElement.classList.remove('dark')
-          document.documentElement.setAttribute('data-theme', 'light')
         }
       }
 
       // 初始化
       updateDarkMode()
 
+      // 添加标志防止无限循环
+      let isUpdating = false
+
       // 监听 html 元素的属性变化
       const observer = new MutationObserver((mutations) => {
+        if (isUpdating) return
+
         mutations.forEach((mutation) => {
           if (mutation.type === 'attributes' &&
-              (mutation.attributeName === 'data-theme' || mutation.attributeName === 'class')) {
+              mutation.attributeName === 'data-theme') {
+            isUpdating = true
             updateDarkMode()
+            setTimeout(() => { isUpdating = false }, 100)
           }
         })
       })
 
-      // 监听 html 元素的 data-theme 和 class 变化
+      // 只监听 data-theme 变化，不监听 class
       observer.observe(document.documentElement, {
         attributes: true,
-        attributeFilter: ['data-theme', 'class']
+        attributeFilter: ['data-theme']
       })
 
-      // 监听按钮点击事件 - VuePress 的暗黑模式切换按钮
-      document.addEventListener('click', (e) => {
-        const button = e.target.closest('button')
-        if (button && (button.getAttribute('aria-label')?.includes('color mode') ||
-                      button.getAttribute('title')?.includes('color mode'))) {
-          // 切换 data-theme
-          const currentTheme = document.documentElement.getAttribute('data-theme')
-          const newTheme = currentTheme === 'dark' ? 'light' : 'dark'
-          document.documentElement.setAttribute('data-theme', newTheme)
-
-          // 存储到 localStorage
-          localStorage.setItem('vuepress-color-scheme', newTheme)
-
-          setTimeout(updateDarkMode, 10)
-        }
-      })
+      // 移除点击事件监听器，让VuePress自己处理
 
       // 检查 localStorage 中的主题设置
       const storedTheme = localStorage.getItem('vuepress-color-scheme')
