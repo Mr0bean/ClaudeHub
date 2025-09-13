@@ -1,33 +1,60 @@
 {
-  "name": "claudelogtranslate",
+  "name": "claudelog-translate",
   "version": "1.0.0",
-  "description": "",
+  "description": "ClaudeLog 中文翻译项目 - 通过智能化网页爬取、自动化翻译和 VuePress 网站生成，为中文用户提供 claudelog.com 的完整中文版本",
   "main": "index.js",
+  "private": true,
   "scripts": {
-    "scrape": "node scraper/index.js",
-    "scrape:vuepress": "node scraper/vuepress-scraper.js",
-    "scrape:enhanced": "node scraper/playwright-enhanced-scraper.js",
-    "translate": "node translator/index.js",
-    "translate:vuepress": "node translator/vuepress-translator.js",
-    "dev:en": "cd en-site && npm run dev",
-    "dev:zh": "cd zh-site && npm run dev",
-    "build:en": "cd en-site && npm run build",
-    "build:zh": "cd zh-site && npm run build",
-    "setup:en": "npm run scrape:enhanced -- --language en --outputDir en-site",
-    "setup:zh": "npm run translate:vuepress -- --sourceDir en-site --targetDir zh-site",
-    "setup:all": "npm run setup:en && npm run setup:zh"
+    "scrape": "node scripts/scraper/final-scraper.js",
+    "translate": "bash scripts/translation/translate-all.sh",
+    "check-links": "python scripts/utils/check-links.py",
+    "fix-formatting": "python scripts/utils/fix-formatting.py",
+    "validate": "python scripts/validation/comprehensive-scanner.py",
+    "cleanup": "python scripts/utils/cleanup.py",
+    "dev": "cd final-site && npm run dev",
+    "build": "cd final-site && npm run build",
+    "preview": "cd final-site && npm run preview",
+    "setup": "npm install && cd final-site && npm install",
+    "test": "npm run validate && npm run check-links",
+    "format": "prettier --write \"**/*.{js,py,md}\"",
+    "help": "echo '可用命令: scrape, translate, dev, build, validate, cleanup'"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "claude",
+    "translation",
+    "vuepress",
+    "documentation",
+    "chinese",
+    "scraping",
+    "automation"
+  ],
+  "author": "ClaudeLog Translation Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0",
+    "python": ">=3.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/claudelog-translate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/claudelog-translate/issues"
+  },
+  "homepage": "https://github.com/your-username/claudelog-translate#readme",
   "dependencies": {
-    "axios": "^1.11.0",
-    "cheerio": "^1.1.2",
-    "fs-extra": "^11.3.1",
-    "glob": "^10.4.5",
-    "image-size": "^2.0.2",
-    "playwright": "^1.55.0",
-    "puppeteer": "^24.20.0",
-    "turndown": "^7.2.1"
-  }
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "fs-extra": "^11.1.1",
+    "puppeteer": "^21.5.0",
+    "turndown": "^7.1.2",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "nodemon": "^3.0.0"
+  },
+  "workspaces": [
+    "final-site"
+  ]
 }

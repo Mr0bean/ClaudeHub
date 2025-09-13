@@ -3,27 +3,71 @@ import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
-  lang: 'en',
-  title: '⭐ 星科文档 | Claude Hub',
-  description: 'Claude Code docs, guides, tutorials & best practices',
-  
+  lang: 'zh-CN',
+  title: '⭐ ClaudeLog 中文文档',
+  description: '为中文 Claude 开发者社区提供专业文档支持 - 完整的 Claude Code 文档、指南、教程和最佳实践',
+
   base: '/',
-  
+
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['meta', { name: 'theme-color', content: '#5A2DD1' }],
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    ['link', { href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap', rel: 'stylesheet' }]
   ],
 
   bundler: viteBundler(),
-  
+
   theme: defaultTheme({
     logo: '/img/claude_log_star.svg',
-    
+    repo: false,
+    editLink: false,
+    lastUpdated: true,
+    lastUpdatedText: '最后更新',
+    contributors: false,
+
+    // 导航栏配置
     navbar: [
-      { text: '首页', link: '/' },
-      { text: '指南', link: '/guide.html' },
-      { text: '安装', link: '/install-claude-code.html' },
-      { text: '教程', link: '/claude-code-tutorial.html' },
-      { text: 'MCPs 扩展', link: '/claude-code-mcps.html' }
+      {
+        text: '🏠 首页',
+        link: '/'
+      },
+      {
+        text: '📚 指南',
+        link: '/guide.html'
+      },
+      {
+        text: '⚡ 快速开始',
+        children: [
+          { text: '安装指南', link: '/install-claude-code.html' },
+          { text: '入门教程', link: '/claude-code-tutorial.html' },
+          { text: '配置说明', link: '/configuration.html' }
+        ]
+      },
+      {
+        text: '🔌 MCPs 扩展',
+        link: '/claude-code-mcps.html'
+      },
+      {
+        text: '🎯 核心机制',
+        children: [
+          { text: '基础概念', link: '/mechanics-you-are-the-main-thread.html' },
+          { text: '智能代理', link: '/mechanics-sub-agents.html' },
+          { text: '性能优化', link: '/mechanics-ultrathink-plus-plus.html' },
+          { text: '开发实践', link: '/mechanics-hooks.html' }
+        ]
+      },
+      {
+        text: '📰 动态',
+        children: [
+          { text: 'Claude 新闻', link: '/claude-news.html' },
+          { text: '更新日志', link: '/claude-code-changelog.html' },
+          { text: '定价方案', link: '/claude-code-pricing.html' }
+        ]
+      }
     ],
     
     sidebar: [
@@ -148,11 +192,7 @@ export default defineUserConfig({
         ]
     }
 ],
-    
-    sidebarDepth: 3,
-    
-    editLink: false,
-    lastUpdated: true,
-    contributors: false
+
+    sidebarDepth: 3
   })
 })

@@ -1,0 +1,33 @@
+{
+  "name": "claudelogtranslate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scrape": "node scraper/index.js",
+    "scrape:vuepress": "node scraper/vuepress-scraper.js",
+    "scrape:enhanced": "node scraper/playwright-enhanced-scraper.js",
+    "translate": "node translator/index.js",
+    "translate:vuepress": "node translator/vuepress-translator.js",
+    "dev:en": "cd en-site && npm run dev",
+    "dev:zh": "cd zh-site && npm run dev",
+    "build:en": "cd en-site && npm run build",
+    "build:zh": "cd zh-site && npm run build",
+    "setup:en": "npm run scrape:enhanced -- --language en --outputDir en-site",
+    "setup:zh": "npm run translate:vuepress -- --sourceDir en-site --targetDir zh-site",
+    "setup:all": "npm run setup:en && npm run setup:zh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "cheerio": "^1.1.2",
+    "fs-extra": "^11.3.1",
+    "glob": "^10.4.5",
+    "image-size": "^2.0.2",
+    "playwright": "^1.55.0",
+    "puppeteer": "^24.20.0",
+    "turndown": "^7.2.1"
+  }
+}

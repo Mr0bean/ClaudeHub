@@ -1,0 +1,141 @@
+// ===========================
+// 全局配置覆盖
+// 确保暗黑模式正确应用
+// ===========================
+
+// 亮色模式
+:root {
+  --c-bg: #ffffff;
+  --c-bg-light: #f8fafc;
+  --c-bg-lighter: #f1f5f9;
+  --c-text: #0f172a;
+  --c-text-light: #475569;
+  --c-text-lighter: #64748b;
+  --c-text-lightest: #94a3b8;
+}
+
+// 暗色模式覆盖 - 支持 VuePress 的 data-theme 属性
+html[data-theme="dark"],
+html.dark {
+  // VuePress 默认主题变量覆盖
+  --c-bg: #0f172a !important;
+  --c-bg-light: #1e293b !important;
+  --c-bg-lighter: #334155 !important;
+  --c-bg-lightest: #475569 !important;
+
+  --c-text: #f1f5f9 !important;
+  --c-text-light: #cbd5e1 !important;
+  --c-text-lighter: #94a3b8 !important;
+  --c-text-lightest: #64748b !important;
+
+  --c-border: rgba(148, 163, 184, 0.2) !important;
+  --c-border-dark: rgba(148, 163, 184, 0.3) !important;
+
+  // 品牌色
+  --c-brand: #a5b4fc !important;
+  --c-brand-light: #c7d2fe !important;
+
+  // 强制所有背景深色
+  * {
+    --vp-c-bg: #0f172a !important;
+    --vp-c-bg-soft: #1e293b !important;
+    --vp-c-bg-mute: #334155 !important;
+  }
+
+  // 确保根元素有深色背景
+  background: #0f172a !important;
+
+  // 页面背景
+  body {
+    background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%) !important;
+    color: #cbd5e1 !important;
+  }
+
+  #app,
+  .theme-container,
+  .page,
+  main,
+  .theme-default-content {
+    background-color: transparent !important;
+    background: transparent !important;
+    color: #cbd5e1 !important;
+  }
+
+  // 内容区域
+  .theme-default-content:not(.custom) {
+    background: transparent !important;
+
+    > *:first-child {
+      margin-top: 0;
+    }
+  }
+
+  // 代码块
+  div[class*="language-"] {
+    background-color: rgba(15, 23, 42, 0.8) !important;
+  }
+
+  // 自定义块
+  .custom-container {
+    background-color: rgba(30, 41, 59, 0.3) !important;
+  }
+
+  // 表格
+  table {
+    tr {
+      background-color: transparent !important;
+
+      &:nth-child(2n) {
+        background-color: rgba(30, 41, 59, 0.2) !important;
+      }
+    }
+  }
+
+  // 引用
+  blockquote {
+    background-color: rgba(126, 85, 255, 0.1) !important;
+    color: #cbd5e1 !important;
+  }
+
+  // 通用文本元素
+  p, div, span, li, td, th {
+    color: #cbd5e1 !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #f1f5f9 !important;
+  }
+
+  strong, b {
+    color: #e2e8f0 !important;
+  }
+
+  em, i {
+    color: #cbd5e1 !important;
+  }
+
+  // 链接
+  a {
+    color: #a5b4fc !important;
+
+    &:hover {
+      color: #c7d2fe !important;
+    }
+  }
+
+  // 时间戳
+  time {
+    color: #94a3b8 !important;
+  }
+
+  // 页面元数据
+  .page-meta, .page-nav {
+    color: #94a3b8 !important;
+    background: transparent !important;
+  }
+
+  // 通用容器
+  .generic, generic {
+    color: #cbd5e1 !important;
+  }
+}

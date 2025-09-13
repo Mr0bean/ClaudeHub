@@ -1,33 +1,52 @@
-/* 自定义品牌样式 */
+// ===========================
+// ThinkInAI 风格主题配置
+// 基于 newerThinkOS 设计系统
+// ===========================
+
+// 品牌色彩系统
+:root {
+  // 主品牌色 - 紫色系
+  --brand-color: #5A2DD1;
+  --brand-color-light: #7E55FF;
+  --brand-color-dark: #3E1AA8;
+  --brand-color-soft: #e0e7ff;
+  --brand-color-mute: #c7d2fe;
+
+  // 强调色 - 青色系
+  --accent-color: #00C9FF;
+  --accent-color-soft: #5DEBFF;
+  --accent-color-mute: #B2F6FF;
+
+  // 渐变色 - 核心视觉元素
+  --gradient-brand: linear-gradient(135deg, #00C9FF 0%, #5A2DD1 100%);
+  --gradient-hero: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 25%, #a5b4fc 50%, #8b5cf6 75%, #7c3aed 100%);
+  --gradient-page: linear-gradient(180deg, rgba(224, 231, 255, 0.3) 0%, rgba(255, 255, 255, 0) 50%);
+  --gradient-mesh: radial-gradient(at 40% 20%, hsla(251, 78%, 63%, 0.3) 0px, transparent 50%),
+                   radial-gradient(at 80% 0%, hsla(189, 100%, 56%, 0.2) 0px, transparent 50%),
+                   radial-gradient(at 0% 50%, hsla(267, 77%, 63%, 0.2) 0px, transparent 50%),
+                   radial-gradient(at 80% 50%, hsla(189, 100%, 70%, 0.15) 0px, transparent 50%),
+                   radial-gradient(at 0% 100%, hsla(251, 78%, 63%, 0.2) 0px, transparent 50%);
+
+  // 阴影
+  --shadow-brand: 0 4px 20px rgba(90, 45, 209, 0.3);
+  --shadow-brand-lg: 0 10px 40px rgba(90, 45, 209, 0.3);
+  --shadow-glow: 0 0 40px rgba(126, 85, 255, 0.3);
+}
+
+/* 自定义品牌样式 - ThinkInAI 风格 */
 .navbar-brand {
-  .navbar-brand-link {
-    font-weight: 600 !important;
-    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  .navbar-brand-link, .navbar-brand-title {
+    font-weight: 700 !important;
+    background: var(--gradient-brand);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    font-size: 1.1rem !important;
+    font-size: 1.2rem !important;
     letter-spacing: 0.5px;
-    transition: all 0.3s ease;
-    
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
     &:hover {
-      transform: translateY(-1px);
-      filter: brightness(1.1);
-    }
-  }
-  
-  .navbar-brand-title {
-    font-weight: 600 !important;
-    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-size: 1.1rem !important;
-    letter-spacing: 0.5px;
-    transition: all 0.3s ease;
-    
-    &:hover {
-      transform: translateY(-1px);
+      transform: translateY(-2px);
       filter: brightness(1.1);
     }
   }
@@ -56,29 +75,387 @@
   margin-right: 8px;
   filter: drop-shadow(0 2px 4px rgba(79, 70, 229, 0.1));
   transition: all 0.3s ease;
-  
+
   &:hover {
     filter: drop-shadow(0 4px 8px rgba(79, 70, 229, 0.2));
     transform: scale(1.05);
   }
 }
 
-/* 暗色模式适配 */
+// ===========================
+// 全局渐变背景效果
+// ===========================
+
+// 页面整体背景
+body {
+  position: relative;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+
+  &::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--gradient-mesh);
+    opacity: 0.4;
+    z-index: -1;
+    pointer-events: none;
+  }
+
+  &::after {
+    content: '';
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle at 30% 50%, rgba(126, 85, 255, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 70% 80%, rgba(0, 201, 255, 0.08) 0%, transparent 50%);
+    animation: floatBackground 20s ease-in-out infinite;
+    z-index: -1;
+    pointer-events: none;
+  }
+}
+
+// 页面主容器
+.page, .theme-container {
+  background: transparent !important;
+}
+
+@keyframes floatBackground {
+  0%, 100% { transform: rotate(0deg) scale(1); }
+  33% { transform: rotate(120deg) scale(1.1); }
+  66% { transform: rotate(240deg) scale(0.95); }
+}
+
+// 导航栏渐变增强
+.navbar {
+  position: relative;
+  background: linear-gradient(90deg, rgba(255,255,255,0.95) 0%, rgba(248,250,252,0.95) 100%) !important;
+  backdrop-filter: blur(20px) saturate(180%);
+  border-bottom: 1px solid rgba(126, 85, 255, 0.1);
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: var(--gradient-brand);
+    opacity: 0.3;
+  }
+}
+
+// 侧边栏渐变背景
+.sidebar {
+  background: linear-gradient(180deg, rgba(248, 250, 252, 0.95) 0%, rgba(241, 245, 249, 0.95) 100%);
+  backdrop-filter: blur(10px);
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    background: linear-gradient(180deg, rgba(126, 85, 255, 0.05) 0%, transparent 100%);
+    pointer-events: none;
+  }
+}
+
+// 主内容区域渐变装饰
+.theme-default-content {
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px;
+    height: 800px;
+    background: radial-gradient(circle, rgba(126, 85, 255, 0.03) 0%, transparent 70%);
+    pointer-events: none;
+    z-index: -1;
+  }
+}
+
+/* 暗色模式适配 - 支持 VuePress 的 data-theme 属性 */
+html[data-theme="dark"],
 html.dark {
+  // 强制暗色背景
+  background: #0f172a !important;
+
+  // 暗色模式背景
+  body {
+    background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%) !important;
+    color: #f1f5f9 !important;
+
+    &::before {
+      background: radial-gradient(at 40% 20%, hsla(251, 78%, 63%, 0.2) 0px, transparent 50%),
+                   radial-gradient(at 80% 0%, hsla(189, 100%, 56%, 0.15) 0px, transparent 50%),
+                   radial-gradient(at 0% 50%, hsla(267, 77%, 63%, 0.15) 0px, transparent 50%),
+                   radial-gradient(at 80% 50%, hsla(189, 100%, 70%, 0.1) 0px, transparent 50%),
+                   radial-gradient(at 0% 100%, hsla(251, 78%, 63%, 0.15) 0px, transparent 50%);
+      opacity: 0.6;
+    }
+
+    &::after {
+      background: radial-gradient(circle at 30% 50%, rgba(126, 85, 255, 0.05) 0%, transparent 50%),
+                  radial-gradient(circle at 70% 80%, rgba(0, 201, 255, 0.05) 0%, transparent 50%);
+    }
+  }
+
+  // 确保所有容器背景透明或暗色
+  .page {
+    background: transparent !important;
+  }
+
+  .theme-container {
+    background: transparent !important;
+  }
+
+  .theme-default-content,
+  .page-content,
+  main {
+    background: transparent !important;
+    color: #cbd5e1 !important;
+  }
+
+  // HomePage 组件样式覆盖
+  .home-page {
+    background: transparent !important;
+
+    .hero-section {
+      background: transparent !important;
+      color: #f1f5f9 !important;
+    }
+
+    .feature-cards {
+      background: rgba(30, 41, 59, 0.5) !important;
+    }
+
+    .feature-card {
+      background: rgba(51, 65, 85, 0.3) !important;
+      border-color: rgba(126, 85, 255, 0.2) !important;
+
+      &:hover {
+        background: rgba(51, 65, 85, 0.5) !important;
+        border-color: rgba(126, 85, 255, 0.4) !important;
+      }
+    }
+  }
+
+  // 内容页面背景
+  .theme-default-content {
+    &:not(.custom) {
+      background: transparent !important;
+    }
+  }
+
+  // 页面整体容器
+  #app {
+    background: transparent !important;
+  }
+
+  // 导航栏暗色
+  .navbar {
+    background: linear-gradient(90deg, rgba(15, 23, 42, 0.95) 0%, rgba(30, 41, 59, 0.95) 100%) !important;
+    border-bottom: 1px solid rgba(126, 85, 255, 0.2);
+
+    &::after {
+      opacity: 0.5;
+    }
+  }
+
+  // 侧边栏暗色
+  .sidebar {
+    background: linear-gradient(180deg, rgba(30, 41, 59, 0.95) 0%, rgba(51, 65, 85, 0.95) 100%);
+
+    &::before {
+      background: linear-gradient(180deg, rgba(126, 85, 255, 0.08) 0%, transparent 100%);
+    }
+
+    .sidebar-item {
+      a {
+        color: #cbd5e1;
+
+        &:hover {
+          background: rgba(126, 85, 255, 0.1);
+          color: #a5b4fc;
+        }
+      }
+
+      &.active > a {
+        background: linear-gradient(90deg, rgba(126, 85, 255, 0.2) 0%, rgba(0, 201, 255, 0.2) 100%);
+        color: #a5b4fc;
+        border-left-color: #7e55ff;
+      }
+    }
+  }
+
+  // 主内容区域暗色
+  .theme-default-content {
+    color: #cbd5e1 !important;
+
+    h1, h2, h3, h4, h5, h6 {
+      color: #f1f5f9 !important;
+    }
+
+    h2 {
+      border-bottom-color: rgba(126, 85, 255, 0.2);
+    }
+
+    p, li, span, div {
+      color: #cbd5e1 !important;
+    }
+
+    strong, b {
+      color: #e2e8f0 !important;
+    }
+
+    a:not(.header-anchor) {
+      color: #a5b4fc !important;
+
+      &:hover {
+        color: #c7d2fe !important;
+      }
+    }
+
+    // 代码块暗色
+    pre {
+      background: #0f172a !important;
+      border: 1px solid rgba(126, 85, 255, 0.2);
+    }
+
+    // 内联代码暗色
+    code:not(pre code) {
+      background: rgba(126, 85, 255, 0.2);
+      color: #c7d2fe;
+    }
+
+    // 引用块暗色
+    blockquote {
+      background: rgba(126, 85, 255, 0.1);
+      border-left-color: #7e55ff;
+
+      p {
+        color: #a5b4fc;
+      }
+    }
+
+    // 表格暗色
+    table {
+      thead {
+        background: linear-gradient(135deg, rgba(0, 201, 255, 0.2) 0%, rgba(90, 45, 209, 0.2) 100%);
+
+        th {
+          color: #f1f5f9;
+        }
+      }
+
+      tbody {
+        tr {
+          border-bottom-color: rgba(126, 85, 255, 0.1);
+
+          &:hover {
+            background: rgba(126, 85, 255, 0.05);
+          }
+        }
+
+        td {
+          color: #cbd5e1;
+        }
+      }
+    }
+  }
+
+  // 品牌文字暗色
   .navbar-brand .navbar-brand-link,
   .navbar-brand .navbar-brand-title,
   .navbar .navbar-brand {
-    background: linear-gradient(135deg, #818cf8 0%, #a78bfa 100%);
+    background: linear-gradient(135deg, #a5b4fc 0%, #c7d2fe 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
-  
+
   .navbar-brand .navbar-brand-logo {
-    filter: drop-shadow(0 2px 4px rgba(129, 140, 248, 0.2));
-    
+    filter: drop-shadow(0 2px 4px rgba(165, 180, 252, 0.3));
+
     &:hover {
-      filter: drop-shadow(0 4px 8px rgba(129, 140, 248, 0.3));
+      filter: drop-shadow(0 4px 8px rgba(165, 180, 252, 0.5));
+    }
+  }
+
+  // 自定义提示块暗色
+  .custom-block {
+    &.tip {
+      background-color: rgba(14, 165, 233, 0.05);
+      border-left-color: #0ea5e9;
+    }
+
+    &.warning {
+      background-color: rgba(245, 158, 11, 0.05);
+      border-left-color: #f59e0b;
+    }
+
+    &.danger {
+      background-color: rgba(239, 68, 68, 0.05);
+      border-left-color: #ef4444;
+    }
+  }
+
+  // 搜索框暗色
+  .search-box {
+    input {
+      background: rgba(30, 41, 59, 0.8);
+      color: #f1f5f9;
+      border-color: rgba(126, 85, 255, 0.2);
+
+      &:focus {
+        background: rgba(30, 41, 59, 0.95);
+        border-color: #7e55ff;
+        box-shadow: 0 0 0 3px rgba(126, 85, 255, 0.2);
+      }
+
+      &::placeholder {
+        color: #64748b;
+      }
+    }
+
+    .suggestions {
+      background: #1e293b;
+      border-color: rgba(126, 85, 255, 0.2);
+
+      .suggestion {
+        &.focused {
+          background: rgba(126, 85, 255, 0.2);
+
+          .suggestion-row {
+            color: #c7d2fe;
+          }
+        }
+      }
+    }
+  }
+
+  // 页脚暗色
+  .page-meta, .page-nav {
+    border-top-color: rgba(126, 85, 255, 0.1);
+
+    .prev, .next {
+      a {
+        background: rgba(30, 41, 59, 0.5);
+
+        &:hover {
+          background: rgba(126, 85, 255, 0.1);
+        }
+      }
     }
   }
 }

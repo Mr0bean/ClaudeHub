@@ -1,0 +1,51 @@
+// ===========================
+// VuePress 调色板配置
+// 基于 newerThinkOS 设计系统
+// ===========================
+
+// 品牌色
+$accentColor: #5A2DD1;
+$accentColorLight: #7E55FF;
+$accentColorDark: #3E1AA8;
+
+// 文本颜色
+$textColor: #0F172A;
+$textColorLight: #475569;
+$textColorLighter: #64748B;
+
+// 边框颜色
+$borderColor: #E2E8F0;
+$borderColorDark: #CBD5E1;
+
+// 代码块颜色
+$codeBgColor: #0F172A;
+$codeTextColor: #E2E8F0;
+
+// 背景颜色
+$bgColor: #FFFFFF;
+$bgColorLight: #F8FAFC;
+$bgColorDark: #F1F5F9;
+
+// 导航栏
+$navbarHeight: 4rem;
+$navbarBackgroundColor: rgba(255, 255, 255, 0.95);
+
+// 侧边栏
+$sidebarWidth: 20rem;
+$sidebarBackgroundColor: #F8FAFC;
+
+// 内容宽度
+$contentWidth: 880px;
+
+// 响应式断点
+$MQNarrow: 959px;
+$MQMobile: 719px;
+$MQMobileNarrow: 419px;
+
+// 字体
+$fontFamily: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+$fontFamilyCode: 'JetBrains Mono', 'Fira Code', Monaco, Consolas, 'Courier New', monospace;
+
+// 过渡动画
+$transitionDuration: 0.3s;
+$transitionTimingFunction: cubic-bezier(0.4, 0, 0.2, 1);
