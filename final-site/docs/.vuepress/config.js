@@ -7,7 +7,7 @@ export default defineUserConfig({
   title: '⭐ ClaudeLog 中文文档',
   description: '为中文 Claude 开发者社区提供专业文档支持 - 完整的 Claude Code 文档、指南、教程和最佳实践',
 
-  base: '/',
+  base: '/ClaudeHub/',
 
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
