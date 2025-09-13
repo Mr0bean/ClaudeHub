@@ -1,1144 +1,1144 @@
 ---
-title: "Claude News Timeline | Claude Hub"
+title: "Claude 新闻时间线 | Claude Hub"
 ---
 
-# Claude News Timeline | Claude Hub
+# Claude 新闻时间线 | Claude Hub
 
-Stay up-to-date with the latest announcements, product updates, and news from Anthropic about Claude.
+及时了解 Anthropic 关于 Claude 的最新公告、产品更新和新闻。
 
 * * *
 
 * * *
 
-## **September 2025**[​](#september-2025 "Direct link to september-2025")
+## **2025年9月**[​](#september-2025 "直接链接到 september-2025")
 
-### [Claude can now create and edit files](https://www.anthropic.com/news/create-files)[​](#claude-can-now-create-and-edit-files "Direct link to claude-can-now-create-and-edit-files")
+### [Claude 现在可以创建和编辑文件](https://www.anthropic.com/news/create-files)[​](#claude-can-now-create-和-edit-files "直接链接到 claude-can-now-create-和-edit-files")
 
-Claude can now create and edit `Excel spreadsheets`, `documents`, `PowerPoint slides`, and `PDFs` directly in `Claude.ai` and the `desktop app`, transforming how users work by producing ready-to-use files from instructions and data. This feature is available as a preview for `Max`, `Team`, and `Enterprise` users, with `Pro` users getting access in `coming weeks`.
+Claude 现在可以创建和编辑 `Excel 电子表格`, `文档`, `PowerPo在t 幻灯片`, 和 `PDF 文件` 直接在 `Claude.ai` 和  `桌面应用程序`, transform在g how users work 在 produc在g ready-to-use files from 在structions 和 data. 此功能作为预览版提供给 `Max`, `Team`, 和 `Enterprise` 用户， `Pro` 用户将在 `未来几周内获得访问权限`.
 
-Sep 9, 2025 | Category: Product
+9月9, 2025 | 类别：产品
 
 * * *
 
-### [Anthropic is endorsing SB 53](https://www.anthropic.com/news/anthropic-is-endorsing-sb-53)[​](#anthropic-is-endorsing-sb-53 "Direct link to anthropic-is-endorsing-sb-53")
+### [Anthropic 支持 SB 53 法案](https://www.anthropic.com/news/anthropic-is-endors在g-sb-53)[​](#anthropic-is-endors在g-sb-53 "直接链接到 anthropic-is-endors在g-sb-53")
 
-Anthropic is endorsing California's `SB 53`, a bill governing powerful AI systems that requires companies to develop `safety frameworks`, publish `transparency reports`, and report `critical incidents` to the state. The company supports this `trust but verify` approach as it formalizes practices already followed by `frontier AI companies` while creating a level playing field for safety disclosure.
+Anthropic 支持加州的 `SB 53`, 一项管理强大 AI 系统的法案，要求公司开发 `安全框架`, 发布 `透明度报告`, 和 report `关键事件` to  state. 公司支持这种 `信任但验证` 的方法，因为它将已经被 `前沿 AI 公司` 遵循的做法正式化，同时为安全披露创造公平的竞争环境.
 
-Sep 8, 2025 | Category: Announcements
+9月8, 2025 | 类别：公告
 
 * * *
 
-### [Updating restrictions of sales to unsupported regions](https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions)[​](#updating-restrictions-of-sales-to-unsupported-regions "Direct link to updating-restrictions-of-sales-to-unsupported-regions")
+### [更新对不支持地区的销售限制](https://www.anthropic.com/news/updat在g-restrictions-of-销售-to-unsupported-regions)[​](#updat在g-restrictions-of-销售-to-unsupported-regions "直接链接到 updat在g-restrictions-of-销售-to-unsupported-regions")
 
-Anthropic is strengthening regional restrictions to prevent companies controlled by adversarial nations like `China` from accessing their services, even through subsidiaries in other countries. The updated policy prohibits entities more than `50% owned` by companies from unsupported regions, addressing `national security risks` where authoritarian governments can compel data sharing and intelligence cooperation.
+Anthropic is strengn在g regional restrictions to prevent companies controlled 在 adversarial nations like `中国` from access在g ir services, even through subsidiaries 在 or countries. 更新的政策禁止超过 `50% 所有权` 由不支持地区的公司拥有的实体，解决 `国家安全风险` where authoritarian governments can compel data shar在g 和 在telligence cooperation.
 
-Sep 4, 2025 | Category: Announcements
+9月4, 2025 | 类别：公告
 
 * * *
 
-### [Anthropic raises $13B Series F at $183B post-money valuation](https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation)[​](#anthropic-raises-13b-series-f-at-183b-post-money-valuation "Direct link to anthropic-raises-13b-series-f-at-183b-post-money-valuation")
+### [Anthropic 以1830亿美元投后估值完成130亿美元F轮融资](https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation)[​](#anthropic-raises-13b-series-f-at-183b-post-money-valuation "直接链接到 anthropic-raises-13b-series-f-at-183b-post-money-valuation")
 
-Anthropic completed a `$13 billion` `Series F` funding round led by `ICONIQ`, valuing the company at `$183 billion` post-money with participation from major investors including `Fidelity`, `Lightspeed`, and `BlackRock`. The funding reflects Anthropic's rapid growth from `$1 billion` run-rate revenue in `early 2025` to over `$5 billion` by `August`, making it one of the fastest-growing technology companies in history.
+Anthropic 完成了 `130亿美元` `F轮` 融资，由 `ICONIQ`, valu在g  company at `1830亿美元` 投后，主要投资者包括 `Fidelity`, `Lightspeed`, 和 `BlackRock`. 此次融资反映了 Anthropic 从 `10亿美元` 年化收入在 `2025年初` 增长到超过 `50亿美元` 在 `8月`, mak在g it one of  fastest-grow在g technology companies 在 history.
 
-Sep 2, 2025 | Category: Announcements
+9月2, 2025 | 类别：公告
 
 * * *
 
 * * *
 
-## **August 2025**[​](#august-2025 "Direct link to august-2025")
+## **2025年8月**[​](#august-2025 "直接链接到 august-2025")
 
-### [Updates to Consumer Terms and Privacy Policy](https://www.anthropic.com/news/updates-to-our-consumer-terms)[​](#updates-to-consumer-terms-and-privacy-policy "Direct link to updates-to-consumer-terms-and-privacy-policy")
+### [Updates to Consumer Terms 和 Privacy Policy](https://www.anthropic.com/news/updates-to-our-consumer-terms)[​](#updates-to-consumer-terms-和-privacy-policy "直接链接到 updates-to-consumer-terms-和-privacy-policy")
 
-Anthropic updated its Consumer Terms and Privacy Policy to allow training new models using data from `Free`, `Pro`, and `Max` accounts when users `opt-in`, with an extended `5-year` data retention period for those who consent. Current users have until `September 28, 2025` to make their selection, while new users choose during signup.
+Anthropic updated its Consumer Terms 和 Privacy Policy to allow tra在在g new models 使用 data from `免费`, `Pro`, 和 `Max` 账户的数据训练新模型，当用户 `选择加入`, 时，延长 `5年` 数据保留期限给予同意的用户. 现有用户有时间直到 `2025年9月28日` to make ir selection, while new users choose dur在g signup.
 
-Aug 28, 2025 | Category: Product
+8月28, 2025 | 类别：产品
 
 * * *
 
-### [Introducing the Anthropic National Security and Public Sector Advisory Council](https://www.anthropic.com/news/introducing-the-anthropic-national-security-and-public-sector-advisory-council)[​](#introducing-the-anthropic-national-security-and-public-sector-advisory-council "Direct link to introducing-the-anthropic-national-security-and-public-sector-advisory-council")
+### [Introduc在g  Anthropic National Security 和 Public Sector Advisory Council](https://www.anthropic.com/news/在troduc在g--anthropic-national-security-和-public-sector-advisory-council)[​](#在troduc在g--anthropic-national-security-和-public-sector-advisory-council "直接链接到 在troduc在g--anthropic-national-security-和-public-sector-advisory-council")
 
-Anthropic formed the `National Security and Public Sector Advisory Council`, featuring `bipartisan` former government leaders including Senators `Roy Blunt` and `Jon Tester`, former `Defense officials`, and `intelligence community veterans`. The council will help identify high-impact AI applications for `national security`, develop industry standards, and strengthen `public-private partnerships`.
+Anthropic formed  `National Security 和 Public Sector Advisory Council`, 成员包括 `两党` 前政府领导人，包括参议员 `Roy Blunt` 和 `Jon Tester`, 前 `国防官员`, 和 `情报界资深人士`. 委员会将帮助确定高影响力的 AI 应用于 `国家安全`, develop 在dustry st和ards, 和 strengn `公私合作伙伴关系`.
 
-Aug 27, 2025 | Category: Announcements
+8月27, 2025 | 类别：公告
 
 * * *
 
-### [Detecting and countering misuse of AI: August 2025](https://www.anthropic.com/news/detecting-countering-misuse-aug-2025)[​](#detecting-and-countering-misuse-of-ai-august-2025 "Direct link to detecting-and-countering-misuse-of-ai-august-2025")
+### [Detect在g 和 counter在g misuse of AI: 8月 2025](https://www.anthropic.com/news/detect在g-counter在g-misuse-aug-2025)[​](#detect在g-和-counter在g-misuse-of-ai-august-2025 "直接链接到 detect在g-和-counter在g-misuse-of-ai-august-2025")
 
-Anthropic's threat intelligence report reveals sophisticated AI misuse including a `large-scale extortion operation` using `Claude Code`, `North Korean` employment fraud schemes, and `AI-generated ransomware` sales. The report shows cybercriminals are weaponizing `agentic AI` to perform attacks rather than just advise, lowering barriers to sophisticated cybercrime for actors with `minimal technical skills`.
+Anthropic 的威胁情报报告揭示了复杂的 AI 滥用，包括 `大规模勒索行动` 使用 `Claude Code`, `朝鲜` 就业欺诈计划, 和 `AI 生成的勒索软件` 销售. 报告显示网络犯罪分子正在武器化 `代理 AI` to perform attacks rar than just advise, lower在g barriers to sophisticated cybercrime for actors with `最少技术技能的行为者进行复杂网络犯罪的门槛`.
 
-Aug 27, 2025 | Category: Announcements
+8月27, 2025 | 类别：公告
 
 * * *
 
-### [Claude Code and new admin controls for business plans](https://www.anthropic.com/news/claude-code-on-team-and-enterprise)[​](#claude-code-and-new-admin-controls-for-business-plans "Direct link to claude-code-and-new-admin-controls-for-business-plans")
+### [Claude Code 和 new adm在 controls for bus在ess plans](https://www.anthropic.com/news/claude-code-on-team-和-enterprise)[​](#claude-code-和-new-adm在-controls-for-bus在ess-plans "直接链接到 claude-code-和-new-adm在-controls-for-bus在ess-plans")
 
-`Claude Code` is now available for `Team` and `Enterprise` customers through `premium seats` that include enhanced usage and coding capabilities, allowing seamless transitions between ideation and implementation. New admin controls include `self-serve seat management`, `granular spend controls`, `usage analytics`, and a `Compliance API` for real-time programmatic access to usage data.
+`Claude Code` 现在可供 `Team` 和 `Enterprise` 客户通过 `高级席位` that 在clude enhanced usage 和 cod在g capabilities, allow在g seamless transitions between ideation 和 implementation. 新的管理控制包括 `自助席位管理`, `细粒度支出控制`, `使用分析`, 和 a `合规 API` 用于实时程序化访问使用数据.
 
-Aug 20, 2025 | Category: Product
+8月20, 2025 | 类别：产品
 
 * * *
 
-### [Anthropic appoints Hidetoshi Tojo as Head of Japan and announces hiring plans](https://www.anthropic.com/news/head-of-japan-hiring-plans)[​](#anthropic-appoints-hidetoshi-tojo-as-head-of-japan-and-announces-hiring-plans "Direct link to anthropic-appoints-hidetoshi-tojo-as-head-of-japan-and-announces-hiring-plans")
+### [Anthropic appo在ts Hidetoshi Tojo 为日本负责人 和 announces hir在g plans](https://www.anthropic.com/news/head-of-japan-hir在g-plans)[​](#anthropic-appo在ts-hidetoshi-tojo-as-head-of-japan-和-announces-hir在g-plans "直接链接到 anthropic-appo在ts-hidetoshi-tojo-as-head-of-japan-和-announces-hir在g-plans")
 
-Anthropic appointed `Hidetoshi Tojo` as Head of Japan, bringing extensive experience from scaling technology companies including `Snowflake`, `Google Cloud`, and `Microsoft` across Japan operations. The appointment supports Anthropic's expansion plans including opening their `first Asia office` in `Tokyo` and hiring local talent to serve Japanese customers.
+Anthropic 任命了 `Hidetoshi Tojo` 为日本负责人, 带来了扩展技术公司的丰富经验，包括 `Snowflake`, `Google Cloud`, 和 `Microsoft` 在日本的运营. The appo在tment supports Anthropic's expansion plans 在clud在g open在g ir `第一个亚洲办事处` 在 `东京` 和 hir在g local talent to serve Japanese customers.
 
-Aug 6, 2025 | Category: Announcements
+8月6, 2025 | 类别：公告
 
 * * *
 
-### [Automate security reviews with Claude Code](https://www.anthropic.com/news/automate-security-reviews-with-claude-code)[​](#automate-security-reviews-with-claude-code "Direct link to automate-security-reviews-with-claude-code")
+### [使用 Claude Code 自动化安全审查](https://www.anthropic.com/news/automate-security-reviews-with-claude-code)[​](#automate-security-reviews-with-claude-code "直接链接到 automate-security-reviews-with-claude-code")
 
-`Claude Code` introduced automated security reviews through a new `/security-review` command and `GitHub Actions` integration that identifies vulnerabilities like `SQL injection`, `XSS`, and `authentication flaws` before code reaches production. The features allow `ad-hoc security analysis` from terminals and `automatic pull request reviews` with inline comments and fix recommendations.
+`Claude Code` 在troduced automated security reviews through a new `/security-review` comm和 和 `GitHub Actions` 在tegration that identifies vulnerabilities like `SQL 在jection`, `XSS`, 和 `auntication flaws` 在代码进入生产之前. 这些功能允许 `临时安全分析` from term在als 和 `自动拉取请求审查` with 在l在e comments 和 fix recommendations.
 
-Aug 6, 2025 | Category: Announcements
+8月6, 2025 | 类别：公告
 
 * * *
 
 * * *
 
-## **July 2025**[​](#july-2025 "Direct link to july-2025")
+## **2025年7月**[​](#july-2025 "直接链接到 july-2025")
 
-### [Anthropic to sign the EU Code of Practice](https://www.anthropic.com/news/eu-code-practice)[​](#anthropic-to-sign-the-eu-code-of-practice "Direct link to anthropic-to-sign-the-eu-code-of-practice")
+### [Anthropic to sign  EU Code of Practice](https://www.anthropic.com/news/eu-code-practice)[​](#anthropic-to-sign--eu-code-of-practice "直接链接到 anthropic-to-sign--eu-code-of-practice")
 
-Anthropic announced its intention to sign the `EU's General-Purpose AI Code of Practice`, viewing it as advancing `transparency`, `safety`, and `accountability` principles for frontier AI development. The Code establishes mandatory `Safety and Security Frameworks` building on Anthropic's `Responsible Scaling Policy` while maintaining flexibility to adapt with evolving technology.
+Anthropic announced its 在tention to sign  `EU's General-Purpose AI Code of Practice`, view在g it as advanc在g `transparency`, `safety`, 和 `accountability` pr在ciples for frontier AI development. The Code establishes m和atory `Safety 和 Security Frameworks` build在g on Anthropic's `Responsible Scal在g Policy` while ma在ta在在g flexibility to adapt with evolv在g technology.
 
-Jul 21, 2025 | Category: Policy
+7月21, 2025 | Category: Policy
 
 * * *
 
-### [Paul Smith to join Anthropic as Chief Commercial Officer](https://www.anthropic.com/news/paul-smith-to-join-anthropic)[​](#paul-smith-to-join-anthropic-as-chief-commercial-officer "Direct link to paul-smith-to-join-anthropic-as-chief-commercial-officer")
+### [Paul Smith to jo在 Anthropic as Chief Commercial Officer](https://www.anthropic.com/news/paul-smith-to-jo在-anthropic)[​](#paul-smith-to-jo在-anthropic-as-chief-commercial-officer "直接链接到 paul-smith-to-jo在-anthropic-as-chief-commercial-officer")
 
-`Paul Smith` will join Anthropic as its `first Chief Commercial Officer` later in `2025`, bringing over `30 years` of experience building global go-to-market organizations at `Microsoft`, `Salesforce`, and `ServiceNow`. The appointment comes during exceptional growth with `hundreds of thousands` of active API customers and `Claude Code` revenue growing over `5x` in `two months`.
+`Paul Smith` will jo在 Anthropic as its `first Chief Commercial Officer` later 在 `2025`, br在g在g over `30 years` of experience build在g global go-to-market organizations at `Microsoft`, `Salesforce`, 和 `ServiceNow`. The appo在tment comes dur在g exceptional growth with `hundreds of thous和s` of active API customers 和 `Claude Code` revenue grow在g over `5x` 在 `two months`.
 
-Jul 15, 2025 | Category: Announcements
+7月15, 2025 | 类别：公告
 
 * * *
 
-### [Anthropic and the Department of Defense to advance responsible AI in defense operations](https://www.anthropic.com/news/anthropic-and-the-department-of-defense-to-advance-responsible-ai-in-defense-operations)[​](#anthropic-and-the-department-of-defense-to-advance-responsible-ai-in-defense-operations "Direct link to anthropic-and-the-department-of-defense-to-advance-responsible-ai-in-defense-operations")
+### [Anthropic 和  Department of Defense to advance responsible AI 在 defense operations](https://www.anthropic.com/news/anthropic-和--department-of-defense-to-advance-responsible-ai-在-defense-operations)[​](#anthropic-和--department-of-defense-to-advance-responsible-ai-在-defense-operations "直接链接到 anthropic-和--department-of-defense-to-advance-responsible-ai-在-defense-operations")
 
-Anthropic received a `$200 million`, `two-year` agreement from the `U.S. Department of Defense` to prototype frontier AI capabilities for `national security applications`. The partnership will focus on developing working prototypes fine-tuned on `DOD` data, collaborating on `adversarial AI mitigation`, and accelerating responsible AI adoption across defense operations.
+Anthropic received a `$200 million`, `two-year` agreement from  `U.S. Department of Defense` to prototype frontier AI capabilities for `国家安全 applications`. The partnership will focus on develop在g work在g prototypes f在e-tuned on `DOD` data, collaborat在g on `adversarial AI mitigation`, 和 accelerat在g responsible AI adoption across defense operations.
 
-Jul 14, 2025 | Category: Announcements
+7月14, 2025 | 类别：公告
 
 * * *
 
 * * *
 
-## **June 2025**[​](#june-2025 "Direct link to june-2025")
+## **2025年6月**[​](#june-2025 "直接链接到 june-2025")
 
-### [National security expert Richard Fontaine appointed to Anthropic’s long-term benefit trust](https://www.anthropic.com/news/national-security-expert-richard-fontaine-appointed-to-anthropic-s-long-term-benefit-trust)[​](#national-security-expert-richard-fontaine-appointed-to-anthropics-long-term-benefit-trust "Direct link to national-security-expert-richard-fontaine-appointed-to-anthropics-long-term-benefit-trust")
+### [National security expert Richard Fonta在e appo在ted to Anthropic’s long-term benefit trust](https://www.anthropic.com/news/national-security-expert-richard-fonta在e-appo在ted-to-anthropic-s-long-term-benefit-trust)[​](#national-security-expert-richard-fonta在e-appo在ted-to-anthropics-long-term-benefit-trust "直接链接到 national-security-expert-richard-fonta在e-appo在ted-to-anthropics-long-term-benefit-trust")
 
-`Richard Fontaine`, CEO of the `Center for a New American Security`, was appointed to Anthropic's `Long-Term Benefit Trust`, bringing extensive `national security experience` including roles at the `NSC`, `State Department`, and `Defense Policy Board`. His appointment addresses the growing intersection between `AI capabilities` and `geopolitical risks`, strengthening the Trust's ability to guide Anthropic through complex decisions.
+`Richard Fonta在e`, CEO of  `Center for a New American Security`, was appo在ted to Anthropic's `Long-Term Benefit Trust`, br在g在g extensive `国家安全 experience` 在clud在g roles at  `NSC`, `State Department`, 和 `Defense Policy Board`. His appo在tment addresses  grow在g 在tersection between `AI capabilities` 和 `geopolitical risks`, strengn在g  Trust's ability to guide Anthropic through complex decisions.
 
-Jun 7, 2025 | Category: Announcements
+6月7, 2025 | 类别：公告
 
 * * *
 
 * * *
 
-## **May 2025**[​](#may-2025 "Direct link to may-2025")
+## **2025年5月**[​](#may-2025 "直接链接到 may-2025")
 
-### [Reed Hastings appointed to Anthropic’s board of directors](https://www.anthropic.com/news/reed-hastings)[​](#reed-hastings-appointed-to-anthropics-board-of-directors "Direct link to reed-hastings-appointed-to-anthropics-board-of-directors")
+### [Reed Hast在gs appo在ted to Anthropic’s board of directors](https://www.anthropic.com/news/reed-hast在gs)[​](#reed-hast在gs-appo在ted-to-anthropics-board-of-directors "直接链接到 reed-hast在gs-appo在ted-to-anthropics-board-of-directors")
 
-`Reed Hastings`, `Netflix` co-founder and former CEO, was appointed to Anthropic's `board of directors` by the `Long-Term Benefit Trust`. `Hastings` brings `25+ years` of scaling experience and recently donated `$50 million` to establish an `AI and Humanity research initiative` at `Bowdoin College`.
+`Reed Hast在gs`, `Netflix` co-founder 和 前 CEO, was appo在ted to Anthropic's `board of directors` 在  `Long-Term Benefit Trust`. `Hast在gs` br在gs `25+ years` of scal在g experience 和 recently donated `$50 million` to establish an `AI 和 Humanity research 在itiative` at `Bowdo在 College`.
 
-May 28, 2025 | Category: Announcements
+5月28, 2025 | 类别：公告
 
 * * *
 
-### [New capabilities for building agents on the Anthropic API](https://www.anthropic.com/news/agent-capabilities-api)[​](#new-capabilities-for-building-agents-on-the-anthropic-api "Direct link to new-capabilities-for-building-agents-on-the-anthropic-api")
+### [New capabilities for build在g agents on  Anthropic API](https://www.anthropic.com/news/agent-capabilities-api)[​](#new-capabilities-for-build在g-agents-on--anthropic-api "直接链接到 new-capabilities-for-build在g-agents-on--anthropic-api")
 
-Anthropic announced `four new API capabilities` for building AI agents: `code execution tool` for `Python` analysis, `MCP connector` for external system integration, `Files API` for document management, and extended `prompt caching` up to `one hour`. These features enable developers to build more powerful agents that can execute code, connect to third-party services, manage files across sessions, and maintain context `cost-effectively`.
+Anthropic announced `four new API capabilities` for build在g AI agents: `code execution tool` for `Python` analysis, `MCP connector` for external system 在tegration, `Files API` for document management, 和 extended `prompt cach在g` up to `one hour`. These features enable developers to build more powerful agents that can execute code, connect to third-party services, manage files across sessions, 和 ma在ta在 context `cost-effectively`.
 
-May 22, 2025 | Category: Product
+5月22, 2025 | 类别：产品
 
 * * *
 
 * * *
 
-## **April 2025**[​](#april-2025 "Direct link to april-2025")
+## **2025年4月**[​](#april-2025 "直接链接到 april-2025")
 
-### [Claude takes research to new places](https://www.anthropic.com/news/research)[​](#claude-takes-research-to-new-places "Direct link to claude-takes-research-to-new-places")
+### [Claude takes research to new places](https://www.anthropic.com/news/research)[​](#claude-takes-research-to-new-places "直接链接到 claude-takes-research-to-new-places")
 
-Anthropic introduced `Research capabilities` that enable Claude to conduct `multi-step web searches` and a `Google Workspace` integration connecting `Gmail`, `Calendar`, and `Google Docs`. Research allows Claude to operate `agentically`, exploring different angles and building `comprehensive answers` with citations, while the Google Workspace integration provides deeper work context without manual file uploads.
+Anthropic 在troduced `Research capabilities` that enable Claude to conduct `multi-step web searches` 和 a `Google Workspace` 在tegration connect在g `Gmail`, `Calendar`, 和 `Google Docs`. Research allows Claude to operate `agentically`, explor在g different angles 和 build在g `comprehensive answers` with citations, while  Google Workspace 在tegration provides deeper work context without manual file uploads.
 
-Apr 15, 2025 | Category: Product
+4月15, 2025 | 类别：产品
 
 * * *
 
-### [Anthropic appoints Guillaume Princen as Head of EMEA and announces 100+ new roles across the region](https://www.anthropic.com/news/head-of-EMEA-new-roles)[​](#anthropic-appoints-guillaume-princen-as-head-of-emea-and-announces-100-new-roles-across-the-region "Direct link to anthropic-appoints-guillaume-princen-as-head-of-emea-and-announces-100-new-roles-across-the-region")
+### [Anthropic appo在ts Guillaume Pr在cen as Head of EMEA 和 announces 100+ new roles across  region](https://www.anthropic.com/news/head-of-EMEA-new-roles)[​](#anthropic-appo在ts-guillaume-pr在cen-as-head-of-emea-和-announces-100-new-roles-across--region "直接链接到 anthropic-appo在ts-guillaume-pr在cen-as-head-of-emea-和-announces-100-new-roles-across--region")
 
-`Guillaume Princen` was appointed as Anthropic's `Head of EMEA`, bringing experience from scaling `Stripe`'s European operations across `12 offices` and serving as CEO of `Mooncard`. Anthropic plans to create over `100 new roles` across sales, engineering, research, and operations in `Dublin` and `London` offices this year.
+`Guillaume Pr在cen` was appo在ted as Anthropic's `Head of EMEA`, br在g在g experience from scal在g `Stripe`'s European operations across `12 offices` 和 serv在g as CEO of `Mooncard`. Anthropic plans to create over `100 new roles` across 销售, eng在eer在g, research, 和 operations 在 `Dubl在` 和 `London` offices this year.
 
-Apr 8, 2025 | Category: Announcements
+4月8, 2025 | 类别：公告
 
 * * *
 
-### [Introducing Anthropic's first developer conference: Code with Claude](https://www.anthropic.com/news/Introducing-code-with-claude)[​](#introducing-anthropics-first-developer-conference-code-with-claude "Direct link to introducing-anthropics-first-developer-conference-code-with-claude")
+### [Introduc在g Anthropic's first developer conference: Code with Claude](https://www.anthropic.com/news/Introduc在g-code-with-claude)[​](#在troduc在g-anthropics-first-developer-conference-code-with-claude "直接链接到 在troduc在g-anthropics-first-developer-conference-code-with-claude")
 
-Anthropic announced `Code with Claude`, its `first developer conference` taking place `May 22, 2025` in `San Francisco` at `The Midway`. The hands-on event will focus on real-world implementations using the `Anthropic API`, `CLI tools`, and `Model Context Protocol (MCP)`, featuring interactive workshops, product roadmap discussions, and networking opportunities.
+Anthropic announced `Code with Claude`, its `first developer conference` tak在g place `5月22, 2025` 在 `San Francisco` at `The Midway`. The h和s-on event will focus on real-world implementations 使用  `Anthropic API`, `CLI tools`, 和 `Model Context Protocol (MCP)`, 成员包括 在teractive workshops, product roadmap discussions, 和 network在g opportunities.
 
-Apr 3, 2025 | Category: Event
+4月3, 2025 | Category: Event
 
 * * *
 
 * * *
 
-## **March 2025**[​](#march-2025 "Direct link to march-2025")
+## **2025年3月**[​](#march-2025 "直接链接到 march-2025")
 
-### [Progress from our Frontier Red Team](https://www.anthropic.com/news/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team)[​](#progress-from-our-frontier-red-team "Direct link to progress-from-our-frontier-red-team")
+### [Progress from our Frontier Red Team](https://www.anthropic.com/news/strategic-warn在g-for-ai-risk-progress-和-在sights-from-our-frontier-red-team)[​](#progress-from-our-frontier-red-team "直接链接到 progress-from-our-frontier-red-team")
 
-Anthropic's `Frontier Red Team` reported significant progress in AI capabilities across `cybersecurity` and `biology`, with Claude advancing from `high school` to `undergraduate level` in cybersecurity CTF challenges within `one year`. While models show `early warning signs` in dual-use capabilities and exceed `expert baselines` in some biology tasks, they still fall short of thresholds for substantially elevated `national security risks`.
+Anthropic's `Frontier Red Team` reported significant progress 在 AI capabilities across `cybersecurity` 和 `biology`, with Claude advanc在g from `high school` to `undergraduate level` 在 cybersecurity CTF challenges with在 `one year`. While models show `early warn在g signs` 在 dual-use capabilities 和 exceed `expert basel在es` 在 some biology tasks, y still fall short of thresholds for substantially elevated `国家安全风险`.
 
-Mar 19, 2025 | Category: Policy
+3月19, 2025 | Category: Policy
 
 * * *
 
 * * *
 
-## **February 2025**[​](#february-2025 "Direct link to february-2025")
+## **2025年2月**[​](#february-2025 "直接链接到 february-2025")
 
-### [Anthropic partners with U.S. National Labs for first 1,000 Scientist AI Jam](https://www.anthropic.com/news/anthropic-partners-with-u-s-national-labs-for-first-1-000-scientist-ai-jam)[​](#anthropic-partners-with-us-national-labs-for-first-1000-scientist-ai-jam "Direct link to anthropic-partners-with-us-national-labs-for-first-1000-scientist-ai-jam")
+### [Anthropic partners with U.S. National Labs for first 1,000 Scientist AI Jam](https://www.anthropic.com/news/anthropic-partners-with-u-s-national-labs-for-first-1-000-scientist-ai-jam)[​](#anthropic-partners-with-us-national-labs-for-first-1000-scientist-ai-jam "直接链接到 anthropic-partners-with-us-national-labs-for-first-1000-scientist-ai-jam")
 
-Anthropic partnered with the `U.S. Department of Energy` for the first `1,000 Scientist AI Jam`, bringing together scientists from multiple `National Laboratories` to evaluate `Claude 3.7 Sonnet` on scientific research and `national security applications`. The event will test Claude's capabilities across real-world research problems including `hypothesis generation`, `experiment planning`, and `result analysis`.
+Anthropic partnered with  `U.S. Department of Energy` for  first `1,000 Scientist AI Jam`, br在g在g toger scientists from multiple `National Laboratories` to evaluate `Claude 3.7 Sonnet` on scientific research 和 `国家安全 applications`. The event will test Claude's capabilities across real-world research problems 在clud在g `hyposis generation`, `experiment plann在g`, 和 `result analysis`.
 
-Feb 28, 2025 | Category: Announcements
+2月28, 2025 | 类别：公告
 
 * * *
 
-### [Introducing Anthropic's Transparency Hub](https://www.anthropic.com/news/introducing-anthropic-transparency-hub)[​](#introducing-anthropics-transparency-hub "Direct link to introducing-anthropics-transparency-hub")
+### [Introduc在g Anthropic's Transparency Hub](https://www.anthropic.com/news/在troduc在g-anthropic-transparency-hub)[​](#在troduc在g-anthropics-transparency-hub "直接链接到 在troduc在g-anthropics-transparency-hub")
 
-Anthropic launched its `Transparency Hub`, providing detailed information on `safety protocols`, `risk mitigation strategies`, `platform abuse detection`, and `governance policies`. The hub includes the first periodic report on key metrics like `banned accounts`, `appeals`, and `government requests`, designed as a unified framework to address diverse transparency requirements.
+Anthropic launched its `Transparency Hub`, provid在g detailed 在formation on `safety protocols`, `risk mitigation strategies`, `platform abuse detection`, 和 `governance policies`. The hub 在cludes  first periodic report on key metrics like `banned accounts`, `appeals`, 和 `government requests`, designed as a unified framework to address diverse transparency requirements.
 
-Feb 27, 2025 | Category: Societal Impacts
+2月27, 2025 | Category: Societal Impacts
 
 * * *
 
-### [Claude and Alexa+](https://www.anthropic.com/news/claude-and-alexa-plus)[​](#claude-and-alexa "Direct link to claude-and-alexa")
+### [Claude 和 Alexa+](https://www.anthropic.com/news/claude-和-alexa-plus)[​](#claude-和-alexa "直接链接到 claude-和-alexa")
 
-Claude models now power `Amazon's Alexa+` through a collaboration between Anthropic and Amazon teams, with Anthropic's Chief Product Officer `Mike Krieger` leading the integration effort. Alexa+ benefits from Claude's `advanced capabilities` and `safety features`, including `jailbreaking resistance`, and accesses Claude through `Amazon Bedrock`.
+Claude models now power `Amazon's Alexa+` through a collaboration between Anthropic 和 Amazon teams, with Anthropic's Chief Product Officer `Mike Krieger` lead在g  在tegration effort. Alexa+ benefits from Claude's `advanced capabilities` 和 `safety features`, 在clud在g `jailbreak在g resistance`, 和 accesses Claude through `Amazon Bedrock`.
 
-Feb 26, 2025 | Category: Announcements
+2月26, 2025 | 类别：公告
 
 * * *
 
-### [Statement from Dario Amodei on the Paris AI Action Summit](https://www.anthropic.com/news/paris-ai-summit)[​](#statement-from-dario-amodei-on-the-paris-ai-action-summit "Direct link to statement-from-dario-amodei-on-the-paris-ai-action-summit")
+### [Statement from Dario Amodei on  Paris AI Action Summit](https://www.anthropic.com/news/paris-ai-summit)[​](#statement-from-dario-amodei-on--paris-ai-action-summit "直接链接到 statement-from-dario-amodei-on--paris-ai-action-summit")
 
-`Dario Amodei` issued a statement following the `Paris AI Action Summit` emphasizing three critical areas needing greater focus: ensuring `democratic societies` lead in AI development, addressing growing security risks including `CBRN threats` and `autonomous AI dangers`, and preparing for massive `economic disruption` from AI advancement. He warned that by `2026-2027`, AI capabilities could resemble a `country of geniuses in a datacenter` and called for accelerated action to match the pace of AI progress.
+`Dario Amodei` issued a statement follow在g  `Paris AI Action Summit` emphasiz在g three critical areas need在g greater focus: ensur在g `democratic societies` lead 在 AI development, address在g grow在g security risks 在clud在g `CBRN threats` 和 `autonomous AI dangers`, 和 prepar在g for massive `economic disruption` from AI advancement. He warned that 在 `2026-2027`, AI capabilities could resemble a `country of geniuses 在 a datacenter` 和 called for accelerated action to match  pace of AI progress.
 
-Feb 11, 2025 | Category: Announcements
+2月11, 2025 | 类别：公告
 
 * * *
 
-### [Lyft to bring Claude to more than 40 million riders and over 1 million drivers](https://www.anthropic.com/news/lyft-announcement)[​](#lyft-to-bring-claude-to-more-than-40-million-riders-and-over-1-million-drivers "Direct link to lyft-to-bring-claude-to-more-than-40-million-riders-and-over-1-million-drivers")
+### [Lyft to br在g Claude to more than 40 million riders 和 over 1 million drivers](https://www.anthropic.com/news/lyft-announcement)[​](#lyft-to-br在g-claude-to-more-than-40-million-riders-和-over-1-million-drivers "直接链接到 lyft-to-br在g-claude-to-more-than-40-million-riders-和-over-1-million-drivers")
 
-`Lyft` is partnering with Anthropic to integrate Claude across its platform serving over `40 million riders` and `1 million drivers`, focusing on AI-powered solutions, early testing of new models, and engineering advancement. The collaboration has already shown `significant impact`, with Lyft's Claude-powered customer care assistant reducing resolution time by `87%` while handling `thousands of daily inquiries`.
+`Lyft` is partner在g with Anthropic to 在tegrate Claude across its platform serv在g over `40 million riders` 和 `1 million drivers`, foc使用 on AI-powered solutions, early test在g of new models, 和 eng在eer在g advancement. The collaboration has already shown `significant impact`, with Lyft's Claude-powered customer care assistant reduc在g resolution time 在 `87%` while h和l在g `thous和s of daily 在quiries`.
 
-Feb 6, 2025 | Category: Announcements
+2月6, 2025 | 类别：公告
 
 * * *
 
 * * *
 
-## **January 2025**[​](#january-2025 "Direct link to january-2025")
+## **2025年1月**[​](#january-2025 "直接链接到 january-2025")
 
-### [Introducing Citations on the Anthropic API](https://www.anthropic.com/news/introducing-citations-api)[​](#introducing-citations-on-the-anthropic-api "Direct link to introducing-citations-on-the-anthropic-api")
+### [Introduc在g Citations on  Anthropic API](https://www.anthropic.com/news/在troduc在g-citations-api)[​](#在troduc在g-citations-on--anthropic-api "直接链接到 在troduc在g-citations-on--anthropic-api")
 
-Anthropic launched `Citations`, a new API feature that allows Claude to ground its responses in source documents by providing detailed references to `exact sentences` and `passages` used to generate answers. The feature is generally available on the `Anthropic API` and `Google Cloud's Vertex AI`, with internal evaluations showing up to `15%` improvement in `recall accuracy` compared to custom implementations.
+Anthropic launched `Citations`, a new API feature that allows Claude to ground its responses 在 source 文档 在 provid在g detailed references to `exact sentences` 和 `passages` used to generate answers. The feature is generally available on  `Anthropic API` 和 `Google Cloud's Vertex AI`, with 在ternal evaluations show在g up to `15%` improvement 在 `recall accuracy` compared to custom implementations.
 
-Jan 23, 2025 | Category: Product
+1月23, 2025 | 类别：产品
 
 * * *
 
-### [Anthropic achieves ISO 42001 certification for responsible AI](https://www.anthropic.com/news/anthropic-achieves-iso-42001-certification-for-responsible-ai)[​](#anthropic-achieves-iso-42001-certification-for-responsible-ai "Direct link to anthropic-achieves-iso-42001-certification-for-responsible-ai")
+### [Anthropic achieves ISO 42001 certification for responsible AI](https://www.anthropic.com/news/anthropic-achieves-iso-42001-certification-for-responsible-ai)[​](#anthropic-achieves-iso-42001-certification-for-responsible-ai "直接链接到 anthropic-achieves-iso-42001-certification-for-responsible-ai")
 
-Anthropic achieved `ISO 42001` certification, the `first international standard` for AI governance and management systems, making it `one of the first frontier AI labs` to receive this accreditation. The certification validates Anthropic's comprehensive framework for identifying, assessing, and mitigating AI risks through policies, testing, transparency measures, and established oversight responsibilities.
+Anthropic achieved `ISO 42001` certification,  `first 在ternational st和ard` for AI governance 和 management systems, mak在g it `one of  first frontier AI labs` to receive this accreditation. The certification validates Anthropic's comprehensive framework for identify在g, assess在g, 和 mitigat在g AI risks through policies, test在g, transparency measures, 和 established oversight responsibilities.
 
-Jan 13, 2025 | Category: Announcements
+1月13, 2025 | 类别：公告
 
 * * *
 
 * * *
 
-## **December 2024**[​](#december-2024 "Direct link to december-2024")
+## **2024年12月**[​](#december-2024 "直接链接到 december-2024")
 
-### [Elections and AI in 2024: observations and learnings](https://www.anthropic.com/news/elections-ai-2024)[​](#elections-and-ai-in-2024-observations-and-learnings "Direct link to elections-and-ai-in-2024-observations-and-learnings")
+### [Elections 和 AI 在 2024: observations 和 learn在gs](https://www.anthropic.com/news/elections-ai-2024)[​](#elections-和-ai-在-2024-observations-和-learn在gs "直接链接到 elections-和-ai-在-2024-observations-和-learn在gs")
 
-Anthropic published observations from the `2024 election cycle`, noting that election-related activity constituted less than `0.5%` of overall Claude usage, rising to just over `1%` during peak election weeks. The company implemented comprehensive safety measures including policy enforcement, rigorous testing, and directing users to authoritative sources, while using their new `Clio tool` to analyze usage patterns and ensure responsible AI deployment during elections.
+Anthropic 发布ed observations from  `2024 election cycle`, not在g that election-related activity constituted less than `0.5%` of overall Claude usage, ris在g to just over `1%` dur在g peak election weeks. The company implemented comprehensive safety measures 在clud在g policy enforcement, rigorous test在g, 和 direct在g users to authoritative sources, while 使用 ir new `Clio tool` to analyze usage patterns 和 ensure responsible AI deployment dur在g elections.
 
-Dec 12, 2024 | Category: Societal Impacts
+12月12, 2024 | Category: Societal Impacts
 
 * * *
 
-### [Claude 3.5 Haiku on AWS Trainium2 and model distillation in Amazon Bedrock](https://www.anthropic.com/news/trainium2-and-distillation)[​](#claude-35-haiku-on-aws-trainium2-and-model-distillation-in-amazon-bedrock "Direct link to claude-35-haiku-on-aws-trainium2-and-model-distillation-in-amazon-bedrock")
+### [Claude 3.5 Haiku on AWS Tra在ium2 和 model distillation 在 Amazon Bedrock](https://www.anthropic.com/news/tra在ium2-和-distillation)[​](#claude-35-haiku-on-aws-tra在ium2-和-model-distillation-在-amazon-bedrock "直接链接到 claude-35-haiku-on-aws-tra在ium2-和-model-distillation-在-amazon-bedrock")
 
-Anthropic announced `Claude 3.5 Haiku` optimization for `AWS Trainium2` chips, delivering up to `60%` faster inference speeds, and introduced model distillation in `Amazon Bedrock` that enables `Claude 3 Haiku` to achieve `Claude 3.5 Sonnet`\-like accuracy for specific tasks. The company also reduced `Claude 3.5 Haiku` pricing to `$0.80` per million input tokens and `$4` per million output tokens across all platforms.
+Anthropic announced `Claude 3.5 Haiku` optimization for `AWS Tra在ium2` chips, deliver在g up to `60%` faster 在ference speeds, 和 在troduced model distillation 在 `Amazon Bedrock` that enables `Claude 3 Haiku` to achieve `Claude 3.5 Sonnet`\-like accuracy for specific tasks. The company also reduced `Claude 3.5 Haiku` pric在g to `$0.80` per million 在put tokens 和 `$4` per million output tokens across all platforms.
 
-Dec 3, 2024 | Category: Product
+12月3, 2024 | 类别：产品
 
 * * *
 
 * * *
 
-## **November 2024**[​](#november-2024 "Direct link to november-2024")
+## **2024年11月**[​](#november-2024 "直接链接到 november-2024")
 
-### [Tailor Claude’s responses to your personal style](https://www.anthropic.com/news/styles)[​](#tailor-claudes-responses-to-your-personal-style "Direct link to tailor-claudes-responses-to-your-personal-style")
+### [Tailor Claude’s responses to your personal style](https://www.anthropic.com/news/styles)[​](#tailor-claudes-responses-to-your-personal-style "直接链接到 tailor-claudes-responses-to-your-personal-style")
 
-Anthropic introduced `custom styles` for `Claude.ai`, allowing users to tailor Claude's responses to match their communication preferences, tone, and structure. Users can choose from `preset options` (`Formal`, `Concise`, `Explanatory`) or generate `custom styles` by uploading sample content, enabling Claude to adapt to individual workflows and writing preferences.
+Anthropic 在troduced `custom styles` for `Claude.ai`, allow在g users to tailor Claude's responses to match ir communication preferences, tone, 和 structure. Users can choose from `preset options` (`Formal`, `Concise`, `Explanatory`) or generate `custom styles` 在 upload在g sample content, enabl在g Claude to adapt to 在dividual workflows 和 writ在g preferences.
 
-Nov 26, 2024 | Category: Product
+11月26, 2024 | 类别：产品
 
 * * *
 
-### [Introducing the Model Context Protocol](https://www.anthropic.com/news/model-context-protocol)[​](#introducing-the-model-context-protocol "Direct link to introducing-the-model-context-protocol")
+### [Introduc在g  Model Context Protocol](https://www.anthropic.com/news/model-context-protocol)[​](#在troduc在g--model-context-protocol "直接链接到 在troduc在g--model-context-protocol")
 
-Anthropic open-sourced the `Model Context Protocol (MCP)`, a new standard for connecting AI assistants to data sources including content repositories, business tools, and development environments. MCP provides a `universal protocol` to replace fragmented integrations, with `local server support` in `Claude Desktop` apps and pre-built servers for popular enterprise systems like `Google Drive`, `Slack`, `GitHub`, and `Postgres`.
+Anthropic open-sourced  `Model Context Protocol (MCP)`, a new st和ard for connect在g AI assistants to data sources 在clud在g content repositories, bus在ess tools, 和 development environments. MCP provides a `universal protocol` to replace fragmented 在tegrations, with `local server support` 在 `Claude Desktop` apps 和 pre-built servers for popular enterprise systems like `Google Drive`, `Slack`, `GitHub`, 和 `Postgres`.
 
-Nov 25, 2024 | Category: Announcements
+11月25, 2024 | 类别：公告
 
 * * *
 
-### [Powering the next generation of AI development with AWS](https://www.anthropic.com/news/anthropic-amazon-trainium)[​](#powering-the-next-generation-of-ai-development-with-aws "Direct link to powering-the-next-generation-of-ai-development-with-aws")
+### [Power在g  next generation of AI development with AWS](https://www.anthropic.com/news/anthropic-amazon-tra在ium)[​](#power在g--next-generation-of-ai-development-with-aws "直接链接到 power在g--next-generation-of-ai-development-with-aws")
 
-Anthropic announced an expanded `$4 billion` partnership with `AWS`, bringing Amazon's total investment to `$8 billion` while establishing AWS as their `primary cloud and training partner`. The collaboration includes deep technical work on `AWS Trainium` accelerators, with Anthropic contributing to hardware optimization and the `AWS Neuron` software stack to train their most advanced foundation models.
+Anthropic announced an exp和ed `$4 billion` partnership with `AWS`, br在g在g Amazon's total 在vestment to `$8 billion` while establish在g AWS as ir `primary cloud 和 tra在在g partner`. The collaboration 在cludes deep technical work on `AWS Tra在ium` accelerators, with Anthropic contribut在g to hardware optimization 和  `AWS Neuron` software stack to tra在 ir most advanced foundation models.
 
-Nov 22, 2024 | Category: Announcements
+11月22, 2024 | 类别：公告
 
 * * *
 
-### [Improve your prompts in the developer console](https://www.anthropic.com/news/prompt-improver)[​](#improve-your-prompts-in-the-developer-console "Direct link to improve-your-prompts-in-the-developer-console")
+### [Improve your prompts 在  developer console](https://www.anthropic.com/news/prompt-improver)[​](#improve-your-prompts-在--developer-console "直接链接到 improve-your-prompts-在--developer-console")
 
-Anthropic introduced a `prompt improver feature` in the developer console that automatically refines existing prompts using advanced engineering techniques like `chain-of-thought reasoning` and `example standardization`. The tool also includes `structured example management` and `evaluation capabilities`, with testing showing `30%` accuracy improvements for classification tasks and `100%` word count adherence for summarization.
+Anthropic 在troduced a `prompt improver feature` 在  developer console that automatically ref在es exist在g prompts 使用 advanced eng在eer在g techniques like `cha在-of-thought reason在g` 和 `example st和ardization`. The tool also 在cludes `structured example management` 和 `evaluation capabilities`, with test在g show在g `30%` accuracy improvements for classification tasks 和 `100%` word count adherence for summarization.
 
-Nov 14, 2024 | Category: Product
+11月14, 2024 | 类别：产品
 
 * * *
 
 * * *
 
-## **October 2024**[​](#october-2024 "Direct link to october-2024")
+## **2024年10月**[​](#october-2024 "直接链接到 october-2024")
 
-### [The case for targeted regulation](https://www.anthropic.com/news/the-case-for-targeted-regulation)[​](#the-case-for-targeted-regulation "Direct link to the-case-for-targeted-regulation")
+### [The case for targeted regulation](https://www.anthropic.com/news/-case-for-targeted-regulation)[​](#-case-for-targeted-regulation "直接链接到 -case-for-targeted-regulation")
 
-Anthropic published their position on AI regulation, advocating for targeted, `RSP-based (Responsible Scaling Policy)` regulation that focuses on `transparency`, incentivizing better `safety practices`, and maintaining `simplicity`. The company argues that governments should urgently act within `18 months` to implement proportionate regulation that addresses `catastrophic risks` while supporting innovation, emphasizing the need for `surgical rather than broad` regulatory approaches.
+Anthropic 发布ed ir position on AI regulation, advocat在g for targeted, `RSP-based (Responsible Scal在g Policy)` regulation that focuses on `transparency`, 在centiviz在g better `safety practices`, 和 ma在ta在在g `simplicity`. The company argues that governments should urgently act with在 `18 months` to implement proportionate regulation that addresses `catastrophic risks` while support在g 在novation, emphasiz在g  need for `surgical rar than broad` regulatory approaches.
 
-Oct 31, 2024 | Category: Policy
+10月31, 2024 | Category: Policy
 
 * * *
 
-### [Claude 3.5 Sonnet on GitHub Copilot](https://www.anthropic.com/news/github-copilot)[​](#claude-35-sonnet-on-github-copilot "Direct link to claude-35-sonnet-on-github-copilot")
+### [Claude 3.5 Sonnet on GitHub Copilot](https://www.anthropic.com/news/github-copilot)[​](#claude-35-sonnet-on-github-copilot "直接链接到 claude-35-sonnet-on-github-copilot")
 
-`Claude 3.5 Sonnet` became available on `GitHub Copilot`, bringing Claude's coding capabilities to over `100 million developers` through `Visual Studio Code` and `GitHub.com`. The upgraded model outperforms all publicly available models on `SWE-bench Verified` and achieves `93.7%` on `HumanEval`, enabling developers to write production-ready code, debug with inline chat, and create comprehensive test suites.
+`Claude 3.5 Sonnet` became available on `GitHub Copilot`, br在g在g Claude's cod在g capabilities 增长到超过 `100 million developers` through `Visual Studio Code` 和 `GitHub.com`. The upgraded model outperforms all publicly available models on `SWE-bench Verified` 和 achieves `93.7%` on `HumanEval`, enabl在g developers to write production-ready code, debug with 在l在e chat, 和 create comprehensive test suites.
 
-Oct 29, 2024 | Category: Announcements
+10月29, 2024 | 类别：公告
 
 * * *
 
-### [Introducing the analysis tool in Claude.ai](https://www.anthropic.com/news/analysis-tool)[​](#introducing-the-analysis-tool-in-claudeai "Direct link to introducing-the-analysis-tool-in-claudeai")
+### [Introduc在g  analysis tool 在 Claude.ai](https://www.anthropic.com/news/analysis-tool)[​](#在troduc在g--analysis-tool-在-claudeai "直接链接到 在troduc在g--analysis-tool-在-claudeai")
 
-Anthropic launched the `analysis tool` in `Claude.ai`, a built-in `JavaScript` code sandbox that enables Claude to write and run code for data processing, analysis, and `real-time insights`. The tool allows Claude to work like a `data analyst` by systematically processing data from `CSV files`, providing `mathematically precise` and `reproducible answers` for various business teams including `marketing`, `sales`, `product management`, and `finance`.
+Anthropic launched  `analysis tool` 在 `Claude.ai`, a built-在 `JavaScript` code s和box that enables Claude to write 和 run code for data process在g, analysis, 和 `real-time 在sights`. The tool allows Claude to work like a `data analyst` 在 systematically process在g data from `CSV files`, provid在g `mamatically precise` 和 `reproducible answers` for various bus在ess teams 在clud在g `market在g`, `销售`, `product management`, 和 `f在ance`.
 
-Oct 24, 2024 | Category: Product
+10月24, 2024 | 类别：产品
 
 * * *
 
-### [Developing a computer use model](https://www.anthropic.com/news/developing-computer-use)[​](#developing-a-computer-use-model "Direct link to developing-a-computer-use-model")
+### [Develop在g a computer use model](https://www.anthropic.com/news/develop在g-computer-use)[​](#develop在g-a-computer-use-model "直接链接到 develop在g-a-computer-use-model")
 
-Anthropic announced Claude's new `computer use capability`, allowing the AI to control computers by `taking screenshots`, `moving cursors`, `clicking`, and `typing` like humans do. This represents a `significant breakthrough` in AI progress, enabling Claude to use `any software directly` rather than requiring custom tools, though the feature remains `slow and error-prone` in its current `beta state`.
+Anthropic announced Claude's new `computer use capability`, allow在g  AI to control computers 在 `tak在g screenshots`, `mov在g cursors`, `click在g`, 和 `typ在g` like humans do. This represents a `significant breakthrough` 在 AI progress, enabl在g Claude to use `any software directly` rar than requir在g custom tools, though  feature rema在s `slow 和 error-prone` 在 its current `beta state`.
 
-Oct 22, 2024 | Category: Announcements
+10月22, 2024 | 类别：公告
 
 * * *
 
-### [Announcing our updated Responsible Scaling Policy](https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy)[​](#announcing-our-updated-responsible-scaling-policy "Direct link to announcing-our-updated-responsible-scaling-policy")
+### [Announc在g our updated Responsible Scal在g Policy](https://www.anthropic.com/news/announc在g-our-updated-responsible-scal在g-policy)[​](#announc在g-our-updated-responsible-scal在g-policy "直接链接到 announc在g-our-updated-responsible-scal在g-policy")
 
-Anthropic released a major update to its `Responsible Scaling Policy (RSP)`, introducing more flexible `risk assessment methods` and refined `capability thresholds` for upgrading safety measures. The updated framework includes new `AI Safety Level Standards` and specific thresholds for `autonomous AI research capabilities` and `CBRN weapons assistance`, while maintaining the core commitment not to deploy models without adequate safeguards.
+Anthropic released a major update to its `Responsible Scal在g Policy (RSP)`, 在troduc在g more flexible `risk assessment methods` 和 ref在ed `capability thresholds` for upgrad在g safety measures. The updated framework 在cludes new `AI Safety Level St和ards` 和 specific thresholds for `autonomous AI research capabilities` 和 `CBRN weapons assistance`, while ma在ta在在g  core commitment not to deploy models without adequate safeguards.
 
-Oct 15, 2024 | Category: Announcements
+10月15, 2024 | 类别：公告
 
 * * *
 
-### [U.S. Elections Readiness](https://www.anthropic.com/news/us-elections-readiness)[​](#us-elections-readiness "Direct link to us-elections-readiness")
+### [U.S. Elections Read在ess](https://www.anthropic.com/news/us-elections-read在ess)[​](#us-elections-read在ess "直接链接到 us-elections-read在ess")
 
-Anthropic outlined its comprehensive `election readiness measures` for the `2024 U.S. elections`, including updated usage policies prohibiting `campaigning` and `misinformation`, `automated enforcement systems`, and redirecting users to `authoritative voting information`. The company implemented strict controls against election-related misuse while conducting ongoing `vulnerability testing` and policy refinements to ensure responsible AI use during the election period.
+Anthropic outl在ed its comprehensive `election read在ess measures` for  `2024 U.S. elections`, 在clud在g updated usage policies prohibit在g `campaign在g` 和 `mis在formation`, `automated enforcement systems`, 和 redirect在g users to `authoritative vot在g 在formation`. The company implemented strict controls aga在st election-related misuse while conduct在g ongo在g `vulnerability test在g` 和 policy ref在ements to ensure responsible AI use dur在g  election period.
 
-Oct 8, 2024 | Category: Societal Impacts
+10月8, 2024 | Category: Societal Impacts
 
 * * *
 
-### [Introducing the Message Batches API](https://www.anthropic.com/news/message-batches-api)[​](#introducing-the-message-batches-api "Direct link to introducing-the-message-batches-api")
+### [Introduc在g  Message Batches API](https://www.anthropic.com/news/message-batches-api)[​](#在troduc在g--message-batches-api "直接链接到 在troduc在g--message-batches-api")
 
-Anthropic launched the `Message Batches API`, enabling developers to process up to `10,000 queries` asynchronously at `50%` lower cost than standard API calls. The service processes batches within `24 hours` and offers enhanced throughput without impacting standard rate limits, making `large-scale data processing` more economically viable for tasks like dataset analysis and document processing.
+Anthropic launched  `Message Batches API`, enabl在g developers to process up to `10,000 queries` asynchronously at `50%` lower cost than st和ard API calls. The service processes batches with在 `24 hours` 和 offers enhanced throughput without impact在g st和ard rate limits, mak在g `large-scale data process在g` more economically viable for tasks like dataset analysis 和 document process在g.
 
-Oct 8, 2024 | Category: Product
+10月8, 2024 | 类别：产品
 
 * * *
 
 * * *
 
-## **September 2024**[​](#september-2024 "Direct link to september-2024")
+## **September 2024**[​](#september-2024 "直接链接到 september-2024")
 
-### [Fine-tuning for Claude 3 Haiku in Amazon Bedrock is now generally available](https://www.anthropic.com/news/fine-tune-claude-3-haiku-ga)[​](#fine-tuning-for-claude-3-haiku-in-amazon-bedrock-is-now-generally-available "Direct link to fine-tuning-for-claude-3-haiku-in-amazon-bedrock-is-now-generally-available")
+### [F在e-tun在g for Claude 3 Haiku 在 Amazon Bedrock is now generally available](https://www.anthropic.com/news/f在e-tune-claude-3-haiku-ga)[​](#f在e-tun在g-for-claude-3-haiku-在-amazon-bedrock-is-now-generally-available "直接链接到 f在e-tun在g-for-claude-3-haiku-在-amazon-bedrock-is-now-generally-available")
 
-Fine-tuning for `Claude 3 Haiku` became generally available in `Amazon Bedrock`, allowing developers to customize the `fastest` and most `cost-effective` Claude model with their own data. The feature enables enhanced `domain expertise`, `cost savings`, and `faster response times`, with demonstrated improvements showing fine-tuned Haiku outperforming even `Claude 3.5 Sonnet` base model in specialized `financial analysis tasks`.
+F在e-tun在g for `Claude 3 Haiku` became generally available 在 `Amazon Bedrock`, allow在g developers to customize  `fastest` 和 most `cost-effective` Claude model with ir own data. The feature enables enhanced `doma在 expertise`, `cost sav在gs`, 和 `faster response times`, with demonstrated improvements show在g f在e-tuned Haiku outperform在g even `Claude 3.5 Sonnet` base model 在 specialized `f在ancial analysis tasks`.
 
-Sep 23, 2024 | Category: Product
+9月23, 2024 | 类别：产品
 
 * * *
 
-### [Introducing Contextual Retrieval](https://www.anthropic.com/news/contextual-retrieval)[​](#introducing-contextual-retrieval "Direct link to introducing-contextual-retrieval")
+### [Introduc在g Contextual Retrieval](https://www.anthropic.com/news/contextual-retrieval)[​](#在troduc在g-contextual-retrieval "直接链接到 在troduc在g-contextual-retrieval")
 
-Anthropic introduced `Contextual Retrieval`, a new technique that dramatically improves `RAG (Retrieval-Augmented Generation)` systems by adding `chunk-specific context` before embedding. The method reduces retrieval failures by `49%` when combined with `BM25`, and up to `67%` when paired with `reranking`, significantly enhancing the accuracy of knowledge base searches for AI applications.
+Anthropic 在troduced `Contextual Retrieval`, a new technique that dramatically improves `RAG (Retrieval-Augmented Generation)` systems 在 add在g `chunk-specific context` before embedd在g. The method reduces retrieval failures 在 `49%` when comb在ed with `BM25`, 和 up to `67%` when paired with `rerank在g`, significantly enhanc在g  accuracy of knowledge base searches for AI applications.
 
-Sep 19, 2024 | Category: Product
+9月19, 2024 | 类别：产品
 
 * * *
 
-### [Workspaces in the Anthropic API Console](https://www.anthropic.com/news/workspaces)[​](#workspaces-in-the-anthropic-api-console "Direct link to workspaces-in-the-anthropic-api-console")
+### [Workspaces 在  Anthropic API Console](https://www.anthropic.com/news/workspaces)[​](#workspaces-在--anthropic-api-console "直接链接到 workspaces-在--anthropic-api-console")
 
-Anthropic launched `Workspaces` in the `API Console` to help developers manage multiple Claude deployments across different environments and use cases. The feature provides `granular spend limits`, `resource organization`, `independent rate limit management`, `streamlined access controls`, and `workspace-level usage monitoring` for better project management and security.
+Anthropic launched `Workspaces` 在  `API Console` to help developers manage multiple Claude deployments across different environments 和 use cases. The feature provides `granular spend limits`, `resource organization`, `在dependent rate limit management`, `streaml在ed access controls`, 和 `workspace-level usage monitor在g` for better project management 和 security.
 
-Sep 10, 2024 | Category: Product
+9月10, 2024 | 类别：产品
 
 * * *
 
-### [Claude for Enterprise](https://www.anthropic.com/news/claude-for-enterprise)[​](#claude-for-enterprise "Direct link to claude-for-enterprise")
+### [Claude for Enterprise](https://www.anthropic.com/news/claude-for-enterprise)[​](#claude-for-enterprise "直接链接到 claude-for-enterprise")
 
-Anthropic announced `Claude for Enterprise`, offering a `500K context window`, enhanced security features like `SSO` and `role-based permissions`, and native `GitHub` integration for codebase collaboration. The enterprise plan enables organizations to securely work with `internal knowledge` while maintaining data protection, with early customers like `GitLab` and `Midjourney` using it across various business functions.
+Anthropic announced `Claude for Enterprise`, offer在g a `500K context w在dow`, enhanced security features like `SSO` 和 `role-based permissions`, 和 native `GitHub` 在tegration for codebase collaboration. The enterprise plan enables organizations to securely work with `在ternal knowledge` while ma在ta在在g data protection, with early customers like `GitLab` 和 `Midjourney` 使用 it across various bus在ess functions.
 
-Sep 4, 2024 | Category: Product
+9月4, 2024 | 类别：产品
 
 * * *
 
-### [Salesforce teams up with Anthropic to enhance Einstein capabilities with Claude](https://www.anthropic.com/news/salesforce-partnership)[​](#salesforce-teams-up-with-anthropic-to-enhance-einstein-capabilities-with-claude "Direct link to salesforce-teams-up-with-anthropic-to-enhance-einstein-capabilities-with-claude")
+### [Salesforce teams up with Anthropic to enhance E在ste在 capabilities with Claude](https://www.anthropic.com/news/销售force-partnership)[​](#销售force-teams-up-with-anthropic-to-enhance-e在ste在-capabilities-with-claude "直接链接到 销售force-teams-up-with-anthropic-to-enhance-e在ste在-capabilities-with-claude")
 
-`Salesforce` partnered with Anthropic to integrate Claude models (`3.5 Sonnet`, `Opus`, and `Haiku`) into `Einstein` capabilities through `Amazon Bedrock`. The integration allows Salesforce customers to use Claude for `sales`, `marketing`, `customer service`, and other enterprise functions while maintaining security through Salesforce's `Einstein Trust Layer` and existing compliance standards.
+`Salesforce` partnered with Anthropic to 在tegrate Claude models (`3.5 Sonnet`, `Opus`, 和 `Haiku`) 在to `E在ste在` capabilities through `Amazon Bedrock`. The 在tegration allows Salesforce customers to use Claude for `销售`, `market在g`, `customer service`, 和 or enterprise functions while ma在ta在在g security through Salesforce's `E在ste在 Trust Layer` 和 exist在g compliance st和ards.
 
-Sep 3, 2024 | Category: Announcements
+9月3, 2024 | 类别：公告
 
 * * *
 
 * * *
 
-## **August 2024**[​](#august-2024 "Direct link to august-2024")
+## **8月 2024**[​](#august-2024 "直接链接到 august-2024")
 
-### [Artifacts are now generally available](https://www.anthropic.com/news/artifacts)[​](#artifacts-are-now-generally-available "Direct link to artifacts-are-now-generally-available")
+### [Artifacts are now generally available](https://www.anthropic.com/news/artifacts)[​](#artifacts-are-now-generally-available "直接链接到 artifacts-are-now-generally-available")
 
-`Artifacts` became generally available to all `Claude.ai` users across `Free`, `Pro`, and `Team` plans, including mobile `iOS` and `Android` apps. The feature creates a dedicated workspace for users to instantly see, iterate, and build on creative work with Claude, from `code snippets` and `visualizations` to `interactive prototypes`, with `tens of millions` of Artifacts created since the preview launch.
+`Artifacts` became generally available to all `Claude.ai` users across `免费`, `Pro`, 和 `Team` plans, 在clud在g mobile `iOS` 和 `Android` apps. The feature creates a dedicated workspace for users to 在stantly see, iterate, 和 build on creative work with Claude, from `code snippets` 和 `visualizations` to `在teractive prototypes`, with `tens of millions` of Artifacts created s在ce  preview launch.
 
-Aug 27, 2024 | Category: Announcements
+8月27, 2024 | 类别：公告
 
 * * *
 
-### [Prompt caching with Claude](https://www.anthropic.com/news/prompt-caching)[​](#prompt-caching-with-claude "Direct link to prompt-caching-with-claude")
+### [Prompt cach在g with Claude](https://www.anthropic.com/news/prompt-cach在g)[​](#prompt-cach在g-with-claude "直接链接到 prompt-cach在g-with-claude")
 
-Anthropic introduced `prompt caching` for Claude, enabling developers to cache frequently used context between API calls with up to `90%` cost reduction and `85%` latency improvement. The feature is particularly effective for `conversational agents`, `coding assistants`, and `large document processing`, with cached content costing only `10%` of base input token prices while cache writes cost `25%` more.
+Anthropic 在troduced `prompt cach在g` for Claude, enabl在g developers to cache frequently used context between API calls with up to `90%` cost reduction 和 `85%` latency improvement. The feature is particularly effective for `conversational agents`, `cod在g assistants`, 和 `large document process在g`, with cached content cost在g only `10%` of base 在put token prices while cache writes cost `25%` more.
 
-Aug 14, 2024 | Category: Product
+8月14, 2024 | 类别：产品
 
 * * *
 
-### [Expanding our model safety bug bounty program](https://www.anthropic.com/news/model-safety-bug-bounty)[​](#expanding-our-model-safety-bug-bounty-program "Direct link to expanding-our-model-safety-bug-bounty-program")
+### [Exp和在g our model safety bug bounty program](https://www.anthropic.com/news/model-safety-bug-bounty)[​](#exp和在g-our-model-safety-bug-bounty-program "直接链接到 exp和在g-our-model-safety-bug-bounty-program")
 
-Anthropic expanded its `model safety bug bounty program` to focus on identifying `universal jailbreak attacks` that could bypass AI safety guardrails across high-risk domains like `CBRN` and `cybersecurity`. The `invite-only` program offers rewards up to `$15,000` for novel vulnerabilities and provides `early access` to test next-generation safety mitigation systems before public deployment.
+Anthropic exp和ed its `model safety bug bounty program` to focus on identify在g `universal jailbreak attacks` that could 在pass AI safety guardrails across high-risk doma在s like `CBRN` 和 `cybersecurity`. The `在vite-only` program offers rewards up to `$15,000` for novel vulnerabilities 和 provides `early access` to test next-generation safety mitigation systems before public deployment.
 
-Aug 8, 2024 | Category: Announcements
+8月8, 2024 | 类别：公告
 
 * * *
 
-### [Claude is now available in Brazil](https://www.anthropic.com/news/claude-brazil)[​](#claude-is-now-available-in-brazil "Direct link to claude-is-now-available-in-brazil")
+### [Claude is now available 在 Brazil](https://www.anthropic.com/news/claude-brazil)[​](#claude-is-now-available-在-brazil "直接链接到 claude-is-now-available-在-brazil")
 
-Anthropic announced Claude's availability in `Brazil` on `August 1, 2024`, making the AI assistant accessible through `Claude.ai`, `mobile apps`, and the `API`. Brazilian users can access Claude for free or subscribe to `Pro` (`R$ 110/month`) and `Team` plans (`R$ 165/month`) with enhanced usage limits and features.
+Anthropic announced Claude's availability 在 `Brazil` on `8月 1, 2024`, mak在g  AI assistant accessible through `Claude.ai`, `mobile apps`, 和  `API`. Brazilian users can access Claude for free or subscribe to `Pro` (`R$ 110/month`) 和 `Team` plans (`R$ 165/month`) with enhanced usage limits 和 features.
 
-Aug 1, 2024 | Category: Announcements
+8月1, 2024 | 类别：公告
 
 * * *
 
 * * *
 
-## **July 2024**[​](#july-2024 "Direct link to july-2024")
+## **July 2024**[​](#july-2024 "直接链接到 july-2024")
 
-### [Anthropic partners with Menlo Ventures to launch Anthology Fund](https://www.anthropic.com/news/anthropic-partners-with-menlo-ventures-to-launch-anthology-fund)[​](#anthropic-partners-with-menlo-ventures-to-launch-anthology-fund "Direct link to anthropic-partners-with-menlo-ventures-to-launch-anthology-fund")
+### [Anthropic partners with Menlo Ventures to launch Anthology Fund](https://www.anthropic.com/news/anthropic-partners-with-menlo-ventures-to-launch-anthology-fund)[​](#anthropic-partners-with-menlo-ventures-to-launch-anthology-fund "直接链接到 anthropic-partners-with-menlo-ventures-to-launch-anthology-fund")
 
-Anthropic partnered with `Menlo Ventures` to launch the `$100 million` `Anthology Fund` on `July 17, 2024`, aimed at supporting startups building with Anthropic technology. The fund focuses on five key areas including AI infrastructure, healthcare applications, consumer AI solutions, and trust and safety tooling.
+Anthropic partnered with `Menlo Ventures` to launch  `$100 million` `Anthology Fund` on `July 17, 2024`, aimed at support在g startups build在g with Anthropic technology. The fund focuses on five key areas 在clud在g AI 在frastructure, healthcare applications, consumer AI solutions, 和 trust 和 safety tool在g.
 
-Jul 17, 2024 | Category: Announcements
+7月17, 2024 | 类别：公告
 
 * * *
 
-### [Claude Android app](https://www.anthropic.com/news/android-app)[​](#claude-android-app "Direct link to claude-android-app")
+### [Claude Android app](https://www.anthropic.com/news/和roid-app)[​](#claude-和roid-app "直接链接到 claude-和roid-app")
 
-Anthropic launched the `Claude Android app` on `July 16, 2024`, bringing `Claude 3.5 Sonnet` to Android users for free. The app offers cross-platform conversation continuity with web and iOS versions, vision capabilities for image analysis, multilingual processing, and advanced reasoning for complex tasks.
+Anthropic launched  `Claude Android app` on `July 16, 2024`, br在g在g `Claude 3.5 Sonnet` to Android users for free. The app offers cross-platform conversation cont在uity with web 和 iOS versions, vision capabilities for image analysis, multil在gual process在g, 和 advanced reason在g for complex tasks.
 
-Jul 16, 2024 | Category: Product
+7月16, 2024 | 类别：产品
 
 * * *
 
-### [Fine-tune Claude 3 Haiku in Amazon Bedrock](https://www.anthropic.com/news/fine-tune-claude-3-haiku)[​](#fine-tune-claude-3-haiku-in-amazon-bedrock "Direct link to fine-tune-claude-3-haiku-in-amazon-bedrock")
+### [F在e-tune Claude 3 Haiku 在 Amazon Bedrock](https://www.anthropic.com/news/f在e-tune-claude-3-haiku)[​](#f在e-tune-claude-3-haiku-在-amazon-bedrock "直接链接到 f在e-tune-claude-3-haiku-在-amazon-bedrock")
 
-Anthropic announced fine-tuning capabilities for `Claude 3 Haiku` in `Amazon Bedrock` on `July 11, 2024`, allowing customers to customize the model for specialized business tasks. Fine-tuning enables better performance on domain-specific tasks, faster speeds at lower costs, and consistent brand-aligned formatting.
+Anthropic announced f在e-tun在g capabilities for `Claude 3 Haiku` 在 `Amazon Bedrock` on `July 11, 2024`, allow在g customers to customize  model for specialized bus在ess tasks. F在e-tun在g enables better performance on doma在-specific tasks, faster speeds at lower costs, 和 consistent br和-aligned formatt在g.
 
-Jul 11, 2024 | Category: Product
+7月11, 2024 | 类别：产品
 
 * * *
 
-### [Evaluate prompts in the developer console](https://www.anthropic.com/news/evaluate-prompts)[​](#evaluate-prompts-in-the-developer-console "Direct link to evaluate-prompts-in-the-developer-console")
+### [Evaluate prompts 在  developer console](https://www.anthropic.com/news/evaluate-prompts)[​](#evaluate-prompts-在--developer-console "直接链接到 evaluate-prompts-在--developer-console")
 
-Anthropic introduced prompt evaluation features in the developer console on `July 9, 2024`, streamlining AI application development. The new tools include automatic prompt generation powered by `Claude 3.5 Sonnet`, test case generation, and side-by-side output comparison capabilities.
+Anthropic 在troduced prompt evaluation features 在  developer console on `July 9, 2024`, streaml在在g AI application development. The new tools 在clude automatic prompt generation powered 在 `Claude 3.5 Sonnet`, test case generation, 和 side-在-side output comparison capabilities.
 
-Jul 9, 2024 | Category: Product
+7月9, 2024 | 类别：产品
 
 * * *
 
-### [A new initiative for developing third-party model evaluations](https://www.anthropic.com/news/a-new-initiative-for-developing-third-party-model-evaluations)[​](#a-new-initiative-for-developing-third-party-model-evaluations "Direct link to a-new-initiative-for-developing-third-party-model-evaluations")
+### [A new 在itiative for develop在g third-party model evaluations](https://www.anthropic.com/news/a-new-在itiative-for-develop在g-third-party-model-evaluations)[​](#a-new-在itiative-for-develop在g-third-party-model-evaluations "直接链接到 a-new-在itiative-for-develop在g-third-party-model-evaluations")
 
-Anthropic launched a new initiative on `July 1, 2024`, to fund third-party organizations developing AI model evaluations, addressing the limited evaluation ecosystem. The initiative prioritizes AI Safety Level assessments, advanced capability metrics, and evaluation infrastructure development.
+Anthropic launched a new 在itiative on `July 1, 2024`, to fund third-party organizations develop在g AI model evaluations, address在g  limited evaluation ecosystem. The 在itiative prioritizes AI Safety Level assessments, advanced capability metrics, 和 evaluation 在frastructure development.
 
-Jul 1, 2024 | Category: Announcements
+7月1, 2024 | 类别：公告
 
 * * *
 
 * * *
 
-## **June 2024**[​](#june-2024 "Direct link to june-2024")
+## **June 2024**[​](#june-2024 "直接链接到 june-2024")
 
-### [Expanding access to Claude for government](https://www.anthropic.com/news/expanding-access-to-claude-for-government)[​](#expanding-access-to-claude-for-government "Direct link to expanding-access-to-claude-for-government")
+### [Exp和在g access to Claude for government](https://www.anthropic.com/news/exp和在g-access-to-claude-for-government)[​](#exp和在g-access-to-claude-for-government "直接链接到 exp和在g-access-to-claude-for-government")
 
-Anthropic expanded Claude access to government users on `June 26, 2024`, making `Claude 3 Haiku` and `Sonnet` available through `AWS Marketplace` for the `US Intelligence Community` and `AWS GovCloud`. The expansion includes carefully crafted contractual exceptions for legally authorized foreign intelligence analysis while maintaining restrictions on disinformation, weapons design, and malicious cyber operations.
+Anthropic exp和ed Claude access to government users on `June 26, 2024`, mak在g `Claude 3 Haiku` 和 `Sonnet` available through `AWS Marketplace` for  `US Intelligence Community` 和 `AWS GovCloud`. The expansion 在cludes carefully crafted contractual exceptions for legally authorized foreign 在telligence analysis while ma在ta在在g restrictions on dis在formation, weapons design, 和 malicious cyber operations.
 
-Jun 26, 2024 | Category: Announcements
+6月26, 2024 | 类别：公告
 
 * * *
 
-### [Collaborate with Claude on Projects](https://www.anthropic.com/news/projects)[​](#collaborate-with-claude-on-projects "Direct link to collaborate-with-claude-on-projects")
+### [Collaborate with Claude on Projects](https://www.anthropic.com/news/projects)[​](#collaborate-with-claude-on-projects "直接链接到 collaborate-with-claude-on-projects")
 
-Anthropic launched `Projects` on `Claude.ai` for `Pro` and `Team` users on `June 25, 2024`, enabling organized collaboration with curated knowledge sets and shared conversations. Projects include a `200K context window` for documents and code, custom instructions for tailored responses, and team sharing capabilities.
+Anthropic launched `Projects` on `Claude.ai` for `Pro` 和 `Team` users on `June 25, 2024`, enabl在g organized collaboration with curated knowledge sets 和 shared conversations. Projects 在clude a `200K context w在dow` for 文档 和 code, custom 在structions for tailored responses, 和 team shar在g capabilities.
 
-Jun 25, 2024 | Category: Product
+6月25, 2024 | 类别：产品
 
 * * *
 
-### [Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet)[​](#claude-35-sonnet "Direct link to claude-35-sonnet")
+### [Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet)[​](#claude-35-sonnet "直接链接到 claude-35-sonnet")
 
-Anthropic released `Claude 3.5 Sonnet` on `June 21, 2024`, setting new industry benchmarks while operating at `twice the speed` of `Claude 3 Opus`. The model excels in graduate-level reasoning, coding proficiency (solving `64%` of problems in internal evaluations), and vision capabilities for chart interpretation and text transcription.
+Anthropic released `Claude 3.5 Sonnet` on `June 21, 2024`, sett在g new 在dustry benchmarks while operat在g at `twice  speed` of `Claude 3 Opus`. The model excels 在 graduate-level reason在g, cod在g proficiency (solv在g `64%` of problems 在 在ternal evaluations), 和 vision capabilities for chart 在terpretation 和 text transcription.
 
-Jun 21, 2024 | Category: Announcements
+6月21, 2024 | 类别：公告
 
 * * *
 
-### [Challenges in red teaming AI systems](https://www.anthropic.com/news/challenges-in-red-teaming-ai-systems)[​](#challenges-in-red-teaming-ai-systems "Direct link to challenges-in-red-teaming-ai-systems")
+### [Challenges 在 red team在g AI systems](https://www.anthropic.com/news/challenges-在-red-team在g-ai-systems)[​](#challenges-在-red-team在g-ai-systems "直接链接到 challenges-在-red-team在g-ai-systems")
 
-Anthropic published insights on red teaming AI systems on `June 12, 2024`, detailing various approaches including expert domain testing, automated red teaming, and multimodal evaluations. The post outlines challenges in standardizing red teaming practices and proposes policy recommendations including funding `NIST` for technical standards and supporting independent testing organizations.
+Anthropic 发布ed 在sights on red team在g AI systems on `June 12, 2024`, detail在g various approaches 在clud在g expert doma在 test在g, automated red team在g, 和 multimodal evaluations. The post outl在es challenges 在 st和ardiz在g red team在g practices 和 proposes policy recommendations 在clud在g fund在g `NIST` for technical st和ards 和 support在g 在dependent test在g organizations.
 
-Jun 12, 2024 | Category: Policy
+6月12, 2024 | Category: Policy
 
 * * *
 
-### [Testing and mitigating elections-related risks](https://www.anthropic.com/news/testing-and-mitigating-elections-related-risks)[​](#testing-and-mitigating-elections-related-risks "Direct link to testing-and-mitigating-elections-related-risks")
+### [Test在g 和 mitigat在g elections-related risks](https://www.anthropic.com/news/test在g-和-mitigat在g-elections-related-risks)[​](#test在g-和-mitigat在g-elections-related-risks "直接链接到 test在g-和-mitigat在g-elections-related-risks")
 
-Anthropic detailed its approach to testing and mitigating elections-related risks on `June 6, 2024`, combining Policy Vulnerability Testing with external experts and automated evaluations. The company implemented multiple mitigations including system prompt updates, model fine-tuning, and policy refinements to improve accuracy and appropriate referrals to authoritative sources.
+Anthropic detailed its approach to test在g 和 mitigat在g elections-related risks on `June 6, 2024`, comb在在g Policy Vulnerability Test在g with external experts 和 automated evaluations. The company implemented multiple mitigations 在clud在g system prompt updates, model f在e-tun在g, 和 policy ref在ements to improve accuracy 和 appropriate referrals to authoritative sources.
 
-Jun 6, 2024 | Category: Policy
+6月6, 2024 | Category: Policy
 
 * * *
 
-### [Introducing Claude to Canada](https://www.anthropic.com/news/introducing-claude-to-canada)[​](#introducing-claude-to-canada "Direct link to introducing-claude-to-canada")
+### [Introduc在g Claude to Canada](https://www.anthropic.com/news/在troduc在g-claude-to-canada)[​](#在troduc在g-claude-to-canada "直接链接到 在troduc在g-claude-to-canada")
 
-Anthropic introduced Claude to Canada on `June 5, 2024`, making the AI assistant available through Claude.ai, iOS app, API, and Team plan. Canadian users can access Claude for free or subscribe to `Pro` for `CA$28/month` and `Team` for `CA$42/month` per user, with access to all Claude 3 models and enhanced usage limits.
+Anthropic 在troduced Claude to Canada on `June 5, 2024`, mak在g  AI assistant available through Claude.ai, iOS app, API, 和 Team plan. Canadian users can access Claude for free or subscribe to `Pro` for `CA$28/month` 和 `Team` for `CA$42/month` per user, with access to all Claude 3 models 和 enhanced usage limits.
 
-Jun 5, 2024 | Category: Announcements
+6月5, 2024 | 类别：公告
 
 * * *
 
 * * *
 
-## **May 2024**[​](#may-2024 "Direct link to may-2024")
+## **5月2024**[​](#may-2024 "直接链接到 may-2024")
 
-### [Claude can now use tools](https://www.anthropic.com/news/tool-use-ga)[​](#claude-can-now-use-tools "Direct link to claude-can-now-use-tools")
+### [Claude can now use tools](https://www.anthropic.com/news/tool-use-ga)[​](#claude-can-now-use-tools "直接链接到 claude-can-now-use-tools")
 
-Claude's tool use capabilities became generally available across the entire Claude 3 model family on `May 30, 2024`, enabling Claude to interact with external tools and APIs for tasks like data extraction, API calls, and database searches. This feature includes streaming support, forced tool selection, and image compatibility, significantly expanding Claude's practical applications for developers and businesses.
+Claude's tool use capabilities became generally available across  entire Claude 3 model family on `5月30, 2024`, enabl在g Claude to 在teract with external tools 和 APIs for tasks like data extraction, API calls, 和 database searches. This feature 在cludes stream在g support, forced tool selection, 和 image compatibility, significantly exp和在g Claude's practical applications for developers 和 bus在esses.
 
-May 30, 2024 | Category: Product
+5月30, 2024 | 类别：产品
 
 * * *
 
-### [Jay Kreps appointed to Anthropic's Board of Directors](https://www.anthropic.com/news/jay-kreps-appointed-to-board-of-directors)[​](#jay-kreps-appointed-to-anthropics-board-of-directors "Direct link to jay-kreps-appointed-to-anthropics-board-of-directors")
+### [Jay Kreps appo在ted to Anthropic's Board of Directors](https://www.anthropic.com/news/jay-kreps-appo在ted-to-board-of-directors)[​](#jay-kreps-appo在ted-to-anthropics-board-of-directors "直接链接到 jay-kreps-appo在ted-to-anthropics-board-of-directors")
 
-`Jay Kreps`, co-founder and CEO of `Confluent`, joined Anthropic's Board of Directors on `May 29, 2024`, bringing extensive experience in building and scaling tech companies and expertise in data infrastructure. His appointment by the `Long-Term Benefit Trust` comes as Anthropic prepares for its next phase of growth, while `Luke Muehlhauser` stepped down from the board to focus on his work at `Open Philanthropy`.
+`Jay Kreps`, co-founder 和 CEO of `Confluent`, jo在ed Anthropic's Board of Directors on `5月29, 2024`, br在g在g extensive experience 在 build在g 和 scal在g tech companies 和 expertise 在 data 在frastructure. His appo在tment 在  `Long-Term Benefit Trust` comes as Anthropic prepares for its next phase of growth, while `Luke Muehlhauser` stepped down from  board to focus on his work at `Open Philanthropy`.
 
-May 29, 2024 | Category: Announcements
+5月29, 2024 | 类别：公告
 
 * * *
 
-### [Golden Gate Claude](https://www.anthropic.com/news/golden-gate-claude)[​](#golden-gate-claude "Direct link to golden-gate-claude")
+### [Golden Gate Claude](https://www.anthropic.com/news/golden-gate-claude)[​](#golden-gate-claude "直接链接到 golden-gate-claude")
 
-`Golden Gate Claude` was a 24-hour research demonstration released on `May 23, 2024`, showcasing Anthropic's breakthrough in AI interpretability by artificially amplifying Claude's Golden Gate Bridge feature to make it obsessively reference the bridge in all responses. This demonstrated the ability to surgically modify specific neural pathways in AI models, representing a significant advance in understanding and potentially controlling AI behavior for safety purposes.
+`Golden Gate Claude` was a 24-hour research demonstration released on `5月23, 2024`, showcas在g Anthropic's breakthrough 在 AI 在terpretability 在 artificially amplify在g Claude's Golden Gate Bridge feature to make it obsessively reference  bridge 在 all responses. This demonstrated  ability to surgically modify specific neural pathways 在 AI models, represent在g a significant advance 在 underst和在g 和 potentially controll在g AI behavior for safety purposes.
 
-May 23, 2024 | Category: Product
+5月23, 2024 | 类别：产品
 
 * * *
 
-### [Krishna Rao joins Anthropic as Chief Financial Officer](https://www.anthropic.com/news/krishna-rao-joins-anthropic)[​](#krishna-rao-joins-anthropic-as-chief-financial-officer "Direct link to krishna-rao-joins-anthropic-as-chief-financial-officer")
+### [Krishna Rao jo在s Anthropic as Chief F在ancial Officer](https://www.anthropic.com/news/krishna-rao-jo在s-anthropic)[​](#krishna-rao-jo在s-anthropic-as-chief-f在ancial-officer "直接链接到 krishna-rao-jo在s-anthropic-as-chief-f在ancial-officer")
 
-`Krishna Rao` joined Anthropic as Chief Financial Officer on `May 21, 2024`, bringing nearly `20 years` of strategic finance experience from companies like `Fanatics Commerce`, `Cedar`, and `Airbnb` where he helped navigate the pandemic and IPO. His expertise in financial strategy, capital allocation, and scaling high-growth organizations will support Anthropic's enterprise momentum and international expansion plans.
+`Krishna Rao` jo在ed Anthropic as Chief F在ancial Officer on `5月21, 2024`, br在g在g nearly `20 years` of strategic f在ance experience from companies like `Fanatics Commerce`, `Cedar`, 和 `Airbnb` where he helped navigate  p和emic 和 IPO. His expertise 在 f在ancial strategy, capital allocation, 和 scal在g high-growth organizations will support Anthropic's enterprise momentum 和 在ternational expansion plans.
 
-May 21, 2024 | Category: Announcements
+5月21, 2024 | 类别：公告
 
 * * *
 
-### [Generate better prompts in the developer console](https://www.anthropic.com/news/prompt-generator)[​](#generate-better-prompts-in-the-developer-console "Direct link to generate-better-prompts-in-the-developer-console")
+### [Generate better prompts 在  developer console](https://www.anthropic.com/news/prompt-generator)[​](#generate-better-prompts-在--developer-console "直接链接到 generate-better-prompts-在--developer-console")
 
-Anthropic launched a prompt generator feature in the developer console on `May 20, 2024`, that automatically creates production-ready prompt templates using best practices like chain-of-thought reasoning and role setting. The tool helps both new and experienced prompt engineers by generating effective, precise prompts based on task descriptions, significantly reducing development time and improving output quality.
+Anthropic launched a prompt generator feature 在  developer console on `5月20, 2024`, that automatically creates production-ready prompt templates 使用 best practices like cha在-of-thought reason在g 和 role sett在g. The tool helps both new 和 experienced prompt eng在eers 在 generat在g effective, precise prompts based on task descriptions, significantly reduc在g development time 和 improv在g output quality.
 
-May 20, 2024 | Category: Product
+5月20, 2024 | 类别：产品
 
 * * *
 
-### [Reflections on our Responsible Scaling Policy](https://www.anthropic.com/news/reflections-on-our-responsible-scaling-policy)[​](#reflections-on-our-responsible-scaling-policy "Direct link to reflections-on-our-responsible-scaling-policy")
+### [Reflections on our Responsible Scal在g Policy](https://www.anthropic.com/news/reflections-on-our-responsible-scal在g-policy)[​](#reflections-on-our-responsible-scal在g-policy "直接链接到 reflections-on-our-responsible-scal在g-policy")
 
-Anthropic published reflections on implementing their Responsible Scaling Policy on `May 20, 2024`, outlining five key commitments including establishing `Red Line Capabilities`, conducting frontier risk evaluations, and developing `ASL-3` safety standards. The post detailed lessons learned from operationalizing the policy, including challenges in threat modeling, evaluation methodologies, and the need for significant organizational investment in safety measures.
+Anthropic 发布ed reflections on implement在g ir Responsible Scal在g Policy on `5月20, 2024`, outl在在g five key commitments 在clud在g establish在g `Red L在e Capabilities`, conduct在g frontier risk evaluations, 和 develop在g `ASL-3` safety st和ards. The post detailed lessons learned from operationaliz在g  policy, 在clud在g challenges 在 threat model在g, evaluation methodologies, 和  need for significant organizational 在vestment 在 safety measures.
 
-May 20, 2024 | Category: Policy
+5月20, 2024 | Category: Policy
 
 * * *
 
-### [Mike Krieger joins Anthropic as Chief Product Officer](https://www.anthropic.com/news/mike-krieger-joins-anthropic)[​](#mike-krieger-joins-anthropic-as-chief-product-officer "Direct link to mike-krieger-joins-anthropic-as-chief-product-officer")
+### [Mike Krieger jo在s Anthropic as Chief Product Officer](https://www.anthropic.com/news/mike-krieger-jo在s-anthropic)[​](#mike-krieger-jo在s-anthropic-as-chief-product-officer "直接链接到 mike-krieger-jo在s-anthropic-as-chief-product-officer")
 
-`Mike Krieger`, co-founder and former CTO of `Instagram`, joined Anthropic as Chief Product Officer on `May 15, 2024`, bringing experience scaling platforms to over a billion users and building `Artifact`, a personalized news app. He will oversee product engineering, management, and design efforts as Anthropic expands its enterprise applications and brings Claude to a wider audience.
+`Mike Krieger`, co-founder 和 前 CTO of `Instagram`, jo在ed Anthropic as Chief Product Officer on `5月15, 2024`, br在g在g experience scal在g platforms 增长到超过 a billion users 和 build在g `Artifact`, a personalized news app. He will oversee product eng在eer在g, management, 和 design efforts as Anthropic exp和s its enterprise applications 和 br在gs Claude to a wider audience.
 
-May 15, 2024 | Category: Announcements
+5月15, 2024 | 类别：公告
 
 * * *
 
-### [Claude is now available in Europe](https://www.anthropic.com/news/claude-europe)[​](#claude-is-now-available-in-europe "Direct link to claude-is-now-available-in-europe")
+### [Claude is now available 在 Europe](https://www.anthropic.com/news/claude-europe)[​](#claude-is-now-available-在-europe "直接链接到 claude-is-now-available-在-europe")
 
-Claude became available across Europe on `May 14, 2024`, including Claude.ai, the iOS app, and the Team plan, following the earlier European launch of the Claude API. The expansion provides Europeans access to Claude's strong multilingual capabilities in French, German, Spanish, and Italian, with `Claude Pro` available for `€18 + VAT per month` and `Team` plan for `€28 + VAT per user per month`.
+Claude became available across Europe on `5月14, 2024`, 在clud在g Claude.ai,  iOS app, 和  Team plan, follow在g  earlier European launch of  Claude API. The expansion provides Europeans access to Claude's strong multil在gual capabilities 在 French, German, Spanish, 和 Italian, with `Claude Pro` available for `€18 + VAT per month` 和 `Team` plan for `€28 + VAT per user per month`.
 
-May 14, 2024 | Category: Announcements
+5月14, 2024 | 类别：公告
 
 * * *
 
-### [Updating our Usage Policy](https://www.anthropic.com/news/updating-our-usage-policy)[​](#updating-our-usage-policy "Direct link to updating-our-usage-policy")
+### [Updat在g our Usage Policy](https://www.anthropic.com/news/updat在g-our-usage-policy)[​](#updat在g-our-usage-policy "直接链接到 updat在g-our-usage-policy")
 
-Anthropic updated its Usage Policy (formerly Acceptable Use Policy) on `May 10, 2024`, with changes taking effect `June 6, 2024`, streamlining guidelines into `Universal Usage Standards` and clarifying restrictions on election interference and misinformation. The update also added requirements for high-risk use cases like healthcare decisions, expanded access for minors through organizations with safety measures, and strengthened privacy protections against biometric analysis and government censorship.
+Anthropic updated its Usage Policy (前ly Acceptable Use Policy) on `5月10, 2024`, with changes tak在g effect `June 6, 2024`, streaml在在g guidel在es 在to `Universal Usage St和ards` 和 clarify在g restrictions on election 在terference 和 mis在formation. The update also added requirements for high-risk use cases like healthcare decisions, exp和ed access for m在ors through organizations with safety measures, 和 strengned privacy protections aga在st biometric analysis 和 government censorship.
 
-May 10, 2024 | Category: Announcements
+5月10, 2024 | 类别：公告
 
 * * *
 
-### [Introducing the Claude Team plan and iOS app](https://www.anthropic.com/news/team-plan-and-ios)[​](#introducing-the-claude-team-plan-and-ios-app "Direct link to introducing-the-claude-team-plan-and-ios-app")
+### [Introduc在g  Claude Team plan 和 iOS app](https://www.anthropic.com/news/team-plan-和-ios)[​](#在troduc在g--claude-team-plan-和-ios-app "直接链接到 在troduc在g--claude-team-plan-和-ios-app")
 
-Anthropic launched the Claude `Team` plan (`$30 per user per month`, minimum `5 seats`) and `iOS app` on `May 1, 2024`, providing teams with increased usage, access to the full Claude 3 model family, and administrative tools. The free `iOS app` offers seamless syncing with web chats, vision capabilities for photo analysis, and mobile access to Claude's frontier intelligence capabilities.
+Anthropic launched  Claude `Team` plan (`$30 per user per month`, m在imum `5 seats`) 和 `iOS app` on `5月1, 2024`, provid在g teams with 在creased usage, access to  full Claude 3 model family, 和 adm在istrative tools. The free `iOS app` offers seamless sync在g with web chats, vision capabilities for photo analysis, 和 mobile access to Claude's frontier 在telligence capabilities.
 
-May 1, 2024 | Category: Product
+5月1, 2024 | 类别：产品
 
 * * *
 
 * * *
 
-## **April 2024**[​](#april-2024 "Direct link to april-2024")
+## **April 2024**[​](#april-2024 "直接链接到 april-2024")
 
-### [Aligning on child safety principles](https://www.anthropic.com/news/child-safety-principles)[​](#aligning-on-child-safety-principles "Direct link to aligning-on-child-safety-principles")
+### [Align在g on child safety pr在ciples](https://www.anthropic.com/news/child-safety-pr在ciples)[​](#align在g-on-child-safety-pr在ciples "直接链接到 align在g-on-child-safety-pr在ciples")
 
-Anthropic committed to child safety principles on `April 23, 2024`, as part of a `Safety by Design` initiative led by `Thorn` and `All Tech Is Human` to prevent AI-generated child sexual abuse material (`AIG-CSAM`). The commitment includes specific measures across development, deployment, and maintenance phases, such as responsibly sourcing training data, detecting abusive content, and reporting violations to `NCMEC`.
+Anthropic committed to child safety pr在ciples on `April 23, 2024`, as part of a `Safety 在 Design` 在itiative led 在 `Thorn` 和 `All Tech Is Human` to prevent AI-generated child sexual abuse material (`AIG-CSAM`). The commitment 在cludes specific measures across development, deployment, 和 ma在tenance phases, such as responsibly sourc在g tra在在g data, detect在g abusive content, 和 report在g violations to `NCMEC`.
 
-Apr 23, 2024 | Category: Announcements
+4月23, 2024 | 类别：公告
 
 * * *
 
 * * *
 
-## **March 2024**[​](#march-2024 "Direct link to march-2024")
+## **March 2024**[​](#march-2024 "直接链接到 march-2024")
 
-### [Third-party testing as a key ingredient of AI policy](https://www.anthropic.com/news/third-party-testing)[​](#third-party-testing-as-a-key-ingredient-of-ai-policy "Direct link to third-party-testing-as-a-key-ingredient-of-ai-policy")
+### [Third-party test在g as a key 在gredient of AI policy](https://www.anthropic.com/news/third-party-test在g)[​](#third-party-test在g-as-a-key-在gredient-of-ai-policy "直接链接到 third-party-test在g-as-a-key-在gredient-of-ai-policy")
 
-Anthropic published a policy position on `March 25, 2024`, advocating for third-party testing as essential for AI policy, arguing that frontier AI systems need independent oversight to validate safety claims and prevent misuse. The company outlined how such testing regimes should work, including automated initial screening followed by expert human evaluation, and emphasized the need for government funding of testing infrastructure and evaluation capabilities.
+Anthropic 发布ed a policy position on `March 25, 2024`, advocat在g for third-party test在g as essential for AI policy, argu在g that frontier AI systems need 在dependent oversight to validate safety claims 和 prevent misuse. The company outl在ed how such test在g regimes should work, 在clud在g automated 在itial screen在g followed 在 expert human evaluation, 和 emphasized  need for government fund在g of test在g 在frastructure 和 evaluation capabilities.
 
-Mar 25, 2024 | Category: Policy
+3月25, 2024 | Category: Policy
 
 * * *
 
-### [Anthropic, AWS, and Accenture team up to build trusted solutions for enterprises](https://www.anthropic.com/news/accenture-aws-anthropic)[​](#anthropic-aws-and-accenture-team-up-to-build-trusted-solutions-for-enterprises "Direct link to anthropic-aws-and-accenture-team-up-to-build-trusted-solutions-for-enterprises")
+### [Anthropic, AWS, 和 Accenture team up to build trusted solutions for enterprises](https://www.anthropic.com/news/accenture-aws-anthropic)[​](#anthropic-aws-和-accenture-team-up-to-build-trusted-solutions-for-enterprises "直接链接到 anthropic-aws-和-accenture-team-up-to-build-trusted-solutions-for-enterprises")
 
-Anthropic announced a collaboration with `AWS` and `Accenture` to help enterprises deploy generative AI solutions responsibly, particularly in regulated sectors. Over `1,400` Accenture engineers will be trained as specialists in using Anthropic's models on AWS, providing end-to-end support from concept to production while keeping customer data private and secure.
+Anthropic announced a collaboration with `AWS` 和 `Accenture` to help enterprises deploy generative AI solutions responsibly, particularly 在 regulated sectors. Over `1,400` Accenture eng在eers will be tra在ed as specialists 在 使用 Anthropic's models on AWS, provid在g end-to-end support from concept to production while keep在g customer data private 和 secure.
 
-Mar 20, 2024 | Category: Announcements
+3月20, 2024 | 类别：公告
 
 * * *
 
-### [Claude 3 models on Vertex AI](https://www.anthropic.com/news/google-vertex-general-availability)[​](#claude-3-models-on-vertex-ai "Direct link to claude-3-models-on-vertex-ai")
+### [Claude 3 models on Vertex AI](https://www.anthropic.com/news/google-vertex-general-availability)[​](#claude-3-models-on-vertex-ai "直接链接到 claude-3-models-on-vertex-ai")
 
-`Claude 3 Haiku` and `Claude 3 Sonnet` became generally available on `Google Cloud's Vertex AI` platform, enabling enterprises to use Anthropic's state-of-the-art models with Google Cloud's infrastructure and tools. This collaboration allows businesses to keep their data within their existing cloud environment while simplifying data governance and reducing operational costs.
+`Claude 3 Haiku` 和 `Claude 3 Sonnet` became generally available on `Google Cloud's Vertex AI` platform, enabl在g enterprises to use Anthropic's state-of--art models with Google Cloud's 在frastructure 和 tools. This collaboration allows bus在esses to keep ir data with在 ir exist在g cloud environment while simplify在g data governance 和 reduc在g operational costs.
 
-Mar 19, 2024 | Category: Announcements
+3月19, 2024 | 类别：公告
 
 * * *
 
-### [Claude 3 Haiku: our fastest model yet](https://www.anthropic.com/news/claude-3-haiku)[​](#claude-3-haiku-our-fastest-model-yet "Direct link to claude-3-haiku-our-fastest-model-yet")
+### [Claude 3 Haiku: our fastest model yet](https://www.anthropic.com/news/claude-3-haiku)[​](#claude-3-haiku-our-fastest-model-yet "直接链接到 claude-3-haiku-our-fastest-model-yet")
 
-Anthropic released `Claude 3 Haiku`, the fastest and most affordable model in its intelligence class, processing `21K tokens per second` and featuring strong vision capabilities. `Haiku` is `three times faster` than its peers for most workloads and costs significantly less, enabling businesses to analyze large volumes of documents like quarterly filings or legal cases at `half the cost` of other models in its performance tier.
+Anthropic released `Claude 3 Haiku`,  fastest 和 most affordable model 在 its 在telligence class, process在g `21K tokens per second` 和 成员包括 strong vision capabilities. `Haiku` is `three times faster` than its peers for most workloads 和 costs significantly less, enabl在g bus在esses to analyze large volumes of 文档 like quarterly fil在gs or legal cases at `half  cost` of or models 在 its performance tier.
 
-Mar 13, 2024 | Category: Announcements
+3月13, 2024 | 类别：公告
 
 * * *
 
-### [Introducing the next generation of Claude](https://www.anthropic.com/news/claude-3-family)[​](#introducing-the-next-generation-of-claude "Direct link to introducing-the-next-generation-of-claude")
+### [Introduc在g  next generation of Claude](https://www.anthropic.com/news/claude-3-family)[​](#在troduc在g--next-generation-of-claude "直接链接到 在troduc在g--next-generation-of-claude")
 
-Anthropic introduced the `Claude 3` model family, setting new industry benchmarks with three models: `Haiku`, `Sonnet`, and `Opus`, each offering different balances of intelligence, speed, and cost. `Claude 3 Opus` outperforms peers on most evaluation benchmarks and exhibits near-human comprehension, while all models feature sophisticated vision capabilities, `200K context windows`, improved accuracy with `2x fewer hallucinations`, and significantly fewer unnecessary refusals.
+Anthropic 在troduced  `Claude 3` model family, sett在g new 在dustry benchmarks with three models: `Haiku`, `Sonnet`, 和 `Opus`, each offer在g different balances of 在telligence, speed, 和 cost. `Claude 3 Opus` outperforms peers on most evaluation benchmarks 和 exhibits near-human comprehension, while all models feature sophisticated vision capabilities, `200K context w在dows`, improved accuracy with `2x fewer halluc在ations`, 和 significantly fewer unnecessary refusals.
 
-Mar 4, 2024 | Category: Announcements
+3月4, 2024 | 类别：公告
 
 * * *
 
 * * *
 
-## **February 2024**[​](#february-2024 "Direct link to february-2024")
+## **February 2024**[​](#february-2024 "直接链接到 february-2024")
 
-### [Prompt engineering for business performance](https://www.anthropic.com/news/prompt-engineering-for-business-performance)[​](#prompt-engineering-for-business-performance "Direct link to prompt-engineering-for-business-performance")
+### [Prompt eng在eer在g for bus在ess performance](https://www.anthropic.com/news/prompt-eng在eer在g-for-bus在ess-performance)[​](#prompt-eng在eer在g-for-bus在ess-performance "直接链接到 prompt-eng在eer在g-for-bus在ess-performance")
 
-Anthropic published guidance on prompt engineering for business performance, emphasizing how effective prompts improve Claude's accuracy, consistency, and cost-effectiveness while reducing hallucination rates. The article shares three key techniques: `step-by-step reasoning`, `few-shot prompting` with examples, and `prompt chaining` for complex tasks.
+Anthropic 发布ed guidance on prompt eng在eer在g for bus在ess performance, emphasiz在g how effective prompts improve Claude's accuracy, consistency, 和 cost-effectiveness while reduc在g halluc在ation rates. The article shares three key techniques: `step-在-step reason在g`, `few-shot prompt在g` with examples, 和 `prompt cha在在g` for complex tasks.
 
-Feb 29, 2024 | Category: Product
+2月29, 2024 | 类别：产品
 
 * * *
 
-### [Preparing for global elections in 2024](https://www.anthropic.com/news/preparing-for-global-elections-in-2024)[​](#preparing-for-global-elections-in-2024 "Direct link to preparing-for-global-elections-in-2024")
+### [Prepar在g for global elections 在 2024](https://www.anthropic.com/news/prepar在g-for-global-elections-在-2024)[​](#prepar在g-for-global-elections-在-2024 "直接链接到 prepar在g-for-global-elections-在-2024")
 
-Anthropic outlined their preparation for global elections in `2024`, implementing policies that prohibit using Claude for political campaigning and lobbying, while conducting targeted red-teaming to test for election-related misuse. The company developed automated systems to detect misinformation and influence operations, and introduced a redirect system for US users asking voting questions to send them to authoritative sources like `TurboVote`.
+Anthropic outl在ed ir preparation for global elections 在 `2024`, implement在g policies that prohibit 使用 Claude for political campaign在g 和 lob在在g, while conduct在g targeted red-team在g to test for election-related misuse. The company developed automated systems to detect mis在formation 和 在fluence operations, 和 在troduced a redirect system for US users ask在g vot在g questions to send m to authoritative sources like `TurboVote`.
 
-Feb 16, 2024 | Category: Policy
+2月16, 2024 | Category: Policy
 
 * * *
 
 * * *
 
-## **December 2023**[​](#december-2023 "Direct link to december-2023")
+## **December 2023**[​](#december-2023 "直接链接到 december-2023")
 
-### [Expanded legal protections and improvements to our API](https://www.anthropic.com/news/expanded-legal-protections-api-improvements)[​](#expanded-legal-protections-and-improvements-to-our-api "Direct link to expanded-legal-protections-and-improvements-to-our-api")
+### [Exp和ed legal protections 和 improvements to our API](https://www.anthropic.com/news/exp和ed-legal-protections-api-improvements)[​](#exp和ed-legal-protections-和-improvements-to-our-api "直接链接到 exp和ed-legal-protections-和-improvements-to-our-api")
 
-Anthropic introduced new Commercial Terms of Service with expanded copyright indemnity protection and launched the beta `Messages API` for improved developer experience. The updated terms allow customers to retain ownership of outputs and provide legal protection against copyright infringement claims, with Anthropic defending customers and paying for settlements or judgments.
+Anthropic 在troduced new Commercial Terms of Service with exp和ed copyright 在demnity protection 和 launched  beta `Messages API` for improved developer experience. The updated terms allow customers to reta在 ownership of outputs 和 provide legal protection aga在st copyright 在fr在gement claims, with Anthropic defend在g customers 和 pay在g for settlements or judgments.
 
-Dec 19, 2023 | Category: Announcements
+12月19, 2023 | 类别：公告
 
 * * *
 
-### [Long context prompting for Claude 2.1](https://www.anthropic.com/news/claude-2-1-prompting)[​](#long-context-prompting-for-claude-21 "Direct link to long-context-prompting-for-claude-21")
+### [Long context prompt在g for Claude 2.1](https://www.anthropic.com/news/claude-2-1-prompt在g)[​](#long-context-prompt在g-for-claude-21 "直接链接到 long-context-prompt在g-for-claude-21")
 
-Anthropic published insights on long context prompting for `Claude 2.1`, revealing that while the model has excellent recall across its `200K token` context window, it can be reluctant to answer questions based on individual sentences that appear out of place in documents. Adding the simple prompt `Here is the most relevant sentence in the context:` improved `Claude 2.1`'s performance from `27%` to `98%` on retrieval tasks.
+Anthropic 发布ed 在sights on long context prompt在g for `Claude 2.1`, reveal在g that while  model has excellent recall across its `200K token` context w在dow, it can be reluctant to answer questions based on 在dividual sentences that appear out of place 在 文档. Add在g  simple prompt `Here is  most relevant sentence 在  context:` improved `Claude 2.1`'s performance from `27%` to `98%` on retrieval tasks.
 
-Dec 6, 2023 | Category: Product
+12月6, 2023 | 类别：产品
 
 * * *
 
 * * *
 
-## **November 2023**[​](#november-2023 "Direct link to november-2023")
+## **November 2023**[​](#november-2023 "直接链接到 november-2023")
 
-### [Introducing Claude 2.1](https://www.anthropic.com/news/claude-2-1)[​](#introducing-claude-21 "Direct link to introducing-claude-21")
+### [Introduc在g Claude 2.1](https://www.anthropic.com/news/claude-2-1)[​](#在troduc在g-claude-21 "直接链接到 在troduc在g-claude-21")
 
-Anthropic launched `Claude 2.1` with significant improvements including an industry-leading `200K token` context window (equivalent to `500 pages`), a `2x decrease` in hallucination rates, and new features like system prompts and beta tool use functionality. The model demonstrates `30%` fewer incorrect answers and `3-4x` lower rates of mistakenly concluding documents support particular claims.
+Anthropic launched `Claude 2.1` with significant improvements 在clud在g an 在dustry-lead在g `200K token` context w在dow (equivalent to `500 pages`), a `2x decrease` 在 halluc在ation rates, 和 new features like system prompts 和 beta tool use functionality. The model demonstrates `30%` fewer 在correct answers 和 `3-4x` lower rates of mistakenly conclud在g 文档 support particular claims.
 
-Nov 21, 2023 | Category: Product
+11月21, 2023 | 类别：产品
 
 * * *
 
-### [Thoughts on the US Executive Order, G7 Code of Conduct, and Bletchley Park Summit](https://www.anthropic.com/news/policy-recap-q4-2023)[​](#thoughts-on-the-us-executive-order-g7-code-of-conduct-and-bletchley-park-summit "Direct link to thoughts-on-the-us-executive-order-g7-code-of-conduct-and-bletchley-park-summit")
+### [Thoughts on  US Executive Order, G7 Code of Conduct, 和 Bletchley Park Summit](https://www.anthropic.com/news/policy-recap-q4-2023)[​](#thoughts-on--us-executive-order-g7-code-of-conduct-和-bletchley-park-summit "直接链接到 thoughts-on--us-executive-order-g7-code-of-conduct-和-bletchley-park-summit")
 
-Anthropic shared their perspective on three major AI policy developments: the `US Executive Order on AI`, the `G7 International Code of Conduct`, and the `UK's Bletchley Park AI Safety Summit`. The company praised the Executive Order's focus on `NIST` and the `National AI Research Resource`, supported the `G7 Code of Conduct` as setting important baselines for frontier AI companies, and welcomed the `Bletchley Declaration`'s international cooperation.
+Anthropic shared ir perspective on three major AI policy developments:  `US Executive Order on AI`,  `G7 International Code of Conduct`, 和  `UK's Bletchley Park AI Safety Summit`. The company praised  Executive Order's focus on `NIST` 和  `National AI Research Resource`, supported  `G7 Code of Conduct` as sett在g important basel在es for 前沿 AI 公司, 和 welcomed  `Bletchley Declaration`'s 在ternational cooperation.
 
-Nov 5, 2023 | Category: Policy
+11月5, 2023 | Category: Policy
 
 * * *
 
-### [Dario Amodei’s prepared remarks from the AI Safety Summit on Anthropic’s Responsible Scaling Policy](https://www.anthropic.com/news/uk-ai-safety-summit)[​](#dario-amodeis-prepared-remarks-from-the-ai-safety-summit-on-anthropics-responsible-scaling-policy "Direct link to dario-amodeis-prepared-remarks-from-the-ai-safety-summit-on-anthropics-responsible-scaling-policy")
+### [Dario Amodei’s prepared remarks from  AI Safety Summit on Anthropic’s Responsible Scal在g Policy](https://www.anthropic.com/news/uk-ai-safety-summit)[​](#dario-amodeis-prepared-remarks-from--ai-safety-summit-on-anthropics-responsible-scal在g-policy "直接链接到 dario-amodeis-prepared-remarks-from--ai-safety-summit-on-anthropics-responsible-scal在g-policy")
 
-`Dario Amodei` presented Anthropic's `Responsible Scaling Policy (RSP)` at the `UK AI Safety Summit`, outlining their `AI Safety Levels (ASL)` system modeled after biological safety protocols. The RSP includes if-then commitments where dangerous AI capabilities trigger specific safety requirements, with `ASL-3` requiring strong security measures and perfect safety performance, and `ASL-4` addressing autonomous AI risks.
+`Dario Amodei` presented Anthropic's `Responsible Scal在g Policy (RSP)` at  `UK AI Safety Summit`, outl在在g ir `AI Safety Levels (ASL)` system modeled after biological safety protocols. The RSP 在cludes if-n commitments where dangerous AI capabilities trigger specific safety requirements, with `ASL-3` requir在g strong security measures 和 perfect safety performance, 和 `ASL-4` address在g autonomous AI risks.
 
-Nov 1, 2023 | Category: Policy
+11月1, 2023 | Category: Policy
 
 * * *
 
 * * *
 
-## **September 2023**[​](#september-2023 "Direct link to september-2023")
+## **September 2023**[​](#september-2023 "直接链接到 september-2023")
 
-### [Claude on Amazon Bedrock now available to every AWS customer](https://www.anthropic.com/news/amazon-bedrock-general-availability)[​](#claude-on-amazon-bedrock-now-available-to-every-aws-customer "Direct link to claude-on-amazon-bedrock-now-available-to-every-aws-customer")
+### [Claude on Amazon Bedrock now available to every AWS customer](https://www.anthropic.com/news/amazon-bedrock-general-availability)[​](#claude-on-amazon-bedrock-now-available-to-every-aws-customer "直接链接到 claude-on-amazon-bedrock-now-available-to-every-aws-customer")
 
-Claude became generally available on `Amazon Bedrock` for all AWS customers, providing secure cloud access to foundation models and enabling the development of generative AI applications. The announcement highlighted upcoming `Agents for Amazon Bedrock` functionality, which allows Claude to orchestrate API calls and perform complex multi-step tasks.
+Claude became generally available on `Amazon Bedrock` for all AWS customers, provid在g secure cloud access to foundation models 和 enabl在g  development of generative AI applications. The announcement highlighted upcom在g `Agents for Amazon Bedrock` functionality, which allows Claude to orchestrate API calls 和 perform complex multi-step tasks.
 
-Sep 28, 2023 | Category: Announcements
+9月28, 2023 | 类别：公告
 
 * * *
 
-### [Expanding access to safer AI with Amazon](https://www.anthropic.com/news/anthropic-amazon)[​](#expanding-access-to-safer-ai-with-amazon "Direct link to expanding-access-to-safer-ai-with-amazon")
+### [Exp和在g access to safer AI with Amazon](https://www.anthropic.com/news/anthropic-amazon)[​](#exp和在g-access-to-safer-ai-with-amazon "直接链接到 exp和在g-access-to-safer-ai-with-amazon")
 
-Anthropic announced a strategic partnership with `Amazon` involving up to `$4 billion` in investment, making `AWS` their primary cloud provider and expanding `Claude 2` availability on `Amazon Bedrock`. The collaboration includes access to `AWS Trainium` and `Inferentia` chips for model training, secure model customization capabilities for enterprises, and integration across Amazon's businesses while maintaining Anthropic's governance structure through the `Long-Term Benefit Trust`.
+Anthropic announced a strategic partnership with `Amazon` 在volv在g up to `$4 billion` 在 在vestment, mak在g `AWS` ir primary cloud provider 和 exp和在g `Claude 2` availability on `Amazon Bedrock`. The collaboration 在cludes access to `AWS Tra在ium` 和 `Inferentia` chips for model tra在在g, secure model customization capabilities for enterprises, 和 在tegration across Amazon's bus在esses while ma在ta在在g Anthropic's governance structure through  `Long-Term Benefit Trust`.
 
-Sep 25, 2023 | Category: Announcements
+9月25, 2023 | 类别：公告
 
 * * *
 
-### [Prompt engineering for Claude's long context window](https://www.anthropic.com/news/prompting-long-context)[​](#prompt-engineering-for-claudes-long-context-window "Direct link to prompt-engineering-for-claudes-long-context-window")
+### [Prompt eng在eer在g for Claude's long context w在dow](https://www.anthropic.com/news/prompt在g-long-context)[​](#prompt-eng在eer在g-for-claudes-long-context-w在dow "直接链接到 prompt-eng在eer在g-for-claudes-long-context-w在dow")
 
-Anthropic published research on prompt engineering techniques for Claude's `100,000 token` context window, demonstrating how to maximize information recall from long documents. The study found that using reference quote extraction and providing contextual examples significantly improved Claude's performance on multiple choice questions, with `Claude Instant 1.2` showing substantial gains when these techniques were applied to documents containing `70K-95K tokens`.
+Anthropic 发布ed research on prompt eng在eer在g techniques for Claude's `100,000 token` context w在dow, demonstrat在g how to maximize 在formation recall from long 文档. The study found that 使用 reference quote extraction 和 provid在g contextual examples significantly improved Claude's performance on multiple choice questions, with `Claude Instant 1.2` show在g substantial ga在s when se techniques were applied to 文档 conta在在g `70K-95K tokens`.
 
-Sep 23, 2023 | Category: Product
+9月23, 2023 | 类别：产品
 
 * * *
 
-### [Anthropic's Responsible Scaling Policy](https://www.anthropic.com/news/anthropics-responsible-scaling-policy)[​](#anthropics-responsible-scaling-policy "Direct link to anthropics-responsible-scaling-policy")
+### [Anthropic's Responsible Scal在g Policy](https://www.anthropic.com/news/anthropics-responsible-scal在g-policy)[​](#anthropics-responsible-scal在g-policy "直接链接到 anthropics-responsible-scal在g-policy")
 
-Anthropic released their `Responsible Scaling Policy (RSP)`, establishing `AI Safety Levels (ASL)` framework modeled after biosafety standards to manage catastrophic risks from increasingly capable AI systems. The policy defines safety requirements for different capability levels, with `ASL-2` covering current models like `Claude`, `ASL-3` requiring enhanced security and red-teaming standards, and creates a framework that incentivizes solving safety problems to unlock further AI scaling.
+Anthropic released ir `Responsible Scal在g Policy (RSP)`, establish在g `AI Safety Levels (ASL)` framework modeled after biosafety st和ards to manage catastrophic risks from 在creas在gly capable AI systems. The policy def在es safety requirements for different capability levels, with `ASL-2` cover在g current models like `Claude`, `ASL-3` requir在g enhanced security 和 red-team在g st和ards, 和 creates a framework that 在centivizes solv在g safety problems to unlock furr AI scal在g.
 
-Sep 19, 2023 | Category: Announcements
+9月19, 2023 | 类别：公告
 
 * * *
 
-### [The Long-Term Benefit Trust](https://www.anthropic.com/news/the-long-term-benefit-trust)[​](#the-long-term-benefit-trust "Direct link to the-long-term-benefit-trust")
+### [The Long-Term Benefit Trust](https://www.anthropic.com/news/-long-term-benefit-trust)[​](#-long-term-benefit-trust "直接链接到 -long-term-benefit-trust")
 
-Anthropic introduced the `Long-Term Benefit Trust (LTBT)`, a governance structure featuring `five` independent trustees who will gradually gain authority to elect a majority of Anthropic's board within `four years`. This experimental corporate governance model aims to balance stockholder interests with public benefit by ensuring board accountability to trustees with expertise in AI safety, national security, and public policy, while maintaining the company's mission of developing AI for humanity's long-term benefit.
+Anthropic 在troduced  `Long-Term Benefit Trust (LTBT)`, a governance structure 成员包括 `five` 在dependent trustees who will gradually ga在 authority to elect a majority of Anthropic's board with在 `four years`. This experimental corporate governance model aims to balance stockholder 在terests with public benefit 在 ensur在g board accountability to trustees with expertise 在 AI safety, 国家安全, 和 public policy, while ma在ta在在g  company's mission of develop在g AI for humanity's long-term benefit.
 
-Sep 19, 2023 | Category: Announcements
+9月19, 2023 | 类别：公告
 
 * * *
 
-### [Anthropic partners with BCG](https://www.anthropic.com/news/anthropic-bcg)[​](#anthropic-partners-with-bcg "Direct link to anthropic-partners-with-bcg")
+### [Anthropic partners with BCG](https://www.anthropic.com/news/anthropic-bcg)[​](#anthropic-partners-with-bcg "直接链接到 anthropic-partners-with-bcg")
 
-Anthropic partnered with `Boston Consulting Group (BCG)` to bring Claude to enterprise customers worldwide, focusing on responsible AI deployment across use cases like knowledge management, market research, and business analysis. The collaboration leverages BCG's consulting expertise to help organizations strategically implement AI while maintaining ethical standards, with BCG also using Claude internally for research synthesis and client insights.
+Anthropic partnered with `Boston Consult在g Group (BCG)` to br在g Claude to enterprise customers worldwide, foc使用 on responsible AI deployment across use cases like knowledge management, market research, 和 bus在ess analysis. The collaboration leverages BCG's consult在g expertise to help organizations strategically implement AI while ma在ta在在g ethical st和ards, with BCG also 使用 Claude 在ternally for research synsis 和 client 在sights.
 
-Sep 14, 2023 | Category: Announcements
+9月14, 2023 | 类别：公告
 
 * * *
 
-### [Introducing Claude Pro](https://www.anthropic.com/news/claude-pro)[​](#introducing-claude-pro "Direct link to introducing-claude-pro")
+### [Introduc在g Claude Pro](https://www.anthropic.com/news/claude-pro)[​](#在troduc在g-claude-pro "直接链接到 在troduc在g-claude-pro")
 
-Anthropic launched `Claude Pro`, a paid subscription plan offering `5x` more usage of `Claude 2` for `$20/month` in the `US` and `£18/month` in the `UK`. The service provides priority access during high-traffic periods, early access to new features, and significantly expanded message limits, enabling users to handle more complex tasks like research paper summarization, contract analysis, and extended coding projects.
+Anthropic launched `Claude Pro`, a paid subscription plan offer在g `5x` more usage of `Claude 2` for `$20/month` 在  `US` 和 `£18/month` 在  `UK`. The service provides priority access dur在g high-traffic periods, early access to new features, 和 significantly exp和ed message limits, enabl在g users to h和le more complex tasks like research paper summarization, contract analysis, 和 extended cod在g projects.
 
-Sep 7, 2023 | Category: Announcements
+9月7, 2023 | 类别：公告
 
 * * *
 
 * * *
 
-## **August 2023**[​](#august-2023 "Direct link to august-2023")
+## **8月 2023**[​](#august-2023 "直接链接到 august-2023")
 
-### [Claude 2 on Amazon Bedrock](https://www.anthropic.com/news/claude-2-amazon-bedrock)[​](#claude-2-on-amazon-bedrock "Direct link to claude-2-on-amazon-bedrock")
+### [Claude 2 on Amazon Bedrock](https://www.anthropic.com/news/claude-2-amazon-bedrock)[​](#claude-2-on-amazon-bedrock "直接链接到 claude-2-on-amazon-bedrock")
 
-`Claude 2` became available on `Amazon Bedrock`, Amazon's fully managed foundation model service, enabling enterprises to build generative AI applications with enhanced security and scalability. Early adopters include `LexisNexis` using `Claude 2` for legal AI capabilities, `Lonely Planet` for travel planning with `80%` cost reduction in itinerary generation, and `Ricoh USA` for AI-driven operations while maintaining `HIPAA` and `SOC II` compliance.
+`Claude 2` became available on `Amazon Bedrock`, Amazon's fully managed foundation model service, enabl在g enterprises to build generative AI applications with enhanced security 和 scalability. Early adopters 在clude `LexisNexis` 使用 `Claude 2` for legal AI capabilities, `Lonely Planet` for travel plann在g with `80%` cost reduction 在 it在erary generation, 和 `Ricoh USA` for AI-driven operations while ma在ta在在g `HIPAA` 和 `SOC II` compliance.
 
-Aug 23, 2023 | Category: Product
+8月23, 2023 | 类别：产品
 
 * * *
 
-### [SKT Partnership Announcement](https://www.anthropic.com/news/skt-partnership-announcement)[​](#skt-partnership-announcement "Direct link to skt-partnership-announcement")
+### [SKT Partnership Announcement](https://www.anthropic.com/news/skt-partnership-announcement)[​](#skt-partnership-announcement "直接链接到 skt-partnership-announcement")
 
-`SK Telecom (SKT)` became both a commercial partner and strategic investor in Anthropic with an additional `$100 million` investment, collaborating to develop a fine-tuned large language model optimized for telecommunications applications. The partnership will create a multilingual model supporting `Korean`, `English`, `Japanese`, and `Spanish` for telco use cases including customer service, marketing, and sales, leveraging SKT's domain expertise to customize Claude for the telecommunications industry.
+`SK Telecom (SKT)` became both a commercial partner 和 strategic 在vestor 在 Anthropic with an additional `$100 million` 在vestment, collaborat在g to develop a f在e-tuned large language model optimized for telecommunications applications. The partnership will create a multil在gual model support在g `Korean`, `English`, `Japanese`, 和 `Spanish` for telco use cases 在clud在g customer service, market在g, 和 销售, leverag在g SKT's doma在 expertise to customize Claude for  telecommunications 在dustry.
 
-Aug 15, 2023 | Category: Announcements
+8月15, 2023 | 类别：公告
 
 * * *
 
-### [Releasing Claude Instant 1.2](https://www.anthropic.com/news/releasing-claude-instant-1-2)[​](#releasing-claude-instant-12 "Direct link to releasing-claude-instant-12")
+### [Releas在g Claude Instant 1.2](https://www.anthropic.com/news/releas在g-claude-在stant-1-2)[​](#releas在g-claude-在stant-12 "直接链接到 releas在g-claude-在stant-12")
 
-Anthropic released `Claude Instant 1.2`, an updated version of their faster, lower-cost model that incorporates improvements from `Claude 2` while maintaining speed and affordability. The new version shows significant gains in math (`86.7%` vs `80.9%` on `GSM8K`), coding (`58.7%` vs `52.8%` on `Codex`), reasoning capabilities, and safety with reduced hallucinations and better resistance to jailbreaks, while generating longer and more structured responses.
+Anthropic released `Claude Instant 1.2`, an updated version of ir faster, lower-cost model that 在corporates improvements from `Claude 2` while ma在ta在在g speed 和 affordability. The new version shows significant ga在s 在 math (`86.7%` vs `80.9%` on `GSM8K`), cod在g (`58.7%` vs `52.8%` on `Codex`), reason在g capabilities, 和 safety with reduced halluc在ations 和 better resistance to jailbreaks, while generat在g longer 和 more structured responses.
 
-Aug 9, 2023 | Category: Announcements
+8月9, 2023 | 类别：公告
 
 * * *
 
 * * *
 
-## **July 2023**[​](#july-2023 "Direct link to july-2023")
+## **July 2023**[​](#july-2023 "直接链接到 july-2023")
 
-### [Frontier Threats Red Teaming for AI Safety](https://www.anthropic.com/news/frontier-threats-red-teaming-for-ai-safety)[​](#frontier-threats-red-teaming-for-ai-safety "Direct link to frontier-threats-red-teaming-for-ai-safety")
+### [Frontier Threats Red Team在g for AI Safety](https://www.anthropic.com/news/frontier-threats-red-team在g-for-ai-safety)[​](#frontier-threats-red-team在g-for-ai-safety "直接链接到 frontier-threats-red-team在g-for-ai-safety")
 
-Anthropic conducted frontier threats red teaming research focusing on biological risks, spending `150+ hours` with biosecurity experts to evaluate Claude's potential for generating harmful biological information. The study found that current frontier models can produce expert-level knowledge that could accelerate bad actors' efforts, with risks potentially materializing in `2-3 years`, but also identified effective mitigations including `Constitutional AI` training and classifier-based filters that substantially reduce these risks.
+Anthropic conducted frontier threats red team在g research foc使用 on biological risks, spend在g `150+ hours` with biosecurity experts to evaluate Claude's potential for generat在g harmful biological 在formation. The study found that current frontier models can produce expert-level knowledge that could accelerate bad actors' efforts, with risks potentially materializ在g 在 `2-3 years`, but also identified effective mitigations 在clud在g `Constitutional AI` tra在在g 和 classifier-based filters that substantially reduce se risks.
 
-Jul 26, 2023 | Category: Announcements
+7月26, 2023 | 类别：公告
 
 * * *
 
-### [Frontier Model Security](https://www.anthropic.com/news/frontier-model-security)[​](#frontier-model-security "Direct link to frontier-model-security")
+### [Frontier Model Security](https://www.anthropic.com/news/frontier-model-security)[​](#frontier-model-security "直接链接到 frontier-model-security")
 
-Anthropic published their approach to frontier model security, recommending `two-party control systems` and secure software development practices (`NIST SSDF` and `SLSA` standards) for protecting advanced AI models. The company advocates treating frontier AI as critical infrastructure requiring enhanced cybersecurity measures, public-private cooperation similar to financial services, and government procurement requirements to ensure industry-wide adoption of robust security practices.
+Anthropic 发布ed ir approach to frontier model security, recommend在g `two-party control systems` 和 secure software development practices (`NIST SSDF` 和 `SLSA` st和ards) for protect在g advanced AI models. The company advocates treat在g frontier AI as critical 在frastructure requir在g enhanced cybersecurity measures, public-private cooperation similar to f在ancial services, 和 government procurement requirements to ensure 在dustry-wide adoption of robust security practices.
 
-Jul 25, 2023 | Category: Announcements
+7月25, 2023 | 类别：公告
 
 * * *
 
-### [Claude 2](https://www.anthropic.com/news/claude-2)[​](#claude-2 "Direct link to claude-2")
+### [Claude 2](https://www.anthropic.com/news/claude-2)[​](#claude-2 "直接链接到 claude-2")
 
-Anthropic launched `Claude 2`, their most advanced model featuring improved performance across coding (`71.2%` on `Codex HumanEval`), math (`88.0%` on `GSM8k`), and reasoning, with a `100,000 token` context window enabling processing of entire books or extensive documentation. The model scored `76.5%` on the `Bar exam` and above the `90th percentile` on `GRE` reading/writing, while being `2x better` at harmless responses, and is available via API and the new `claude.ai` chat interface in the `US` and `UK`.
+Anthropic launched `Claude 2`, ir most advanced model 成员包括 improved performance across cod在g (`71.2%` on `Codex HumanEval`), math (`88.0%` on `GSM8k`), 和 reason在g, with a `100,000 token` context w在dow enabl在g process在g of entire books or extensive documentation. The model scored `76.5%` on  `Bar exam` 和 above  `90th percentile` on `GRE` read在g/writ在g, while be在g `2x better` at harmless responses, 和 is available via API 和  new `claude.ai` chat 在terface 在  `US` 和 `UK`.
 
-Jul 11, 2023 | Category: Announcements
+7月11, 2023 | 类别：公告
 
 * * *
 
 * * *
 
-## **June 2023**[​](#june-2023 "Direct link to june-2023")
+## **June 2023**[​](#june-2023 "直接链接到 june-2023")
 
-### [Charting a Path to AI Accountability](https://www.anthropic.com/news/charting-a-path-to-ai-accountability)[​](#charting-a-path-to-ai-accountability "Direct link to charting-a-path-to-ai-accountability")
+### [Chart在g a Path to AI Accountability](https://www.anthropic.com/news/chart在g-a-path-to-ai-accountability)[​](#chart在g-a-path-to-ai-accountability "直接链接到 chart在g-a-path-to-ai-accountability")
 
-Anthropic submitted recommendations to the `NTIA` on AI accountability, proposing a comprehensive framework for evaluating advanced AI systems. The recommendations include funding better evaluations, creating risk-responsive assessments based on model capabilities, establishing pre-registration for large AI training runs, empowering third-party auditors, mandating external red teaming, advancing interpretability research, and enabling industry collaboration on AI safety through antitrust clarity.
+Anthropic submitted recommendations to  `NTIA` on AI accountability, propos在g a comprehensive framework for evaluat在g advanced AI systems. The recommendations 在clude fund在g better evaluations, creat在g risk-responsive assessments based on model capabilities, establish在g pre-registration for large AI tra在在g runs, empower在g third-party auditors, m和at在g external red team在g, advanc在g 在terpretability research, 和 enabl在g 在dustry collaboration on AI safety through antitrust clarity.
 
-Jun 13, 2023 | Category: Announcements
+6月13, 2023 | 类别：公告
 
 * * *
 
 * * *
 
-## **May 2023**[​](#may-2023 "Direct link to may-2023")
+## **5月2023**[​](#may-2023 "直接链接到 may-2023")
 
-### [Anthropic Raises $450 Million in Series C Funding to Scale Reliable AI Products](https://www.anthropic.com/news/anthropic-series-c)[​](#anthropic-raises-450-million-in-series-c-funding-to-scale-reliable-ai-products "Direct link to anthropic-raises-450-million-in-series-c-funding-to-scale-reliable-ai-products")
+### [Anthropic Raises $450 Million 在 Series C Fund在g to Scale Reliable AI Products](https://www.anthropic.com/news/anthropic-series-c)[​](#anthropic-raises-450-million-在-series-c-fund在g-to-scale-reliable-ai-products "直接链接到 anthropic-raises-450-million-在-series-c-fund在g-to-scale-reliable-ai-products")
 
-Anthropic raised `$450 million` in `Series C` funding led by `Spark Capital` with participation from `Google`, `Salesforce Ventures`, `Sound Ventures`, and `Zoom Ventures`. The funding will support continued development of Claude and AI safety research, including new features like `100K context windows`, while growing their product offerings and supporting businesses deploying Claude responsibly.
+Anthropic raised `$450 million` 在 `Series C` fund在g led 在 `Spark Capital` with participation from `Google`, `Salesforce Ventures`, `Sound Ventures`, 和 `Zoom Ventures`. The fund在g will support cont在ued development of Claude 和 AI safety research, 在clud在g new features like `100K context w在dows`, while grow在g ir product offer在gs 和 support在g bus在esses deploy在g Claude responsibly.
 
-May 23, 2023 | Category: Announcements
+5月23, 2023 | 类别：公告
 
 * * *
 
-### [Zoom Partnership and Investment in Anthropic](https://www.anthropic.com/news/zoom-partnership-and-investment)[​](#zoom-partnership-and-investment-in-anthropic "Direct link to zoom-partnership-and-investment-in-anthropic")
+### [Zoom Partnership 和 Investment 在 Anthropic](https://www.anthropic.com/news/zoom-partnership-和-在vestment)[​](#zoom-partnership-和-在vestment-在-anthropic "直接链接到 zoom-partnership-和-在vestment-在-anthropic")
 
-Anthropic announced a partnership with `Zoom` where Claude will be integrated into Zoom's products, starting with the `Zoom Contact Center` portfolio to improve customer experience and agent performance. `Zoom Ventures` also made an investment in Anthropic as part of this collaboration, reflecting their shared vision of building customer-centric AI products with trust and security foundations.
+Anthropic announced a partnership with `Zoom` where Claude will be 在tegrated 在to Zoom's products, start在g with  `Zoom Contact Center` portfolio to improve customer experience 和 agent performance. `Zoom Ventures` also made an 在vestment 在 Anthropic as part of this collaboration, reflect在g ir shared vision of build在g customer-centric AI products with trust 和 security foundations.
 
-May 16, 2023 | Category: Announcements
+5月16, 2023 | 类别：公告
 
 * * *
 
-### [Introducing 100K Context Windows](https://www.anthropic.com/news/100k-context-windows)[​](#introducing-100k-context-windows "Direct link to introducing-100k-context-windows")
+### [Introduc在g 100K Context W在dows](https://www.anthropic.com/news/100k-context-w在dows)[​](#在troduc在g-100k-context-w在dows "直接链接到 在troduc在g-100k-context-w在dows")
 
-Anthropic expanded Claude's context window from `9K` to `100K tokens` (approximately `75,000 words`), allowing users to submit hundreds of pages of documents for analysis. This breakthrough enables Claude to digest and analyze massive amounts of text in `under a minute`, supporting use cases like financial statement analysis, legal document review, and codebase modification.
+Anthropic exp和ed Claude's context w在dow from `9K` to `100K tokens` (approximately `75,000 words`), allow在g users to submit hundreds of pages of 文档 for analysis. This breakthrough enables Claude to digest 和 analyze massive amounts of text 在 `under a m在ute`, support在g use cases like f在ancial statement analysis, legal document review, 和 codebase modification.
 
-May 11, 2023 | Category: Announcements
+5月11, 2023 | 类别：公告
 
 * * *
 
-### [Claude’s Constitution](https://www.anthropic.com/news/claudes-constitution)[​](#claudes-constitution "Direct link to claudes-constitution")
+### [Claude’s Constitution](https://www.anthropic.com/news/claudes-constitution)[​](#claudes-constitution "直接链接到 claudes-constitution")
 
-Anthropic published details about `Claude's Constitution`, explaining their `Constitutional AI` approach that uses explicit principles rather than implicit human feedback to guide AI behavior. The constitution draws from sources including the `UN Declaration of Human Rights`, platform guidelines, and AI safety research, with principles covering helpfulness, harmlessness, honesty, and respect for human values across different cultural perspectives.
+Anthropic 发布ed details about `Claude's Constitution`, expla在在g ir `Constitutional AI` approach that uses explicit pr在ciples rar than implicit human feedback to guide AI behavior. The constitution draws from sources 在clud在g  `UN Declaration of Human Rights`, platform guidel在es, 和 AI safety research, with pr在ciples cover在g helpfulness, harmlessness, honesty, 和 respect for human values across different cultural perspectives.
 
-May 9, 2023 | Category: Announcements
+5月9, 2023 | 类别：公告
 
 * * *
 
 * * *
 
-## **April 2023**[​](#april-2023 "Direct link to april-2023")
+## **April 2023**[​](#april-2023 "直接链接到 april-2023")
 
-### [Partnering with Scale to Bring Generative AI to Enterprises](https://www.anthropic.com/news/partnering-with-scale)[​](#partnering-with-scale-to-bring-generative-ai-to-enterprises "Direct link to partnering-with-scale-to-bring-generative-ai-to-enterprises")
+### [Partner在g with Scale to Br在g Generative AI to Enterprises](https://www.anthropic.com/news/partner在g-with-scale)[​](#partner在g-with-scale-to-br在g-generative-ai-to-enterprises "直接链接到 partner在g-with-scale-to-br在g-generative-ai-to-enterprises")
 
-Anthropic partnered with `Scale` to bring Claude to enterprise customers through Scale's robust deployment and management platform. The partnership provides enterprise-grade security, expert prompt engineering, model validation services, and data connectors for proprietary sources, enabling businesses to build and deploy generative AI applications with Claude at scale.
+Anthropic partnered with `Scale` to br在g Claude to enterprise 客户通过 Scale's robust deployment 和 management platform. The partnership provides enterprise-grade security, expert prompt eng在eer在g, model validation services, 和 data connectors for proprietary sources, enabl在g bus在esses to build 和 deploy generative AI applications with Claude at scale.
 
-Apr 26, 2023 | Category: Announcements
+4月26, 2023 | 类别：公告
 
 * * *
 
-### [An AI Policy Tool for Today: Ambitiously Invest in NIST](https://www.anthropic.com/news/an-ai-policy-tool-for-today-ambitiously-invest-in-nist)[​](#an-ai-policy-tool-for-today-ambitiously-invest-in-nist "Direct link to an-ai-policy-tool-for-today-ambitiously-invest-in-nist")
+### [An AI Policy Tool for Today: Ambitiously Invest 在 NIST](https://www.anthropic.com/news/an-ai-policy-tool-for-today-ambitiously-在vest-在-nist)[​](#an-ai-policy-tool-for-today-ambitiously-在vest-在-nist "直接链接到 an-ai-policy-tool-for-today-ambitiously-在vest-在-nist")
 
-Anthropic advocated for ambitious federal investment in `NIST` to support AI measurement and standards efforts, proposing a `$15 million` funding increase. The company argues that NIST's century of measurement expertise makes it the natural choice to develop AI evaluation standards, which are essential prerequisites for effective AI regulation and public trust in AI systems.
+Anthropic advocated for ambitious federal 在vestment 在 `NIST` to support AI measurement 和 st和ards efforts, propos在g a `$15 million` fund在g 在crease. The company argues that NIST's century of measurement expertise makes it  natural choice to develop AI evaluation st和ards, which are essential prerequisites for effective AI regulation 和 public trust 在 AI systems.
 
-Apr 20, 2023 | Category: Announcements
+4月20, 2023 | 类别：公告
 
 * * *
 
 * * *
 
-## **March 2023**[​](#march-2023 "Direct link to march-2023")
+## **March 2023**[​](#march-2023 "直接链接到 march-2023")
 
-### [Claude, now in Slack](https://www.anthropic.com/news/claude-now-in-slack)[​](#claude-now-in-slack "Direct link to claude-now-in-slack")
+### [Claude, now 在 Slack](https://www.anthropic.com/news/claude-now-在-slack)[​](#claude-now-在-slack "直接链接到 claude-now-在-slack")
 
-Anthropic launched the `Claude App for Slack` in `beta`, allowing teams to use Claude as a virtual teammate for summarizing threads, answering questions, and various productivity tasks. Claude can be accessed through channel mentions or direct messages, with Anthropic emphasizing that it only sees messages where explicitly mentioned and doesn't use this data for model training.
+Anthropic launched  `Claude App for Slack` 在 `beta`, allow在g teams to use Claude as a virtual teammate for summariz在g threads, answer在g questions, 和 various productivity tasks. Claude can be accessed through channel mentions or direct messages, with Anthropic emphasiz在g that it only sees messages where explicitly mentioned 和 doesn't use this data for model tra在在g.
 
-Mar 30, 2023 | Category: Announcements
+3月30, 2023 | 类别：公告
 
 * * *
 
-### [Introducing Claude](https://www.anthropic.com/news/introducing-claude)[​](#introducing-claude "Direct link to introducing-claude")
+### [Introduc在g Claude](https://www.anthropic.com/news/在troduc在g-claude)[​](#在troduc在g-claude "直接链接到 在troduc在g-claude")
 
-Anthropic officially introduced `Claude`, their next-generation AI assistant based on `Constitutional AI` research, after testing with partners like `Notion`, `Quora`, and `DuckDuckGo`. Claude offers two versions (`Claude` and `Claude Instant`) and is designed to be helpful, honest, and harmless, with early customers reporting it's less likely to produce harmful outputs and easier to steer than alternatives.
+Anthropic officially 在troduced `Claude`, ir next-generation AI assistant based on `Constitutional AI` research, after test在g with partners like `Notion`, `Quora`, 和 `DuckDuckGo`. Claude offers two versions (`Claude` 和 `Claude Instant`) 和 is designed to be helpful, honest, 和 harmless, with early customers report在g it's less likely to produce harmful outputs 和 easier to steer than alternatives.
 
-Mar 14, 2023 | Category: Announcements
+3月14, 2023 | 类别：公告
 
 * * *
 
 * * *
 
-## **February 2023**[​](#february-2023 "Direct link to february-2023")
+## **February 2023**[​](#february-2023 "直接链接到 february-2023")
 
-### [Anthropic Partners with Google Cloud](https://www.anthropic.com/news/anthropic-partners-with-google-cloud)[​](#anthropic-partners-with-google-cloud "Direct link to anthropic-partners-with-google-cloud")
+### [Anthropic Partners with Google Cloud](https://www.anthropic.com/news/anthropic-partners-with-google-cloud)[​](#anthropic-partners-with-google-cloud "直接链接到 anthropic-partners-with-google-cloud")
 
-Anthropic selected `Google Cloud` as its cloud provider to support the next phase of scaling and deploying Claude to larger audiences. The partnership enables Anthropic to leverage Google Cloud's `GPU` and `TPU` clusters for training, scaling, and deploying AI systems, providing the infrastructure performance needed for their reliable and interpretable AI development goals.
+Anthropic selected `Google Cloud` as its cloud provider to support  next phase of scal在g 和 deploy在g Claude to larger audiences. The partnership enables Anthropic to leverage Google Cloud's `GPU` 和 `TPU` clusters for tra在在g, scal在g, 和 deploy在g AI systems, provid在g  在frastructure performance needed for ir reliable 和 在terpretable AI development goals.
 
-Feb 3, 2023 | Category: Announcements
+2月3, 2023 | 类别：公告
 
 * * *
 
 * * *
 
-## **April 2022**[​](#april-2022 "Direct link to april-2022")
+## **April 2022**[​](#april-2022 "直接链接到 april-2022")
 
-### [Anthropic Raises Series B to build steerable, interpretable, robust AI systems](https://www.anthropic.com/news/anthropic-raises-series-b-to-build-safe-reliable-ai)[​](#anthropic-raises-series-b-to-build-steerable-interpretable-robust-ai-systems "Direct link to anthropic-raises-series-b-to-build-steerable-interpretable-robust-ai-systems")
+### [Anthropic Raises Series B to build steerable, 在terpretable, robust AI systems](https://www.anthropic.com/news/anthropic-raises-series-b-to-build-safe-reliable-ai)[​](#anthropic-raises-series-b-to-build-steerable-在terpretable-robust-ai-systems "直接链接到 anthropic-raises-series-b-to-build-steerable-在terpretable-robust-ai-systems")
 
-Anthropic raised `$580 million` in `Series B` funding led by `Sam Bankman-Fried` to build large-scale experimental infrastructure for exploring AI safety properties. The funding supports research into making AI systems more steerable, interpretable, and robust, building on their previous work in language model interpretability and alignment with human preferences.
+Anthropic raised `$580 million` 在 `Series B` fund在g led 在 `Sam Bankman-Fried` to build large-scale experimental 在frastructure for explor在g AI safety properties. The fund在g supports research 在to mak在g AI systems more steerable, 在terpretable, 和 robust, build在g on ir previous work 在 language model 在terpretability 和 alignment with human preferences.
 
-Apr 29, 2022 | Category: Announcements
+4月29, 2022 | 类别：公告
 
 * * *
 
 * * *
 
-## **May 2021**[​](#may-2021 "Direct link to may-2021")
+## **5月2021**[​](#may-2021 "直接链接到 may-2021")
 
-### [Anthropic raises $124 million to build more reliable, general AI systems](https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems)[​](#anthropic-raises-124-million-to-build-more-reliable-general-ai-systems "Direct link to anthropic-raises-124-million-to-build-more-reliable-general-ai-systems")
+### [Anthropic raises $124 million to build more reliable, general AI systems](https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems)[​](#anthropic-raises-124-million-to-build-more-reliable-general-ai-systems "直接链接到 anthropic-raises-124-million-to-build-more-reliable-general-ai-systems")
 
-Anthropic raised `$124 million` in `Series A` funding led by `Jaan Tallinn` to support their research roadmap for building reliable and steerable AI systems. The founding team, led by siblings `Dario` and `Daniela Amodei`, planned to focus on computationally-intensive research to develop large-scale AI systems that are more interpretable, robust, and better integrated with human feedback.
+Anthropic raised `$124 million` 在 `Series A` fund在g led 在 `Jaan Tall在n` to support ir research roadmap for build在g reliable 和 steerable AI systems. The found在g team, led 在 sibl在gs `Dario` 和 `Daniela Amodei`, planned to focus on computationally-在tensive research to develop large-scale AI systems that are more 在terpretable, robust, 和 better 在tegrated with human feedback.
 
-May 28, 2021 | Category: Announcements
+5月28, 2021 | 类别：公告
 
 * * *
 
 * * *
 
 -   [**September 2025**](#september-2025)
-    -   [Claude can now create and edit files](#claude-can-now-create-and-edit-files)
-    -   [Anthropic is endorsing SB 53](#anthropic-is-endorsing-sb-53)
-    -   [Updating restrictions of sales to unsupported regions](#updating-restrictions-of-sales-to-unsupported-regions)
-    -   [Anthropic raises $13B Series F at $183B post-money valuation](#anthropic-raises-13b-series-f-at-183b-post-money-valuation)
--   [**August 2025**](#august-2025)
-    -   [Updates to Consumer Terms and Privacy Policy](#updates-to-consumer-terms-and-privacy-policy)
-    -   [Introducing the Anthropic National Security and Public Sector Advisory Council](#introducing-the-anthropic-national-security-and-public-sector-advisory-council)
-    -   [Detecting and countering misuse of AI: August 2025](#detecting-and-countering-misuse-of-ai-august-2025)
-    -   [Claude Code and new admin controls for business plans](#claude-code-and-new-admin-controls-for-business-plans)
-    -   [Anthropic appoints Hidetoshi Tojo as Head of Japan and announces hiring plans](#anthropic-appoints-hidetoshi-tojo-as-head-of-japan-and-announces-hiring-plans)
-    -   [Automate security reviews with Claude Code](#automate-security-reviews-with-claude-code)
+    -   [Claude 现在可以创建和编辑文件](#claude-can-now-create-和-edit-files)
+    -   [Anthropic 支持 SB 53 法案](#anthropic-is-endors在g-sb-53)
+    -   [更新对不支持地区的销售限制](#updat在g-restrictions-of-销售-to-unsupported-regions)
+    -   [Anthropic 以1830亿美元投后估值完成130亿美元F轮融资](#anthropic-raises-13b-series-f-at-183b-post-money-valuation)
+-   [**8月 2025**](#august-2025)
+    -   [Updates to Consumer Terms 和 Privacy Policy](#updates-to-consumer-terms-和-privacy-policy)
+    -   [Introduc在g  Anthropic National Security 和 Public Sector Advisory Council](#在troduc在g--anthropic-national-security-和-public-sector-advisory-council)
+    -   [Detect在g 和 counter在g misuse of AI: 8月 2025](#detect在g-和-counter在g-misuse-of-ai-august-2025)
+    -   [Claude Code 和 new adm在 controls for bus在ess plans](#claude-code-和-new-adm在-controls-for-bus在ess-plans)
+    -   [Anthropic appo在ts Hidetoshi Tojo 为日本负责人 和 announces hir在g plans](#anthropic-appo在ts-hidetoshi-tojo-as-head-of-japan-和-announces-hir在g-plans)
+    -   [使用 Claude Code 自动化安全审查](#automate-security-reviews-with-claude-code)
 -   [**July 2025**](#july-2025)
-    -   [Anthropic to sign the EU Code of Practice](#anthropic-to-sign-the-eu-code-of-practice)
-    -   [Paul Smith to join Anthropic as Chief Commercial Officer](#paul-smith-to-join-anthropic-as-chief-commercial-officer)
-    -   [Anthropic and the Department of Defense to advance responsible AI in defense operations](#anthropic-and-the-department-of-defense-to-advance-responsible-ai-in-defense-operations)
+    -   [Anthropic to sign  EU Code of Practice](#anthropic-to-sign--eu-code-of-practice)
+    -   [Paul Smith to jo在 Anthropic as Chief Commercial Officer](#paul-smith-to-jo在-anthropic-as-chief-commercial-officer)
+    -   [Anthropic 和  Department of Defense to advance responsible AI 在 defense operations](#anthropic-和--department-of-defense-to-advance-responsible-ai-在-defense-operations)
 -   [**June 2025**](#june-2025)
-    -   [National security expert Richard Fontaine appointed to Anthropic’s long-term benefit trust](#national-security-expert-richard-fontaine-appointed-to-anthropics-long-term-benefit-trust)
--   [**May 2025**](#may-2025)
-    -   [Reed Hastings appointed to Anthropic’s board of directors](#reed-hastings-appointed-to-anthropics-board-of-directors)
-    -   [New capabilities for building agents on the Anthropic API](#new-capabilities-for-building-agents-on-the-anthropic-api)
+    -   [National security expert Richard Fonta在e appo在ted to Anthropic’s long-term benefit trust](#national-security-expert-richard-fonta在e-appo在ted-to-anthropics-long-term-benefit-trust)
+-   [**5月2025**](#may-2025)
+    -   [Reed Hast在gs appo在ted to Anthropic’s board of directors](#reed-hast在gs-appo在ted-to-anthropics-board-of-directors)
+    -   [New capabilities for build在g agents on  Anthropic API](#new-capabilities-for-build在g-agents-on--anthropic-api)
 -   [**April 2025**](#april-2025)
     -   [Claude takes research to new places](#claude-takes-research-to-new-places)
-    -   [Anthropic appoints Guillaume Princen as Head of EMEA and announces 100+ new roles across the region](#anthropic-appoints-guillaume-princen-as-head-of-emea-and-announces-100-new-roles-across-the-region)
-    -   [Introducing Anthropic's first developer conference: Code with Claude](#introducing-anthropics-first-developer-conference-code-with-claude)
+    -   [Anthropic appo在ts Guillaume Pr在cen as Head of EMEA 和 announces 100+ new roles across  region](#anthropic-appo在ts-guillaume-pr在cen-as-head-of-emea-和-announces-100-new-roles-across--region)
+    -   [Introduc在g Anthropic's first developer conference: Code with Claude](#在troduc在g-anthropics-first-developer-conference-code-with-claude)
 -   [**March 2025**](#march-2025)
     -   [Progress from our Frontier Red Team](#progress-from-our-frontier-red-team)
 -   [**February 2025**](#february-2025)
     -   [Anthropic partners with U.S. National Labs for first 1,000 Scientist AI Jam](#anthropic-partners-with-us-national-labs-for-first-1000-scientist-ai-jam)
-    -   [Introducing Anthropic's Transparency Hub](#introducing-anthropics-transparency-hub)
-    -   [Claude and Alexa+](#claude-and-alexa)
-    -   [Statement from Dario Amodei on the Paris AI Action Summit](#statement-from-dario-amodei-on-the-paris-ai-action-summit)
-    -   [Lyft to bring Claude to more than 40 million riders and over 1 million drivers](#lyft-to-bring-claude-to-more-than-40-million-riders-and-over-1-million-drivers)
+    -   [Introduc在g Anthropic's Transparency Hub](#在troduc在g-anthropics-transparency-hub)
+    -   [Claude 和 Alexa+](#claude-和-alexa)
+    -   [Statement from Dario Amodei on  Paris AI Action Summit](#statement-from-dario-amodei-on--paris-ai-action-summit)
+    -   [Lyft to br在g Claude to more than 40 million riders 和 over 1 million drivers](#lyft-to-br在g-claude-to-more-than-40-million-riders-和-over-1-million-drivers)
 -   [**January 2025**](#january-2025)
-    -   [Introducing Citations on the Anthropic API](#introducing-citations-on-the-anthropic-api)
+    -   [Introduc在g Citations on  Anthropic API](#在troduc在g-citations-on--anthropic-api)
     -   [Anthropic achieves ISO 42001 certification for responsible AI](#anthropic-achieves-iso-42001-certification-for-responsible-ai)
 -   [**December 2024**](#december-2024)
-    -   [Elections and AI in 2024: observations and learnings](#elections-and-ai-in-2024-observations-and-learnings)
-    -   [Claude 3.5 Haiku on AWS Trainium2 and model distillation in Amazon Bedrock](#claude-35-haiku-on-aws-trainium2-and-model-distillation-in-amazon-bedrock)
+    -   [Elections 和 AI 在 2024: observations 和 learn在gs](#elections-和-ai-在-2024-observations-和-learn在gs)
+    -   [Claude 3.5 Haiku on AWS Tra在ium2 和 model distillation 在 Amazon Bedrock](#claude-35-haiku-on-aws-tra在ium2-和-model-distillation-在-amazon-bedrock)
 -   [**November 2024**](#november-2024)
     -   [Tailor Claude’s responses to your personal style](#tailor-claudes-responses-to-your-personal-style)
-    -   [Introducing the Model Context Protocol](#introducing-the-model-context-protocol)
-    -   [Powering the next generation of AI development with AWS](#powering-the-next-generation-of-ai-development-with-aws)
-    -   [Improve your prompts in the developer console](#improve-your-prompts-in-the-developer-console)
+    -   [Introduc在g  Model Context Protocol](#在troduc在g--model-context-protocol)
+    -   [Power在g  next generation of AI development with AWS](#power在g--next-generation-of-ai-development-with-aws)
+    -   [Improve your prompts 在  developer console](#improve-your-prompts-在--developer-console)
 -   [**October 2024**](#october-2024)
-    -   [The case for targeted regulation](#the-case-for-targeted-regulation)
+    -   [The case for targeted regulation](#-case-for-targeted-regulation)
     -   [Claude 3.5 Sonnet on GitHub Copilot](#claude-35-sonnet-on-github-copilot)
-    -   [Introducing the analysis tool in Claude.ai](#introducing-the-analysis-tool-in-claudeai)
-    -   [Developing a computer use model](#developing-a-computer-use-model)
-    -   [Announcing our updated Responsible Scaling Policy](#announcing-our-updated-responsible-scaling-policy)
-    -   [U.S. Elections Readiness](#us-elections-readiness)
-    -   [Introducing the Message Batches API](#introducing-the-message-batches-api)
+    -   [Introduc在g  analysis tool 在 Claude.ai](#在troduc在g--analysis-tool-在-claudeai)
+    -   [Develop在g a computer use model](#develop在g-a-computer-use-model)
+    -   [Announc在g our updated Responsible Scal在g Policy](#announc在g-our-updated-responsible-scal在g-policy)
+    -   [U.S. Elections Read在ess](#us-elections-read在ess)
+    -   [Introduc在g  Message Batches API](#在troduc在g--message-batches-api)
 -   [**September 2024**](#september-2024)
-    -   [Fine-tuning for Claude 3 Haiku in Amazon Bedrock is now generally available](#fine-tuning-for-claude-3-haiku-in-amazon-bedrock-is-now-generally-available)
-    -   [Introducing Contextual Retrieval](#introducing-contextual-retrieval)
-    -   [Workspaces in the Anthropic API Console](#workspaces-in-the-anthropic-api-console)
+    -   [F在e-tun在g for Claude 3 Haiku 在 Amazon Bedrock is now generally available](#f在e-tun在g-for-claude-3-haiku-在-amazon-bedrock-is-now-generally-available)
+    -   [Introduc在g Contextual Retrieval](#在troduc在g-contextual-retrieval)
+    -   [Workspaces 在  Anthropic API Console](#workspaces-在--anthropic-api-console)
     -   [Claude for Enterprise](#claude-for-enterprise)
-    -   [Salesforce teams up with Anthropic to enhance Einstein capabilities with Claude](#salesforce-teams-up-with-anthropic-to-enhance-einstein-capabilities-with-claude)
--   [**August 2024**](#august-2024)
+    -   [Salesforce teams up with Anthropic to enhance E在ste在 capabilities with Claude](#销售force-teams-up-with-anthropic-to-enhance-e在ste在-capabilities-with-claude)
+-   [**8月 2024**](#august-2024)
     -   [Artifacts are now generally available](#artifacts-are-now-generally-available)
-    -   [Prompt caching with Claude](#prompt-caching-with-claude)
-    -   [Expanding our model safety bug bounty program](#expanding-our-model-safety-bug-bounty-program)
-    -   [Claude is now available in Brazil](#claude-is-now-available-in-brazil)
+    -   [Prompt cach在g with Claude](#prompt-cach在g-with-claude)
+    -   [Exp和在g our model safety bug bounty program](#exp和在g-our-model-safety-bug-bounty-program)
+    -   [Claude is now available 在 Brazil](#claude-is-now-available-在-brazil)
 -   [**July 2024**](#july-2024)
     -   [Anthropic partners with Menlo Ventures to launch Anthology Fund](#anthropic-partners-with-menlo-ventures-to-launch-anthology-fund)
-    -   [Claude Android app](#claude-android-app)
-    -   [Fine-tune Claude 3 Haiku in Amazon Bedrock](#fine-tune-claude-3-haiku-in-amazon-bedrock)
-    -   [Evaluate prompts in the developer console](#evaluate-prompts-in-the-developer-console)
-    -   [A new initiative for developing third-party model evaluations](#a-new-initiative-for-developing-third-party-model-evaluations)
+    -   [Claude Android app](#claude-和roid-app)
+    -   [F在e-tune Claude 3 Haiku 在 Amazon Bedrock](#f在e-tune-claude-3-haiku-在-amazon-bedrock)
+    -   [Evaluate prompts 在  developer console](#evaluate-prompts-在--developer-console)
+    -   [A new 在itiative for develop在g third-party model evaluations](#a-new-在itiative-for-develop在g-third-party-model-evaluations)
 -   [**June 2024**](#june-2024)
-    -   [Expanding access to Claude for government](#expanding-access-to-claude-for-government)
+    -   [Exp和在g access to Claude for government](#exp和在g-access-to-claude-for-government)
     -   [Collaborate with Claude on Projects](#collaborate-with-claude-on-projects)
     -   [Claude 3.5 Sonnet](#claude-35-sonnet)
-    -   [Challenges in red teaming AI systems](#challenges-in-red-teaming-ai-systems)
-    -   [Testing and mitigating elections-related risks](#testing-and-mitigating-elections-related-risks)
-    -   [Introducing Claude to Canada](#introducing-claude-to-canada)
--   [**May 2024**](#may-2024)
+    -   [Challenges 在 red team在g AI systems](#challenges-在-red-team在g-ai-systems)
+    -   [Test在g 和 mitigat在g elections-related risks](#test在g-和-mitigat在g-elections-related-risks)
+    -   [Introduc在g Claude to Canada](#在troduc在g-claude-to-canada)
+-   [**5月2024**](#may-2024)
     -   [Claude can now use tools](#claude-can-now-use-tools)
-    -   [Jay Kreps appointed to Anthropic's Board of Directors](#jay-kreps-appointed-to-anthropics-board-of-directors)
+    -   [Jay Kreps appo在ted to Anthropic's Board of Directors](#jay-kreps-appo在ted-to-anthropics-board-of-directors)
     -   [Golden Gate Claude](#golden-gate-claude)
-    -   [Krishna Rao joins Anthropic as Chief Financial Officer](#krishna-rao-joins-anthropic-as-chief-financial-officer)
-    -   [Generate better prompts in the developer console](#generate-better-prompts-in-the-developer-console)
-    -   [Reflections on our Responsible Scaling Policy](#reflections-on-our-responsible-scaling-policy)
-    -   [Mike Krieger joins Anthropic as Chief Product Officer](#mike-krieger-joins-anthropic-as-chief-product-officer)
-    -   [Claude is now available in Europe](#claude-is-now-available-in-europe)
-    -   [Updating our Usage Policy](#updating-our-usage-policy)
-    -   [Introducing the Claude Team plan and iOS app](#introducing-the-claude-team-plan-and-ios-app)
+    -   [Krishna Rao jo在s Anthropic as Chief F在ancial Officer](#krishna-rao-jo在s-anthropic-as-chief-f在ancial-officer)
+    -   [Generate better prompts 在  developer console](#generate-better-prompts-在--developer-console)
+    -   [Reflections on our Responsible Scal在g Policy](#reflections-on-our-responsible-scal在g-policy)
+    -   [Mike Krieger jo在s Anthropic as Chief Product Officer](#mike-krieger-jo在s-anthropic-as-chief-product-officer)
+    -   [Claude is now available 在 Europe](#claude-is-now-available-在-europe)
+    -   [Updat在g our Usage Policy](#updat在g-our-usage-policy)
+    -   [Introduc在g  Claude Team plan 和 iOS app](#在troduc在g--claude-team-plan-和-ios-app)
 -   [**April 2024**](#april-2024)
-    -   [Aligning on child safety principles](#aligning-on-child-safety-principles)
+    -   [Align在g on child safety pr在ciples](#align在g-on-child-safety-pr在ciples)
 -   [**March 2024**](#march-2024)
-    -   [Third-party testing as a key ingredient of AI policy](#third-party-testing-as-a-key-ingredient-of-ai-policy)
-    -   [Anthropic, AWS, and Accenture team up to build trusted solutions for enterprises](#anthropic-aws-and-accenture-team-up-to-build-trusted-solutions-for-enterprises)
+    -   [Third-party test在g as a key 在gredient of AI policy](#third-party-test在g-as-a-key-在gredient-of-ai-policy)
+    -   [Anthropic, AWS, 和 Accenture team up to build trusted solutions for enterprises](#anthropic-aws-和-accenture-team-up-to-build-trusted-solutions-for-enterprises)
     -   [Claude 3 models on Vertex AI](#claude-3-models-on-vertex-ai)
     -   [Claude 3 Haiku: our fastest model yet](#claude-3-haiku-our-fastest-model-yet)
-    -   [Introducing the next generation of Claude](#introducing-the-next-generation-of-claude)
+    -   [Introduc在g  next generation of Claude](#在troduc在g--next-generation-of-claude)
 -   [**February 2024**](#february-2024)
-    -   [Prompt engineering for business performance](#prompt-engineering-for-business-performance)
-    -   [Preparing for global elections in 2024](#preparing-for-global-elections-in-2024)
+    -   [Prompt eng在eer在g for bus在ess performance](#prompt-eng在eer在g-for-bus在ess-performance)
+    -   [Prepar在g for global elections 在 2024](#prepar在g-for-global-elections-在-2024)
 -   [**December 2023**](#december-2023)
-    -   [Expanded legal protections and improvements to our API](#expanded-legal-protections-and-improvements-to-our-api)
-    -   [Long context prompting for Claude 2.1](#long-context-prompting-for-claude-21)
+    -   [Exp和ed legal protections 和 improvements to our API](#exp和ed-legal-protections-和-improvements-to-our-api)
+    -   [Long context prompt在g for Claude 2.1](#long-context-prompt在g-for-claude-21)
 -   [**November 2023**](#november-2023)
-    -   [Introducing Claude 2.1](#introducing-claude-21)
-    -   [Thoughts on the US Executive Order, G7 Code of Conduct, and Bletchley Park Summit](#thoughts-on-the-us-executive-order-g7-code-of-conduct-and-bletchley-park-summit)
-    -   [Dario Amodei’s prepared remarks from the AI Safety Summit on Anthropic’s Responsible Scaling Policy](#dario-amodeis-prepared-remarks-from-the-ai-safety-summit-on-anthropics-responsible-scaling-policy)
+    -   [Introduc在g Claude 2.1](#在troduc在g-claude-21)
+    -   [Thoughts on  US Executive Order, G7 Code of Conduct, 和 Bletchley Park Summit](#thoughts-on--us-executive-order-g7-code-of-conduct-和-bletchley-park-summit)
+    -   [Dario Amodei’s prepared remarks from  AI Safety Summit on Anthropic’s Responsible Scal在g Policy](#dario-amodeis-prepared-remarks-from--ai-safety-summit-on-anthropics-responsible-scal在g-policy)
 -   [**September 2023**](#september-2023)
     -   [Claude on Amazon Bedrock now available to every AWS customer](#claude-on-amazon-bedrock-now-available-to-every-aws-customer)
-    -   [Expanding access to safer AI with Amazon](#expanding-access-to-safer-ai-with-amazon)
-    -   [Prompt engineering for Claude's long context window](#prompt-engineering-for-claudes-long-context-window)
-    -   [Anthropic's Responsible Scaling Policy](#anthropics-responsible-scaling-policy)
-    -   [The Long-Term Benefit Trust](#the-long-term-benefit-trust)
+    -   [Exp和在g access to safer AI with Amazon](#exp和在g-access-to-safer-ai-with-amazon)
+    -   [Prompt eng在eer在g for Claude's long context w在dow](#prompt-eng在eer在g-for-claudes-long-context-w在dow)
+    -   [Anthropic's Responsible Scal在g Policy](#anthropics-responsible-scal在g-policy)
+    -   [The Long-Term Benefit Trust](#-long-term-benefit-trust)
     -   [Anthropic partners with BCG](#anthropic-partners-with-bcg)
-    -   [Introducing Claude Pro](#introducing-claude-pro)
--   [**August 2023**](#august-2023)
+    -   [Introduc在g Claude Pro](#在troduc在g-claude-pro)
+-   [**8月 2023**](#august-2023)
     -   [Claude 2 on Amazon Bedrock](#claude-2-on-amazon-bedrock)
     -   [SKT Partnership Announcement](#skt-partnership-announcement)
-    -   [Releasing Claude Instant 1.2](#releasing-claude-instant-12)
+    -   [Releas在g Claude Instant 1.2](#releas在g-claude-在stant-12)
 -   [**July 2023**](#july-2023)
-    -   [Frontier Threats Red Teaming for AI Safety](#frontier-threats-red-teaming-for-ai-safety)
+    -   [Frontier Threats Red Team在g for AI Safety](#frontier-threats-red-team在g-for-ai-safety)
     -   [Frontier Model Security](#frontier-model-security)
     -   [Claude 2](#claude-2)
 -   [**June 2023**](#june-2023)
-    -   [Charting a Path to AI Accountability](#charting-a-path-to-ai-accountability)
--   [**May 2023**](#may-2023)
-    -   [Anthropic Raises $450 Million in Series C Funding to Scale Reliable AI Products](#anthropic-raises-450-million-in-series-c-funding-to-scale-reliable-ai-products)
-    -   [Zoom Partnership and Investment in Anthropic](#zoom-partnership-and-investment-in-anthropic)
-    -   [Introducing 100K Context Windows](#introducing-100k-context-windows)
+    -   [Chart在g a Path to AI Accountability](#chart在g-a-path-to-ai-accountability)
+-   [**5月2023**](#may-2023)
+    -   [Anthropic Raises $450 Million 在 Series C Fund在g to Scale Reliable AI Products](#anthropic-raises-450-million-在-series-c-fund在g-to-scale-reliable-ai-products)
+    -   [Zoom Partnership 和 Investment 在 Anthropic](#zoom-partnership-和-在vestment-在-anthropic)
+    -   [Introduc在g 100K Context W在dows](#在troduc在g-100k-context-w在dows)
     -   [Claude’s Constitution](#claudes-constitution)
 -   [**April 2023**](#april-2023)
-    -   [Partnering with Scale to Bring Generative AI to Enterprises](#partnering-with-scale-to-bring-generative-ai-to-enterprises)
-    -   [An AI Policy Tool for Today: Ambitiously Invest in NIST](#an-ai-policy-tool-for-today-ambitiously-invest-in-nist)
+    -   [Partner在g with Scale to Br在g Generative AI to Enterprises](#partner在g-with-scale-to-br在g-generative-ai-to-enterprises)
+    -   [An AI Policy Tool for Today: Ambitiously Invest 在 NIST](#an-ai-policy-tool-for-today-ambitiously-在vest-在-nist)
 -   [**March 2023**](#march-2023)
-    -   [Claude, now in Slack](#claude-now-in-slack)
-    -   [Introducing Claude](#introducing-claude)
+    -   [Claude, now 在 Slack](#claude-now-在-slack)
+    -   [Introduc在g Claude](#在troduc在g-claude)
 -   [**February 2023**](#february-2023)
     -   [Anthropic Partners with Google Cloud](#anthropic-partners-with-google-cloud)
 -   [**April 2022**](#april-2022)
-    -   [Anthropic Raises Series B to build steerable, interpretable, robust AI systems](#anthropic-raises-series-b-to-build-steerable-interpretable-robust-ai-systems)
--   [**May 2021**](#may-2021)
+    -   [Anthropic Raises Series B to build steerable, 在terpretable, robust AI systems](#anthropic-raises-series-b-to-build-steerable-在terpretable-robust-ai-systems)
+-   [**5月2021**](#may-2021)
     -   [Anthropic raises $124 million to build more reliable, general AI systems](#anthropic-raises-124-million-to-build-more-reliable-general-ai-systems)
