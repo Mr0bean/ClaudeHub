@@ -25,7 +25,7 @@ Claude Hub 服务于一个`精选社区`，成员都是高级 AI 开发者，他
 
 准备探索`合作机会`？联系我们以获取包含详细受众洞察、赞助层级和合作权益的综合`赞助方案`。
 
-**给我们发邮件** [hello@claudelog.com](mailto:hello@claudelog.com)
+**给我们发邮件** [hello@](mailto:hello@)
 
 * * *
 

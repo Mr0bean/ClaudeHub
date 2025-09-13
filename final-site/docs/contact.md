@@ -6,7 +6,7 @@ title: "联系我们 | Claude Hub"
 
 ## 联系方式[​](#联系方式)
 
-**邮箱** [hello@claudelog.com](mailto:hello@claudelog.com)
+**邮箱** [hello@](mailto:hello@)
 
 **Reddit** [InventorBlack](https://reddit.com/u/InventorBlack)
 

@@ -75,7 +75,7 @@ Claude Hub不对本网站讨论的任何代码、配置或程序的安全性、�
 
 ### 报告安全问题[​](#reporting-security-issues "Direct link to Reporting Security Issues")
 
-如果您在Claude Hub发布的内容中发现安全漏洞，请立即通过[hello@claudelog.com](mailto:hello@claudelog.com)联系我们，主题行请写"安全问题"。
+如果您在Claude Hub发布的内容中发现安全漏洞，请立即通过[hello@](mailto:hello@)联系我们，主题行请写"安全问题"。
 
 * * *
 
@@ -347,7 +347,7 @@ Claude Hub上的任何内容均不构成法律、监管或合规建议。用户�
 
 如果您对此免责声明有任何疑问，请通过以下方式联系我们：
 
-**电子邮件**: [hello@claudelog.com](mailto:hello@claudelog.com)
+**电子邮件**: [hello@](mailto:hello@)
 
 * * *
 

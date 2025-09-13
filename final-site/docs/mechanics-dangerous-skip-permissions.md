@@ -50,7 +50,7 @@ allowedTools 方法通过只授予必要的权限而不是通用访问权限来�
 
 * * *
 
-**另请参阅**: [自动接受权限](mechanics-auto-accept-permissions.html)|[计划模式](mechanics-plan-mode.html)|[配置](support-claudelog.html)
+**另请参阅**: [自动接受权限](mechanics-auto-accept-permissions.html)|[计划模式](mechanics-plan-mode.html)|[配置](support-.html)
 
 **作者**:[<img src="/img/profile/inventorblack.jpg" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%; vertical-align: middle; margin-right: 8px;" />InventorBlack](https://github.com/InventorBlack)|CTO at [Command Stick](https://commandstick.com/)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
 

@@ -10,7 +10,7 @@ title: "隐私政策"
 
 ## 介绍[​](#introduction "Direct link to Introduction")
 
-Claude Hub（“我们”、“我方”或“本公司”）运营网站 [https://www.claudelog.com](https://www.claudelog.com)（“服务”）。本页面告知您我们关于在您使用我们服务时收集、使用和披露个人数据的政策，以及您对该数据的相关选择。
+Claude Hub（“我们”、“我方”或“本公司”）运营网站 [https://www.](https://www.)（“服务”）。本页面告知您我们关于在您使用我们服务时收集、使用和披露个人数据的政策，以及您对该数据的相关选择。
 
 * * *
 
@@ -256,7 +256,7 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 
 If you have any questions about this Privacy Policy or our privacy practices, please contact us at:
 
-**Email**: [hello@claudelog.com](mailto:hello@claudelog.com)
+**Email**: [hello@](mailto:hello@)
 
 * * *
 

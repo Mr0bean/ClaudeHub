@@ -1,8 +1,8 @@
 ---
-title: "Awesome Claude 提示词 | ClaudeLog Hub"
+title: "Awesome Claude 提示词 |  Hub"
 ---
 
-# Awesome Claude 提示词 | ClaudeLog Hub
+# Awesome Claude 提示词 |  Hub
 
 **为开发、商业和创意工作流提供的全面优化 Claude 提示词集合，包含经过验证的模式和高级提示工程技术。**
 
