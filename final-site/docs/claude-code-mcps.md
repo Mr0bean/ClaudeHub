@@ -1,8 +1,8 @@
 ---
-title: "Claude Code MCP 工具和扩展 | ClaudeLog"
+title: "Claude Code MCP 工具和扩展 | Claude Hub"
 ---
 
-# Claude Code MCP 工具和扩展 | ClaudeLog
+# Claude Code MCP 工具和扩展 | Claude Hub
 
 发现精选的 Claude Code MCP 工具、扩展和插件，增强你的开发工作流。
 

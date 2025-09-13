@@ -1,10 +1,10 @@
 ---
-title: "Claude Code Changelog | ClaudeLog"
+title: "Claude Code Changelog | Claude Hub"
 ---
 
-# Claude Code Changelog | ClaudeLog
+# Claude Code Changelog | Claude Hub
 
-Complete version history of Claude Code releases, from early beta versions to the latest stable release. Each version includes feature additions, bug fixes, and links to relevant documentation. **Need to downgrade?** See our [Revert Claude Code Version](/faqs/revert-claude-code-version/) guide.
+Complete version history of Claude Code releases, from early beta versions to the latest stable release. Each version includes feature additions, bug fixes, and links to relevant documentation. **Need to downgrade?** See our [Revert Claude Code Version](/faqs/revert-claude-code-version.html) guide.
 
 * * *
 
@@ -141,7 +141,7 @@ Aug 18, 2025
 -   MCP: Improve tool name consistency
 -   Bash: Fix crash when Claude tries to automatically read large files
 
-Aug 16, 2025|See Also: [Claude Code SDK](https://docs.anthropic.com/en/docs/claude-code-sdk)|[Configuration](/configuration/)|[MCP Servers](/faqs/what-is-mcp-server-in-claude-code/)
+Aug 16, 2025|See Also: [Claude Code SDK](https://docs.anthropic.com/en/docs/claude-code-sdk)|[Configuration](/configuration.html)|[MCP Servers](/faqs/what-is-mcp-server-in-claude-code.html)
 
 * * *
 
@@ -171,7 +171,7 @@ Aug 14, 2025
 -   Fix token limit errors in conversation summarization
 -   Opus Plan Mode: New setting in `/model` to run Opus only in plan mode, Sonnet otherwise
 
-Aug 13, 2025|See Also: [Plan Mode](/mechanics-plan-mode/)|[Claude Code SDK](https://docs.anthropic.com/en/docs/claude-code-sdk)
+Aug 13, 2025|See Also: [Plan Mode](/mechanics-plan-mode.html)|[Claude Code SDK](https://docs.anthropic.com/en/docs/claude-code-sdk)
 
 * * *
 
@@ -183,7 +183,7 @@ Aug 13, 2025|See Also: [Plan Mode](/mechanics-plan-mode/)|[Claude Code SDK](http
 -   UI: Enhanced spinner animations and status line visual hierarchy
 -   Linux: Added support for Alpine and musl-based distributions (requires separate ripgrep installation)
 
-Aug 12, 2025|See Also: [MCP Servers](/faqs/what-is-mcp-server-in-claude-code/)
+Aug 12, 2025|See Also: [MCP Servers](/faqs/what-is-mcp-server-in-claude-code.html)
 
 * * *
 
@@ -191,7 +191,7 @@ Aug 12, 2025|See Also: [MCP Servers](/faqs/what-is-mcp-server-in-claude-code/)
 
 -   Ask permissions: have Claude Code always ask for confirmation to use specific tools with `/permissions`
 
-Aug 12, 2025|See Also: [Configuration](/configuration/)
+Aug 12, 2025|See Also: [Configuration](/configuration.html)
 
 * * *
 
@@ -200,7 +200,7 @@ Aug 12, 2025|See Also: [Configuration](/configuration/)
 -   Background commands: (Ctrl-b) to run any Bash command in the background so Claude can keep working (great for dev servers, tailing logs, etc.)
 -   Customizable status line: add your terminal prompt to Claude Code with `/statusline`
 
-Aug 8, 2025|See Also: [Background Commands](/faqs/what-are-background-commands/)|[Customizable Status Line](/faqs/status-line-claude-code/)
+Aug 8, 2025|See Also: [Background Commands](/faqs/what-are-background-commands.html)|[Customizable Status Line](/faqs/status-line-claude-code.html)
 
 * * *
 
@@ -210,7 +210,7 @@ Aug 8, 2025|See Also: [Background Commands](/faqs/what-are-background-commands/)
 -   Windows: Fixed native file search, ripgrep, and subagent functionality
 -   Added support for @-mentions in slash command arguments
 
-Aug 7, 2025|See Also: [Windows Installation](/faqs/how-to-install-claude-code-on-windows/)|[Custom Slash Commands](/faqs/what-is-slash-commands-in-claude-code/)|[Custom Agents](/mechanics-custom-agents/)
+Aug 7, 2025|See Also: [Windows Installation](/faqs/how-to-install-claude-code-on-windows.html)|[Custom Slash Commands](/faqs/what-is-slash-commands-in-claude-code.html)|[Custom Agents](/mechanics-custom-agents.html)
 
 * * *
 
@@ -220,7 +220,7 @@ Aug 7, 2025|See Also: [Windows Installation](/faqs/how-to-install-claude-code-on
 
 -   Upgraded Opus to version 4.1
 
-05/08/2025|See Also: [Claude 4.1 Opus](/faqs/what-is-claude-4-1-opus/)
+05/08/2025|See Also: [Claude 4.1 Opus](/faqs/what-is-claude-4-1-opus.html)
 
 * * *
 
@@ -234,7 +234,7 @@ Aug 7, 2025|See Also: [Windows Installation](/faqs/how-to-install-claude-code-on
 -   Added `disableAllHooks` setting
 -   Improved file suggestions performance in large repos
 
-05/08/2025|See Also: [Windows Installation](/faqs/how-to-install-claude-code-on-windows/)|[Hooks](/mechanics-hooks/)|[Claude Code SDK](https://docs.anthropic.com/en/docs/claude-code-sdk)
+05/08/2025|See Also: [Windows Installation](/faqs/how-to-install-claude-code-on-windows.html)|[Hooks](/mechanics-hooks.html)|[Claude Code SDK](https://docs.anthropic.com/en/docs/claude-code-sdk)
 
 * * *
 
@@ -243,7 +243,7 @@ Aug 7, 2025|See Also: [Windows Installation](/faqs/how-to-install-claude-code-on
 -   IDE: Fixed connection stability issues and error handling for diagnostics
 -   Windows: Fixed shell environment setup for users without .bashrc files
 
-01/08/25|See Also: [Windows Installation](/faqs/how-to-install-claude-code-on-windows/)
+01/08/25|See Also: [Windows Installation](/faqs/how-to-install-claude-code-on-windows.html)
 
 * * *
 
@@ -255,7 +255,7 @@ Aug 7, 2025|See Also: [Windows Installation](/faqs/how-to-install-claude-code-on
 -   SDK: Fixed user input tracking across multi-turn conversations
 -   Added hidden files to file search and @-mention suggestions
 
-July 30, 2025|See Also: [Custom Agents](/mechanics-custom-agents/)|[Hooks](/mechanics-hooks/)|[Claude Code SDK](https://docs.anthropic.com/en/docs/claude-code-sdk)
+July 30, 2025|See Also: [Custom Agents](/mechanics-custom-agents.html)|[Hooks](/mechanics-hooks.html)|[Claude Code SDK](https://docs.anthropic.com/en/docs/claude-code-sdk)
 
 * * *
 
@@ -263,7 +263,7 @@ July 30, 2025|See Also: [Custom Agents](/mechanics-custom-agents/)|[Hooks](/mech
 
 -   Windows: Fixed file search, @agent mentions, and custom slash commands functionality
 
-July 29, 2025|See Also: [Windows Installation](/faqs/how-to-install-claude-code-on-windows/)|[Custom Agents](/mechanics-custom-agents/)|[Custom Slash Commands](/faqs/what-is-slash-commands-in-claude-code/)
+July 29, 2025|See Also: [Windows Installation](/faqs/how-to-install-claude-code-on-windows.html)|[Custom Agents](/mechanics-custom-agents.html)|[Custom Slash Commands](/faqs/what-is-slash-commands-in-claude-code.html)
 
 * * *
 
@@ -274,7 +274,7 @@ July 29, 2025|See Also: [Windows Installation](/faqs/how-to-install-claude-code-
 -   /add-dir command now supports typeahead for directory paths
 -   Improved network connectivity check reliability
 
-July 28, 2025|See Also: [Custom Subagents](https://docs.anthropic.com/en/docs/claude-code-subagents)|[Hooks](/mechanics-hooks/)
+July 28, 2025|See Also: [Custom Subagents](https://docs.anthropic.com/en/docs/claude-code-subagents)|[Hooks](/mechanics-hooks.html)
 
 * * *
 
@@ -289,7 +289,7 @@ July 28, 2025|See Also: [Custom Subagents](https://docs.anthropic.com/en/docs/cl
 -   IDE: Added `CLAUDE_CODE_AUTO_CONNECT_IDE=false` for disabling IDE auto-connection
 -   Added `CLAUDE_CODE_SHELL_PREFIX` for wrapping Claude and user-provided shell commands run by Claude Code
 
-July 25, 2025|See Also: [Configuration](/configuration/)|[Custom Slash Commands](/faqs/what-is-slash-commands-in-claude-code/)
+July 25, 2025|See Also: [Configuration](/configuration.html)|[Custom Slash Commands](/faqs/what-is-slash-commands-in-claude-code.html)
 
 * * *
 
@@ -297,7 +297,7 @@ July 25, 2025|See Also: [Configuration](/configuration/)|[Custom Slash Commands]
 
 -   You can now create custom subagents for specialized tasks! Run /agents to get started
 
-July 24, 2025|See Also: [Task Agent Tools](/mechanics-task-agent-tools/)|[Custom Subagents](https://docs.anthropic.com/en/docs/claude-code-subagents)
+July 24, 2025|See Also: [Task Agent Tools](/mechanics-task-agent-tools.html)|[Custom Subagents](https://docs.anthropic.com/en/docs/claude-code-subagents)
 
 * * *
 
@@ -311,7 +311,7 @@ July 24, 2025|See Also: [Task Agent Tools](/mechanics-task-agent-tools/)|[Custom
 -   Hooks: UserPromptSubmit now supports additionalContext in advanced JSON output
 -   Fixed issue where some Max users that specified Opus would still see fallback to Sonnet
 
-July 23, 2025|See Also: [Claude Code SDK](https://docs.anthropic.com/en/docs/claude-code-sdk)|[Hooks](/mechanics-hooks/)
+July 23, 2025|See Also: [Claude Code SDK](https://docs.anthropic.com/en/docs/claude-code-sdk)|[Hooks](/mechanics-hooks.html)
 
 * * *
 
@@ -321,7 +321,7 @@ July 23, 2025|See Also: [Claude Code SDK](https://docs.anthropic.com/en/docs/cla
 -   MCP: Improved server health status display in 'claude mcp list'
 -   Hooks: Added CLAUDE\_PROJECT\_DIR env var for hook commands
 
-July 23, 2025|See Also: [Hooks](/mechanics-hooks/)|[MCPs](/claude-code-mcps/)
+July 23, 2025|See Also: [Hooks](/mechanics-hooks.html)|[MCPs](/claude-code-mcps.html)
 
 * * *
 
@@ -331,7 +331,7 @@ July 23, 2025|See Also: [Hooks](/mechanics-hooks/)|[MCPs](/claude-code-mcps/)
 -   Improved permission messages to help Claude understand allowed tools
 -   Fix: Remove trailing newlines from bash output in terminal wrapping
 
-July 23, 2025|See Also: [Custom Slash Commands](/faqs/what-is-slash-commands-in-claude-code/)|[Auto-Accept Permissions](/mechanics-auto-accept-permissions/)
+July 23, 2025|See Also: [Custom Slash Commands](/faqs/what-is-slash-commands-in-claude-code.html)|[Auto-Accept Permissions](/mechanics-auto-accept-permissions.html)
 
 * * *
 
@@ -341,7 +341,7 @@ July 23, 2025|See Also: [Custom Slash Commands](/faqs/what-is-slash-commands-in-
 -   Fixes for WSL IDE detection
 -   Fix an issue causing awsRefreshHelper changes to .aws directory not to be picked up
 
-July 23, 2025|See Also: [Windows Installation](/faqs/how-to-install-claude-code-on-windows/)|[Configuration](/configuration/)
+July 23, 2025|See Also: [Windows Installation](/faqs/how-to-install-claude-code-on-windows.html)|[Configuration](/configuration.html)
 
 * * *
 
@@ -352,7 +352,7 @@ July 23, 2025|See Also: [Windows Installation](/faqs/how-to-install-claude-code-
 -   SDK: Added ability to capture error logging
 -   Add --system-prompt-file option to override system prompt in print mode
 
-July 23, 2025|See Also: [Model Comparison](/model-comparison/)|[Windows Installation](/faqs/how-to-install-claude-code-on-windows/)|[Claude Code SDK](https://docs.anthropic.com/en/docs/claude-code-sdk)
+July 23, 2025|See Also: [Model Comparison](/model-comparison.html)|[Windows Installation](/faqs/how-to-install-claude-code-on-windows.html)|[Claude Code SDK](https://docs.anthropic.com/en/docs/claude-code-sdk)
 
 * * *
 
@@ -364,7 +364,7 @@ July 23, 2025|See Also: [Model Comparison](/model-comparison/)|[Windows Installa
 -   Windows: mode switching now uses alt + m, and plan mode renders properly
 -   Shell: Switch to in-memory shell snapshot to file-related errors
 
-July 19, 2025|See Also: [Hooks](/mechanics-hooks/)|[Custom Slash Commands](/faqs/what-is-slash-commands-in-claude-code/)|[Windows Installation](/faqs/how-to-install-claude-code-on-windows/)
+July 19, 2025|See Also: [Hooks](/mechanics-hooks.html)|[Custom Slash Commands](/faqs/what-is-slash-commands-in-claude-code.html)|[Windows Installation](/faqs/how-to-install-claude-code-on-windows.html)
 
 * * *
 
@@ -373,7 +373,7 @@ July 19, 2025|See Also: [Hooks](/mechanics-hooks/)|[Custom Slash Commands](/faqs
 -   Updated @-mention file truncation from 100 lines to 2000 lines
 -   Add helper script settings for AWS token refresh: awsAuthRefresh (for foreground operations like aws sso login) and awsCredentialExport (for background operation with STS-like response).
 
-July 18, 2025|See Also: [Configuration](/configuration/)
+July 18, 2025|See Also: [Configuration](/configuration.html)
 
 * * *
 
@@ -381,7 +381,7 @@ July 18, 2025|See Also: [Configuration](/configuration/)
 
 -   Added support for MCP server instructions
 
-July 18, 2025|See Also: [MCPs](/claude-code-mcps/)
+July 18, 2025|See Also: [MCPs](/claude-code-mcps.html)
 
 * * *
 
@@ -397,7 +397,7 @@ July 18, 2025|See Also: [MCPs](/claude-code-mcps/)
 -   Custom slash commands: Fixed user-level commands in subdirectories
 -   Plan mode: Fixed issue where rejected plan from sub-task would get discarded
 
-July 11, 2025|See Also: [Plan Mode](/mechanics-plan-mode/)|[Windows Installation](/faqs/how-to-install-claude-code-on-windows/)|[Custom Slash Commands](/faqs/what-is-slash-commands-in-claude-code/)
+July 11, 2025|See Also: [Plan Mode](/mechanics-plan-mode.html)|[Windows Installation](/faqs/how-to-install-claude-code-on-windows.html)|[Custom Slash Commands](/faqs/what-is-slash-commands-in-claude-code.html)
 
 * * *
 
@@ -413,7 +413,7 @@ July 11, 2025|See Also: [Plan Mode](/mechanics-plan-mode/)|[Windows Installation
 -   Hooks: Added a PreCompact hook
 -   Vim mode: Added c, f/F, t/T
 
-July 10, 2025|See Also: [Hooks](/mechanics-hooks/)
+July 10, 2025|See Also: [Hooks](/mechanics-hooks.html)
 
 * * *
 
@@ -426,7 +426,7 @@ July 10, 2025|See Also: [Hooks](/mechanics-hooks/)
 -   Stop Hooks: Fixed transcript path after /clear and fixed triggering when loop ends with tool call
 -   Custom slash commands: Restored namespacing in command names based on subdirectories. For example, .claude/frontend/component.md is now /frontend:component, not /component.
 
-July 9, 2025|See Also: [Custom Slash Commands](/faqs/what-is-slash-commands-in-claude-code/)|[Hooks](/mechanics-hooks/)
+July 9, 2025|See Also: [Custom Slash Commands](/faqs/what-is-slash-commands-in-claude-code.html)|[Hooks](/mechanics-hooks.html)
 
 * * *
 
@@ -437,7 +437,7 @@ July 9, 2025|See Also: [Custom Slash Commands](/faqs/what-is-slash-commands-in-c
 -   MCP: tool annotations and tool titles now display in /mcp view
 -   Changed Ctrl+Z to suspend Claude Code. Resume by running `fg`. Prompt input undo is now Ctrl+U.
 
-July 7, 2025|See Also: [MCPs](/claude-code-mcps/)|[Suspend/Resume](/faqs/how-to-suspend-claude-code/)
+July 7, 2025|See Also: [MCPs](/claude-code-mcps.html)|[Suspend/Resume](/faqs/how-to-suspend-claude-code.html)
 
 * * *
 
@@ -446,7 +446,7 @@ July 7, 2025|See Also: [MCPs](/claude-code-mcps/)|[Suspend/Resume](/faqs/how-to-
 -   Fixed a bug where the theme selector was saving excessively
 -   Hooks: Added EPIPE system error handling
 
-July 3, 2025|See Also: [Hooks](/mechanics-hooks/)
+July 3, 2025|See Also: [Hooks](/mechanics-hooks.html)
 
 * * *
 
@@ -454,7 +454,7 @@ July 3, 2025|See Also: [Hooks](/mechanics-hooks/)
 
 -   Added tilde (`~`) expansion support to `/add-dir` command
 
-July 3, 2025|See Also: [/add-dir FAQ](/faqs/--add-dir/)
+July 3, 2025|See Also: [/add-dir FAQ](/faqs/--add-dir.html)
 
 * * *
 
@@ -466,7 +466,7 @@ July 3, 2025|See Also: [/add-dir FAQ](/faqs/--add-dir/)
 -   Fixed a bug where MCP tools would display twice in tool list
 -   New tool parameters JSON for Bash tool in `tool_decision` event
 
-See Also: [Hooks](/mechanics-hooks/)
+See Also: [Hooks](/mechanics-hooks.html)
 
 * * *
 
@@ -490,7 +490,7 @@ July 2, 2025
 
 -   Released [hooks](https://docs.anthropic.com/en/docs/claude-code-hooks). Special thanks to community input in [Github Issues](https://github.com/anthropics/claude-code-issues/712)
 
-July 2, 2025|See Also: [Hooks](/mechanics-hooks/)
+July 2, 2025|See Also: [Hooks](/mechanics-hooks.html)
 
 * * *
 
@@ -507,7 +507,7 @@ July 2, 2025
 -   Web search now takes today's date into context
 -   Fixed a bug where stdio MCP servers were not terminating properly on exit
 
-July 2, 2025|See Also: [MCPs](/claude-code-mcps/)
+July 2, 2025|See Also: [MCPs](/claude-code-mcps.html)
 
 * * *
 
@@ -515,7 +515,7 @@ July 2, 2025|See Also: [MCPs](/claude-code-mcps/)
 
 -   Added support for MCP OAuth Authorization Server discovery
 
-June 25, 2025|See Also: [MCPs](/claude-code-mcps/)
+June 25, 2025|See Also: [MCPs](/claude-code-mcps.html)
 
 * * *
 
@@ -533,7 +533,7 @@ June 24, 2025
 -   Added undo functionality (Ctrl+Z and vim 'u' command)
 -   Improvements to plan mode
 
-June 24, 2025|See Also: [Plan Mode](/mechanics-plan-mode/)
+June 24, 2025|See Also: [Plan Mode](/mechanics-plan-mode.html)
 
 * * *
 
@@ -542,7 +542,7 @@ June 24, 2025|See Also: [Plan Mode](/mechanics-plan-mode/)
 -   Updated loopback config for litellm
 -   Added forceLoginMethod setting to bypass login selection screen
 
-June 24, 2025|See Also: [Configuration](/configuration/)
+June 24, 2025|See Also: [Configuration](/configuration.html)
 
 * * *
 
@@ -613,7 +613,7 @@ June 16, 2025|See Also: [Slash Commands](https://docs.anthropic.com/en/docs/clau
 -   Improved `/mcp` output
 -   Fixed a bug where settings arrays got overwritten instead of merged
 
-June 16, 2025|See Also: [MCPs](/claude-code-mcps/)
+June 16, 2025|See Also: [MCPs](/claude-code-mcps.html)
 
 * * *
 
@@ -630,7 +630,7 @@ June 16, 2025|See Also: [Claude Code SDK](https://docs.anthropic.com/en/docs/cla
 
 -   SDK: Renamed `total_cost` to `total_cost_usd`
 
-June 12, 2025|See Also: [CC Usage](/claude-code-mcps/cc-usage/)
+June 12, 2025|See Also: [CC Usage](/claude-code-mcps/cc-usage.html)
 
 * * *
 
@@ -657,7 +657,7 @@ June 12, 2025
 -   Added auto-reconnection for MCP SSE connections on disconnect
 -   Fixed issue where pasted content was lost when dialogs appeared
 
-June 10, 2025|See Also: [Configuration](/configuration/#mcp-configuration.html)|[Additional Working Directories](https://docs.anthropic.com/en/docs/claude-code-common-workflows#additional-working-directories)|[MCPs](/claude-code-mcps/)
+June 10, 2025|See Also: [Configuration](/configuration/#mcp-configuration.html)|[Additional Working Directories](https://docs.anthropic.com/en/docs/claude-code-common-workflows#additional-working-directories)|[MCPs](/claude-code-mcps.html)
 
 * * *
 
@@ -688,7 +688,7 @@ June 6, 2025
 -   Improved shell configuration error handling
 -   Improved todo list handling during compaction
 
-June 4, 2025|See Also: [Pricing](/claude-code-pricing/)|[Model Comparison](/model-comparison/)|[Installation](/install-claude-code/)
+June 4, 2025|See Also: [Pricing](/claude-code-pricing.html)|[Model Comparison](/model-comparison.html)|[Installation](/install-claude-code.html)
 
 * * *
 
@@ -710,7 +710,7 @@ June 3, 2025
 -   Added support for triggering thinking non-English languages
 -   Improved compacting UI
 
-June 2, 2025|See Also: [Restarting Claude Code](/faqs/restarting-claude-code/)|[Context Window Depletion](/mechanics-context-window-depletion/)
+June 2, 2025|See Also: [Restarting Claude Code](/faqs/restarting-claude-code.html)|[Context Window Depletion](/mechanics-context-window-depletion.html)
 
 * * *
 
@@ -723,7 +723,7 @@ June 2, 2025|See Also: [Restarting Claude Code](/faqs/restarting-claude-code/)|[
 -   Improved error handling for `/install-github-app`
 -   Bugfixes, UI polish, and tool reliability improvements
 
-June 2, 2025|See Also: [Auto-Accept Permissions](/mechanics-auto-accept-permissions/)|[Configuration](/configuration/)
+June 2, 2025|See Also: [Auto-Accept Permissions](/mechanics-auto-accept-permissions.html)|[Configuration](/configuration.html)
 
 * * *
 
@@ -735,7 +735,7 @@ June 2, 2025|See Also: [Auto-Accept Permissions](/mechanics-auto-accept-permissi
 -   Added support for symlinks in `@file` typeahead
 -   Bugfixes, UI polish, and tool reliability improvements
 
-June 2, 2025|See Also: [Configuration](/configuration/)
+June 2, 2025|See Also: [Configuration](/configuration.html)
 
 * * *
 
@@ -753,7 +753,7 @@ May 28, 2025
 -   Improved model references to show provider-specific names (Sonnet 3.7 for Bedrock, Sonnet 4 for Console)
 -   Updated documentation links and OAuth process descriptions
 
-May 22, 2025|See Also: [Configuration](/configuration/)
+May 22, 2025|See Also: [Configuration](/configuration.html)
 
 * * *
 
@@ -764,7 +764,7 @@ May 22, 2025|See Also: [Configuration](/configuration/)
 -   Claude Code is now generally available
 -   Introducing Sonnet 4 and Opus 4 models
 
-May 22, 2025|See Also: [Model Comparison](/model-comparison/)|[Installation](/install-claude-code/)|[Getting Started](/claude-code-tutorial/)
+May 22, 2025|See Also: [Model Comparison](/model-comparison.html)|[Installation](/install-claude-code.html)|[Getting Started](/claude-code-tutorial.html)
 
 * * *
 
@@ -773,7 +773,7 @@ May 22, 2025|See Also: [Model Comparison](/model-comparison/)|[Installation](/in
 -   Breaking change: Bedrock ARN passed to `ANTHROPIC_MODEL` or `ANTHROPIC_SMALL_FAST_MODEL` should no longer contain an escaped slash (specify / instead of %2F)
 -   Removed `DEBUG=true` in favor of `ANTHROPIC_LOG=debug`, to log all requests
 
-May 21, 2025|See Also: [Configuration](/configuration/)
+May 21, 2025|See Also: [Configuration](/configuration.html)
 
 * * *
 
@@ -805,7 +805,7 @@ May 13, 2025
 
 -   `CLAUDE.md` files can now import other files. Add `@path/to/file.md` to `./CLAUDE.md` to load additional files on launch
 
-May 9, 2025|See Also: [CLAUDE.md Supremacy](/mechanics-claude-md-supremacy/)
+May 9, 2025|See Also: [CLAUDE.md Supremacy](/mechanics-claude-md-supremacy.html)
 
 * * *
 
@@ -877,7 +877,7 @@ April 30, 2025
 -   Added support for `--disallowedTools`
 -   Renamed tools for consistency: `LSTool` -> `LS`, `View` -> `Read`, etc.
 
-April 25, 2025|See Also: [Auto-Accept Permissions](/mechanics-auto-accept-permissions/)|[Configuration](/configuration/)
+April 25, 2025|See Also: [Auto-Accept Permissions](/mechanics-auto-accept-permissions.html)|[Configuration](/configuration.html)
 
 * * *
 
@@ -889,7 +889,7 @@ April 25, 2025|See Also: [Auto-Accept Permissions](/mechanics-auto-accept-permis
 -   Run one-off MCP servers with `claude --mcp-config &lt;path-to-file&gt;`
 -   Improved performance for filename auto-complete
 
-April 21, 2025|See Also: [MCPs & Add-ons](/claude-code-mcps/)|[Configuration](/configuration/#mcp-configuration.html)
+April 21, 2025|See Also: [MCPs & Add-ons](/claude-code-mcps.html)|[Configuration](/configuration/#mcp-configuration.html)
 
 * * *
 
@@ -994,7 +994,7 @@ April 18, 2025
 -   Press Shift + Tab to toggle auto-accept for file edits
 -   Automatic conversation compaction for infinite conversation length (toggle with `/config`)
 
-See Also: [Auto-Accept Permissions](/mechanics-auto-accept-permissions/)
+See Also: [Auto-Accept Permissions](/mechanics-auto-accept-permissions.html)
 
 * * *
 
@@ -1023,7 +1023,7 @@ See Also: [Auto-Accept Permissions](/mechanics-auto-accept-permissions/)
 -   Import MCP servers from Claude Desktop with `claude mcp add-from-claude-desktop`
 -   Add MCP servers as JSON strings with `claude mcp add-json &lt;n&gt; &lt;json&gt;`
 
-April 21, 2025|See Also: [MCPs & Add-ons](/claude-code-mcps/)|[Configuration](/configuration/#mcp-configuration.html)
+April 21, 2025|See Also: [MCPs & Add-ons](/claude-code-mcps.html)|[Configuration](/configuration/#mcp-configuration.html)
 
 * * *
 
@@ -1045,7 +1045,7 @@ April 21, 2025|See Also: [MCPs & Add-ons](/claude-code-mcps/)|[Configuration](/c
 -   Custom slash commands: Markdown files in `.claude/commands/` directories now appear as custom slash commands to insert prompts into your conversation
 -   MCP debug mode: Run with `--mcp-debug` flag to get more information about MCP server errors
 
-See Also: [CLAUDE.md Supremacy](/mechanics-claude-md-supremacy/) | [Slash Commands](https://docs.anthropic.com/en/docs/claude-code-slash-commands)
+See Also: [CLAUDE.md Supremacy](/mechanics-claude-md-supremacy.html) | [Slash Commands](https://docs.anthropic.com/en/docs/claude-code-slash-commands)
 
 * * *
 
@@ -1063,7 +1063,7 @@ See Also: [CLAUDE.md Supremacy](/mechanics-claude-md-supremacy/) | [Slash Comman
 -   Word-level diff display for improved code readability
 -   Fuzzy matching for slash commands
 
-April 21, 2025|See Also: [Auto-Accept Permissions](/mechanics-auto-accept-permissions/)|[Configuration](/configuration/)
+April 21, 2025|See Also: [Auto-Accept Permissions](/mechanics-auto-accept-permissions.html)|[Configuration](/configuration.html)
 
 * * *
 

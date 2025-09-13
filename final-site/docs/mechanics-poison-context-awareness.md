@@ -1,8 +1,8 @@
 ---
-title: "毒化上下文感知 | ClaudeLog"
+title: "毒化上下文感知 | Claude Hub"
 ---
 
-# 毒化上下文感知 | ClaudeLog
+# 毒化上下文感知 | Claude Hub
 
 根据我的经验，通过污染我的代理上下文来自我破坏是非常容易的。我可能会在无数种方式中意外污染我的 Claude Code 会话，并创建在整个会话中持续存在的危险的意外关联。
 
@@ -56,13 +56,13 @@ title: "毒化上下文感知 | ClaudeLog"
 
 上下文污染是 AI 协作的无声杀手。每一个粗心配对的动作都会创建在整个会话中持续存在的无形行为模式。维护上下文卫生与代码卫生同样重要，两者都通过当前的纪律来防止未来的灾难。
 
-<img src="/img/supporters/supporters_inventorblack.png" alt="InventorBlack" style="max-width: 25px; height: 25px; border-radius: 50%; margin-right: 8px;" />
+<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%; display: inline-block; vertical-align: middle; margin: 0 3px;" />
 
 * * *
 
 **另请参阅**: [CLAUDE.md 至上主义](/mechanics-claude-md-supremacy.html)|[动态记忆](/mechanics-dynamic-memory.html)
 
-**作者**:[<img src="/img/supporters/supporters_inventorblack.png" alt="InventorBlack" style="max-width: 25px; height: 25px; border-radius: 50%; margin-right: 8px;" />InventorBlack](https://x.com/InventorBlack)|[Command Stick](https://commandstick.com) CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
+**作者**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%; display: inline-block; vertical-align: middle; margin: 0 3px;" />InventorBlack](https://x.com/InventorBlack)|[Command Stick](https://commandstick.com) CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
 
 -   [我是如何学到这一点的](#我是如何学到这一点的)
 -   [我如何思考上下文污染](#我如何思考上下文污染)

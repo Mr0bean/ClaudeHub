@@ -1,8 +1,8 @@
 ---
-title: "Context7 MCP | ClaudeLog"
+title: "Context7 MCP | Claude Hub"
 ---
 
-# Context7 MCP | ClaudeLog
+# Context7 MCP | Claude Hub
 
 **Up-to-date code documentation and examples injected directly into your prompts**
 
@@ -60,8 +60,7 @@ npx -y @upstash/context7-mcp
 
           "command": "npx",
 
-          "args": ["-y", "@upstash/context7-mcp"]
-
+          "args": "-y", "@upstash/context7-mcp"
         }
 
       }

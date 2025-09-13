@@ -1,5 +1,5 @@
 ---
-title: "输出样式 | ClaudeLog"
+title: "输出样式 | Claude Hub"
 ---
 
 # 输出样式
@@ -88,7 +88,7 @@ Anthropic 一直在持续发力，每周都为 Claude Code 推出越来越多的
 
 **另请参阅**：[CLAUDE.md 至上](/mechanics-claude-md-supremacy.html)|[自定义代理](/mechanics-custom-agents.html)|[配置](/watch-control.html)
 
-**作者**：<img src="/img/profile/inventorblack.png" alt="Profile" style="width: 25px; height: 25px; border-radius: 50%; vertical-align: middle;" />InventorBlack|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
+**作者**：<img src="/img/claudes-greatest-soldier.png" alt="Profile" style="width: 25px; height: 25px; border-radius: 50%; vertical-align: middle;" />InventorBlack|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
 
 -   [未开发的潜力](#未开发的潜力)
 -   [与其他机制的区别](#与其他机制的区别)

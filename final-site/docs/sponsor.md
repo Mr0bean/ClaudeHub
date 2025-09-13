@@ -1,12 +1,12 @@
 ---
-title: "赞助 ClaudeLog | ClaudeLog"
+title: "赞助 Claude Hub | Claude Hub"
 ---
 
-# 赞助 ClaudeLog | ClaudeLog
+# 赞助 Claude Hub | Claude Hub
 
-我们正在寻找对赞助 ClaudeLog 感兴趣的 AI 行业赞助商。与我们合作，接触`高度活跃的社区`，包括 AI 开发者、Claude Code 专家和智能体工作流专家。
+我们正在寻找对赞助 Claude Hub 感兴趣的 AI 行业赞助商。与我们合作，接触`高度活跃的社区`，包括 AI 开发者、Claude Code 专家和智能体工作流专家。
 
-ClaudeLog 服务于一个`精选社区`，成员都是高级 AI 开发者，他们在日常工作流中积极使用 AI 工具，并实施前沿的智能体开发流程。
+Claude Hub 服务于一个`精选社区`，成员都是高级 AI 开发者，他们在日常工作流中积极使用 AI 工具，并实施前沿的智能体开发流程。
 
 我们特别欢迎在以下关键领域开发解决方案的赞助商：
 
@@ -19,7 +19,7 @@ ClaudeLog 服务于一个`精选社区`，成员都是高级 AI 开发者，他�
 -   **新兴 AI 技术**：多智能体系统和框架、自定义 AI 模型训练平台、AI 工作流自动化工具、下一代开发者界面
     
 
-赞助 ClaudeLog 让您直接接触到评估和实施 AI 开发解决方案的决策者。
+赞助 Claude Hub 让您直接接触到评估和实施 AI 开发解决方案的决策者。
 
 * * *
 

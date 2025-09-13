@@ -1,8 +1,8 @@
 ---
-title: "你是主线程 | ClaudeLog"
+title: "你是主线程 | Claude Hub"
 ---
 
-# 你是主线程 | ClaudeLog
+# 你是主线程 | Claude Hub
 
 随着 AI 智能体的引入，你时间的机会成本已经增长了 N 倍。
 
@@ -24,6 +24,6 @@ title: "你是主线程 | ClaudeLog"
 
 * * *
 
-**另请参阅**：[任务智能体工具](/mechanics-task-agent-tools/)|[紧密反馈循环](/mechanics-tight-feedback-loops/)|[作为指令镜像的待办事项列表](/mechanics-todo-lists-as-instruction-mirrors/)
+**另请参阅**：[任务智能体工具](/mechanics-task-agent-tools.html)|[紧密反馈循环](/mechanics-tight-feedback-loops.html)|[作为指令镜像的待办事项列表](/mechanics-todo-lists-as-instruction-mirrors.html)
 
 **作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)

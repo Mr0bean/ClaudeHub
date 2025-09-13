@@ -1,8 +1,8 @@
 ---
-title: "Zen MCP 服务器 | ClaudeLog"
+title: "Zen MCP 服务器 | Claude Hub"
 ---
 
-# Zen MCP 服务器 | ClaudeLog
+# Zen MCP 服务器 | Claude Hub
 
 **多 AI 编排平台，使 Claude Code 能够与 Gemini Pro、OpenAI O3、Grok 和其他领先 AI 模型无缝协作，增强开发工作流。**
 
@@ -53,7 +53,7 @@ uvx zen-mcp-server
   "mcpServers": {
     "zen": {
       "command": "uvx",
-      "args": ["zen-mcp-server"]
+      "args": "zen-mcp-server"
     }
   }
 }
@@ -84,7 +84,7 @@ zen-mcp-server
 
 ```
 用户："使用不同的模型来设计和实现这个功能"
-Claude：[使用 Gemini 进行架构设计，O3 处理复杂逻辑，Claude 整合输出]
+Claude：使用 Gemini 进行架构设计，O3 处理复杂逻辑，Claude 整合输出
 ```
 
 该平台智能管理模型选择和上下文流，使开发者能够在单个对话中利用不同 AI 模型的独特优势。Zen MCP 在提供每个模型专门功能访问的同时保持对话连续性。

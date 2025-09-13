@@ -1,8 +1,8 @@
 ---
-title: "Claudia - Claude Code的GUI工具包 | ClaudeLog"
+title: "Claudia - Claude Code的GUI工具包 | Claude Hub"
 ---
 
-# Claudia - Claude Code的GUI工具包 | ClaudeLog
+# Claudia - Claude Code的GUI工具包 | Claude Hub
 
 **Claude Code的图形界面，提供可视化项目管理、自定义AI代理和使用分析**
 

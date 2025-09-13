@@ -1,8 +1,8 @@
 ---
-title: "任务/代理工具 | ClaudeLog"
+title: "任务/代理工具 | Claude Hub"
 ---
 
-# 任务/代理工具 | ClaudeLog
+# 任务/代理工具 | Claude Hub
 
 我认为任务工具是 Claude 最强大的工具。
 
@@ -79,6 +79,6 @@ title: "任务/代理工具 | ClaudeLog"
 
 * * *
 
-**另请参阅**：[上下文窗口耗尽](/mechanics-context-window-depletion/)|[Bash 脚本](/mechanics-bash-scripts/)|[你是主线程](/mechanics-you-are-the-main-thread/)
+**另请参阅**：[上下文窗口耗尽](/mechanics-context-window-depletion.html)|[Bash 脚本](/mechanics-bash-scripts.html)|[你是主线程](/mechanics-you-are-the-main-thread.html)
 
 **作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)

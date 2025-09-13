@@ -1,8 +1,8 @@
 ---
-title: "Claude News Timeline | ClaudeLog"
+title: "Claude News Timeline | Claude Hub"
 ---
 
-# Claude News Timeline | ClaudeLog
+# Claude News Timeline | Claude Hub
 
 Stay up-to-date with the latest announcements, product updates, and news from Anthropic about Claude.
 

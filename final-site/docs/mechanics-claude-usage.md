@@ -1,8 +1,8 @@
 ---
-title: "Claude 使用情况 | ClaudeLog"
+title: "Claude 使用情况 | Claude Hub"
 ---
 
-# Claude 使用情况 | ClaudeLog
+# Claude 使用情况 | Claude Hub
 
 Claude AI 在不同访问方式和订阅层级下的使用情况差异显著。了解消费模式有助于优化您的交互策略并避免意外限制。
 
@@ -122,13 +122,13 @@ Claude AI 在不同访问方式和订阅层级下的使用情况差异显著。�
 
 查看 [r/ClaudeAI](https://reddit.com/r/ClaudeAI) 的性能大贴，了解社区关于优化不同访问方式使用、订阅策略和模型选择方法的讨论。
 
-<img src="/img/profile/001_inventorblack.png" alt="InventorBlack profile" style="width: 25px; height: 25px; border-radius: 50%; vertical-align: middle; margin-right: 8px;" />
+<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; border-radius: 50%; vertical-align: middle; margin-right: 8px;" />
 
 * * *
 
 **另请参阅**: [Claude 性能](https://claudelog.com/claude-performance)|[Claude 限制](https://claudelog.com/claude-limits)|[API 文档](https://docs.anthropic.com)
 
-**作者**:[<img src="/img/profile/001_inventorblack.png" alt="InventorBlack profile" style="width: 25px; height: 25px; border-radius: 50%; vertical-align: middle; margin-right: 8px;" />InventorBlack](https://claudelog.com/about)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
+**作者**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; border-radius: 50%; vertical-align: middle; margin-right: 8px;" />InventorBlack](https://claudelog.com/about)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
 
 -   [按访问方式的使用情况](#按访问方式的使用情况)
     -   [Web 界面 (claude.ai)](#web-界面-claudeai)

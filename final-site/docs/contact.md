@@ -1,8 +1,8 @@
 ---
-title: "联系我们 | ClaudeLog"
+title: "联系我们 | Claude Hub"
 ---
 
-# 联系我们 | ClaudeLog
+# 联系我们 | Claude Hub
 
 ## 联系方式[​](#联系方式)
 
@@ -34,7 +34,7 @@ title: "联系我们 | ClaudeLog"
 
 ##### 想要贡献？
 
-想要贡献？请在 Reddit 上联系！ClaudeLog 是 [r/ClaudeAI](https://reddit.com/r/ClaudeAI) 研究成果的集大成者。
+想要贡献？请在 Reddit 上联系！Claude Hub 是 [r/ClaudeAI](https://reddit.com/r/ClaudeAI) 研究成果的集大成者。
 
 <br/>
 

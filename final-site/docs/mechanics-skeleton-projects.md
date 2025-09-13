@@ -1,5 +1,5 @@
 ---
-title: "骨架项目 | ClaudeLog"
+title: "骨架项目 | Claude Hub"
 ---
 
 # 骨架项目
@@ -60,7 +60,7 @@ title: "骨架项目 | ClaudeLog"
 
 一个优秀的骨架项目价值连城，可以节省大量开发时间。Claude 无需从零开始，而是可以在经过验证的结构中迭代，大大减少设置开销，专注于核心价值交付。
 
-<img src="/img/discovery/036_cl_orange.png" alt="ClaudeLog logo" style="max-width: 165px; height: auto;" />
+<img src="/img/discovery/036_cl_orange.png" alt="Claude Hub logo" style="max-width: 165px; height: auto;" />
 
 * * *
 

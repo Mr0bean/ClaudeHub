@@ -1,39 +1,39 @@
 ---
-title: "Privacy Policy | ClaudeLog"
+title: "隐私政策"
 ---
 
-# Privacy Policy | ClaudeLog
+# 隐私政策
 
-**Effective Date**: August 26, 2025 **Last Updated**: August 28, 2025
-
-* * *
-
-## Introduction[​](#introduction "Direct link to Introduction")
-
-ClaudeLog ("we," "us," or "our") operates the website [https://www.claudelog.com](https://www.claudelog.com) (the "Service"). This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
+**生效日期**: 2025 年 8 月 26 日 **最后更新**: 2025 年 8 月 28 日
 
 * * *
 
-## Information We Collect[​](#information-we-collect "Direct link to Information We Collect")
+## 介绍[​](#introduction "Direct link to Introduction")
 
-### Personal Information[​](#personal-information "Direct link to Personal Information")
+Claude Hub（“我们”、“我方”或“本公司”）运营网站 [https://www.claudelog.com](https://www.claudelog.com)（“服务”）。本页面告知您我们关于在您使用我们服务时收集、使用和披露个人数据的政策，以及您对该数据的相关选择。
 
-When you subscribe to our newsletter or contact us, we may collect personally identifiable information such as:
+* * *
 
--   Email address
--   Name (when provided)
--   Communication preferences
+## 我们收集的信息[​](#information-we-collect "Direct link to Information We Collect")
 
-### Automatically Collected Information[​](#automatically-collected-information "Direct link to Automatically Collected Information")
+### 个人信息[​](#personal-information "Direct link to Personal Information")
 
-When you visit our website, we automatically collect certain information about your device and usage, including:
+当您订阅我们的新闻简报或联系我们时，我们可能会收集以下个人身份识别信息：
 
--   IP address
--   Browser type and version
--   Operating system
--   Pages visited and time spent
--   Referring websites
--   Device information (screen size, device type)
+-   电子邮件地址
+-   姓名（如提供）
+-   沟通偏好
+
+### 自动收集的信息[​](#automatically-collected-information "Direct link to Automatically Collected Information")
+
+当您访问我们的网站时，我们会自动收集有关您的设备和使用情况的某些信息，包括：
+
+-   IP 地址
+-   浏览器类型和版本
+-   操作系统
+-   访问的页面和停留时间
+-   参考网站
+-   设备信息（屏幕尺寸、设备类型）
 
 * * *
 
@@ -118,7 +118,7 @@ We use MailChimp to manage our newsletter subscriptions. When you subscribe to o
 
 ### Support Platform (Buy Me a Coffee)[​](#support-platform-buy-me-a-coffee "Direct link to Support Platform (Buy Me a Coffee)")
 
-We use Buy Me a Coffee to facilitate community support and contributions to ClaudeLog. When you support us through this platform:
+We use Buy Me a Coffee to facilitate community support and contributions to Claude Hub. When you support us through this platform:
 
 -   Your transaction data is processed by Buy Me a Coffee according to their privacy policy
 -   We may receive basic supporter information (name, message, public profile details) as provided by the platform
@@ -162,7 +162,7 @@ If you use Claude Code through consumer Anthropic accounts (Free, Pro, or Max su
 
 **Your Choices:** When using Claude Code, you can make informed decisions about data usage based on your privacy preferences and project requirements. For complete details about Anthropic's data policies, privacy protections, and your choices, please review [Anthropic's Privacy Policy](https://www.anthropic.com/privacy) and [Privacy Center](https://privacy.anthropic.com/).
 
-**ClaudeLog's Role:** ClaudeLog serves as a documentation resource and does not process your Claude Code interactions. Your data handling is governed by your relationship with Anthropic based on your chosen authentication method (consumer subscription vs. API).
+**Claude Hub's Role:** Claude Hub serves as a documentation resource and does not process your Claude Code interactions. Your data handling is governed by your relationship with Anthropic based on your chosen authentication method (consumer subscription vs. API).
 
 * * *
 

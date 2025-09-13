@@ -1,8 +1,8 @@
 ---
-title: "子代理策略 | ClaudeLog"
+title: "子代理策略 | Claude Hub"
 ---
 
-# 子代理策略 | ClaudeLog
+# 子代理策略 | Claude Hub
 
 [Claude AI 子版块](https://www.reddit.com/r/ClaudeAI/)上的许多朋友一直在问：
 
@@ -50,7 +50,7 @@ title: "子代理策略 | ClaudeLog"
 
 * * *
 
-**另请参阅**：[任务代理工具](/mechanics-task-agent-tools/)|[分割角色子代理](/mechanics-split-role-sub-agents/)
+**另请参阅**：[任务代理工具](/mechanics-task-agent-tools.html)|[分割角色子代理](/mechanics-split-role-sub-agents.html)
 
 **作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|[Command Stick](https://commandstick.com) CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
 

@@ -1,8 +1,8 @@
 ---
-title: "TDD Guard | ClaudeLog"
+title: "TDD Guard | Claude Hub"
 ---
 
-# TDD Guard | ClaudeLog
+# TDD Guard | Claude Hub
 
 **为 Claude Code 提供自动化测试驱动开发强制执行**
 

@@ -1,8 +1,8 @@
 ---
-title: "Git Clone 只是开始 | ClaudeLog"
+title: "Git Clone 只是开始 | Claude Hub"
 ---
 
-# Git Clone 只是开始 | ClaudeLog
+# Git Clone 只是开始 | Claude Hub
 
 Claude Code 从根本上改变了我与仓库交互的方式。
 
@@ -34,10 +34,10 @@ Claude 不受 MCP 当前实现的限制，而是研究底层库的完整 API 功
 
 如果没有开源社区，这一切都不可能实现。构建这些仓库的维护者、添加功能的贡献者，以及创建底层库的开发者才是真正的 MVP。
 
-<img src="/img/supporters/inventorblack.png" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%;" />
+<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%;" />
 
 * * *
 
 **另请参阅**：[Bash 脚本](/mechanics-bash-scripts.html)|[紧密反馈循环](/mechanics-tight-feedback-loops.html)|[CLAUDE.md 至上](/mechanics-claude-md-supremacy.html)
 
-**作者**：[<img src="/img/supporters/inventorblack.png" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%;" />InventorBlack](https://github.com/InventorBlack/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/claudeai)
+**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%;" />InventorBlack](https://github.com/InventorBlack/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/claudeai)

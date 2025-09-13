@@ -1,5 +1,5 @@
 ---
-title: "危险跳过权限 | ClaudeLog"
+title: "危险跳过权限 | Claude Hub"
 ---
 
 # 危险跳过权限

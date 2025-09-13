@@ -1,12 +1,12 @@
 ---
-title: "Awesome Claude Code | ClaudeLog"
+title: "Awesome Claude Code | Claude Hub"
 ---
 
-# Awesome Claude Code | ClaudeLog
+# Awesome Claude Code | Claude Hub
 
 **用于 Claude Code 开发工作流、工具、资源和最佳实践的精选集合，帮助开发者充分利用 Claude Code 的强大功能。**
 
-**作者**: [ClaudeLog 社区](https://github.com/claudelog)  |  [GitHub 仓库](https://github.com/claudelog/awesome-claude-code)  |  1.2k Stars|156 Forks|开源|更新于 2025年9月12日
+**作者**: [Claude Hub 社区](https://github.com/claudelog)  |  [GitHub 仓库](https://github.com/claudelog/awesome-claude-code)  |  1.2k Stars|156 Forks|开源|更新于 2025年9月12日
 
 * * *
 

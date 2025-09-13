@@ -1,8 +1,8 @@
 ---
-title: "Serena | ClaudeLog"
+title: "Serena | Claude Hub"
 ---
 
-# Serena | ClaudeLog
+# Serena | Claude Hub
 
 **强大的免费 AI 编程代理工具包，提供语义代码检索、智能编辑和语言服务器集成，作为昂贵编程助手的替代方案。**
 
@@ -66,7 +66,7 @@ uvx --from git+https://github.com/oraios/serena serena-mcp-server
 
       "command": "uvx",
 
-      "args": [
+      "args": 
 
         "--from",
 
@@ -74,8 +74,7 @@ uvx --from git+https://github.com/oraios/serena serena-mcp-server
 
         "serena-mcp-server"
 
-      ]
-
+      
     }
 
   }
@@ -114,7 +113,7 @@ uv run serena-mcp-server
 
       "command": "/absolute/path/to/uv",
 
-      "args": [
+      "args": 
 
         "run",
 
@@ -124,8 +123,7 @@ uv run serena-mcp-server
 
         "serena-mcp-server"
 
-      ]
-
+      
     }
 
   }

@@ -1,8 +1,8 @@
 ---
-title: "健全性检查 | ClaudeLog"
+title: "健全性检查 | Claude Hub"
 ---
 
-# 健全性检查 | ClaudeLog
+# 健全性检查 | Claude Hub
 
 > 原文：在 AI 代理之前，我们运行的健全性检查类似于：
 
@@ -73,6 +73,6 @@ Log.d("test", "sanity")
 
 * * *
 
-**另请参见**：[CLAUDE.md 至上](/mechanics-claude-md-supremacy/)|[配置](/configuration/)|[上下文窗口约束](/mechanics-context-window-constraints-as-training/)
+**另请参见**：[CLAUDE.md 至上](/mechanics-claude-md-supremacy.html)|[配置](/configuration.html)|[上下文窗口约束](/mechanics-context-window-constraints-as-training.html)
 
 **作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|[Command Stick](https://commandstick.com) 首席技术官|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主

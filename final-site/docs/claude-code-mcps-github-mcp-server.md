@@ -1,8 +1,8 @@
 ---
-title: "GitHub MCP 服务器 | ClaudeLog"
+title: "GitHub MCP 服务器 | Claude Hub"
 ---
 
-# GitHub MCP 服务器 | ClaudeLog
+# GitHub MCP 服务器 | Claude Hub
 
 **官方 MCP 服务器，为高级自动化和 AI 驱动的开发工作流提供无缝 GitHub API 集成。**
 

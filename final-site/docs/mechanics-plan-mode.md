@@ -1,8 +1,8 @@
 ---
-title: "计划模式 | ClaudeLog"
+title: "计划模式 | Claude Hub"
 ---
 
-# 计划模式 | ClaudeLog
+# 计划模式 | Claude Hub
 
 计划模式是 Claude Code 中的一项功能，它将研究和分析与执行分离，显著提高了安全性。
 
@@ -94,11 +94,11 @@ Claude 可以在您批准之前进行研究和规划而不触及任何内容。
 
 * * *
 
-**另请参阅**：[自动接受权限](/mechanics-auto-accept-permissions/)|[危险跳过权限](/mechanics-dangerous-skip-permissions/)|[配置](/configuration/)
+**另请参阅**：[自动接受权限](/mechanics-auto-accept-permissions.html)|[危险跳过权限](/mechanics-dangerous-skip-permissions.html)|[配置](/configuration.html)
 
 (检测到代理开始)
 
-## `planning-specialist` 由 **ClaudeLog.com** 提供[​](#planning-specialist-by-claudelogcom "Direct link to planning-specialist-由-claudelogcom-提供")
+## `planning-specialist` 由 **Claude Hub.com** 提供[​](#planning-specialist-by-claudelogcom "Direct link to planning-specialist-由-claudelogcom-提供")
 
 关于计划模式使用、系统化项目规划、任务分解、实施策略以及 Claude Code 工作流程中的战略开发方法的专业指导
 

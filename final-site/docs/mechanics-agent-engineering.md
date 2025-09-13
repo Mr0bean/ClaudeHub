@@ -1,8 +1,8 @@
 ---
-title: "代理工程 | ClaudeLog"
+title: "代理工程 | Claude Hub"
 ---
 
-# 代理工程 | ClaudeLog
+# 代理工程 | Claude Hub
 
 我们经历了 AI 交互的三个不同时代：从提示工程（Prompt Engineering，精心制作完美的单个提示）到上下文工程（Context Engineering，通过 `CLAUDE.md` 文件优化上下文、内容选择和保留）再到现在的代理工程（Agent Engineering，设计专业化、可重用、高效的 AI 代理）。在每个阶段，我们分享成果和作为社区共同成长的能力都在扩展：从分享单个提示，到分享全面的上下文配置和策略，再到现在分享可跨项目工作的完整便携式代理定义。
 
@@ -98,7 +98,7 @@ YAML frontmatter + 系统提示
 
 ## 自定义代理设计[​](#自定义代理设计 "直接链接到自定义代理设计")
 
-我认为设计`自定义代理`时最重要的方面之一是仔细设计您的`自定义代理`需要多少令牌来初始化。优化这一点有多重目的：提高初始化速度、降低成本、保持[峰值性能](/mechanics-context-window-depletion/)并实现高效链接。
+我认为设计`自定义代理`时最重要的方面之一是仔细设计您的`自定义代理`需要多少令牌来初始化。优化这一点有多重目的：提高初始化速度、降低成本、保持[峰值性能](/mechanics-context-window-depletion.html)并实现高效链接。
 
 每次`自定义代理`调用都会根据工具数量和配置复杂度产生**可变的初始化成本**。设计决策应考虑这一点：
 
@@ -247,7 +247,7 @@ false
 
 ## 何时使用自定义代理[​](#何时使用自定义代理 "直接链接到何时使用自定义代理")
 
-`自定义代理`在与[分角色子代理](/mechanics-split-role-sub-agents/)相同的场景中表现出色，但具有增强的可移植性和自动激活：
+`自定义代理`在与[分角色子代理](/mechanics-split-role-sub-agents.html)相同的场景中表现出色，但具有增强的可移植性和自动激活：
 
 ### 专业领域任务[​](#专业领域任务 "直接链接到专业领域任务")
 
@@ -275,7 +275,7 @@ false
 
 ### 不继承 CLAUDE.md[​](#不继承-claudemd "直接链接到不继承 CLAUDE.md")
 
-**主要优势**：与传统子代理不同，自定义代理设计为不自动继承项目的 `CLAUDE.md` 配置。这可以防止上下文污染并确保跨项目的一致行为。您可以通过[健全性检查](/mechanics-sanity-check/)来验证这一点。
+**主要优势**：与传统子代理不同，自定义代理设计为不自动继承项目的 `CLAUDE.md` 配置。这可以防止上下文污染并确保跨项目的一致行为。您可以通过[健全性检查](/mechanics-sanity-check.html)来验证这一点。
 
 ### 为您的自定义代理着色[​](#为您的自定义代理着色 "直接链接到为您的自定义代理着色")
 
@@ -418,7 +418,7 @@ Anthropic 提到，为了鼓励主动使用`自定义代理`，我们应该在`�
 
 * * *
 
-**另请参阅**: [自定义代理](/mechanics-custom-agents/)|[任务代理工具](/mechanics-task-agent-tools/)
+**另请参阅**: [自定义代理](/mechanics-custom-agents.html)|[任务代理工具](/mechanics-task-agent-tools.html)
 
 **作者**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|[Command Stick](https://commandstick.com) CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
 

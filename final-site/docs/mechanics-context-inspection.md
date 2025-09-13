@@ -1,8 +1,8 @@
 ---
-title: "上下文检查 | ClaudeLog"
+title: "上下文检查 | Claude Hub"
 ---
 
-# 上下文检查 | ClaudeLog
+# 上下文检查 | Claude Hub
 
 `/context` 斜杠命令是在 Claude Code 中推出的新功能，它允许你查看不同组件的上下文使用情况的近似值：
 

@@ -1,8 +1,8 @@
 ---
-title: "战术模型选择 | ClaudeLog"
+title: "战术模型选择 | Claude Hub"
 ---
 
-# 战术模型选择 | ClaudeLog
+# 战术模型选择 | Claude Hub
 
 我注意到开发者中有一种趋势，就是选择在所有情况下都使用 Opus。这不仅是一个成本高昂的习惯，而且 Claude Opus 也不一定是每个操作的最佳模型。在幕后，Anthropic 会策略性地选择何时使用 Claude Haiku 3.5 来执行只需要最少智能的常规工作。
 
@@ -75,7 +75,7 @@ title: "战术模型选择 | ClaudeLog"
 
 * * *
 
-**另请参阅**：[模型比较](/model-comparison/)|[上下文窗口耗尽](/mechanics-context-window-depletion/)|[计划模式](/mechanics-plan-mode/)
+**另请参阅**：[模型比较](/model-comparison.html)|[上下文窗口耗尽](/mechanics-context-window-depletion.html)|[计划模式](/mechanics-plan-mode.html)
 
 **作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|[Command Stick](https://commandstick.com) CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
 
@@ -94,3 +94,4 @@ Could you please provide the actual English document content that needs to be tr
 7. Use accurate technical terminology
 
 Please share the English document content and I'll provide the Chinese translation directly.
+```

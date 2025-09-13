@@ -1,0 +1,354 @@
+{
+  "summary": {
+    "total_files": 67,
+    "files_scanned": 67,
+    "total_issues": 81
+  },
+  "issues": {
+    "frontmatter": [
+      {
+        "file": "mechanics-split-role-sub-agents.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "claude-code-mcps-tdd-guard.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-ultrathink-plus-plus.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "claude-code-mcps-context7-mcp.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-humanising-agents.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "claude-code-pricing.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-todo-lists-as-instruction-mirrors.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-sanity-check.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "claude-code-mcps-zen-mcp-server.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-poison-context-awareness.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-dangerous-skip-permissions.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-claude-usage.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "claude-code-mcps-awesome-claude-code.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "privacy-policy.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-context-window-constraints-as-training.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-dynamic-memory.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-bash-scripts.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "support-claudelog.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-context-inspection.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "contact.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-output-styles.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "claude-code-mcps-serena.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-tactical-model-selection.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-claude-md-supremacy.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "faq.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-sub-agents.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "claude-code-mcps-puppeteer-mcp.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-plan-mode.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-skeleton-projects.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-permutation-frameworks.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-you-are-the-main-thread.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "claude-code-mcps-reddit-mcp.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "sponsor.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "claude-code-mcps-github-mcp-server.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "claude-code-mcps-whatsapp-mcp.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-always-be-experimenting.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "README.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-agent-engineering.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-sub-agent-tactics.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-rev-the-engine.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "claude-code-mcps-claude-code-router.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "claude-code-mcps.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "claude-code-mcps-claudia.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-custom-agents.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "claude-code-mcps-cc-usage.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "watch-control.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "configuration.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-hooks.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "claude-code-mcps-tweakcc.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "terms-of-service.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-git-clone-is-just-the-beginning.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "claude-news.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "claude-code-mcps-desktop-commander-mcp.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-context-window-depletion.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-auto-accept-permissions.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-tight-feedback-loops.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "claude-code-mcps-awesome-mcp-servers.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-task-agent-tools.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "disclaimer.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "claude-code-mcps-blender-mcp.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "claude-code-mcps-browser-tools-mcp.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-agent-first-design.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "claude-code-changelog.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "claude-code-mcps-awesome-claude-prompts.md",
+        "issue": "Title 可能未翻译"
+      },
+      {
+        "file": "mechanics-auto-plan-mode.md",
+        "issue": "Title 可能未翻译"
+      }
+    ],
+    "translation_quality": [
+      {
+        "file": "mechanics-todo-lists-as-instruction-mirrors.md",
+        "issue": "混用简体和繁体中文"
+      },
+      {
+        "file": "mechanics-sanity-check.md",
+        "issue": "混用简体和繁体中文"
+      },
+      {
+        "file": "mechanics-context-window-constraints-as-training.md",
+        "issue": "混用简体和繁体中文"
+      },
+      {
+        "file": "mechanics-context-inspection.md",
+        "issue": "混用简体和繁体中文"
+      },
+      {
+        "file": "contact.md",
+        "issue": "混用简体和繁体中文"
+      },
+      {
+        "file": "mechanics-always-be-experimenting.md",
+        "issue": "混用简体和繁体中文"
+      },
+      {
+        "file": "mechanics-sub-agent-tactics.md",
+        "issue": "混用简体和繁体中文"
+      },
+      {
+        "file": "claude-code-mcps-claudia.md",
+        "issue": "混用简体和繁体中文"
+      }
+    ],
+    "malformed_markdown": [
+      {
+        "file": "watch-control.md",
+        "issue": "过度转义的字符",
+        "count": 45
+      }
+    ],
+    "broken_images": [
+      {
+        "file": "claude-code-mcps-desktop-commander-mcp.md",
+        "image": "/img/supporters/wonderwhy-er_profile.png",
+        "line": 112
+      },
+      {
+        "file": "mechanics-context-window-depletion.md",
+        "image": "/img/discovery/011_context_window_depletion.png",
+        "line": 37
+      },
+      {
+        "file": "mechanics-context-window-depletion.md",
+        "image": "/img/profile/InventorBlack.png",
+        "line": 43
+      },
+      {
+        "file": "mechanics-auto-accept-permissions.md",
+        "image": "/img/profiles/inventorblack.png",
+        "line": 71
+      },
+      {
+        "file": "mechanics-tight-feedback-loops.md",
+        "image": "/img/discovery/015_cl_orange.png",
+        "line": 38
+      },
+      {
+        "file": "mechanics-tight-feedback-loops.md",
+        "image": "/img/profile/inventorblack.png",
+        "line": 44
+      },
+      {
+        "file": "claude-code-mcps-browser-tools-mcp.md",
+        "image": "/img/supporters/browser-tools-mcp-supporter.png",
+        "line": 122
+      }
+    ]
+  },
+  "severity_count": {
+    "critical": 8,
+    "warning": 65,
+    "info": 8
+  }
+}

@@ -1,14 +1,14 @@
 ---
-title: "钩子 | ClaudeLog"
+title: "钩子 | Claude Hub"
 ---
 
-# 钩子 | ClaudeLog
+# 钩子 | Claude Hub
 
 钩子是 Claude Code 引入的一种新机制，允许基于给定事件（如工具执行、文件更改或部署活动）进行确定性响应。
 
 ### 实际应用实现[​](#practical-implementation)
 
-我一直在尝试一些简单的用例，探索如何使用它们来提高现有工作流程的可靠性，例如在将 ClaudeLog 网站部署上线之前运行各种部署前/后的相关活动。
+我一直在尝试一些简单的用例，探索如何使用它们来提高现有工作流程的可靠性，例如在将 Claude Hub 网站部署上线之前运行各种部署前/后的相关活动。
 
 当你在线更新网站时，必须执行各种 SEO 相关活动，例如：
 
@@ -111,7 +111,7 @@ fi
 
 **另请参阅**：[配置](/configuration.html)|[Claude Code 中的钩子是什么](https://docs.anthropic.com/en/docs/claude-code/hooks)
 
-**作者**：[<img src="/img/profiles/inventorblack.png" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%; vertical-align: middle;" /> InventorBlack](https://x.com/inventorblack)|[Command Stick](https://commandstick.com) 的 CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAi) 的版主
+**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%; vertical-align: middle;" /> InventorBlack](https://x.com/inventorblack)|[Command Stick](https://commandstick.com) 的 CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAi) 的版主
 
 -   [实际应用实现](#practical-implementation)
 -   [作用域挑战](#scoping-challenges)

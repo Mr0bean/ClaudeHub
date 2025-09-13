@@ -41,4 +41,4 @@ Claude 实例会自动向上爬取目录结构并读取它们遇到的任何 `CL
 
 **另请参阅**：[CLAUDE.md 至高无上](/mechanics-claude-md-supremacy.html)|[上下文窗口约束](/mechanics-context-window-depletion.html)|[上下文窗口耗尽](/mechanics-context-window-depletion.html)
 
-**作者**：[<img src="/img/authors/inventorblack.png" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%; margin-right: 8px; vertical-align: middle;" />InventorBlack](https://github.com/InventorBlack)|[Command Stick](https://commandstick.com) CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAi) 版主
+**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%; margin-right: 8px; vertical-align: middle;" />InventorBlack](https://github.com/InventorBlack)|[Command Stick](https://commandstick.com) CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAi) 版主

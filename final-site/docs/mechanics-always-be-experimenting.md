@@ -1,8 +1,8 @@
 ---
-title: "始终保持实验精神 | ClaudeLog"
+title: "始终保持实验精神 | Claude Hub"
 ---
 
-# 始终保持实验精神 | ClaudeLog
+# 始终保持实验精神 | Claude Hub
 
 在当前的 AI 浪潮中，经常缺失的一个方面是`工程师精神`。让我感到着迷的是，那些投入了数十年生命来解决复杂问题的资深工程师，却很少花精力去探索和测试 AI 的极限。
 
@@ -40,7 +40,7 @@ AI 革命需要愿意突破界限的工程师。你今天记录的每一个实�
 
 * * *
 
-**另请参阅**：[上下文窗口限制作为训练](/mechanics-context-window-constraints-as-training/)
+**另请参阅**：[上下文窗口限制作为训练](/mechanics-context-window-constraints-as-training.html)
 
 **作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|[Command Stick](https://commandstick.com) CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
 

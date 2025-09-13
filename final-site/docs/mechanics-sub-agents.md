@@ -1,8 +1,8 @@
 ---
-title: "子代理 | ClaudeLog"
+title: "子代理 | Claude Hub"
 ---
 
-# 子代理 | ClaudeLog
+# 子代理 | Claude Hub
 
 Claude Code 中的子代理使用已经从手动编排演变为智能自动化。本指南涵盖了子代理利用的两种方法：`手动子代理`和`自定义代理`。
 
@@ -10,7 +10,7 @@ Claude Code 中的子代理使用已经从手动编排演变为智能自动化�
 
 ### 手动子代理[​](#manual-sub-agents "Direct link to Manual Sub-agents")
 
-使用 [Task 工具](/mechanics-task-agent-tools/) 进行显式并行处理的原始方法：
+使用 [Task 工具](/mechanics-task-agent-tools.html) 进行显式并行处理的原始方法：
 
 ```bash
 Use 3 sub-agents to analyze these files:
@@ -31,7 +31,7 @@ Use 3 sub-agents to analyze these files:
 
 ### 自定义代理[​](#custom-agents "Direct link to Custom Agents")
 
-具有隔离上下文、自定义 `系统提示` 和 `工具选择` 的专用代理，能够自动激活（详细配置请参见 [自定义代理](/mechanics-custom-agents/)）：
+具有隔离上下文、自定义 `系统提示` 和 `工具选择` 的专用代理，能够自动激活（详细配置请参见 [自定义代理](/mechanics-custom-agents.html)）：
 
 ```bash
 ---
@@ -78,7 +78,7 @@ You are a security expert specializing in authentication vulnerabilities...
 
 构建您的代理工具库
 
-随着您在项目中的进展，积累一系列专用代理。记录常见模式，使用子代理指南更新您的 `CLAUDE.md`，并为重复需要的专业知识创建[自定义代理](/mechanics-custom-agents/)。
+随着您在项目中的进展，积累一系列专用代理。记录常见模式，使用子代理指南更新您的 `CLAUDE.md`，并为重复需要的专业知识创建[自定义代理](/mechanics-custom-agents.html)。
 
 ##### 协调智能
 
@@ -88,7 +88,7 @@ You are a security expert specializing in authentication vulnerabilities...
 
 * * *
 
-**另请参阅**：[Task 代理工具](/mechanics-task-agent-tools/)|[自定义代理](/mechanics-custom-agents/)|[代理工程](/mechanics-agent-engineering/)|[子代理策略](/mechanics-sub-agent-tactics/)
+**另请参阅**：[Task 代理工具](/mechanics-task-agent-tools.html)|[自定义代理](/mechanics-custom-agents.html)|[代理工程](/mechanics-agent-engineering.html)|[子代理策略](/mechanics-sub-agent-tactics.html)
 
 **作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|[Command Stick](https://commandstick.com) CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
 

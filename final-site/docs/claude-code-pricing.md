@@ -1,8 +1,8 @@
 ---
-title: "Claude Code 定价 | ClaudeLog"
+title: "Claude Code 定价 | Claude Hub"
 ---
 
-# Claude Code 定价 | ClaudeLog
+# Claude Code 定价 | Claude Hub
 
 完整的 Claude AI 价格细分，包括 Pro（年付起价 $17/月）与 Max（起价 $100/月）订阅计划、API 费用和使用限制。为您的开发工作流程和预算选择合适的 Claude 定价计划。
 
@@ -83,7 +83,7 @@ API
 
 ### Claude 免费版 - 有限测试[​](#claude-免费版---有限测试 "直接链接到 Claude 免费版 - 有限测试")
 
-免费计划仅提供有限的 Sonnet 访问用于基本使用，使用限制非常低，很快就会耗尽。它包括多平台访问（网页、iOS、Android、桌面）、网页搜索功能和桌面扩展。然而，免费计划不支持 Claude Code 访问。您至少需要 Pro 订阅或 API 积分才能[使用 Claude Code](/install-claude-code/)。
+免费计划仅提供有限的 Sonnet 访问用于基本使用，使用限制非常低，很快就会耗尽。它包括多平台访问（网页、iOS、Android、桌面）、网页搜索功能和桌面扩展。然而，免费计划不支持 Claude Code 访问。您至少需要 Pro 订阅或 API 积分才能[使用 Claude Code](/install-claude-code.html)。
 
 * * *
 
@@ -91,11 +91,11 @@ API
 
 ### Claude Pro（年付 $17/月，月付 $20/月）- 开发 + 研究 + 集成[​](#claude-pro年付-17月月付-20月---开发--研究--集成 "直接链接到 Claude Pro（年付 $17/月，月付 $20/月）- 开发 + 研究 + 集成")
 
-Claude Pro 包括访问 [Claude 4 Sonnet 模型](/model-comparison/)和其他模型，使用限制是免费版的 5 倍。它包括研究访问、Google Workspace 集成（电子邮件、日历、文档）、用于工具集成的远程 MCP 服务器连接，以及用于复杂工作的扩展思考。然而，它无法访问高级 [Claude 4 Opus 模型](/model-comparison/)。对于 Claude Code，这个计划非常适合开发、小型项目和学习，尽管在大量编码会话中可能会达到使用限制。年付（预付 $200）比月付每年节省 $36。
+Claude Pro 包括访问 [Claude 4 Sonnet 模型](/model-comparison.html)和其他模型，使用限制是免费版的 5 倍。它包括研究访问、Google Workspace 集成（电子邮件、日历、文档）、用于工具集成的远程 MCP 服务器连接，以及用于复杂工作的扩展思考。然而，它无法访问高级 [Claude 4 Opus 模型](/model-comparison.html)。对于 Claude Code，这个计划非常适合开发、小型项目和学习，尽管在大量编码会话中可能会达到使用限制。年付（预付 $200）比月付每年节省 $36。
 
 **最适合：**
 
--   **[学习 Claude Code](/faqs/how-to-get-started-with-claude-code/)** - 经济实惠的入门方式
+-   **[学习 Claude Code](/faqs/how-to-get-started-with-claude-code.html)** - 经济实惠的入门方式
 -   **爱好项目** - 具有研究需求的小型个人开发工作
 -   **工作空间集成** - 使用 Google Workspace 的团队
 -   **工具连接** - 需要 MCP 服务器连接的开发者
@@ -229,9 +229,9 @@ $4.00 / 1M
 
 ### 成本优化技巧[​](#成本优化技巧 "直接链接到成本优化技巧")
 
-对于[模型选择策略](/mechanics-tactical-model-selection/)，使用 Sonnet 4 进行日常开发工作，因为它提供了能力和成本的最佳平衡。仅在需要复杂分析或架构决策时切换到 Opus 4.1。使用 Haiku 处理简单、重复的任务以节省成本，并尝试将类似任务批处理以最大化效率。
+对于[模型选择策略](/mechanics-tactical-model-selection.html)，使用 Sonnet 4 进行日常开发工作，因为它提供了能力和成本的最佳平衡。仅在需要复杂分析或架构决策时切换到 Opus 4.1。使用 Haiku 处理简单、重复的任务以节省成本，并尝试将类似任务批处理以最大化效率。
 
-为了提高使用效率，采用策略性压缩来[管理上下文成本](/mechanics-context-window-depletion/)，规划您的会话以最小化冗余处理，并使用 `/model` 命令在模型之间切换，优化每种任务类型的成本。
+为了提高使用效率，采用策略性压缩来[管理上下文成本](/mechanics-context-window-depletion.html)，规划您的会话以最小化冗余处理，并使用 `/model` 命令在模型之间切换，优化每种任务类型的成本。
 
 策略性地选择模型以控制成本
 
@@ -239,13 +239,13 @@ $4.00 / 1M
 
 ##### 智能定价策略
 
-大多数开发者在使用的第一个月内就找到了他们的最佳 Claude Code 计划。从 Pro 开始进行学习和轻度开发，升级到 Max $100 进行偶尔需要 Opus 的专业工作，或选择 Max $200 获得完全无限制的访问。使用 [CC Usage 工具](/claude-code-mcps/cc-usage/)跟踪使用情况以优化您的计划选择。
+大多数开发者在使用的第一个月内就找到了他们的最佳 Claude Code 计划。从 Pro 开始进行学习和轻度开发，升级到 Max $100 进行偶尔需要 Opus 的专业工作，或选择 Max $200 获得完全无限制的访问。使用 [CC Usage 工具](/claude-code-mcps/cc-usage.html)跟踪使用情况以优化您的计划选择。
 
 <img src="/img/discovery/020_happy.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
-**另请参阅**: [模型比较](/model-comparison/)|[安装指南](/install-claude-code/)|[入门指南](/faqs/how-to-get-started-with-claude-code/)|[Claude Code 是否免费](/claude-ai-free/)|[CC Usage 插件](/claude-code-mcps/cc-usage/)
+**另请参阅**: [模型比较](/model-comparison.html)|[安装指南](/install-claude-code.html)|[入门指南](/faqs/how-to-get-started-with-claude-code.html)|[Claude Code 是否免费](/claude-ai-free.html)|[CC Usage 插件](/claude-code-mcps/cc-usage.html)
 
 -   [Claude AI 价格对比：Pro 与 Max 计划](#claude-ai-价格对比pro-与-max-计划)
 -   [详细计划分解](#详细计划分解)
@@ -260,3 +260,4 @@ $4.00 / 1M
     -   [跟踪您的使用情况](#跟踪您的使用情况)
     -   [成本优化技巧](#成本优化技巧)
 ````，这不是实际的英文文档内容。，我会立即进行翻译。
+```

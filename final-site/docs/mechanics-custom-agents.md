@@ -1,8 +1,8 @@
 ---
-title: "自定义代理 | ClaudeLog"
+title: "自定义代理 | Claude Hub"
 ---
 
-# 自定义代理 | ClaudeLog
+# 自定义代理 | Claude Hub
 
 `子代理`一直是 Claude Code 最大的优势之一。然而，期望用户知道何时手动调用它们并记住要赋予它们什么专业知识，这总是阻碍了普通用户使用该功能。现在不再如此了...
 
@@ -24,11 +24,11 @@ title: "自定义代理 | ClaudeLog"
 
 ### 核心优势[​](#core-benefits "Direct link to 核心优势")
 
--   **独立的上下文窗口** - 每个`自定义代理`都在自己的上下文窗口中运行，与`委派代理`分离。这允许完成更大的任务，而不需要让`委派代理`关注每个细节，防止不同任务[污染上下文](/mechanics-poison-context-awareness/)，同时保持峰值性能。
+-   **独立的上下文窗口** - 每个`自定义代理`都在自己的上下文窗口中运行，与`委派代理`分离。这允许完成更大的任务，而不需要让`委派代理`关注每个细节，防止不同任务[污染上下文](/mechanics-poison-context-awareness.html)，同时保持峰值性能。
     
 -   **专门的系统提示** - 单个`自定义代理`系统提示可以精确定义范围，避免继承冗余的上下文，从而保留有限的上下文窗口。
     
--   **角色特定的工具** - 代理可以配置特定的工具，通过只允许受信任的代理执行某些任务来帮助防止安全问题。特定代理可以在其角色上进行测试和评估可靠性。这种第一方级别的集成将[分离角色子代理](/mechanics-split-role-sub-agents/)的概念提升到了新的水平！
+-   **角色特定的工具** - 代理可以配置特定的工具，通过只允许受信任的代理执行某些任务来帮助防止安全问题。特定代理可以在其角色上进行测试和评估可靠性。这种第一方级别的集成将[分离角色子代理](/mechanics-split-role-sub-agents.html)的概念提升到了新的水平！
     
 -   **社区共享** - 一旦完善，`自定义代理`可以在项目之间、团队之间共享，甚至在 [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/) 中共享，创建一个不断发展的专门代理的协作生态系统。
     
@@ -257,7 +257,7 @@ model: opus
 
 令牌成本意识
 
-每次自定义代理调用都会根据工具数量和配置复杂性产生可变的初始化成本。深思熟虑地设计你的[代理](/mechanics-agent-engineering/)，确保它们提供足够的价值来证明这种开销是合理的，专注于从专用上下文和专业知识中受益的专门任务。
+每次自定义代理调用都会根据工具数量和配置复杂性产生可变的初始化成本。深思熟虑地设计你的[代理](/mechanics-agent-engineering.html)，确保它们提供足够的价值来证明这种开销是合理的，专注于从专用上下文和专业知识中受益的专门任务。
 
 模型选择策略
 
@@ -271,7 +271,7 @@ model: opus
 
 * * *
 
-**另请参阅**：[任务代理工具](/mechanics-task-agent-tools/) | [代理工程](/mechanics-agent-engineering/) | [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/)
+**另请参阅**：[任务代理工具](/mechanics-task-agent-tools.html) | [代理工程](/mechanics-agent-engineering.html) | [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/)
 
 **作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)| [Command Stick](https://commandstick.com) 首席技术官 | [r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
 

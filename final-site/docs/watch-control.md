@@ -1,8 +1,8 @@
 ---
-title: "手表控制示例 | ClaudeLog"
+title: "手表控制示例 | Claude Hub"
 ---
 
-# 手表控制示例 | ClaudeLog
+# 手表控制示例 | Claude Hub
 
 一个展示高级自动化工作流程和Wear OS手表控制命令转换的`CLAUDE.md`示例。
 
@@ -165,9 +165,9 @@ title: "手表控制示例 | ClaudeLog"
 - 不要重置不会在后续操作中使用的工具
 - 将使用音量和亮度的操作的重置序列示例：
   \`\`\`
-  --switch-tool volume --adjust-tool false --delay 0.1 \[重复10+次\] 
-  --switch-tool brightness --adjust-tool false --delay 0.1 \[重复10+次\]
-  --go-home \[然后继续其他操作\]
+  --switch-tool volume --adjust-tool false --delay 0.1 \重复10+次\
+  --switch-tool brightness --adjust-tool false --delay 0.1 \重复10+次\
+  --go-home \然后继续其他操作\
   \`\`\`
 - 这是可选的，仅在特别请求时使用
 ```
@@ -182,4 +182,4 @@ title: "手表控制示例 | ClaudeLog"
 
 * * *
 
-**另请参阅**：[Bash脚本](/mechanics-bash-scripts/)|[工具制作器](/tool-maker/)|[CLAUDE.md至上](/mechanics-claude-md-supremacy/)
+**另请参阅**：[Bash脚本](/mechanics-bash-scripts.html)|[工具制作器](/tool-maker.html)|[CLAUDE.md至上](/mechanics-claude-md-supremacy.html)

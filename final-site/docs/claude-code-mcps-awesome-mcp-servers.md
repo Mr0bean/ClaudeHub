@@ -1,16 +1,16 @@
 ---
-title: "Awesome MCP 服务器 | ClaudeLog"
+title: "Awesome MCP 服务器 | Claude Hub"
 ---
 
-# Awesome MCP 服务器 | ClaudeLog
+# Awesome MCP 服务器 | Claude Hub
 
 **用于扩展 AI 能力的模型上下文协议服务器的权威精选目录，涵盖各个领域。**
 
-**作者**: [punkpeye](https://github.com/punkpeye)  |  [GitHub 仓库](https://github.com/punkpeye/awesome-mcp-servers)  |  67.2k Stars|5.4k Forks|MIT License|Updated Aug 24, 2025
+**作者**: [punkpeye](https://github.com/punkpeye)  |  [GitHub 仓库](https://github.com/punkpeye/awesome-mcp-servers)  |  67★ Stars|5🍴 Forks|MIT License|Updated Aug 24, 2025
 
 * * *
 
-### 概述[​](#overview "Direct link to Overview")
+### 概述[​](#overview)
 
 Awesome MCP 服务器是目前最全面的模型上下文协议（MCP）服务器集合，包含数百个按类别组织的精选实现，使 AI 模型能够安全地与本地和远程资源进行交互。该仓库作为发现跨数据库、开发工具、云平台、金融和专业领域的 MCP 服务器的中心枢纽。
 
@@ -18,7 +18,7 @@ Awesome MCP 服务器是目前最全面的模型上下文协议（MCP）服务�
 
 * * *
 
-### 功能特性[​](#features "Direct link to Features")
+### 功能特性[​](#features)
 
 -   **全面的目录** - 按领域和功能组织的 MCP 服务器的广泛集合
 -   **多语言支持** - 使用 Python、TypeScript、Go、Rust 等语言实现的服务器
@@ -31,7 +31,7 @@ Awesome MCP 服务器是目前最全面的模型上下文协议（MCP）服务�
 
 * * *
 
-### 如何使用此目录[​](#how-to-use-this-directory "Direct link to How to Use This Directory")
+### 如何使用此目录[​](#how-to-use)
 
 **这是什么**
 
@@ -58,7 +58,7 @@ Awesome MCP 服务器是目前最全面的模型上下文协议（MCP）服务�
 
 * * *
 
-### 使用单个服务器[​](#using-individual-servers "Direct link to Using Individual Servers")
+### 使用单个服务器[​](#using-servers)
 
 **安装流程**
 
@@ -75,7 +75,7 @@ Awesome MCP 服务器是目前最全面的模型上下文协议（MCP）服务�
 
 开发者报告称该目录已成为 AI 工作流程的必需品。"如果你不运行本地 MCP，你就不是认真对待 AI" - 采用正在终端和 IDE 中发生。策展防止了从数百个集成中选择时的分析瘫痪。
 
-<img src="/img/discovery/018.png" alt="Custom image" style="max-width: 165px; height: auto;" />
+<img src="/img/discovery/036_cl_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
@@ -83,5 +83,5 @@ Awesome MCP 服务器是目前最全面的模型上下文协议（MCP）服务�
 
 -   [概述](#overview)
 -   [功能特性](#features)
--   [如何使用此目录](#how-to-use-this-directory)
--   [使用单个服务器](#using-individual-servers)
+-   [如何使用此目录](#how-to-use)
+-   [使用单个服务器](#using-servers)

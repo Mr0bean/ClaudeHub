@@ -1,8 +1,8 @@
 ---
-title: "Puppeteer MCP | ClaudeLog"
+title: "Puppeteer MCP | Claude Hub"
 ---
 
-# Puppeteer MCP | ClaudeLog
+# Puppeteer MCP | Claude Hub
 
 **为 Claude Code 提供 AI 视觉能力的网页自动化工具**
 
@@ -50,7 +50,7 @@ npx @modelcontextprotocol/server-puppeteer
   "mcpServers": {
     "puppeteer": {
       "command": "npx",
-      "args": ["@modelcontextprotocol/server-puppeteer"]
+      "args": "@modelcontextprotocol/server-puppeteer"
     }
   }
 }

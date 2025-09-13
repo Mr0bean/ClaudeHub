@@ -1,38 +1,38 @@
 ---
-title: "Rev the Engine | ClaudeLog"
+title: "启动引擎"
 ---
 
-# Rev the Engine | ClaudeLog
+# 启动引擎
 
-Revving the engine is a nickname I gave for performing multiple rounds of [ultrathink](/mechanics-ultrathink-plus-plus/) + [Plan Mode](/mechanics-plan-mode/). The goal is to define the most apt plan possible prior to letting Claude take action.
+"启动引擎"是我为执行多轮 [ultrathink](/mechanics-ultrathink-plus-plus.html) + [规划模式](/mechanics-plan-mode.html) 所起的昵称。目标是在让 Claude 采取行动之前制定最合适的计划。
 
-### The Performance Multiplier[​](#the-performance-multiplier "Direct link to The Performance Multiplier")
+### 性能倍增器[​](#the-performance-multiplier "Direct link to The Performance Multiplier")
 
-I have found this tactic can push Claude's capabilities far beyond the base capabilities of `Claude 4 Sonnet` + `Plan Mode` + `ultrathink`. This approach maximizes Sonnet's potential through strategic planning before considering even more expensive alternatives like [sub-agent](/mechanics-split-role-sub-agents/) orchestration or `Claude 4 Opus`.
+我发现这种策略可以将 Claude 的能力推向远超 `Claude 4 Sonnet` + `规划模式` + `ultrathink` 基础能力的水平。这种方法通过战略规划最大化 Sonnet 的潜力，然后再考虑更昂贵的替代方案，如[子智能体](/mechanics-split-role-sub-agents.html)编排或 `Claude 4 Opus`。
 
-### Resource Responsibility[​](#resource-responsibility "Direct link to Resource Responsibility")
+### 资源责任[​](#resource-responsibility "Direct link to Resource Responsibility")
 
-I believe it is incredibly important that we use the right tool for the job as AI model resources carry significant economic costs. Understanding pricing/performance helps us make more informed choices about when to opt for expensive models. This connects directly to [tactical model selection](/mechanics-tactical-model-selection/) principles.
-
-* * *
+我认为使用合适的工具来完成工作非常重要，因为 AI 模型资源承载着巨大的经济成本。理解价格/性能比有助于我们在何时选择昂贵模型方面做出更明智的选择。这与[战术模型选择](/mechanics-tactical-model-selection.html)原则直接相关。
 
 * * *
 
-### The Modern Pricing Reality[​](#the-modern-pricing-reality "Direct link to The Modern Pricing Reality")
+* * *
 
-Current 2025 pricing shows dramatic cost variations across model tiers:
+### 现代定价现实[​](#the-modern-pricing-reality "Direct link to The Modern Pricing Reality")
 
--   **Premium Models**: Claude 4 Opus costs $15/$75 per million tokens, while GPT-4 Standard runs $30/$60 per million tokens
--   **Mid-Tier Options**: Claude 4 Sonnet at $3/$15 and GPT-4o at $3/$10 per million tokens offer strong performance
--   **Budget-Friendly**: Claude 3 Haiku ($0.25/$1.25) and Gemini 2.0 Flash ($0.10/$0.40) provide cost-effective alternatives
--   **Subscription Tiers**: Premium plans like Claude Max and ChatGPT Pro cost $200/month, while Gemini Ultra reaches $249.99/month
--   **Market Competition**: Price wars in 2025 have led to significant reductions, with some models seeing 83% price drops from earlier versions
+当前 2025 年的定价显示了模型层级之间的巨大成本差异：
 
-### The Proficiency Trap[​](#the-proficiency-trap "Direct link to The Proficiency Trap")
+-   **高端模型**: Claude 4 Opus 每百万 token 成本为 $15/$75，而 GPT-4 Standard 为 $30/$60
+-   **中端选项**: Claude 4 Sonnet 为 $3/$15，GPT-4o 为 $3/$10，提供强劲性能
+-   **经济选择**: Claude 3 Haiku ($0.25/$1.25) 和 Gemini 2.0 Flash ($0.10/$0.40) 提供经济实惠的替代方案
+-   **订阅套餐**: Claude Max 和 ChatGPT Pro 等高端计划每月 $200，而 Gemini Ultra 高达 $249.99/月
+-   **市场竞争**: 2025 年的价格战导致显著降价，一些模型相比早期版本降价高达 83%
 
-If you learn bad habits now by defaulting to expensive models for simple tasks, you'll be caught between a rock and a hard place when prices likely increase as the current competitive discount phase ends. You'll either face budget constraints forcing you to use models you're not proficient with, or continue paying premium prices for routine work that could be handled more efficiently.
+### 熟练度陷阱[​](#the-proficiency-trap "Direct link to The Proficiency Trap")
 
-Building proficiency with strategic model selection and techniques like `revving the engine` creates strategic options across the cost spectrum while opening opportunities to explore how enhanced planning can maximize single-model performance before using premium models or multi-agent setups.
+如果您现在养成了在简单任务上默认使用昂贵模型的坏习惯，那么当当前竞争性折扣阶段结束、价格可能上涨时，您将陷入两难境地。您要么面临预算约束，被迫使用您不熟练的模型，要么继续为本可更高效处理的日常工作支付高端价格。
+
+通过战略模型选择和“启动引擎”等技术建立熟练度，可以在成本范围内创造战略选择，同时开放机会探索如何在使用高端模型或多智能体设置之前，通过增强规划最大化单模型性能。
 
 * * *
 
@@ -66,7 +66,7 @@ Building proficiency with strategic model selection and techniques like `revving
 
 ### The Innovation Challenge[​](#the-innovation-challenge "Direct link to The Innovation Challenge")
 
-The more creative and innovative we can be with the strategic allocation of resources, the better. Understanding the cost/performance ratio of each model enables informed decision-making about when to apply enhanced techniques to cheaper models versus upgrading to premium models. This optimization mindset aligns with [agent-first design](/mechanics-agent-first-design/) principles.
+The more creative and innovative we can be with the strategic allocation of resources, the better. Understanding the cost/performance ratio of each model enables informed decision-making about when to apply enhanced techniques to cheaper models versus upgrading to premium models. This optimization mindset aligns with [agent-first design](/mechanics-agent-first-design.html) principles.
 
 Learning these optimization techniques now sets me up for whatever changes come to models or pricing. I am ready for whatever AI evolution comes next, ideally Claude 4 Haiku...
 
@@ -78,7 +78,7 @@ Revving the engine transforms Sonnet into a precision instrument. Multiple criti
 
 * * *
 
-**See Also**: [Ultrathink++](/mechanics-ultrathink-plus-plus/)|[Plan Mode](/mechanics-plan-mode/)|[Tactical Model Selection](/mechanics-tactical-model-selection/)
+**See Also**: [Ultrathink++](/mechanics-ultrathink-plus-plus.html)|[Plan Mode](/mechanics-plan-mode.html)|[Tactical Model Selection](/mechanics-tactical-model-selection.html)
 
 **Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
 

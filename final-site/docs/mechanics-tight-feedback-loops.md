@@ -1,8 +1,8 @@
 ---
-title: "紧密反馈循环 | ClaudeLog"
+title: "紧密反馈循环 | Claude Hub"
 ---
 
-# 紧密反馈循环 | ClaudeLog
+# 紧密反馈循环
 
 紧密反馈循环使 Claude 能够可靠地构建模块化功能。
 
@@ -26,7 +26,7 @@ Claude 编写一个 bash 脚本，执行它，如果失败，Claude 会根据错
     
 -   自己设计整体系统架构，然后将各个脚本组件委托给 Claude。你定义和指定预期的输入和输出签名越清晰越好。
     
--   指示 Claude 为使用 bash 脚本创建一个指南文档（如 `CLAUDE.md` 文件）。当他用你的提示测试脚本时，让他根据实际使用过程中发现的任何问题迭代更新指南文档。
+-   指示 Claude 为使用 bash 脚本创建一个指南文档（如 CLAUDE.md 文件）。当他用你的提示测试脚本时，让他根据实际使用过程中发现的任何问题迭代更新指南文档。
     
 
 我可以想象一个未来，数十个脚本无缝协作，Claude 在任务执行期间按需自主生成临时问题解决脚本。临时脚本甚至可以由一个子代理创建并由另一个子代理使用，创建一个自主工具生成和消费的动态生态系统，解决方案有机地涌现。
@@ -35,10 +35,10 @@ Claude 编写一个 bash 脚本，执行它，如果失败，Claude 会根据错
 
 开发的未来可能涉及 Claude 在任务执行期间自主生成临时问题解决脚本，创建一个工具生成和消费的动态生态系统。
 
-<img src="/img/discovery/020_happy_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
+<img src="/img/discovery/015_cl_orange.png" alt="Tight Feedback Loops Discovery" style="max-width: 165px; height: auto;" />
 
 * * *
 
-**另见**: [你是主线程](/mechanics-you-are-the-main-thread/)|[待办事项列表作为指令镜像](/mechanics-todo-lists-as-instruction-mirrors/)|[Git Clone 只是开始](/mechanics-git-clone-is-just-the-beginning/)
+**另见**: [你是主线程](/mechanics-humanising-agents.html)|[待办事项列表作为指令镜像](/mechanics-todo-lists-as-instruction-mirrors.html)|[Git Clone 只是开始](/mechanics-git-clone-is-just-the-beginning.html)
 
-**作者**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
+**作者**:[<img src="/img/profile/inventorblack.png" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%;" /> InventorBlack](https://github.com/inventorblack)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/claudeai)

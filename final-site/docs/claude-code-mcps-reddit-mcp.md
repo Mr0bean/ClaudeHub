@@ -1,8 +1,8 @@
 ---
-title: "Reddit MCP | ClaudeLog"
+title: "Reddit MCP | Claude Hub"
 ---
 
-# Reddit MCP | ClaudeLog
+# Reddit MCP | Claude Hub
 
 **为 Claude Code 工作流提供 Reddit 内容访问和分析功能**
 
@@ -53,7 +53,7 @@ npm run build
   "mcpServers": {
     "reddit": {
       "command": "node",
-      "args": ["path/to/reddit-mcp/build/index.js"]
+      "args": "path/to/reddit-mcp/build/index.js"
     }
   }
 }

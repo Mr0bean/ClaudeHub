@@ -1,0 +1,323 @@
+{
+  "sidebar_links": [
+    "/",
+    "/claude-code-changelog.html",
+    "/claude-code-mcps-awesome-claude-code.html",
+    "/claude-code-mcps-awesome-claude-prompts.html",
+    "/claude-code-mcps-awesome-mcp-servers.html",
+    "/claude-code-mcps-blender-mcp.html",
+    "/claude-code-mcps-browser-tools-mcp.html",
+    "/claude-code-mcps-cc-usage.html",
+    "/claude-code-mcps-claude-code-router.html",
+    "/claude-code-mcps-claudia.html",
+    "/claude-code-mcps-context7-mcp.html",
+    "/claude-code-mcps-desktop-commander-mcp.html",
+    "/claude-code-mcps-github-mcp-server.html",
+    "/claude-code-mcps-puppeteer-mcp.html",
+    "/claude-code-mcps-reddit-mcp.html",
+    "/claude-code-mcps-serena.html",
+    "/claude-code-mcps-tdd-guard.html",
+    "/claude-code-mcps-tweakcc.html",
+    "/claude-code-mcps-whatsapp-mcp.html",
+    "/claude-code-mcps-zen-mcp-server.html",
+    "/claude-code-mcps.html",
+    "/claude-code-pricing.html",
+    "/claude-code-tutorial.html",
+    "/claude-news.html",
+    "/configuration.html",
+    "/contact.html",
+    "/disclaimer.html",
+    "/faq.html",
+    "/favicon.ico",
+    "/install-claude-code.html",
+    "/mechanics-agent-engineering.html",
+    "/mechanics-agent-first-design.html",
+    "/mechanics-always-be-experimenting.html",
+    "/mechanics-auto-accept-permissions.html",
+    "/mechanics-auto-plan-mode.html",
+    "/mechanics-bash-scripts.html",
+    "/mechanics-claude-md-supremacy.html",
+    "/mechanics-claude-usage.html",
+    "/mechanics-context-inspection.html",
+    "/mechanics-context-window-constraints-as-training.html",
+    "/mechanics-context-window-depletion.html",
+    "/mechanics-custom-agents.html",
+    "/mechanics-dangerous-skip-permissions.html",
+    "/mechanics-dynamic-memory.html",
+    "/mechanics-git-clone-is-just-the-beginning.html",
+    "/mechanics-hooks.html",
+    "/mechanics-humanising-agents.html",
+    "/mechanics-output-styles.html",
+    "/mechanics-permutation-frameworks.html",
+    "/mechanics-plan-mode.html",
+    "/mechanics-poison-context-awareness.html",
+    "/mechanics-rev-the-engine.html",
+    "/mechanics-sanity-check.html",
+    "/mechanics-skeleton-projects.html",
+    "/mechanics-split-role-sub-agents.html",
+    "/mechanics-sub-agent-tactics.html",
+    "/mechanics-sub-agents.html",
+    "/mechanics-tactical-model-selection.html",
+    "/mechanics-task-agent-tools.html",
+    "/mechanics-tight-feedback-loops.html",
+    "/mechanics-todo-lists-as-instruction-mirrors.html",
+    "/mechanics-ultrathink-plus-plus.html",
+    "/mechanics-you-are-the-main-thread.html",
+    "/privacy-policy.html",
+    "/sponsor.html",
+    "/support-claudelog.html",
+    "/terms-of-service.html",
+    "/watch-control.html"
+  ],
+  "check_results": {
+    "success": [
+      "/",
+      "/claude-code-changelog.html",
+      "/claude-code-mcps-awesome-claude-code.html",
+      "/claude-code-mcps-awesome-claude-prompts.html",
+      "/claude-code-mcps-awesome-mcp-servers.html",
+      "/claude-code-mcps-blender-mcp.html",
+      "/claude-code-mcps-browser-tools-mcp.html",
+      "/claude-code-mcps-cc-usage.html",
+      "/claude-code-mcps-claude-code-router.html",
+      "/claude-code-mcps-claudia.html",
+      "/claude-code-mcps-context7-mcp.html",
+      "/claude-code-mcps-desktop-commander-mcp.html",
+      "/claude-code-mcps-github-mcp-server.html",
+      "/claude-code-mcps-puppeteer-mcp.html",
+      "/claude-code-mcps-reddit-mcp.html",
+      "/claude-code-mcps-serena.html",
+      "/claude-code-mcps-tdd-guard.html",
+      "/claude-code-mcps-tweakcc.html",
+      "/claude-code-mcps-whatsapp-mcp.html",
+      "/claude-code-mcps-zen-mcp-server.html",
+      "/claude-code-mcps.html",
+      "/claude-code-pricing.html",
+      "/claude-code-tutorial.html",
+      "/claude-news.html",
+      "/configuration.html",
+      "/contact.html",
+      "/disclaimer.html",
+      "/faq.html",
+      "/install-claude-code.html",
+      "/mechanics-agent-engineering.html",
+      "/mechanics-agent-first-design.html",
+      "/mechanics-always-be-experimenting.html",
+      "/mechanics-auto-accept-permissions.html",
+      "/mechanics-auto-plan-mode.html",
+      "/mechanics-bash-scripts.html",
+      "/mechanics-claude-md-supremacy.html",
+      "/mechanics-claude-usage.html",
+      "/mechanics-context-inspection.html",
+      "/mechanics-context-window-constraints-as-training.html",
+      "/mechanics-context-window-depletion.html",
+      "/mechanics-custom-agents.html",
+      "/mechanics-dangerous-skip-permissions.html",
+      "/mechanics-dynamic-memory.html",
+      "/mechanics-git-clone-is-just-the-beginning.html",
+      "/mechanics-hooks.html",
+      "/mechanics-humanising-agents.html",
+      "/mechanics-output-styles.html",
+      "/mechanics-permutation-frameworks.html",
+      "/mechanics-plan-mode.html",
+      "/mechanics-poison-context-awareness.html",
+      "/mechanics-rev-the-engine.html",
+      "/mechanics-sanity-check.html",
+      "/mechanics-skeleton-projects.html",
+      "/mechanics-split-role-sub-agents.html",
+      "/mechanics-sub-agent-tactics.html",
+      "/mechanics-sub-agents.html",
+      "/mechanics-tactical-model-selection.html",
+      "/mechanics-task-agent-tools.html",
+      "/mechanics-tight-feedback-loops.html",
+      "/mechanics-todo-lists-as-instruction-mirrors.html",
+      "/mechanics-ultrathink-plus-plus.html",
+      "/mechanics-you-are-the-main-thread.html",
+      "/privacy-policy.html",
+      "/sponsor.html",
+      "/support-claudelog.html",
+      "/terms-of-service.html",
+      "/watch-control.html"
+    ],
+    "failed": [
+      {
+        "link": "/favicon.ico",
+        "status": 404
+      }
+    ],
+    "total": 68
+  },
+  "unmapped_files": [
+    {
+      "file": "mechanics-claude-usage.backup_1757690081.md",
+      "expected_url": "/mechanics-claude-usage.backup_1757690081.html"
+    },
+    {
+      "file": "claude-code-pricing.backup_1757683956.md",
+      "expected_url": "/claude-code-pricing.backup_1757683956.html"
+    },
+    {
+      "file": "mechanics-dynamic-memory.backup_1757691431.md",
+      "expected_url": "/mechanics-dynamic-memory.backup_1757691431.html"
+    },
+    {
+      "file": "mechanics-tactical-model-selection.backup_1757691631.md",
+      "expected_url": "/mechanics-tactical-model-selection.backup_1757691631.html"
+    },
+    {
+      "file": "support-claudelog.backup_1757691500.md",
+      "expected_url": "/support-claudelog.backup_1757691500.html"
+    },
+    {
+      "file": "mechanics-context-inspection.backup_1757691529.md",
+      "expected_url": "/mechanics-context-inspection.backup_1757691529.html"
+    },
+    {
+      "file": "mechanics-todo-lists-as-instruction-mirrors.backup_1757691146.md",
+      "expected_url": "/mechanics-todo-lists-as-instruction-mirrors.backup_1757691146.html"
+    },
+    {
+      "file": "claude-code-mcps-tweakcc.backup_1757693503.md",
+      "expected_url": "/claude-code-mcps-tweakcc.backup_1757693503.html"
+    },
+    {
+      "file": "contact.backup_1757691542.md",
+      "expected_url": "/contact.backup_1757691542.html"
+    },
+    {
+      "file": "mechanics-humanising-agents.backup_1757690193.md",
+      "expected_url": "/mechanics-humanising-agents.backup_1757690193.html"
+    },
+    {
+      "file": "claude-code-mcps-whatsapp-mcp.backup_1757692845.md",
+      "expected_url": "/claude-code-mcps-whatsapp-mcp.backup_1757692845.html"
+    },
+    {
+      "file": "mechanics-hooks.backup_1757693479.md",
+      "expected_url": "/mechanics-hooks.backup_1757693479.html"
+    },
+    {
+      "file": "claude-code-mcps.backup_1757693287.md",
+      "expected_url": "/claude-code-mcps.backup_1757693287.html"
+    },
+    {
+      "file": "claude-code-mcps-tdd-guard.backup_1757691035.md",
+      "expected_url": "/claude-code-mcps-tdd-guard.backup_1757691035.html"
+    },
+    {
+      "file": "claude-code-mcps-awesome-claude-code.backup_1757691296.md",
+      "expected_url": "/claude-code-mcps-awesome-claude-code.backup_1757691296.html"
+    },
+    {
+      "file": "mechanics-git-clone-is-just-the-beginning.backup_1757693635.md",
+      "expected_url": "/mechanics-git-clone-is-just-the-beginning.backup_1757693635.html"
+    },
+    {
+      "file": "mechanics-permutation-frameworks.backup_1757690328.md",
+      "expected_url": "/mechanics-permutation-frameworks.backup_1757690328.html"
+    },
+    {
+      "file": "mechanics-claude-usage.backup_1757691286.md",
+      "expected_url": "/mechanics-claude-usage.backup_1757691286.html"
+    },
+    {
+      "file": "terms-of-service.backup_1757694087.md",
+      "expected_url": "/terms-of-service.backup_1757694087.html"
+    },
+    {
+      "file": "mechanics-poison-context-awareness.backup_1757690258.md",
+      "expected_url": "/mechanics-poison-context-awareness.backup_1757690258.html"
+    },
+    {
+      "file": "mechanics-skeleton-projects.backup_1757692636.md",
+      "expected_url": "/mechanics-skeleton-projects.backup_1757692636.html"
+    },
+    {
+      "file": "disclaimer.backup_1757693946.md",
+      "expected_url": "/disclaimer.backup_1757693946.html"
+    },
+    {
+      "file": "terms-of-service.backup_1757693607.md",
+      "expected_url": "/terms-of-service.backup_1757693607.html"
+    },
+    {
+      "file": "mechanics-bash-scripts.backup_1757691460.md",
+      "expected_url": "/mechanics-bash-scripts.backup_1757691460.html"
+    },
+    {
+      "file": "README.backup_1757692996.md",
+      "expected_url": "/README.backup_1757692996.html"
+    },
+    {
+      "file": "mechanics-permutation-frameworks.backup_1757692657.md",
+      "expected_url": "/mechanics-permutation-frameworks.backup_1757692657.html"
+    },
+    {
+      "file": "mechanics-dangerous-skip-permissions.backup_1757691239.md",
+      "expected_url": "/mechanics-dangerous-skip-permissions.backup_1757691239.html"
+    },
+    {
+      "file": "claude-code-mcps-cc-usage.backup_1757690510.md",
+      "expected_url": "/claude-code-mcps-cc-usage.backup_1757690510.html"
+    },
+    {
+      "file": "mechanics-todo-lists-as-instruction-mirrors.backup_1757690226.md",
+      "expected_url": "/mechanics-todo-lists-as-instruction-mirrors.backup_1757690226.html"
+    },
+    {
+      "file": "claude-code-mcps-zen-mcp-server.backup_1757691180.md",
+      "expected_url": "/claude-code-mcps-zen-mcp-server.backup_1757691180.html"
+    },
+    {
+      "file": "mechanics-output-styles.backup_1757691573.md",
+      "expected_url": "/mechanics-output-styles.backup_1757691573.html"
+    },
+    {
+      "file": "mechanics-claude-md-supremacy.backup_1757691653.md",
+      "expected_url": "/mechanics-claude-md-supremacy.backup_1757691653.html"
+    },
+    {
+      "file": "claude-code-mcps-tdd-guard.backup_1757690017.md",
+      "expected_url": "/claude-code-mcps-tdd-guard.backup_1757690017.html"
+    },
+    {
+      "file": "sponsor.backup_1757692771.md",
+      "expected_url": "/sponsor.backup_1757692771.html"
+    },
+    {
+      "file": "claude-code-mcps-puppeteer-mcp.backup_1757692601.md",
+      "expected_url": "/claude-code-mcps-puppeteer-mcp.backup_1757692601.html"
+    },
+    {
+      "file": "mechanics-ultrathink-plus-plus.backup_1757691060.md",
+      "expected_url": "/mechanics-ultrathink-plus-plus.backup_1757691060.html"
+    },
+    {
+      "file": "claude-code-mcps-awesome-claude-code.backup_1757690285.md",
+      "expected_url": "/claude-code-mcps-awesome-claude-code.backup_1757690285.html"
+    },
+    {
+      "file": "claude-code-pricing.backup_1757691120.md",
+      "expected_url": "/claude-code-pricing.backup_1757691120.html"
+    },
+    {
+      "file": "claude-code-mcps-claudia.backup_1757693311.md",
+      "expected_url": "/claude-code-mcps-claudia.backup_1757693311.html"
+    },
+    {
+      "file": "claude-code-mcps-reddit-mcp.backup_1757692728.md",
+      "expected_url": "/claude-code-mcps-reddit-mcp.backup_1757692728.html"
+    },
+    {
+      "file": "mechanics-humanising-agents.backup_1757691109.md",
+      "expected_url": "/mechanics-humanising-agents.backup_1757691109.html"
+    }
+  ],
+  "summary": {
+    "total_links": 68,
+    "successful": 67,
+    "failed": 1,
+    "markdown_files": 108,
+    "unmapped_files": 41
+  }
+}

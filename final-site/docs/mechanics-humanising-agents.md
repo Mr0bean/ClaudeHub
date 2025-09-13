@@ -1,8 +1,8 @@
 ---
-title: "人性化智能体 | ClaudeLog"
+title: "人性化智能体 | Claude Hub"
 ---
 
-# 人性化智能体 | ClaudeLog
+# 人性化智能体 | Claude Hub
 
 智能体通过专门的角色、系统提示和工具配置被赋予独特的个性。然而，默认的交互模式可能会感觉过于正式。我们可以通过使用昵称和富有表现力的文字表情来人性化我们的智能体，创造更有吸引力的协作。
 
@@ -116,7 +116,7 @@ reviewer
 
 **另请参阅**：[自定义智能体](mechanics-custom-agents.html) | [智能体工程](mechanics-sub-agents.html) | [任务智能体工具](mechanics-task-agent-tools.html)
 
-**作者**：[<img src="/img/profile/inventorblack.png" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%;" /> InventorBlack](https://www.reddit.com/user/InventorBlack/) | [Command Stick](https://commandstick.com)首席技术官| [r/ClaudeAi](https://www.reddit.com/r/ClaudeAI/)版主
+**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%;" /> InventorBlack](https://www.reddit.com/user/InventorBlack/) | [Command Stick](https://commandstick.com)首席技术官| [r/ClaudeAi](https://www.reddit.com/r/ClaudeAI/)版主
 
 -   [超越正式调用](#超越正式调用)
 -   [文字表情个性](#文字表情个性)

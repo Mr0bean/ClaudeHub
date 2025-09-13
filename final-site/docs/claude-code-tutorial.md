@@ -1,8 +1,8 @@
 ---
-title: "教程 | ClaudeLog"
+title: "教程 | Claude Hub"
 ---
 
-# 教程 | ClaudeLog
+# 教程 | Claude Hub
 
 现在您已经安装了 Claude Code，让我们设置您的项目并学习使用 Claude Code 来增强开发工作流程的基础知识。这个适合初学者的 Claude Code 教程涵盖了新用户的基本命令、示例、最佳实践和工作流程优化。
 
@@ -53,7 +53,7 @@ Claude Code 启动时会自动读取此文件以提供项目上下文。
 
 Claude Code 提供两种主要的交互方式：
 
-**交互模式：** 运行 `claude` 启动 REPL 会话 **一次性模式：** 使用 `claude -p "查询"` 进行快速命令
+**交互模式：** 运行 `claude` 启动 REPL 会话 **一次性模式：** 使用 `claude "your question"` 进行快速命令
 
 ### 交互模式[​](#interactive-mode "Direct link to Interactive Mode")
 
@@ -238,7 +238,7 @@ Claude Code 理解自然语言请求，使其比传统开发工具更容易使�
 
 * * *
 
-**另请参阅**: [定价计划](/claude-code-pricing/)|[计划模式](/mechanics-plan-mode/)|[MCPs 和附加组件](/claude-code-mcps/)|[常见问题](/faq/)
+**另请参阅**: [定价计划](/claude-code-pricing.html)|[计划模式](/mechanics-plan-mode.html)|[MCPs 和附加组件](/claude-code-mcps.html)|[常见问题](/faq.html)
 
 -   [Claude Code 项目设置和配置](#claude-code-project-setup-and-configuration)
     -   [CLAUDE.md 配置](#claudemd-configuration)

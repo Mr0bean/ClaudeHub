@@ -1,8 +1,8 @@
 ---
-title: "分角色子代理 | ClaudeLog"
+title: "分角色子代理 | Claude Hub"
 ---
 
-# 分角色子代理 | ClaudeLog
+# 分角色子代理 | Claude Hub
 
 [Reddit 社区](https://www.reddit.com/r/ClaudeAI/)向我介绍了一个令人着迷的机制，即为子代理指定不同角色的能力。
 
@@ -12,7 +12,7 @@ Anthropic [公开讨论过](https://docs.anthropic.com/en/docs/build-with-claude
 
 > 你的角色是一位专门从事渗透测试的资深安全专家。
 
-社区的多位成员已经创建了用于编排子代理角色的复杂工具。[SuperClaude](/claude-code-mcps/super-claude/) 提供了 **9 个认知角色**（架构师、前端、后端、安全、分析师、质量保证、性能、重构者、导师），可以作为通用标志应用于任何命令。[Claudia](/claude-code-mcps/claudia/) 通过 GUI 界面提供**自定义 AI 代理**，具有定制的系统提示，用于协调不同的代理角色。
+社区的多位成员已经创建了用于编排子代理角色的复杂工具。[SuperClaude](/claude-code-mcps/super-claude.html) 提供了 **9 个认知角色**（架构师、前端、后端、安全、分析师、质量保证、性能、重构者、导师），可以作为通用标志应用于任何命令。[Claudia](/claude-code-mcps/claudia.html) 通过 GUI 界面提供**自定义 AI 代理**，具有定制的系统提示，用于协调不同的代理角色。
 
 * * *
 
@@ -24,7 +24,7 @@ Anthropic [公开讨论过](https://docs.anthropic.com/en/docs/build-with-claude
 
 **子代理协调策略：**
 
-1.  **设置阶段** - 确保 Claude 处于[计划模式](/mechanics-plan-mode/)并且 [ultrathink](/mechanics-ultrathink-plus-plus/) 已实例化
+1.  **设置阶段** - 确保 Claude 处于[计划模式](/mechanics-plan-mode.html)并且 [ultrathink](/mechanics-ultrathink-plus-plus.html) 已实例化
 2.  **角色建议** - Claude 自动建议适用于任务的各种相关角色
 3.  **视角选择** - 选择你希望从哪种视角审查任务
 4.  **并行分析** - 子代理使用其专门的方法完成审查
@@ -65,13 +65,13 @@ Anthropic [公开讨论过](https://docs.anthropic.com/en/docs/build-with-claude
 
 **性能与成本优化：**
 
-这个机制通过策略性编排最大化 Claude 4 Sonnet 的能力，提供了卓越的价值。与其使用贵 5 倍的 Opus 模型，分角色子代理结合 [ultrathink](/mechanics-ultrathink-plus-plus/) 可以以 Sonnet 的价格解锁复杂的分析。[Task](/mechanics-task-agent-tools/) 执行的并行性质意味着多个专家角色可以同时分析同一问题，创造出通过单角色分析难以实现的多重洞察（由于之前的角色和上下文会影响上下文窗口）。
+这个机制通过策略性编排最大化 Claude 4 Sonnet 的能力，提供了卓越的价值。与其使用贵 5 倍的 Opus 模型，分角色子代理结合 [ultrathink](/mechanics-ultrathink-plus-plus.html) 可以以 Sonnet 的价格解锁复杂的分析。[Task](/mechanics-task-agent-tools.html) 执行的并行性质意味着多个专家角色可以同时分析同一问题，创造出通过单角色分析难以实现的多重洞察（由于之前的角色和上下文会影响上下文窗口）。
 
 ### 超越编码应用[​](#beyond-coding-applications "Direct link to 超越编码应用")
 
-这个机制的应用超越了编码！我使用过新手、SEO、工程师、氛围编码者、非编码者的视角来获得对 ClaudeLog 各个方面的额外意见，这一切都在[计划模式](/mechanics-plan-mode/)内安全地并行发生。
+这个机制的应用超越了编码！我使用过新手、SEO、工程师、氛围编码者、非编码者的视角来获得对 Claude Hub 各个方面的额外意见，这一切都在[计划模式](/mechanics-plan-mode.html)内安全地并行发生。
 
-分角色子代理的美妙之处在于它们的可扩展性 - 你可以将视角组合适应任何领域或问题类型。从基本的技术视角开始，然后在发现每种角色类型揭示的洞察时尝试创造性的组合。[A.B.E](/mechanics-always-be-experimenting/)（始终保持实验）
+分角色子代理的美妙之处在于它们的可扩展性 - 你可以将视角组合适应任何领域或问题类型。从基本的技术视角开始，然后在发现每种角色类型揭示的洞察时尝试创造性的组合。[A.B.E](/mechanics-always-be-experimenting.html)（始终保持实验）
 
 ##### 多视角分析
 
@@ -81,13 +81,13 @@ Anthropic [公开讨论过](https://docs.anthropic.com/en/docs/build-with-claude
 
 ##### 推向极限
 
-利用 `Claude 4 Sonnet` + [计划模式](/mechanics-plan-mode/) + `ultrathink` + `角色子代理` 从 Claude 4 Sonnet 模型中提取最大性能，然后再考虑使用贵 5 倍且经常过度的 Claude 4 Opus 模型。
+利用 `Claude 4 Sonnet` + [计划模式](/mechanics-plan-mode.html) + `ultrathink` + `角色子代理` 从 Claude 4 Sonnet 模型中提取最大性能，然后再考虑使用贵 5 倍且经常过度的 Claude 4 Opus 模型。
 
 <img src="/img/discovery/037_sonnet_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
-**另请参阅**：[计划模式](/mechanics-plan-mode/)|[任务代理工具](/mechanics-task-agent-tools/)|[战术模型选择](/mechanics-tactical-model-selection/)|[始终保持实验](/mechanics-always-be-experimenting/)
+**另请参阅**：[计划模式](/mechanics-plan-mode.html)|[任务代理工具](/mechanics-task-agent-tools.html)|[战术模型选择](/mechanics-tactical-model-selection.html)|[始终保持实验](/mechanics-always-be-experimenting.html)
 
 **作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|[Command Stick](https://commandstick.com) CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
 

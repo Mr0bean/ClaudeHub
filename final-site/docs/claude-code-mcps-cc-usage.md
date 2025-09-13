@@ -1,8 +1,8 @@
 ---
-title: "CC Usage | ClaudeLog"
+title: "CC Usage | Claude Hub"
 ---
 
-# CC Usage | ClaudeLog
+# CC Usage | Claude Hub
 
 **使用详细分析监控您的 Claude Code 使用情况和成本**
 

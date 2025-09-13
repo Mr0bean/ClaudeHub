@@ -1,8 +1,8 @@
 ---
-title: "待办清单作为指令镜子 | ClaudeLog"
+title: "待办清单作为指令镜子 | Claude Hub"
 ---
 
-# 待办清单作为指令镜子 | ClaudeLog
+# 待办清单作为指令镜子 | Claude Hub
 
 待办清单工具是我第二喜欢的 Claude Code 工具，仅次于任务/代理工具。待办清单工具不仅仅是跟踪进度——它揭示了 Claude 如何解释你的指令。
 

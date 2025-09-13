@@ -1,25 +1,25 @@
 ---
-title: "Claude Code Configuration Guide | ClaudeLog"
+title: "Claude Code 配置指南"
 ---
 
-# Claude Code Configuration Guide | ClaudeLog
+# Claude Code 配置指南
 
-Complete Claude Code configuration with comprehensive setup guides for API keys, model selection, MCP servers, tool permissions, and multi-directory workflows. Essential settings for optimizing your AI development experience.
-
-* * *
+完整的 Claude Code 配置指南，包含 API 密钥设置、模型选择、MCP 服务器、工具权限和多目录工作流的详细配置指导。优化 AI 开发体验的必备设置。
 
 * * *
 
-## API Key Setup[​](#api-key-setup "Direct link to API Key Setup")
+* * *
 
-Claude Code requires an Anthropic API key to function. Set it up using one of these methods:
+## API 密钥设置[​](#api-key-setup "Direct link to API Key Setup")
+
+Claude Code 需要 Anthropic API 密钥才能运行。使用以下方法之一进行设置：
 
 ```bash
-# Option 1: Environment variable (recommended)
+# 选项 1: 环境变量（推荐）
 
 export ANTHROPIC_API_KEY="your-api-key-here"
 
-# Option 2: Add to your shell profile
+# 选项 2: 添加到 shell 配置文件
 
 echo 'export ANTHROPIC_API_KEY="your-api-key-here"' >> ~/.bashrc
 
@@ -31,58 +31,58 @@ source ~/.bashrc
 
 * * *
 
-## Model Selection[​](#model-selection "Direct link to Model Selection")
+## 模型选择[​](#model-selection "Direct link to Model Selection")
 
-Claude Code supports multiple models. You can specify which model to use:
+Claude Code 支持多种模型。您可以指定要使用的模型：
 
-**Claude 4 Sonnet:** Latest balanced performance and speed
+**Claude 4 Sonnet:** 最新的平衡性能和速度
 
 ```bash
 export ANTHROPIC_MODEL="claude-sonnet-4-20250514"
 
 ```
 
-**Claude 4.1 Opus:** Latest maximum capability with enhanced coding and debugging performance
+**Claude 4.1 Opus:** 最新的最高性能，具有增强的编码和调试能力
 
 ```bash
 export ANTHROPIC_MODEL="claude-opus-4-1-20250805"
 
 ```
 
-**Claude 4 Opus:** Previous generation maximum capability model
+**Claude 4 Opus:** 上一代最高性能模型
 
 ```bash
 export ANTHROPIC_MODEL="claude-opus-4-20250514"
 
 ```
 
-**Claude 3.5 Haiku:** Fastest and most cost-effective
+**Claude 3.5 Haiku:** 最快速且最经济实惠
 
 ```bash
 export ANTHROPIC_MODEL="claude-3-5-haiku-20241022"
 
 ```
 
-Important limitations: Claude 3.5 Haiku
+重要限制：Claude 3.5 Haiku
 
-While Haiku is cost-effective, it has significant limitations for Claude Code usage:
+虽然 Haiku 价格实惠，但在 Claude Code 使用中有显著限制：
 
--   **Reduced reasoning capabilities** - Struggles with complex multi-step planning and architectural decisions
--   **Limited context understanding** - Less effective at analyzing large codebases and maintaining context across multiple files
--   **Simplified code analysis** - May miss subtle bugs, dependencies, or complex patterns that modern models catch
--   **Basic refactoring only** - Not suitable for sophisticated restructuring or feature implementations
--   **Limited framework knowledge** - Less effective with complex frameworks or novel coding patterns
+-   **推理能力有限** - 在复杂的多步骤规划和架构决策方面存在困难
+-   **上下文理解有限** - 在分析大型代码库和跨多文件维护上下文方面效果较差
+-   **代码分析简化** - 可能错过现代模型能捕获的细微错误、依赖关系或复杂模式
+-   **仅限基础重构** - 不适合复杂的重构或功能实现
+-   **框架知识有限** - 在处理复杂框架或新颖编码模式时效果较差
 
-**Recommended use cases for Haiku:**
+**Haiku 推荐使用场景：**
 
--   Simple single-file edits
--   Basic syntax corrections
--   Quick code questions
--   Learning Claude Code basics before upgrading
+-   简单的单文件编辑
+-   基础语法修正
+-   快速代码询问
+-   在升级前学习 Claude Code 基础知识
 
-For serious development work, Claude 4 Sonnet or Opus provide substantially better results and are worth the additional cost.
+对于严肃的开发工作，Claude 4 Sonnet 或 Opus 能提供显著更好的结果，值得额外投资。
 
-**Alternative Method:** You can also specify the model directly when starting Claude Code:
+**替代方法：** 您也可以在启动 Claude Code 时直接指定模型：
 
 ```bash
 claude --model claude-sonnet-4-20250514
@@ -152,24 +152,21 @@ Example MCP configuration:
 
           "command": "npx",
 
-          "args": ["-y", "@modelcontextprotocol/server-filesystem", "/Users/username/Desktop", "/path/to/allowed/dir"]
-
+          "args": "-y", "@modelcontextprotocol/server-filesystem", "/Users/username/Desktop", "/path/to/allowed/dir"
         },
 
         "memory": {
 
           "command": "npx",
 
-          "args": ["-y", "@modelcontextprotocol/server-memory"]
-
+          "args": "-y", "@modelcontextprotocol/server-memory"
         },
 
         "fetch": {
 
           "command": "npx",
 
-          "args": ["-y", "@modelcontextprotocol/server-fetch"]
-
+          "args": "-y", "@modelcontextprotocol/server-fetch"
         }
 
       }
@@ -186,7 +183,7 @@ Example MCP configuration:
 
 **Note:** If following this example ensure you update the right projects configuration.
 
-For additional tools and integrations beyond MCP, explore our [Add-ons](/claude-code-mcps/).
+For additional tools and integrations beyond MCP, explore our [Add-ons](/claude-code-mcps.html).
 
 * * *
 
@@ -220,13 +217,12 @@ Allowed tools configuration can be stored in multiple locations:
 
           "command": "npx",
 
-          "args": ["-y", "@modelcontextprotocol/server-filesystem", "/Users/username/Desktop", "/path/to/allowed/dir"]
-
+          "args": "-y", "@modelcontextprotocol/server-filesystem", "/Users/username/Desktop", "/path/to/allowed/dir"
         }
 
       },
 
-      "allowedTools": [
+      "allowedTools": 
 
         "Task",
 
@@ -252,8 +248,7 @@ Allowed tools configuration can be stored in multiple locations:
 
         "WebSearch"
 
-      ]
-
+      
     }
 
   },
@@ -401,7 +396,7 @@ Proper configuration is the foundation of effective Claude Code usage. Understan
 
 * * *
 
-**See Also**: [Pricing Plans](/claude-code-pricing/)|[CLAUDE.md Guide](/mechanics-claude-md-supremacy/)|[MCPs & Add-ons](/claude-code-mcps/)|[FAQs](/faq/)
+**See Also**: [Pricing Plans](/claude-code-pricing.html)|[CLAUDE.md Guide](/mechanics-claude-md-supremacy.html)|[MCPs & Add-ons](/claude-code-mcps.html)|[FAQs](/faq.html)
 
 -   [API Key Setup](#api-key-setup)
 -   [Model Selection](#model-selection)

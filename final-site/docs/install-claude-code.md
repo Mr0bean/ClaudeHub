@@ -1,8 +1,8 @@
 ---
-title: "安装 Claude Code | ClaudeLog"
+title: "安装 Claude Code | Claude Hub"
 ---
 
-# 安装 Claude Code | ClaudeLog
+# 安装 Claude Code | Claude Hub
 
 只需几步即可在您的系统上启动并运行 Claude Code。这份完整的 Claude Code 安装和设置指南涵盖了 Windows、Mac 和 Linux 系统的下载、安装、配置和模型选择。
 
@@ -174,7 +174,7 @@ wsl --install -d Ubuntu
 通过在 Windows 用户目录中创建 `.wslconfig` 来设置 WSL2 内存限制：
 
 ```ini
-[wsl2]
+wsl2
 memory=8GB
 processors=4
 ```

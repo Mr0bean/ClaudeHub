@@ -1,8 +1,8 @@
 ---
-title: "Claude Code 路由器 | ClaudeLog"
+title: "Claude Code 路由器 | Claude Hub"
 ---
 
-# Claude Code 路由器 | ClaudeLog
+# Claude Code 路由器 | Claude Hub
 
 **通过智能 AI 提供商路由，无需 Anthropic 账户即可使用 Claude Code**
 
@@ -58,7 +58,7 @@ npm install -g @musistudio/claude-code-router
 ```bash
 {
 
-  "Providers": [
+  "Providers": 
 
     {
 
@@ -68,8 +68,7 @@ npm install -g @musistudio/claude-code-router
 
       "api_key": "sk-xxx",
 
-      "models": ["anthropic/claude-3.5-sonnet", "google/gemini-2.5-pro-preview"]
-
+      "models": ["anthropic/claude-3.5-sonnet", "google/gemini-2.5-pro-preview"
     },
 
     {
@@ -80,8 +79,7 @@ npm install -g @musistudio/claude-code-router
 
       "api_key": "sk-xxx",
 
-      "models": ["deepseek-chat", "deepseek-reasoner"]
-
+      "models": "deepseek-chat", "deepseek-reasoner"
     }
 
   ],

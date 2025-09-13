@@ -1,8 +1,8 @@
 ---
-title: "WhatsApp MCP | ClaudeLog"
+title: "WhatsApp MCP | Claude Hub"
 ---
 
-# WhatsApp MCP | ClaudeLog
+# WhatsApp MCP | Claude Hub
 
 **为 Claude Code 提供个人 WhatsApp 消息和搜索功能**
 

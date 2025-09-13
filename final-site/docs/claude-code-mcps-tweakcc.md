@@ -1,8 +1,8 @@
 ---
-title: "TweakCC | ClaudeLog"
+title: "TweakCC | Claude Hub"
 ---
 
-# TweakCC | ClaudeLog
+# TweakCC | Claude Hub
 
 **用于个性化 Claude Code 界面的轻量级 MCP 工具，支持自定义主题和视觉增强**
 

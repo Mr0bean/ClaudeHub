@@ -1,8 +1,8 @@
 ---
-title: "排列框架 | ClaudeLog"
+title: "排列框架 | Claude Hub"
 ---
 
-# 排列框架 | ClaudeLog
+# 排列框架 | Claude Hub
 
 `排列框架`是指当你手动构建一个具有共享函数签名的相似功能数组（例如，10个以上的功能），然后设计一个`CLAUDE.md`让Claude能够可靠地生成后续变体。你不再手动编写每个功能，而是创建一个涵盖广泛可能性的模式数组，同时指导Claude哪些方面不能更改。
 
@@ -24,7 +24,7 @@ Claude Code在完成它有足够内在知识的任务或你为其提供充分上
 
 这就是为什么你应该识别如何以及在哪里在你的产品中实现`功能排列`，并将它们作为有价值的附加功能提供给市场。
 
-这需要你设计一个Claude可以在其中工作的系统或`排列框架`，让你能够创建遵循相似模式但为最终用户提供不同价值的功能排列示例。参见[Tool Maker](/tool-maker/)作为排列`CLAUDE.md`的示例。
+这需要你设计一个Claude可以在其中工作的系统或`排列框架`，让你能够创建遵循相似模式但为最终用户提供不同价值的功能排列示例。参见[Tool Maker](/tool-maker.html)作为排列`CLAUDE.md`的示例。
 
 * * *
 
@@ -63,7 +63,7 @@ Claude Code在完成它有足够内在知识的任务或你为其提供充分上
 
 * * *
 
-**另请参阅**：[CLAUDE.md至上](/mechanics-claude-md-supremacy/)|[代理优先设计](/mechanics-agent-first-design/)
+**另请参阅**：[CLAUDE.md至上](/mechanics-claude-md-supremacy.html)|[代理优先设计](/mechanics-agent-first-design.html)
 
 **作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|[Command Stick](https://commandstick.com)首席技术官|[r/ClaudeAi](https://reddit.com/r/ClaudeAI)版主
 
@@ -84,3 +84,4 @@ Claude Code在完成它有足够内在知识的任务或你为其提供充分上
 7. 使用准确的技术术语
 
 。
+```

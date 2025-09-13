@@ -4,7 +4,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
   lang: 'en',
-  title: 'ClaudeLog',
+  title: '星科文档 - Claude Hub',
   description: 'Claude Code docs, guides, tutorials & best practices',
   
   base: '/',
