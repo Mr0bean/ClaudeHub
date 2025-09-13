@@ -99,46 +99,46 @@ claude --model claude-3-5-haiku-20241022
 
 * * *
 
-## Model Switching During Session[​](#model-switching-during-session "Direct link to Model Switching During Session")
+## 会话中切换模型[​](#model-switching-during-session "Direct link to Model Switching During Session")
 
-You can switch models mid-session using the `/model` command, which provides an interactive menu:
+您可以使用 `/model` 命令在会话中切换模型，它提供了一个交互式菜单：
 
 ```bash
 /model
 
 ```
 
-**Available Options:**
+**可用选项：**
 
-1.  **Default (recommended)** - Opus 4.1 for up to 20% of usage limits, then use Sonnet 4
-2.  **Opus** - Opus 4.1 for complex tasks (reaches usage limits faster)
-3.  **Sonnet** - Sonnet 4 for daily use
-4.  **Opus Plan Mode** - Use Opus 4.1 in plan mode, Sonnet 4 otherwise ✔
+1.  **默认（推荐）** - Opus 4.1 用于高达 20% 的使用限制，然后使用 Sonnet 4
+2.  **Opus** - Opus 4.1 用于复杂任务（更快达到使用限制）
+3.  **Sonnet** - Sonnet 4 用于日常使用
+4.  **Opus 规划模式** - 在规划模式下使用 Opus 4.1，其他情况下使用 Sonnet 4 ✔
 
-The Opus Plan Mode automatically switches between models based on context, using Opus 4.1 for research and planning phases, then Sonnet 4 for implementation and execution.
-
-* * *
+Opus 规划模式根据上下文自动切换模型，在研究和规划阶段使用 Opus 4.1，然后在实施和执行阶段使用 Sonnet 4。
 
 * * *
 
-## MCP Configuration[​](#mcp-configuration "Direct link to MCP Configuration")
+* * *
 
-Model Context Protocol (MCP) allows Claude Code to connect to external tools and services. Configure MCP servers to extend Claude's capabilities:
+## MCP 配置[​](#mcp-configuration "Direct link to MCP Configuration")
 
-#### MCP Server Setup[​](#mcp-server-setup "Direct link to MCP Server Setup")
+模型上下文协议（MCP）允许 Claude Code 连接到外部工具和服务。配置 MCP 服务器以扩展 Claude 的功能：
 
-MCP configuration can be stored in multiple locations:
+#### MCP 服务器设置[​](#mcp-server-setup "Direct link to MCP Server Setup")
 
--   **Project-specific:** `.claude/settings.local.json` (in your project directory)
--   **User-specific local:** `~/.claude/settings.local.json`
--   **User-specific global:** `~/.claude/settings.json`
--   **Main Claude.json:** `~/.claude.json`
--   **Dedicated MCP file:** `~/.claude/mcp_servers.json`
+MCP 配置可以存储在多个位置：
 
-Example MCP configuration:
+-   **项目特定：** `.claude/settings.local.json`（在您的项目目录中）
+-   **用户特定本地：** `~/.claude/settings.local.json`
+-   **用户特定全局：** `~/.claude/settings.json`
+-   **主 Claude.json：** `~/.claude.json`
+-   **专用 MCP 文件：** `~/.claude/mcp_servers.json`
+
+MCP 配置示例：
 
 ```bash
-// Example: ~/.claude.json (recommended for reliability)
+// 示例：~/.claude.json（推荐以确保可靠性）
 
 {
 
@@ -181,29 +181,29 @@ Example MCP configuration:
 
 ```
 
-**Note:** If following this example ensure you update the right projects configuration.
+**注意：** 如果遵循此示例，请确保更新正确的项目配置。
 
-For additional tools and integrations beyond MCP, explore our [Add-ons](/claude-code-mcps.html).
-
-* * *
+有关 MCP 之外的其他工具和集成，请探索我们的[插件](/claude-code-mcps.html)。
 
 * * *
 
-## Allowed Tools[​](#allowed-tools "Direct link to Allowed Tools")
+* * *
 
-#### Allowed Tools Setup[​](#allowed-tools-setup "Direct link to Allowed Tools Setup")
+## 允许的工具[​](#allowed-tools "Direct link to Allowed Tools")
 
-Allowed tools configuration can be stored in multiple locations:
+#### 允许的工具设置[​](#allowed-tools-setup "Direct link to Allowed Tools Setup")
 
--   **Project-specific:** `.claude/settings.local.json` (in your project directory)
--   **User-specific local:** `~/.claude/settings.local.json`
--   **User-specific global:** `~/.claude/settings.json`
--   **Main Claude.json:** `~/.claude.json`
+允许的工具配置可以存储在多个位置：
 
-#### Example Allowed Tools configuration:[​](#example-allowed-tools-configuration "Direct link to Example Allowed Tools configuration:")
+-   **项目特定：** `.claude/settings.local.json`（在您的项目目录中）
+-   **用户特定本地：** `~/.claude/settings.local.json`
+-   **用户特定全局：** `~/.claude/settings.json`
+-   **主 Claude.json：** `~/.claude.json`
+
+#### 允许的工具配置示例：[​](#example-allowed-tools-configuration "Direct link to Example Allowed Tools configuration:")
 
 ```bash
-// Example: ~/.claude.json (recommended for reliability)
+// 示例：~/.claude.json（推荐以确保可靠性）
 
 {
 
@@ -226,9 +226,9 @@ Allowed tools configuration can be stored in multiple locations:
 
         "Task",
 
-        "Bash",                    // ⚠️ Dangerous: allows all system commands
+        "Bash",                    // ⚠️ 危险：允许所有系统命令
 
-        "Bash(git log:*)",   // Safer: only allows git log commands
+        "Bash(git log:*)",   // 更安全：仅允许 git log 命令
 
         "Glob",
 
@@ -259,74 +259,74 @@ Allowed tools configuration can be stored in multiple locations:
 
 ```
 
-**Note:** If following this example ensure you update the right projects configuration.
+**注意：** 如果遵循此示例，请确保更新正确的项目配置。
 
-#### Interactive Permission Management[​](#interactive-permission-management "Direct link to Interactive Permission Management")
+#### 交互式权限管理[​](#interactive-permission-management "Direct link to Interactive Permission Management")
 
-For a more user-friendly approach to managing tool permissions, use the `/permissions` command within Claude Code:
+要以更用户友好的方式管理工具权限，请在 Claude Code 中使用 `/permissions` 命令：
 
 ```bash
-# Launch the interactive permissions UI
+# 启动交互式权限 UI
 
 /permissions
 
 ```
 
-This advanced interface allows you to:
+这个高级界面允许您：
 
--   **View current permissions** - See which tools are currently allowed or denied
--   **Explicitly allow tools** - Grant permission to specific tools or tool patterns
--   **Explicitly deny tools** - Block access to tools you want to restrict
--   **Navigate visually** - Use an intuitive UI instead of manually editing JSON files
+-   **查看当前权限** - 查看当前允许或拒绝的工具
+-   **明确允许工具** - 授予特定工具或工具模式的权限
+-   **明确拒绝工具** - 阻止访问您想要限制的工具
+-   **可视化导航** - 使用直观的 UI 而不是手动编辑 JSON 文件
 
-The `/permissions` interface provides real-time permission management with a fluid, responsive experience that makes configuration changes effortless—no need to restart Claude Code or manually edit configuration files.
+`/permissions` 界面提供实时权限管理，具有流畅、响应式的体验，使配置更改变得轻松自如——无需重启 Claude Code 或手动编辑配置文件。
 
-tip
+提示
 
-Multiple configuration locations exist due to legacy compatibility - you might encounter different file names and directory locations.
+由于遗留兼容性，存在多个配置位置 - 您可能会遇到不同的文件名和目录位置。
 
-**Recommendation:** Use `~/.claude.json` for reliability as shown in the examples above.
-
-* * *
+**建议：** 如上面示例所示，使用 `~/.claude.json` 以确保可靠性。
 
 * * *
 
-## Additional Working Directories / Extended Workspace[​](#additional-working-directories--extended-workspace "Direct link to Additional Working Directories / Extended Workspace")
+* * *
 
-Claude Code can access multiple directories beyond your current working directory using:
+## 额外工作目录 / 扩展工作空间[​](#additional-working-directories--extended-workspace "Direct link to Additional Working Directories / Extended Workspace")
 
--   **CLI argument:** `--add-dir` (added in [v1.0.18](/claude-code-changelog/#v1018.html)) when starting Claude Code
--   **Slash command:** `/add-dir` mid-session for seamless workflow expansion
+Claude Code 可以访问当前工作目录之外的多个目录，使用：
 
-This allows you to work across multiple projects or reference external resources without changing directories or restarting your session.
+-   **CLI 参数：** `--add-dir`（在 [v1.0.18](/claude-code-changelog/#v1018.html) 中添加）启动 Claude Code 时使用
+-   **斜杠命令：** `/add-dir` 在会话中无缝扩展工作流
 
-### Usage[​](#usage "Direct link to Usage")
+这允许您跨多个项目工作或引用外部资源，而无需更改目录或重启会话。
 
-**CLI Argument (at startup):**
+### 用法[​](#usage "Direct link to Usage")
+
+**CLI 参数（启动时）：**
 
 ```bash
-# Add a single additional directory
+# 添加单个额外目录
 
 claude --add-dir /path/to/other/project
 
-# Combine with other options
+# 与其他选项组合
 
 claude --add-dir ~/shared/libraries
 
-# Use with print mode for scripting
+# 与打印模式一起用于脚本编写
 
-claude --add-dir ../backend -p "Validate that API calls in the current directory match endpoints defined in ../backend"
+claude --add-dir ../backend -p "验证当前目录中的 API 调用是否与 ../backend 中定义的端点匹配"
 
 ```
 
-**Slash Command (mid-session):**
+**斜杠命令（会话中）：**
 
 ```bash
-# Add directory without restarting your session
+# 无需重启会话即可添加目录
 
 /add-dir /path/to/other/project
 
-# Add multiple directories as needed
+# 根据需要添加多个目录
 
 /add-dir ~/shared/libraries
 
@@ -334,40 +334,40 @@ claude --add-dir ../backend -p "Validate that API calls in the current directory
 
 ```
 
-### Common Use Cases[​](#common-use-cases "Direct link to Common Use Cases")
+### 常见用例[​](#common-use-cases "Direct link to Common Use Cases")
 
-**Multi-Repository Projects**
+**多仓库项目**
 
 ```bash
-# At startup: Work on frontend while referencing the backend API
+# 启动时：在处理前端的同时引用后端 API
 
 claude --add-dir ../backend-api
 
-# Mid-session: Add backend when you need to reference API endpoints
+# 会话中：当需要引用 API 端点时添加后端
 
 /add-dir ../backend-api
 
 ```
 
-**Shared Resources**
+**共享资源**
 
 ```bash
-# At startup: Access shared configs or documentation
+# 启动时：访问共享配置或文档
 
 claude --add-dir ~/company/shared-configs
 
-# Mid-session: Add shared resources when needed
+# 会话中：需要时添加共享资源
 
 /add-dir ~/company/shared-configs
 
 ```
 
-**Dynamic Workflow expansion**
+**动态工作流扩展**
 
 ```bash
-# Start with current project, then expand as needed
+# 从当前项目开始，然后根据需要扩展
 
-# No need to restart when you realize you need additional context
+# 当您意识到需要额外上下文时无需重启
 
 /add-dir ../related-service
 
@@ -375,34 +375,34 @@ claude --add-dir ~/company/shared-configs
 
 ```
 
-**Note:** The current working directory is always included. CLAUDE.md files appear to not be read in automatically from additional directories added via `--add-dir`.
+**注意：** 当前工作目录始终包含在内。通过 `--add-dir` 添加的额外目录中的 CLAUDE.md 文件似乎不会自动读取。
 
-Better Workflow Orchestration
+更好的工作流编排
 
-This feature significantly improves workflow orchestration by enabling Claude to:
+此功能通过使 Claude 能够实现以下功能，显著改善了工作流编排：
 
--   **Work across repositories** simultaneously—maintaining context and applying consistent changes
--   **Reference shared code** directly from libraries or configuration repositories
--   **Temporarily expose** a codebase for Claude to analyze or modify without changing directories
--   **Expand workspace dynamically** using `/add-dir` without interrupting your current session
+-   **跨仓库工作** 同时进行—维护上下文并应用一致的更改
+-   **直接引用共享代码** 从库或配置仓库
+-   **临时暴露** 代码库供 Claude 分析或修改，而无需更改目录
+-   **动态扩展工作空间** 使用 `/add-dir` 而不中断当前会话
 
-The `/add-dir` slash command makes this particularly seamless—you can start focused on one project and organically expand your workspace as needs emerge, without losing context or restarting. Instead of juggling multiple sessions or copying files, you can compose multiple repositories within the same workflow structure—orchestrating complex multi-repository operations in a single, context-aware session.
+`/add-dir` 斜杠命令使这一切特别无缝—您可以从专注于一个项目开始，并随着需求的出现有机地扩展您的工作空间，而不会失去上下文或重启。您可以在同一工作流结构中组合多个仓库，而不是处理多个会话或复制文件—在单个上下文感知会话中编排复杂的多仓库操作。
 
-##### Configuration Mastery
+##### 配置精通
 
-Proper configuration is the foundation of effective Claude Code usage. Understanding these settings enables sophisticated workflows and unlocks the full potential of AI-assisted development.
+正确的配置是有效使用 Claude Code 的基础。理解这些设置可以实现复杂的工作流，并释放 AI 辅助开发的全部潜力。
 
 <img src="/img/discovery/009.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
-**See Also**: [Pricing Plans](/claude-code-pricing.html)|[CLAUDE.md Guide](/mechanics-claude-md-supremacy.html)|[MCPs & Add-ons](/claude-code-mcps.html)|[FAQs](/faq.html)
+**另请参阅**: [定价计划](/claude-code-pricing.html)|[CLAUDE.md 指南](/mechanics-claude-md-supremacy.html)|[MCP 与插件](/claude-code-mcps.html)|[常见问题](/faq.html)
 
--   [API Key Setup](#api-key-setup)
--   [Model Selection](#model-selection)
--   [Model Switching During Session](#model-switching-during-session)
--   [MCP Configuration](#mcp-configuration)
--   [Allowed Tools](#allowed-tools)
--   [Additional Working Directories / Extended Workspace](#additional-working-directories--extended-workspace)
-    -   [Usage](#usage)
-    -   [Common Use Cases](#common-use-cases)
+-   [API 密钥设置](#api-key-setup)
+-   [模型选择](#model-selection)
+-   [会话中切换模型](#model-switching-during-session)
+-   [MCP 配置](#mcp-configuration)
+-   [允许的工具](#allowed-tools)
+-   [额外工作目录 / 扩展工作空间](#additional-working-directories--extended-workspace)
+    -   [用法](#usage)
+    -   [常见用例](#common-use-cases)
