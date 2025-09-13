@@ -185,8 +185,3 @@ Serena 已成为受欢迎的免费替代方案，用户反馈"在没有订阅费
 * * *
 
 *Serena 由 oraios 开发，是开源项目。如需技术支持、语言服务器配置和社区贡献，请参考官方 GitHub 仓库。*
-
--   [概述](#overview)
--   [功能特性](#features)
--   [安装](#installation)
--   [使用方法](#usage)

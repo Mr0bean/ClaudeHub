@@ -73,4 +73,3 @@ Log.d("test", "sanity")
 * * *
 
 **另请参见**：[CLAUDE.md 至上](/mechanics-claude-md-supremacy.html)|[配置](/configuration.html)|[上下文窗口约束](/mechanics-context-window-constraints-as-training.html)
-

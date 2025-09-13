@@ -64,10 +64,3 @@ title: "骨架项目 | Claude Hub"
 * * *
 
 **另见**：[Git 克隆只是开始](/mechanics-git-clone-is-just-the-beginning.html)|[分角色子代理](/mechanics-split-role-sub-agents.html)|[任务代理工具](/mechanics-task-agent-tools.html)
-
-
--   [骨架策略](#骨架策略)
--   [方法 1：并行源研究](#方法-1：并行源研究)
--   [方法 2：评估子代理](#方法-2：评估子代理)
--   [效率倍增器](#效率倍增器)
--   [骨架选择标准](#骨架选择标准)

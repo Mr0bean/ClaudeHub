@@ -396,12 +396,3 @@ claude --add-dir ~/company/shared-configs
 * * *
 
 **另请参阅**: [定价计划](/claude-code-pricing.html)|[CLAUDE.md 指南](/mechanics-claude-md-supremacy.html)|[MCP 与插件](/claude-code-mcps.html)|[常见问题](/faq.html)
-
--   [API 密钥设置](#api-key-setup)
--   [模型选择](#model-selection)
--   [会话中切换模型](#model-switching-during-session)
--   [MCP 配置](#mcp-configuration)
--   [允许的工具](#allowed-tools)
--   [额外工作目录 / 扩展工作空间](#additional-working-directories--extended-workspace)
-    -   [用法](#usage)
-    -   [常见用例](#common-use-cases)

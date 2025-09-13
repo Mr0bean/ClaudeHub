@@ -143,18 +143,3 @@ Claude Max 提供对所有 Claude 模型的访问，包括高级 Claude 4.1 Opus
 * * *
 
 **另请参阅**: [模型比较](/model-comparison.html)|[安装指南](/install-claude-code.html)|[入门指南](/faqs/how-to-get-started-with-claude-code.html)|[Claude Code 是否免费](/claude-ai-free.html)|[CC Usage 插件](/claude-code-mcps/cc-usage.html)
-
--   [Claude AI 价格对比：Pro 与 Max 计划](#claude-ai-价格对比pro-与-max-计划)
--   [详细计划分解](#详细计划分解)
-    -   [Claude 免费版 - 有限测试](#claude-免费版---有限测试)
-    -   [Claude Pro（年付 $17/月，月付 $20/月）- 开发 + 研究 + 集成](#claude-pro年付-17月月付-20月---开发--研究--集成)
-    -   [Claude Max $100（$100/月）- 具有有限 Opus 的专业开发](#claude-max-100100月---具有有限-opus-的专业开发)
-    -   [Claude Max $200（$200/月）- 完整专业开发](#claude-max-200200月---完整专业开发)
--   [API 定价 - 按使用付费](#api-定价---按使用付费)
-    -   [当前 API 费率（2025 年 6 月）](#当前-api-费率2025-年-6-月)
--   [使用监控和优化](#使用监控和优化)
-    -   [上下文管理](#上下文管理)
-    -   [跟踪您的使用情况](#跟踪您的使用情况)
-    -   [成本优化技巧](#成本优化技巧)
-````，这不是实际的英文文档内容。，我会立即进行翻译。
-```

@@ -238,18 +238,3 @@ Claude Code 理解自然语言请求，使其比传统开发工具更容易使�
 * * *
 
 **另请参阅**: [定价计划](/claude-code-pricing.html)|[计划模式](/mechanics-plan-mode.html)|[MCPs 和附加组件](/claude-code-mcps.html)|[常见问题](/faq.html)
-
--   [Claude Code 项目设置和配置](#claude-code-project-setup-and-configuration)
-    -   [CLAUDE.md 配置](#claudemd-configuration)
--   [您的第一个 Claude Code 会话：分步教程](#your-first-claude-code-session-step-by-step-tutorial)
-    -   [交互模式](#interactive-mode)
-    -   [一次性模式](#one-shot-mode)
--   [Claude Code 示例：初学者的快速入门](#claude-code-examples-quick-wins-for-beginners)
-    -   [理解您的项目](#understanding-your-project)
-    -   [快速分析](#quick-analysis)
-    -   [您的第一个文件创建](#your-first-file-creation)
--   [基本的 Claude Code 命令和示例](#essential-claude-code-commands-and-examples)
-    -   [文件操作](#file-operations)
-    -   [代码分析](#code-analysis)
-    -   [开发任务](#development-tasks)
--   [如何使用 Claude Code：自然语言命令](#how-to-use-claude-code-natural-language-commands)

@@ -69,9 +69,3 @@ Token约束教会你：
 * * *
 
 **另见**: [上下文窗口耗尽](/mechanics-context-window-depletion.html)|[动态内存](/mechanics-dynamic-memory.html)|[战术模型选择](/mechanics-tactical-model-selection.html)
-
-
--   [训练效应](#the-training-effect)
--   [性能退化](#performance-degradation)
--   [可扩展的技能](#skills-that-scale)
--   [悖论](#the-paradox)

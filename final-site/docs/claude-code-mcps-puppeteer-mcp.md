@@ -84,8 +84,3 @@ Automate logging into this web portal, navigate to the reports section, and down
 * * *
 
 *Puppeteer MCP 是官方模型上下文协议服务器的一部分，采用 MIT 许可证。如需技术支持和更新，请参考官方 GitHub 仓库。*
-
--   [概述](#概述)
--   [功能特性](#功能特性)
--   [安装](#安装)
--   [使用方法](#使用方法)

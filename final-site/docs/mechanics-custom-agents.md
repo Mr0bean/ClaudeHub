@@ -271,12 +271,3 @@ model: opus
 * * *
 
 **另请参阅**：[任务代理工具](/mechanics-task-agent-tools.html) | [代理工程](/mechanics-agent-engineering.html) | [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/)
-
-
--   [游戏规则将永远改变](#the-game-will-never-be-the-same)
--   [核心优势](#core-benefits)
--   [快速入门指南](#quick-start-guide)
--   [基本用法](#basic-usage)
--   [配置](#configuration)
--   [最佳实践](#best-practices)
--   [社区愿景](#community-vision)

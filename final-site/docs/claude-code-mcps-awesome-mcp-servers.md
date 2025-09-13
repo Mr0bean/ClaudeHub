@@ -79,8 +79,3 @@ Awesome MCP 服务器是目前最全面的模型上下文协议（MCP）服务�
 * * *
 
 *Awesome MCP 服务器由 punkpeye 和开源社区维护。有关服务器提交和更新，请参阅官方 GitHub 仓库。*
-
--   [概述](#overview)
--   [功能特性](#features)
--   [如何使用此目录](#how-to-use)
--   [使用单个服务器](#using-servers)

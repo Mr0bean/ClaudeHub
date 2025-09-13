@@ -13,7 +13,7 @@ Claude Code 发布的完整版本历史，从早期测试版到最新稳定版�
 ### v1.0.111[​](#v10111 "直接链接到v1.0.111")
 
 -   `/model` 现在验证提供的模型名称
--   修复了Bash工具由格式错误的shell语法解析引起的崩溃
+-   修复了 Bash 工具由格式错误的 shell 语法解析引起的崩溃
 
 9月 11, 2025
 
@@ -31,7 +31,7 @@ Claude Code 发布的完整版本历史，从早期测试版到最新稳定版�
 
 ### v1.0.109[​](#v10109 "直接链接到v1.0.109")
 
--   SDK: 添加了通过 --include-partial-messages CLI标志支持部分消息流
+-   SDK: 添加了通过 --include-partial-messages CLI 标志支持部分消息流
 
 9月 10, 2025
 
@@ -86,9 +86,9 @@ Claude Code 发布的完整版本历史，从早期测试版到最新稳定版�
 ### v1.0.88[​](#v1088 "直接链接到v1.0.88")
 
 -   修复了导致 "OAuth身份验证当前不受支持" 的问题
--   Status line 输入现在包括 `exceeds\_200k\_tokens`
--   修复了 /cost中不正确的使用跟踪
--   引入了 `ANTHROPIC\_DEFAULT\_SONNET\_MODEL` 和 `ANTHROPIC\_DEFAULT\_OPUS\_MODEL` 用于控制模型别名opusplan、opus和 sonnet
+-   Status line 输入现在包括 `exceeds_200k_tokens`
+-   修复了 /cost 中不正确的使用跟踪
+-   引入了 `ANTHROPIC_DEFAULT_SONNET_MODEL` 和 `ANTHROPIC_DEFAULT_OPUS_MODEL` 用于控制模型别名 opusplan、opus 和 sonnet
 -   Bedrock: 更新了默认Sonnet模型为Sonnet4
 
 8月 22, 2025
@@ -138,8 +138,8 @@ Claude Code 发布的完整版本历史，从早期测试版到最新稳定版�
 -   SDK: 添加了请求取消支持
 -   SDK: 新增了 additionalDirectories 搜索自定义路径的选项，改进了 slash 命令处理
 -   Settings: 验证以防止 .claude/settings.json 文件中的无效字段
--   MCP: 改进工具名称一致性
--   Bash: 修复了Claude尝试自动读取大文件时的崩溃
+-   MCP: 改进了工具名称一致性
+-   Bash: 修复了 Claude 尝试自动读取大文件时的崩溃
 
 8月 16, 2025|另请参阅： [Claude Code SDK](https://docs.anthropic.com/en/docs/claude-code-sdk)|[配置](/configuration.html)|[MCP服务器](/faqs/what-is-mcp-server-in-claude-code.html)
 
@@ -150,7 +150,7 @@ Claude Code 发布的完整版本历史，从早期测试版到最新稳定版�
 -   发布了输出样式，包括新的内置教育输出样式 "Explanatory" 和 "Learning"
 -   Agents: 修复了代理文件无法解析时的自定义代理加载
 
-8月 14, 2025|另请参阅： [输出样式](https://docs.anthropic.com/en/docs/claude-code-输出-styles)
+8月 14, 2025|另请参阅： [输出样式](https://docs.anthropic.com/en/docs/claude-code-output-styles)
 
 * * *
 
@@ -197,10 +197,10 @@ Claude Code 发布的完整版本历史，从早期测试版到最新稳定版�
 
 ### v1.0.71[​](#v1071 "直接链接到v1.0.71")
 
--   Background命令：(Ctrl-b) 在后台运行任何Bash命令，让Claude可以继续工作（非常适合开发服务器、跟踪日志等）
+-   Background 命令：(Ctrl-b) 在后台运行任何 Bash 命令，让 Claude 可以继续工作（非常适合开发服务器、跟踪日志等）
 -   可自定义状态行：使用 `/statusline` 将您的终端提示符添加到 Claude Code
 
-8月 8, 2025|另请参阅： [后台命令](/faqs/what-are-background-命令.html)|[可自定义状态行](/faqs/status-line-claude-code.html)
+8月 8, 2025|另请参阅： [后台命令](/faqs/what-are-background-commands.html)|[可自定义状态行](/faqs/status-line-claude-code.html)
 
 * * *
 
@@ -208,9 +208,9 @@ Claude Code 发布的完整版本历史，从早期测试版到最新稳定版�
 
 -   性能：优化了消息渲染以在大上下文中获得更好的性能
 -   Windows: 修复了原生文件搜索、ripgrep和子代理功能
--   添加了对slash命令参数中 @-mentions的支持
+-   添加了对 slash 命令参数中 @-mentions 的支持
 
-8月 7, 2025|另请参阅： [Windows 安装](/faqs/how-to-install-claude-code-on-windows.html)|[自定义 Slash 命令](/faqs/what-is-slash-命令-in-claude-code.html)|[自定义代理](/mechanics-custom-agents.html)
+8月 7, 2025|另请参阅： [Windows 安装](/faqs/how-to-install-claude-code-on-windows.html)|[自定义 Slash 命令](/faqs/what-is-slash-commands-in-claude-code.html)|[自定义代理](/mechanics-custom-agents.html)
 
 * * *
 
@@ -220,7 +220,7 @@ Claude Code 发布的完整版本历史，从早期测试版到最新稳定版�
 
 -   升级了 Opus 到版本 4.1
 
-05/08/2025|另请参阅： [Claude 4.1 Opus](/faqs/what-is-claude-4-1-opus.html)
+8月 5, 2025|另请参阅： [Claude 4.1 Opus](/faqs/what-is-claude-4-1-opus.html)
 
 * * *
 
@@ -251,7 +251,7 @@ Claude Code 发布的完整版本历史，从早期测试版到最新稳定版�
 
 -   Agents: 添加了模型定制支持 - 您现在可以指定代理应使用哪个模型
 -   Agents: 修复了对递归代理工具的意外访问
--   Hooks: 向hook JSON输出添加了systemMessage字段以显示警告和上下文
+-   Hooks: 向hook JSON 输出添加了systemMessage字段以显示警告和上下文
 -   SDK: 修复了多轮对话中的用户输入跟踪
 -   将隐藏文件添加到文件搜索和 @-mention建议中
 
@@ -261,15 +261,15 @@ July30, 2025|另请参阅： [自定义代理](/mechanics-custom-agents.html)|[H
 
 ### v1.0.63[​](#v1063 "直接链接到v1.0.63")
 
--   Windows: 修复了文件搜索、@agentmentions和自定义slash命令功能
+-   Windows: 修复了文件搜索、@agent mentions 和自定义 slash 命令功能
 
-July29, 2025|另请参阅： [Windows 安装](/faqs/how-to-install-claude-code-on-windows.html)|[自定义代理](/mechanics-custom-agents.html)|[自定义 Slash 命令](/faqs/what-is-slash-命令-in-claude-code.html)
+July29, 2025|另请参阅： [Windows 安装](/faqs/how-to-install-claude-code-on-windows.html)|[自定义代理](/mechanics-custom-agents.html)|[自定义 Slash 命令](/faqs/what-is-slash-commands-in-claude-code.html)
 
 * * *
 
 ### v1.0.62[​](#v1062 "直接链接到v1.0.62")
 
--   为自定义代理添加了带有预输入的 @-mention支持. @&lt;your-custom-agent&gt; toinvokeit
+-   为自定义代理添加了带有预输入的 @-mention支持. @&lt;your-custom-agent&gt; 来调用它
 -   Hooks: 添加了用于新会话初始化的SessionStarthook
 -   /添加-dir命令现在支持目录路径的预输入
 -   改进了网络连接检查的可靠性
@@ -280,16 +280,16 @@ July28, 2025|另请参阅： [Custom Subagents](https://docs.anthropic.com/en/do
 
 ### v1.0.61[​](#v1061 "直接链接到v1.0.61")
 
--   Transcriptmode (Ctrl+R): Change d Esctoexittranscriptmoderatherthaninterrupt
--   Settings: 添加了 `--设置s` 标志以从JSON文件加载设置
+-   Transcript 模式 (Ctrl+R): 更改了 Esc 键为退出 transcript 模式而不是中断
+-   Settings: 添加了 `--settings` 标志以从JSON文件加载设置
 -   Settings: 修复了符号链接设置文件路径的解析
 -   OTEL: 修复了身份验证更改后错误组织的报告
--   Slash命令：修复了Bash允许工具的权限检查
--   IDE: 添加了在VSCod e Mac OS中使用 ⌘+V粘贴图像的支持
--   IDE: 添加了 `CLAUDE\_CODE\_AUTO\_CONNECT\_IDE=false` fordisabling IDEauto-connection
--   添加了 `CLAUDE\_CODE\_SHELL\_PREFIX` 用于包装Claude Code运行的Claude和用户提供的shell命令
+-   Slash 命令：修复了 Bash 允许工具的权限检查
+-   IDE: 添加了在 VSCode macOS 中使用 ⌘+V 粘贴图像的支持
+-   IDE: 添加了 `CLAUDE_CODE_AUTO_CONNECT_IDE=false` 用于禁用 IDE 自动连接
+-   添加了 `CLAUDE_CODE_SHELL_PREFIX` 用于包装 Claude Code 运行的 Claude 和用户提供的 shell 命令
 
-July25, 2025|另请参阅： [配置](/configuration.html)|[自定义 Slash 命令](/faqs/what-is-slash-命令-in-claude-code.html)
+July25, 2025|另请参阅： [配置](/configuration.html)|[自定义 Slash 命令](/faqs/what-is-slash-commands-in-claude-code.html)
 
 * * *
 
@@ -306,9 +306,9 @@ July24, 2025|另请参阅： [Task Agent Tools](/mechanics-task-agent-工具.htm
 ### v1.0.59[​](#v1059 "直接链接到v1.0.59")
 
 -   SDK: 添加了带有canUseTool回调的工具确认支持
--   SDK: Allowspecifyingenvforspawnedprocess
--   Hooks: Exposed Permissio n Decisiontohooks (including "ask")
--   Hooks: User Prompt Submit现在支持添加itiona l Contextinadvanced JSON输出
+-   SDK: 允许为生成的进程指定环境
+-   Hooks: 向 hooks 公开了 PermissionDecision (including "ask")
+-   Hooks: UserPromptSubmit现在支持添加额外上下文在高级 JSON 输出
 -   修复了某些指定Opus的 Max用户仍然回退到Sonnet的问题
 
 July23, 2025|另请参阅： [Claude Code SDK](https://docs.anthropic.com/en/docs/claude-code-sdk)|[Hooks](/mechanics-hooks.html)
@@ -331,7 +331,7 @@ July23, 2025|另请参阅： [Hooks](/mechanics-hooks.html)|[MCPs](/claude-code-
 -   改进了权限消息以帮助Claude理解允许的工具
 -   修复：删除终端包装中bash输出的尾随换行符
 
-July23, 2025|另请参阅： [自定义 Slash 命令](/faqs/what-is-slash-命令-in-claude-code.html)|[Auto-Accep t Permissions](/mechanics-auto-accept-permissions.html)
+July23, 2025|另请参阅： [自定义 Slash 命令](/faqs/what-is-slash-commands-in-claude-code.html)|[Auto-Accep t Permissions](/mechanics-auto-accept-permissions.html)
 
 * * *
 
@@ -364,7 +364,7 @@ July23, 2025|另请参阅： [Mode l Comparison](/model-comparison.html)|[Window
 -   Windows: 模式切换现在使用alt + m，计划模式正确渲染
 -   Shell: 切换到内存中的shell快照以避免文件相关错误
 
-July19, 2025|另请参阅： [Hooks](/mechanics-hooks.html)|[自定义 Slash 命令](/faqs/what-is-slash-命令-in-claude-code.html)|[Windows 安装](/faqs/how-to-install-claude-code-on-windows.html)
+July19, 2025|另请参阅： [Hooks](/mechanics-hooks.html)|[自定义 Slash 命令](/faqs/what-is-slash-commands-in-claude-code.html)|[Windows 安装](/faqs/how-to-install-claude-code-on-windows.html)
 
 * * *
 
@@ -397,7 +397,7 @@ July18, 2025|另请参阅： [MCPs](/claude-code-mcps.html)
 -   Customslash命令: 修复了user-level命令insubdirectories
 -   Planmode: 修复了问题whererejectedplanfromsub-taskwouldgetdiscarded
 
-July11, 2025|另请参阅： [计划模式](/mechanics-plan-mode.html)|[Windows 安装](/faqs/how-to-install-claude-code-on-windows.html)|[自定义 Slash 命令](/faqs/what-is-slash-命令-in-claude-code.html)
+July11, 2025|另请参阅： [计划模式](/mechanics-plan-mode.html)|[Windows 安装](/faqs/how-to-install-claude-code-on-windows.html)|[自定义 Slash 命令](/faqs/what-is-slash-commands-in-claude-code.html)
 
 * * *
 
@@ -426,7 +426,7 @@ July10, 2025|另请参阅： [Hooks](/mechanics-hooks.html)
 -   Sto p Hooks: 修复了transcriptpathafter /clearand修复了triggeringwhenloopendswith工具call
 -   Customslash命令: Restorednamespacingin命令namesbasedonsubdirectories. Forexample, .claude/frontend/component.mdis现在 /frontend:component, not /component.
 
-July9, 2025|另请参阅： [自定义 Slash 命令](/faqs/what-is-slash-命令-in-claude-code.html)|[Hooks](/mechanics-hooks.html)
+July9, 2025|另请参阅： [自定义 Slash 命令](/faqs/what-is-slash-commands-in-claude-code.html)|[Hooks](/mechanics-hooks.html)
 
 * * *
 
@@ -779,7 +779,7 @@ June2, 2025|另请参阅： [配置](/configuration.html)
 
 ### v0.2.117[​](#v02117 "直接链接到v0.2.117")
 
--   Breakingchange: `--print` JSON输出现在returnsnestedmessageobjects, forforwards-compatibilityasweintroducenewmetadatafields
+-   Breakingchange: `--print` JSON 输出现在returnsnestedmessageobjects, forforwards-compatibilityasweintroducenewmetadatafields
 -   引入了 `设置s.cleanup Perio d Days`
 -   引入了 `CLAUDE\_CODE\_API\_KEY\_HELPER\_TTL\_MS` envvar
 -   引入了 `--debug` mode
@@ -1073,121 +1073,9 @@ April21, 2025|另请参阅： [Auto-Accep t Permissions](/mechanics-auto-accept-
 
 * * *
 
-##### Remarkabl e Progress
+##### 非凡的进展
 
-It'samazinghowfa r Claude Codehascomeinsucha shortperiodoftime. Fromearlybetaversionstoa comprehensivedevelopmentplatformwith MCPs, auto-permissions, planmode, real-timesteering, andsophisticatedworkflows - thepaceofinnovationhasbeenextraordinary.
+令人惊讶的是，Claude Code 在如此短的时间内取得了如此大的进步。从早期的测试版本到一个拥有 MCP、自动权限、计划模式、实时指导和复杂工作流程的综合开发平台——创新的步伐非常惊人。
 
 
 * * *
-
--   [v1.0.111](#v10111)
--   [v1.0.110](#v10110)
--   [v1.0.109](#v10109)
--   [v1.0.106](#v10106)
--   [v1.0.97](#v1097)
--   [v1.0.94](#v1094)
--   [v1.0.93](#v1093)
--   [v1.0.90](#v1090)
--   [v1.0.88](#v1088)
--   [v1.0.86](#v1086)
--   [v1.0.85](#v1085)
--   [v1.0.84](#v1084)
--   [v1.0.83](#v1083)
--   [v1.0.82](#v1082)
--   [v1.0.81](#v1081)
--   [v1.0.80](#v1080)
--   [v1.0.77](#v1077)
--   [v1.0.73](#v1073)
--   [v1.0.72](#v1072)
--   [v1.0.71](#v1071)
--   [v1.0.70](#v1070)
--   [v1.0.69](#v1069)
--   [v1.0.68](#v1068)
--   [v1.0.65](#v1065)
--   [v1.0.64](#v1064)
--   [v1.0.63](#v1063)
--   [v1.0.62](#v1062)
--   [v1.0.61](#v1061)
--   [v1.0.60](#v1060)
--   [v1.0.59](#v1059)
--   [v1.0.58](#v1058)
--   [v1.0.57](#v1057)
--   [v1.0.56](#v1056)
--   [v1.0.55](#v1055)
--   [v1.0.54](#v1054)
--   [v1.0.53](#v1053)
--   [v1.0.52](#v1052)
--   [v1.0.51](#v1051)
--   [v1.0.48](#v1048)
--   [v1.0.45](#v1045)
--   [v1.0.44](#v1044)
--   [v1.0.43](#v1043)
--   [v1.0.42](#v1042)
--   [v1.0.41](#v1041)
--   [v1.0.40](#v1040)
--   [v1.0.39](#v1039)
--   [v1.0.38](#v1038)
--   [v1.0.37](#v1037)
--   [v1.0.36](#v1036)
--   [v1.0.35](#v1035)
--   [v1.0.34](#v1034)
--   [v1.0.33](#v1033)
--   [v1.0.32](#v1032)
--   [v1.0.31](#v1031)
--   [v1.0.30](#v1030)
--   [v1.0.29](#v1029)
--   [v1.0.28](#v1028)
--   [v1.0.27](#v1027)
--   [v1.0.25](#v1025)
--   [v1.0.24](#v1024)
--   [v1.0.23](#v1023)
--   [v1.0.22](#v1022)
--   [v1.0.21](#v1021)
--   [v1.0.18](#v1018)
--   [v1.0.17](#v1017)
--   [v1.0.16](#v1016)
--   [v1.0.11](#v1011)
--   [v1.0.10](#v1010)
--   [v1.0.8](#v108)
--   [v1.0.7](#v107)
--   [v1.0.6](#v106)
--   [v1.0.4](#v104)
--   [v1.0.1](#v101)
--   [v1.0.0](#v100)
--   [v0.2.125](#v02125)
--   [v0.2.117](#v02117)
--   [v0.2.108](#v02108)
--   [v0.2.107](#v02107)
--   [v0.2.106](#v02106)
--   [v0.2.105](#v02105)
--   [v0.2.102](#v02102)
--   [v0.2.100](#v02100)
--   [v0.2.98](#v0298)
--   [v0.2.95](#v0295)
--   [v0.2.93](#v0293)
--   [v0.2.82](#v0282)
--   [v0.2.75](#v0275)
--   [v0.2.7](#v027)
--   [v0.2.72](#v0272)
--   [v0.2.70](#v0270)
--   [v0.2.69](#v0269)
--   [v0.2.67](#v0267)
--   [v0.2.66](#v0266)
--   [v0.2.63](#v0263)
--   [v0.2.61](#v0261)
--   [v0.2.59](#v0259)
--   [v0.2.54](#v0254)
--   [v0.2.53](#v0253)
--   [v0.2.50](#v0250)
--   [v0.2.49](#v0249)
--   [v0.2.47](#v0247)
--   [v0.2.44](#v0244)
--   [v0.2.41](#v0241)
--   [v0.2.37](#v0237)
--   [v0.2.36](#v0236)
--   [v0.2.34](#v0234)
--   [v0.2.32](#v0232)
--   [v0.2.31](#v0231)
--   [v0.2.30](#v0230)
--   [v0.2.26](#v0226)
--   [v0.2.21](#v0221)

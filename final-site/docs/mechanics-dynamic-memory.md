@@ -40,4 +40,3 @@ Claude 实例会自动向上爬取目录结构并读取它们遇到的任何 `CL
 * * *
 
 **另请参阅**：[CLAUDE.md 至高无上](/mechanics-claude-md-supremacy.html)|[上下文窗口约束](/mechanics-context-window-depletion.html)|[上下文窗口耗尽](/mechanics-context-window-depletion.html)
-

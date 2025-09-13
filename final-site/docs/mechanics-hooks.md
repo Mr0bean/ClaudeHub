@@ -109,12 +109,3 @@ fi
 * * *
 
 **另请参阅**：[配置](/configuration.html)|[Claude Code 中的钩子是什么](https://docs.anthropic.com/en/docs/claude-code/hooks)
-
-
--   [实际应用实现](#practical-implementation)
--   [作用域挑战](#scoping-challenges)
--   [作用域不当的钩子示例](#poorly-scoped-hook-example)
--   [更好的作用域钩子示例 - 智能调度器模式](#better-scoped-hook-example---smart-dispatcher-pattern)
--   [寻找钩子机会](#finding-hook-opportunities)
--   [可用的触发器](#available-triggers)
--   [最佳实践](#best-practices)

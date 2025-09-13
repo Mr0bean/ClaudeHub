@@ -100,8 +100,3 @@ Claudia为Claude Code提供GUI界面，为那些偏好可视化工具而非基�
 * * *
 
 *Claudia由getAsterisk团队开发，是AGPL-3.0许可证下的开源项目。如需技术支持和更新，请参考官方GitHub仓库。*
-
--   [概述](#overview)
--   [功能特性](#features)
--   [安装](#installation)
--   [使用](#usage)

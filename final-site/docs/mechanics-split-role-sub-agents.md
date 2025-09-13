@@ -86,8 +86,3 @@ Anthropic [公开讨论过](https://docs.anthropic.com/en/docs/build-with-claude
 * * *
 
 **另请参阅**：[计划模式](/mechanics-plan-mode.html)|[任务代理工具](/mechanics-task-agent-tools.html)|[战术模型选择](/mechanics-tactical-model-selection.html)|[始终保持实验](/mechanics-always-be-experimenting.html)
-
-
--   [角色基础](#the-role-foundation)
--   [原生实现](#native-implementation)
--   [超越编码应用](#beyond-coding-applications)

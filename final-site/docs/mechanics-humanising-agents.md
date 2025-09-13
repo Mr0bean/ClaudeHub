@@ -114,10 +114,3 @@ reviewer
 * * *
 
 **另请参阅**：[自定义智能体](mechanics-custom-agents.html) | [智能体工程](mechanics-sub-agents.html) | [任务智能体工具](mechanics-task-agent-tools.html)
-
-
--   [超越正式调用](#超越正式调用)
--   [文字表情个性](#文字表情个性)
-    -   [按角色分类的文字表情示例](#按角色分类的文字表情示例)
--   [实施策略](#实施策略)
--   [资源](#资源)

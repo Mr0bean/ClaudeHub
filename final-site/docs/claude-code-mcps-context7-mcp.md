@@ -110,8 +110,3 @@ Developers share that Context7 MCP eliminates frustration from outdated AI code 
 * * *
 
 *Context7 MCP is developed by Upstash and is open-source and free to use. For technical support and updates, please refer to the official GitHub repository.*
-
--   [Overview](#overview)
--   [Features](#features)
--   [Installation](#installation)
--   [Usage](#usage)

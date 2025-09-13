@@ -24,4 +24,3 @@ title: "你是主线程 | Claude Hub"
 * * *
 
 **另请参阅**：[任务智能体工具](/mechanics-task-agent-tools.html)|[紧密反馈循环](/mechanics-tight-feedback-loops.html)|[作为指令镜像的待办事项列表](/mechanics-todo-lists-as-instruction-mirrors.html)
-

@@ -51,8 +51,3 @@ title: "代理优先设计 | Claude Hub"
 * * *
 
 **另请参阅**: [自定义代理](/mechanics-custom-agents.html)|[代理工程](/mechanics-agent-engineering.html)|[任务代理工具](/mechanics-task-agent-tools.html)
-
-
--   [范式转变](#the-paradigm-shift)
--   [通过原生代理产品获得竞争优势](#competitive-advantage-through-agent-native-products)
--   [代理优先产品原则](#agent-first-product-principles)

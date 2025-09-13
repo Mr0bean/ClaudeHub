@@ -71,9 +71,3 @@ title: "上下文检查 | Claude Hub"
 * * *
 
 **另见**：[上下文窗口衰竭](/mechanics-context-window-depletion.html)|[代理工程](/mechanics-custom-agents.html)|[自定义代理](/mechanics-custom-agents.html)
-
-
--   [战略性上下文工程](#strategic-context-engineering)
--   [当前限制和未来潜力](#current-limitations-and-future-potential)
--   [与其他机制的集成](#integration-with-other-mechanics)
--   [交互式上下文分析](#interactive-context-analysis)

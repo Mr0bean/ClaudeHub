@@ -78,14 +78,3 @@ Revving the engine transforms Sonnet into a precision instrument. Multiple criti
 * * *
 
 **See Also**: [Ultrathink++](/mechanics-ultrathink-plus-plus.html)|[Plan Mode](/mechanics-plan-mode.html)|[Tactical Model Selection](/mechanics-tactical-model-selection.html)
-
-
--   [The Performance Multiplier](#the-performance-multiplier)
--   [Resource Responsibility](#resource-responsibility)
--   [The Modern Pricing Reality](#the-modern-pricing-reality)
--   [The Proficiency Trap](#the-proficiency-trap)
--   [The Rev Process](#the-rev-process)
--   [Round 1: Initial Planning](#round-1-initial-planning)
--   [Round 2: Critique and Refine](#round-2-critique-and-refine)
--   [Round 3: Final Optimization](#round-3-final-optimization)
--   [The Innovation Challenge](#the-innovation-challenge)

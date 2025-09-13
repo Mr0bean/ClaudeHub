@@ -52,4 +52,3 @@ Claude Code 在您的开发环境中运行，可以可靠地创建简单到中�
 * * *
 
 **另请参阅**：[任务代理工具](/mechanics-task-agent-tools.html)|[Git Clone 只是开始](/mechanics-git-clone-is-just-the-beginning.html)|[钩子](/mechanics-hooks.html)
-

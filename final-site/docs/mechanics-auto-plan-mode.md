@@ -135,9 +135,3 @@ claude --append-system-prompt "$(cat auto-plan-mode.txt)"
 * * *
 
 **另请参见**：[计划模式](/mechanics-plan-mode.html)|[如何更新系统提示](/faqs/how-to-update-system-prompt.html)
-
-
--   [计划模式 vs 自动计划模式](#plan-mode-vs-auto-plan-mode)
--   [主要优势](#key-advantages)
--   [实现](#implementation)
--   [使用选项](#usage-options)

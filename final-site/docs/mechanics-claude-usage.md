@@ -127,20 +127,3 @@ Claude AI 在不同访问方式和订阅层级下的使用情况差异显著。�
 * * *
 
 **另请参阅**: [Claude 性能](https:///claude-performance)|[Claude 限制](https:///claude-limits)|[API 文档](https://docs.anthropic.com)
-
-
--   [按访问方式的使用情况](#按访问方式的使用情况)
-    -   [Web 界面 (claude.ai)](#web-界面-claudeai)
-    -   [API 访问](#api-访问)
--   [订阅层级细分](#订阅层级细分)
-    -   [免费访问](#免费访问)
-    -   [Claude Pro ($20/月)](#claude-pro-20月)
-    -   [Claude Max (5x/20x)](#claude-max-5x20x)
--   [模型对消费的影响](#模型对消费的影响)
-    -   [Claude 3 Opus 4.1 使用模式](#claude-3-opus-41-使用模式)
-    -   [Claude 3.5 Sonnet 效率](#claude-35-sonnet-效率)
--   [跨平台考虑](#跨平台考虑)
-    -   [使用共享](#使用共享)
-    -   [平台优势](#平台优势)
--   [即将到来的变化](#即将到来的变化)
--   [社区使用见解](#社区使用见解)

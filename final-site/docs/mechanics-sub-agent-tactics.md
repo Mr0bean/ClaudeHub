@@ -50,10 +50,3 @@ title: "子代理策略 | Claude Hub"
 * * *
 
 **另请参阅**：[任务代理工具](/mechanics-task-agent-tools.html)|[分割角色子代理](/mechanics-split-role-sub-agents.html)
-
-
--   [理解任务类型](#understanding-task-types)
--   [完美可并行化的任务](#perfect-parallelizable-tasks)
--   [培养并行化的直觉](#developing-an-itch-for-parallelism)
--   [整合策略](#the-consolidation-strategy)
--   [如何使用子代理](#how-to-use-sub-agents)

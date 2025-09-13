@@ -73,8 +73,3 @@ Claude Code提供：
 ## Claude Code设置[​](#claude-code设置)
 
 如果您需要安装Claude Code，我们的[安装指南](install-claude-code.html)可以帮助您。有关高级设置和优化，请参阅我们的[配置指南](configuration.html)。
-
--   [什么是Claude？](#什么是claude)
--   [什么是Claude Code？](#什么是claude-code)
--   [转折点](#转折点)
--   [Claude Code设置](#claude-code设置)

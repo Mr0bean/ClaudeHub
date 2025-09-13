@@ -418,18 +418,3 @@ title: "Claude Code 常见问题解答 | Claude Hub"
 * * *
 
 *这些常见问题解答根据社区讨论和真实用户体验编译而成。有关官方文档，请访问 [Claude Code 文档](https://docs.anthropic.com/en/docs/claude-code).*
-
--   [入门指南](#getting-started)
--   [定价](#pricing)
--   [安装与设置](#installation--setup)
--   [配置](#configuration)
--   [核心功能](#core-features)
--   [计划与定价](#plans--pricing)
--   [最佳实践](#best-practices)
--   [故障排除](#troubleshooting)
--   [高级用法](#advanced-usage)
--   [资源](#resources)
--   [Claude AI](#claude-ai)
--   [AI 工具基础](#ai-tools-fundamentals)
--   [氛围编程](#vibe-coding)
--   [AI 与人机界面 (HCI)](#ai--human-computer-interface-hci)

@@ -50,10 +50,3 @@ title: "Ultrathink++ | Claude Hub"
 * * *
 
 **另请参阅**：[计划模式](/mechanics-plan-mode.html)|[分角色子代理](/mechanics-split-role-sub-agents.html)|[什么是 UltraThink](/mechanics-ultrathink-plus-plus.html)
-
-
--   [Ultrathink 与计划模式](#ultrathink-与计划模式)
--   [加速引擎](#加速引擎)
--   [终极堆栈](#终极堆栈)
--   [为什么先用 Ultrathink 而不是 Opus](#为什么先用-ultrathink-而不是-opus)
--   [完整堆栈](#完整堆栈)

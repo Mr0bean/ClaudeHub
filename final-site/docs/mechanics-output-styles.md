@@ -86,8 +86,3 @@ Anthropic 一直在持续发力，每周都为 Claude Code 推出越来越多的
 * * *
 
 **另请参阅**：[CLAUDE.md 至上](/mechanics-claude-md-supremacy.html)|[自定义代理](/mechanics-custom-agents.html)|[配置](/watch-control.html)
-
-
--   [未开发的潜力](#未开发的潜力)
--   [与其他机制的区别](#与其他机制的区别)
--   [跨领域应用](#跨领域应用)

@@ -37,7 +37,3 @@ title: "联系我们 | Claude Hub"
 想要贡献？请在 Reddit 上联系！Claude Hub 是 [r/ClaudeAI](https://reddit.com/r/ClaudeAI) 研究成果的集大成者。
 
 <br/>
-
--   [联系方式](#联系方式)
--   [CLAUDE.md 库提交](#claude-md-库提交)
--   [社区](#社区)

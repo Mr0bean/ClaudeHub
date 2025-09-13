@@ -57,4 +57,3 @@ Actually, let's change the button color to blue (#0066cc) instead of red
 * * *
 
 **另见**：[你是主线程](/mechanics-you-are-the-main-thread.html)|[紧密反馈循环](/mechanics-tight-feedback-loops.html)|[CLAUDE.md 至上](/mechanics-claude-md-supremacy.html)
-

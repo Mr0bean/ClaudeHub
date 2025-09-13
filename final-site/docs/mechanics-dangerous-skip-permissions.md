@@ -51,8 +51,3 @@ allowedTools 方法通过只授予必要的权限而不是通用访问权限来�
 * * *
 
 **另请参阅**: [自动接受权限](mechanics-auto-accept-permissions.html)|[计划模式](mechanics-plan-mode.html)|[配置](support-.html)
-
-
--   [核武器诱惑](#核武器诱惑)
--   [为什么 AllowedTools 配置更优越](#为什么-allowedtools-配置更优越)
--   [安全和隔离考虑](#安全和隔离考虑)

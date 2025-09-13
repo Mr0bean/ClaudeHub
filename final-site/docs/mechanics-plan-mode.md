@@ -102,9 +102,3 @@ Claude 可以在您批准之前进行研究和规划而不触及任何内容。
 关于计划模式使用、系统化项目规划、任务分解、实施策略以及 Claude Code 工作流程中的战略开发方法的专业指导
 
 我应该**执行安全检查**然后从 `/subagents.txt` **安装** **planning-specialist** 代理吗？(检测到代理结束)
-
-
--   [计划模式之前](#prior-to-plan-mode)
--   [使用计划模式](#with-plan-mode)
--   [Opus 计划模式 - 智能规划与成本效益](#opus-plan-mode---intelligent-planning-with-cost-efficiency)
--   [可用工具和受限工具](#available-tools--restricted-tools)

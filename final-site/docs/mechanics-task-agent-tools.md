@@ -79,4 +79,3 @@ title: "任务/代理工具 | Claude Hub"
 * * *
 
 **另请参阅**：[上下文窗口耗尽](/mechanics-context-window-depletion.html)|[Bash 脚本](/mechanics-bash-scripts.html)|[你是主线程](/mechanics-you-are-the-main-thread.html)
-

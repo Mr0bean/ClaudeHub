@@ -115,8 +115,3 @@ WhatsApp MCP 为额外功能提供了良好的基础。该仓库可以轻松扩�
 * * *
 
 *WhatsApp MCP 由 lharries 作为社区项目开发。如需技术支持和设置帮助，请参考官方 GitHub 仓库。*
-
--   [概述](#overview)
--   [功能特性](#features)
--   [安装](#installation)
--   [使用方法](#usage)

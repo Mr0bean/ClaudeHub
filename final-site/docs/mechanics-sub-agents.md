@@ -88,8 +88,3 @@ You are a security expert specializing in authentication vulnerabilities...
 * * *
 
 **另请参阅**：[Task 代理工具](/mechanics-task-agent-tools.html)|[自定义代理](/mechanics-custom-agents.html)|[代理工程](/mechanics-agent-engineering.html)|[子代理策略](/mechanics-sub-agent-tactics.html)
-
-
--   [手动子代理](#manual-sub-agents)
--   [自定义代理](#custom-agents)
--   [决策框架](#decision-framework)

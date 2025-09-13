@@ -240,16 +240,3 @@ claude --version
 * * *
 
 **另请参阅**: [定价计划](/claude-code-pricing.html)|[常见问题](/contact.html)|[MCPs 和插件](/claude-code-mcps.html)|[计划模式](/mechanics-agent-engineering.html)
-
--   [Claude Code 系统要求和先决条件](#claude-code-system-requirements-and-prerequisites)
--   [先决条件](#prerequisites)
--   [如何安装 Claude Code：分步方法](#how-to-install-claude-code-step-by-step-approach)
-    -   [选项 1：npm（推荐）](#option-1-npm-recommended)
--   [Claude Code 设置和配置指南](#claude-code-setup-and-configuration-guide)
-    -   [API 密钥配置](#api-key-configuration)
-    -   [替代方案：环境变量](#alternative-environment-variable)
-    -   [Claude Pro 订阅](#claude-pro-subscription)
-    -   [Claude Code 模型选择和配置](#claude-code-model-selection-and-configuration)
--   [特定平台的 Claude Code 设置：Windows、Mac 和 Linux](#platform-specific-claude-code-setup-windows-mac-and-linux)
-    -   [Claude Code Windows 设置](#claude-code-windows-setup)
--   [验证 Claude Code 安装：测试您的设置](#verifying-claude-code-installation-testing-your-setup)

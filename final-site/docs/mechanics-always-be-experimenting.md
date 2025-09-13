@@ -40,8 +40,3 @@ AI 革命需要愿意突破界限的工程师。你今天记录的每一个实�
 * * *
 
 **另请参阅**：[上下文窗口限制作为训练](/mechanics-context-window-constraints-as-training.html)
-
-
--   [工程悖论](#the-engineering-paradox)
--   [早期采用阶段](#early-adoption-phase)
--   [A.B.E 思维模式](#the-abe-mindset)
