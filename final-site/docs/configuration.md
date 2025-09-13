@@ -10,7 +10,7 @@ title: "Claude Code 配置指南"
 
 * * *
 
-## API 密钥设置[​](#api-key-setup "Direct link to API Key Setup")
+## API 密钥设置[​](#api-key-setup "Direct link to API 密钥设置")
 
 Claude Code 需要 Anthropic API 密钥才能运行。使用以下方法之一进行设置：
 
@@ -31,7 +31,7 @@ source ~/.bashrc
 
 * * *
 
-## 模型选择[​](#model-selection "Direct link to Model Selection")
+## 模型选择[​](#model-selection "Direct link to 模型选择")
 
 Claude Code 支持多种模型。您可以指定要使用的模型：
 
@@ -99,7 +99,7 @@ claude --model claude-3-5-haiku-20241022
 
 * * *
 
-## 会话中切换模型[​](#model-switching-during-session "Direct link to Model Switching During Session")
+## 会话中切换模型[​](#model-switching-during-session "Direct link to 会话中切换模型")
 
 您可以使用 `/model` 命令在会话中切换模型，它提供了一个交互式菜单：
 
@@ -121,11 +121,11 @@ Opus 规划模式根据上下文自动切换模型，在研究和规划阶段使
 
 * * *
 
-## MCP 配置[​](#mcp-configuration "Direct link to MCP Configuration")
+## MCP 配置[​](#mcp-configuration "Direct link to MCP 配置")
 
 模型上下文协议（MCP）允许 Claude Code 连接到外部工具和服务。配置 MCP 服务器以扩展 Claude 的功能：
 
-#### MCP 服务器设置[​](#mcp-server-setup "Direct link to MCP Server Setup")
+#### MCP 服务器设置[​](#mcp-server-setup "Direct link to MCP 服务器设置")
 
 MCP 配置可以存储在多个位置：
 
@@ -189,9 +189,9 @@ MCP 配置示例：
 
 * * *
 
-## 允许的工具[​](#allowed-tools "Direct link to Allowed Tools")
+## 允许的工具[​](#allowed-tools "Direct link to 允许的工具")
 
-#### 允许的工具设置[​](#allowed-tools-setup "Direct link to Allowed Tools Setup")
+#### 允许的工具设置[​](#allowed-tools-setup "Direct link to 允许的工具设置")
 
 允许的工具配置可以存储在多个位置：
 
@@ -200,7 +200,7 @@ MCP 配置示例：
 -   **用户特定全局：** `~/.claude/settings.json`
 -   **主 Claude.json：** `~/.claude.json`
 
-#### 允许的工具配置示例：[​](#example-allowed-tools-configuration "Direct link to Example Allowed Tools configuration:")
+#### 允许的工具配置示例：[​](#example-allowed-tools-configuration "Direct link to 允许的工具配置示例：")
 
 ```bash
 // 示例：~/.claude.json（推荐以确保可靠性）
@@ -261,7 +261,7 @@ MCP 配置示例：
 
 **注意：** 如果遵循此示例，请确保更新正确的项目配置。
 
-#### 交互式权限管理[​](#interactive-permission-management "Direct link to Interactive Permission Management")
+#### 交互式权限管理[​](#interactive-permission-management "Direct link to 交互式权限管理")
 
 要以更用户友好的方式管理工具权限，请在 Claude Code 中使用 `/permissions` 命令：
 
@@ -291,7 +291,7 @@ MCP 配置示例：
 
 * * *
 
-## 额外工作目录 / 扩展工作空间[​](#additional-working-directories--extended-workspace "Direct link to Additional Working Directories / Extended Workspace")
+## 额外工作目录 / 扩展工作空间[​](#additional-working-directories--extended-workspace "Direct link to 额外工作目录 / 扩展工作空间")
 
 Claude Code 可以访问当前工作目录之外的多个目录，使用：
 
@@ -300,7 +300,7 @@ Claude Code 可以访问当前工作目录之外的多个目录，使用：
 
 这允许您跨多个项目工作或引用外部资源，而无需更改目录或重启会话。
 
-### 用法[​](#usage "Direct link to Usage")
+### 用法[​](#usage "Direct link to 用法")
 
 **CLI 参数（启动时）：**
 
@@ -334,7 +334,7 @@ claude --add-dir ../backend -p "验证当前目录中的 API 调用是否与 ../
 
 ```
 
-### 常见用例[​](#common-use-cases "Direct link to Common Use Cases")
+### 常见用例[​](#common-use-cases "Direct link to 常见用例")
 
 **多仓库项目**
 

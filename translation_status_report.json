@@ -1,0 +1,670 @@
+{
+  "summary": {
+    "total": 66,
+    "fully_translated": 59,
+    "partially_translated": 2,
+    "untranslated": 5
+  },
+  "details": [
+    {
+      "title": "Claude Code 文档、指南与最佳实践 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 1067,
+      "english_words": 110,
+      "translation_ratio": 0.9065420560747663,
+      "total_headers": 5,
+      "chinese_headers": 5,
+      "file_name": "README.md"
+    },
+    {
+      "title": "Claude Code Cha",
+      "has_chinese_title": false,
+      "chinese_chars": 0,
+      "english_words": 4429,
+      "translation_ratio": 0.0,
+      "total_headers": 1,
+      "chinese_headers": 0,
+      "file_name": "claude-code-changelog.md"
+    },
+    {
+      "title": "Awesome Claude Code | Claude Hub",
+      "has_chinese_title": false,
+      "chinese_chars": 373,
+      "english_words": 125,
+      "translation_ratio": 0.748995983935743,
+      "total_headers": 1,
+      "chinese_headers": 0,
+      "file_name": "claude-code-mcps-awesome-claude-code.md"
+    },
+    {
+      "title": "Awesome Claude 提示词 | ClaudeLog Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 764,
+      "english_words": 81,
+      "translation_ratio": 0.9041420118343195,
+      "total_headers": 4,
+      "chinese_headers": 4,
+      "file_name": "claude-code-mcps-awesome-claude-prompts.md"
+    },
+    {
+      "title": "Awesome MCP 服务器 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 697,
+      "english_words": 97,
+      "translation_ratio": 0.8778337531486146,
+      "total_headers": 1,
+      "chinese_headers": 1,
+      "file_name": "claude-code-mcps-awesome-mcp-servers.md"
+    },
+    {
+      "title": "Ble",
+      "has_chinese_title": false,
+      "chinese_chars": 605,
+      "english_words": 125,
+      "translation_ratio": 0.8287671232876712,
+      "total_headers": 2,
+      "chinese_headers": 1,
+      "file_name": "claude-code-mcps-blender-mcp.md"
+    },
+    {
+      "title": "Browser Tools MCP | Claude Hub",
+      "has_chinese_title": false,
+      "chinese_chars": 787,
+      "english_words": 147,
+      "translation_ratio": 0.8426124197002142,
+      "total_headers": 7,
+      "chinese_headers": 6,
+      "file_name": "claude-code-mcps-browser-tools-mcp.md"
+    },
+    {
+      "title": "CC Usage | Claude Hub",
+      "has_chinese_title": false,
+      "chinese_chars": 429,
+      "english_words": 121,
+      "translation_ratio": 0.78,
+      "total_headers": 1,
+      "chinese_headers": 0,
+      "file_name": "claude-code-mcps-cc-usage.md"
+    },
+    {
+      "title": "Claude Code 路由器 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 486,
+      "english_words": 195,
+      "translation_ratio": 0.7136563876651982,
+      "total_headers": 4,
+      "chinese_headers": 4,
+      "file_name": "claude-code-mcps-claude-code-router.md"
+    },
+    {
+      "title": "Claudia - Claude Code的GUI工具包 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 505,
+      "english_words": 119,
+      "translation_ratio": 0.8092948717948718,
+      "total_headers": 1,
+      "chinese_headers": 1,
+      "file_name": "claude-code-mcps-claudia.md"
+    },
+    {
+      "title": "Co",
+      "has_chinese_title": false,
+      "chinese_chars": 0,
+      "english_words": 342,
+      "translation_ratio": 0.0,
+      "total_headers": 4,
+      "chinese_headers": 0,
+      "file_name": "claude-code-mcps-context7-mcp.md"
+    },
+    {
+      "title": "Desktop Comma",
+      "has_chinese_title": false,
+      "chinese_chars": 657,
+      "english_words": 130,
+      "translation_ratio": 0.8348157560355781,
+      "total_headers": 3,
+      "chinese_headers": 2,
+      "file_name": "claude-code-mcps-desktop-commander-mcp.md"
+    },
+    {
+      "title": "GitHub MCP 服务器 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 764,
+      "english_words": 169,
+      "translation_ratio": 0.8188638799571275,
+      "total_headers": 7,
+      "chinese_headers": 7,
+      "file_name": "claude-code-mcps-github-mcp-server.md"
+    },
+    {
+      "title": "Puppeteer MCP | Claude Hub",
+      "has_chinese_title": false,
+      "chinese_chars": 411,
+      "english_words": 122,
+      "translation_ratio": 0.7711069418386491,
+      "total_headers": 1,
+      "chinese_headers": 0,
+      "file_name": "claude-code-mcps-puppeteer-mcp.md"
+    },
+    {
+      "title": "Reddit MCP | Claude Hub",
+      "has_chinese_title": false,
+      "chinese_chars": 389,
+      "english_words": 103,
+      "translation_ratio": 0.790650406504065,
+      "total_headers": 1,
+      "chinese_headers": 0,
+      "file_name": "claude-code-mcps-reddit-mcp.md"
+    },
+    {
+      "title": "Sere",
+      "has_chinese_title": false,
+      "chinese_chars": 712,
+      "english_words": 190,
+      "translation_ratio": 0.7893569844789357,
+      "total_headers": 16,
+      "chinese_headers": 12,
+      "file_name": "claude-code-mcps-serena.md"
+    },
+    {
+      "title": "TDD Guard | Claude Hub",
+      "has_chinese_title": false,
+      "chinese_chars": 808,
+      "english_words": 141,
+      "translation_ratio": 0.8514225500526871,
+      "total_headers": 1,
+      "chinese_headers": 0,
+      "file_name": "claude-code-mcps-tdd-guard.md"
+    },
+    {
+      "title": "TweakCC | Claude Hub",
+      "has_chinese_title": false,
+      "chinese_chars": 761,
+      "english_words": 148,
+      "translation_ratio": 0.8371837183718371,
+      "total_headers": 4,
+      "chinese_headers": 3,
+      "file_name": "claude-code-mcps-tweakcc.md"
+    },
+    {
+      "title": "WhatsApp MCP | Claude Hub",
+      "has_chinese_title": false,
+      "chinese_chars": 559,
+      "english_words": 140,
+      "translation_ratio": 0.7997138769670958,
+      "total_headers": 2,
+      "chinese_headers": 1,
+      "file_name": "claude-code-mcps-whatsapp-mcp.md"
+    },
+    {
+      "title": "Ze",
+      "has_chinese_title": false,
+      "chinese_chars": 675,
+      "english_words": 116,
+      "translation_ratio": 0.8533501896333755,
+      "total_headers": 1,
+      "chinese_headers": 1,
+      "file_name": "claude-code-mcps-zen-mcp-server.md"
+    },
+    {
+      "title": "Claude Code MCP 工具和扩展 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 618,
+      "english_words": 221,
+      "translation_ratio": 0.7365911799761621,
+      "total_headers": 19,
+      "chinese_headers": 10,
+      "file_name": "claude-code-mcps.md"
+    },
+    {
+      "title": "Claude Code 定价 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 2112,
+      "english_words": 279,
+      "translation_ratio": 0.8833124215809285,
+      "total_headers": 5,
+      "chinese_headers": 5,
+      "file_name": "claude-code-pricing.md"
+    },
+    {
+      "title": "教程 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 998,
+      "english_words": 403,
+      "translation_ratio": 0.7123483226266952,
+      "total_headers": 23,
+      "chinese_headers": 22,
+      "file_name": "claude-code-tutorial.md"
+    },
+    {
+      "title": "Claude News Timeli",
+      "has_chinese_title": false,
+      "chinese_chars": 0,
+      "english_words": 11450,
+      "translation_ratio": 0.0,
+      "total_headers": 33,
+      "chinese_headers": 0,
+      "file_name": "claude-news.md"
+    },
+    {
+      "title": "Claude Code 配置指南",
+      "has_chinese_title": true,
+      "chinese_chars": 1681,
+      "english_words": 463,
+      "translation_ratio": 0.7840485074626866,
+      "total_headers": 21,
+      "chinese_headers": 21,
+      "file_name": "configuration.md"
+    },
+    {
+      "title": "联系我们 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 156,
+      "english_words": 65,
+      "translation_ratio": 0.7058823529411765,
+      "total_headers": 4,
+      "chinese_headers": 4,
+      "file_name": "contact.md"
+    },
+    {
+      "title": "免责声明 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 3817,
+      "english_words": 745,
+      "translation_ratio": 0.8366944322665497,
+      "total_headers": 21,
+      "chinese_headers": 21,
+      "file_name": "disclaimer.md"
+    },
+    {
+      "title": "Claude Code FAQs | Claude Hub",
+      "has_chinese_title": false,
+      "chinese_chars": 0,
+      "english_words": 9021,
+      "translation_ratio": 0.0,
+      "total_headers": 15,
+      "chinese_headers": 0,
+      "file_name": "faq.md"
+    },
+    {
+      "title": "安装 Claude Code | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 1156,
+      "english_words": 486,
+      "translation_ratio": 0.7040194884287454,
+      "total_headers": 7,
+      "chinese_headers": 7,
+      "file_name": "install-claude-code.md"
+    },
+    {
+      "title": "代理工程 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 3094,
+      "english_words": 258,
+      "translation_ratio": 0.9230310262529833,
+      "total_headers": 6,
+      "chinese_headers": 6,
+      "file_name": "mechanics-agent-engineering.md"
+    },
+    {
+      "title": "Age",
+      "has_chinese_title": false,
+      "chinese_chars": 0,
+      "english_words": 614,
+      "translation_ratio": 0.0,
+      "total_headers": 1,
+      "chinese_headers": 0,
+      "file_name": "mechanics-agent-first-design.md"
+    },
+    {
+      "title": "始终保持实验精神 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 576,
+      "english_words": 121,
+      "translation_ratio": 0.8263988522238164,
+      "total_headers": 1,
+      "chinese_headers": 1,
+      "file_name": "mechanics-always-be-experimenting.md"
+    },
+    {
+      "title": "自动接受权限 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 957,
+      "english_words": 120,
+      "translation_ratio": 0.8885793871866295,
+      "total_headers": 1,
+      "chinese_headers": 1,
+      "file_name": "mechanics-auto-accept-permissions.md"
+    },
+    {
+      "title": "自动计划模式 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 965,
+      "english_words": 337,
+      "translation_ratio": 0.7411674347158218,
+      "total_headers": 7,
+      "chinese_headers": 5,
+      "file_name": "mechanics-auto-plan-mode.md"
+    },
+    {
+      "title": "Bash 脚本",
+      "has_chinese_title": true,
+      "chinese_chars": 653,
+      "english_words": 82,
+      "translation_ratio": 0.8884353741496599,
+      "total_headers": 1,
+      "chinese_headers": 1,
+      "file_name": "mechanics-bash-scripts.md"
+    },
+    {
+      "title": "CLAUDE.md 至高优先级 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 612,
+      "english_words": 117,
+      "translation_ratio": 0.8395061728395061,
+      "total_headers": 1,
+      "chinese_headers": 1,
+      "file_name": "mechanics-claude-md-supremacy.md"
+    },
+    {
+      "title": "Claude 使用情况 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 1228,
+      "english_words": 204,
+      "translation_ratio": 0.8575418994413407,
+      "total_headers": 7,
+      "chinese_headers": 7,
+      "file_name": "mechanics-claude-usage.md"
+    },
+    {
+      "title": "上下文检查 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 909,
+      "english_words": 145,
+      "translation_ratio": 0.8624288425047438,
+      "total_headers": 1,
+      "chinese_headers": 1,
+      "file_name": "mechanics-context-inspection.md"
+    },
+    {
+      "title": "从约束中学习 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 787,
+      "english_words": 119,
+      "translation_ratio": 0.8686534216335541,
+      "total_headers": 1,
+      "chinese_headers": 1,
+      "file_name": "mechanics-context-window-constraints-as-training.md"
+    },
+    {
+      "title": "上下文窗口耗尽 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 537,
+      "english_words": 68,
+      "translation_ratio": 0.8876033057851239,
+      "total_headers": 1,
+      "chinese_headers": 1,
+      "file_name": "mechanics-context-window-depletion.md"
+    },
+    {
+      "title": "自定义代理 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 2287,
+      "english_words": 255,
+      "translation_ratio": 0.8996852871754524,
+      "total_headers": 1,
+      "chinese_headers": 1,
+      "file_name": "mechanics-custom-agents.md"
+    },
+    {
+      "title": "危险跳过权限 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 972,
+      "english_words": 116,
+      "translation_ratio": 0.8933823529411765,
+      "total_headers": 1,
+      "chinese_headers": 1,
+      "file_name": "mechanics-dangerous-skip-permissions.md"
+    },
+    {
+      "title": "动态内存",
+      "has_chinese_title": true,
+      "chinese_chars": 519,
+      "english_words": 121,
+      "translation_ratio": 0.8109375,
+      "total_headers": 1,
+      "chinese_headers": 1,
+      "file_name": "mechanics-dynamic-memory.md"
+    },
+    {
+      "title": "Git Clo",
+      "has_chinese_title": false,
+      "chinese_chars": 346,
+      "english_words": 90,
+      "translation_ratio": 0.7935779816513762,
+      "total_headers": 1,
+      "chinese_headers": 1,
+      "file_name": "mechanics-git-clone-is-just-the-beginning.md"
+    },
+    {
+      "title": "钩子 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 777,
+      "english_words": 206,
+      "translation_ratio": 0.7904374364191251,
+      "total_headers": 2,
+      "chinese_headers": 1,
+      "file_name": "mechanics-hooks.md"
+    },
+    {
+      "title": "人性化智能体 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 980,
+      "english_words": 76,
+      "translation_ratio": 0.928030303030303,
+      "total_headers": 7,
+      "chinese_headers": 7,
+      "file_name": "mechanics-humanising-agents.md"
+    },
+    {
+      "title": "输出样式 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 1443,
+      "english_words": 158,
+      "translation_ratio": 0.9013116801998751,
+      "total_headers": 1,
+      "chinese_headers": 1,
+      "file_name": "mechanics-output-styles.md"
+    },
+    {
+      "title": "排列框架 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 1131,
+      "english_words": 138,
+      "translation_ratio": 0.8912529550827423,
+      "total_headers": 1,
+      "chinese_headers": 1,
+      "file_name": "mechanics-permutation-frameworks.md"
+    },
+    {
+      "title": "计划模式 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 967,
+      "english_words": 206,
+      "translation_ratio": 0.824381926683717,
+      "total_headers": 2,
+      "chinese_headers": 2,
+      "file_name": "mechanics-plan-mode.md"
+    },
+    {
+      "title": "毒化上下文感知 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 1205,
+      "english_words": 92,
+      "translation_ratio": 0.9290670778720124,
+      "total_headers": 1,
+      "chinese_headers": 1,
+      "file_name": "mechanics-poison-context-awareness.md"
+    },
+    {
+      "title": "启动引擎",
+      "has_chinese_title": true,
+      "chinese_chars": 488,
+      "english_words": 467,
+      "translation_ratio": 0.5109947643979058,
+      "total_headers": 1,
+      "chinese_headers": 1,
+      "file_name": "mechanics-rev-the-engine.md"
+    },
+    {
+      "title": "健全性检查 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 307,
+      "english_words": 113,
+      "translation_ratio": 0.7309523809523809,
+      "total_headers": 3,
+      "chinese_headers": 3,
+      "file_name": "mechanics-sanity-check.md"
+    },
+    {
+      "title": "骨架项目 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 733,
+      "english_words": 91,
+      "translation_ratio": 0.8895631067961165,
+      "total_headers": 1,
+      "chinese_headers": 1,
+      "file_name": "mechanics-skeleton-projects.md"
+    },
+    {
+      "title": "分角色子代理 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 1011,
+      "english_words": 216,
+      "translation_ratio": 0.823960880195599,
+      "total_headers": 1,
+      "chinese_headers": 1,
+      "file_name": "mechanics-split-role-sub-agents.md"
+    },
+    {
+      "title": "子代理策略 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 724,
+      "english_words": 160,
+      "translation_ratio": 0.8190045248868778,
+      "total_headers": 1,
+      "chinese_headers": 1,
+      "file_name": "mechanics-sub-agent-tactics.md"
+    },
+    {
+      "title": "子代理 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 667,
+      "english_words": 181,
+      "translation_ratio": 0.7865566037735849,
+      "total_headers": 1,
+      "chinese_headers": 1,
+      "file_name": "mechanics-sub-agents.md"
+    },
+    {
+      "title": "战术模型选择 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 729,
+      "english_words": 236,
+      "translation_ratio": 0.755440414507772,
+      "total_headers": 3,
+      "chinese_headers": 3,
+      "file_name": "mechanics-tactical-model-selection.md"
+    },
+    {
+      "title": "任务/代理工具 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 704,
+      "english_words": 88,
+      "translation_ratio": 0.8888888888888888,
+      "total_headers": 2,
+      "chinese_headers": 2,
+      "file_name": "mechanics-task-agent-tools.md"
+    },
+    {
+      "title": "紧密反馈循环 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 588,
+      "english_words": 86,
+      "translation_ratio": 0.8724035608308606,
+      "total_headers": 1,
+      "chinese_headers": 1,
+      "file_name": "mechanics-tight-feedback-loops.md"
+    },
+    {
+      "title": "待办清单作为指令镜子 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 581,
+      "english_words": 93,
+      "translation_ratio": 0.8620178041543026,
+      "total_headers": 1,
+      "chinese_headers": 1,
+      "file_name": "mechanics-todo-lists-as-instruction-mirrors.md"
+    },
+    {
+      "title": "Ultrathi",
+      "has_chinese_title": false,
+      "chinese_chars": 588,
+      "english_words": 135,
+      "translation_ratio": 0.8132780082987552,
+      "total_headers": 1,
+      "chinese_headers": 0,
+      "file_name": "mechanics-ultrathink-plus-plus.md"
+    },
+    {
+      "title": "你是主线程 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 288,
+      "english_words": 83,
+      "translation_ratio": 0.7762803234501348,
+      "total_headers": 1,
+      "chinese_headers": 1,
+      "file_name": "mechanics-you-are-the-main-thread.md"
+    },
+    {
+      "title": "隐私政策",
+      "has_chinese_title": true,
+      "chinese_chars": 221,
+      "english_words": 1893,
+      "translation_ratio": 0.10454115421002838,
+      "total_headers": 16,
+      "chinese_headers": 3,
+      "file_name": "privacy-policy.md"
+    },
+    {
+      "title": "赞助 Claude Hub | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 384,
+      "english_words": 54,
+      "translation_ratio": 0.8767123287671232,
+      "total_headers": 1,
+      "chinese_headers": 1,
+      "file_name": "sponsor.md"
+    },
+    {
+      "title": "服务条款 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 3475,
+      "english_words": 200,
+      "translation_ratio": 0.9455782312925171,
+      "total_headers": 26,
+      "chinese_headers": 26,
+      "file_name": "terms-of-service.md"
+    },
+    {
+      "title": "手表控制示例 | Claude Hub",
+      "has_chinese_title": true,
+      "chinese_chars": 1692,
+      "english_words": 478,
+      "translation_ratio": 0.7797235023041474,
+      "total_headers": 3,
+      "chinese_headers": 3,
+      "file_name": "watch-control.md"
+    }
+  ]
+}

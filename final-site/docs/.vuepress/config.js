@@ -22,8 +22,7 @@ export default defineUserConfig({
       { text: 'Home', link: '/' },
       { text: 'Install', link: '/install-claude-code.html' },
       { text: 'Tutorial', link: '/claude-code-tutorial.html' },
-      { text: 'MCPs', link: '/claude-code-mcps.html' },
-      { text: 'Support', link: '/support-claudelog.html' }
+      { text: 'MCPs', link: '/claude-code-mcps.html' }
     ],
     
     sidebar: [
@@ -35,12 +34,6 @@ export default defineUserConfig({
             "/install-claude-code.html",
             "/claude-code-tutorial.html",
             "/configuration.html"
-        ]
-    },
-    {
-        "text": "Support",
-        "children": [
-            "/support-claudelog.html"
         ]
     },
     {
@@ -145,13 +138,6 @@ export default defineUserConfig({
             "/claude-code-pricing.html",
             "/claude-code-changelog.html",
             "/claude-news.html"
-        ]
-    },
-    {
-        "text": "Community",
-        "children": [
-            "/sponsor.html",
-            "/contact.html"
         ]
     },
     {
