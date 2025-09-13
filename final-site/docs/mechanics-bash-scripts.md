@@ -48,10 +48,8 @@ Claude Code 在您的开发环境中运行，可以可靠地创建简单到中�
 
 考虑让 Claude 构建一个基于 Bash 的基准测试工具，可以测量和比较不同的速度优化机制。
 
-<img src="/img/discovery/036_cl_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
 **另请参阅**：[任务代理工具](/mechanics-task-agent-tools.html)|[Git Clone 只是开始](/mechanics-git-clone-is-just-the-beginning.html)|[钩子](/mechanics-hooks.html)
 
-**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%;" />InventorBlack](/support-.html)|[Command Stick](https://commandstick.com/) CTO|[r/ClaudeAi](https://www.reddit.com/r/ClaudeAI/) 版主

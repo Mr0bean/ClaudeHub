@@ -46,13 +46,12 @@ allowedTools 方法通过只授予必要的权限而不是通用访问权限来�
 
 我观察到，与全面权限绕过相比，显式的 allowedTools 配置创建了更好的安全意识。你确切地了解哪些操作是自动化的，使得根据需要更容易审计和调整权限。
 
-<img src="/img/profile/inventorblack.jpg" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%; vertical-align: middle; margin-right: 8px;" />
+<img src="/img/claudes-greatest-soldier.png" alt="inventorblack" style="width: 25px; height: 25px; border-radius: 50%; display: inline-block; vertical-align: middle; margin: 0 3px;" />
 
 * * *
 
 **另请参阅**: [自动接受权限](mechanics-auto-accept-permissions.html)|[计划模式](mechanics-plan-mode.html)|[配置](support-.html)
 
-**作者**:[<img src="/img/profile/inventorblack.jpg" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%; vertical-align: middle; margin-right: 8px;" />InventorBlack](https://github.com/InventorBlack)|CTO at [Command Stick](https://commandstick.com/)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
 
 -   [核武器诱惑](#核武器诱惑)
 -   [为什么 AllowedTools 配置更优越](#为什么-allowedtools-配置更优越)

@@ -47,13 +47,11 @@ title: "代理优先设计 | Claude Hub"
 
 通过将产品设计为代理优先，您可以解锁`从有限基础产生无限变化`的能力。这就是未来竞争优势所在，不在于初始产品，而在于代理可以从中构建的内容。
 
-<img src="/img/discovery/033_energy_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
 **另请参阅**: [自定义代理](/mechanics-custom-agents.html)|[代理工程](/mechanics-agent-engineering.html)|[任务代理工具](/mechanics-task-agent-tools.html)
 
-**作者**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
 
 -   [范式转变](#the-paradigm-shift)
 -   [通过原生代理产品获得竞争优势](#competitive-advantage-through-agent-native-products)

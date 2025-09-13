@@ -131,13 +131,11 @@ claude --append-system-prompt "$(cat auto-plan-mode.txt)"
 
 你获得了`计划模式`的安全性和自动激活。不再疑惑"我应该先计划这个吗？"
 
-<img src="/img/discovery/041_japan_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
 **另请参见**：[计划模式](/mechanics-plan-mode.html)|[如何更新系统提示](/faqs/how-to-update-system-prompt.html)
 
-**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|[Command Stick](https://commandstick.com) 首席技术官|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
 
 -   [计划模式 vs 自动计划模式](#plan-mode-vs-auto-plan-mode)
 -   [主要优势](#key-advantages)

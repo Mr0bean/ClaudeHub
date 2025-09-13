@@ -4,7 +4,6 @@ title: "Claude Code 文档、指南与最佳实践 | Claude Hub"
 
 # Claude Code 文档、指南与最佳实践 | Claude Hub
 
-关于Claude Code的实验、见解和机制，作者是 [InventorBlack](https://www.reddit.com/u/InventorBlack/)，[Command Stick™](https://commandstick.com/) 的CTO，以及拥有`115k+`的 [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI) 版主
 
 ##### 最新文章
 
@@ -68,7 +67,6 @@ Claude Code提供：
 
 欢迎来到Claude Hub，您掌握Claude Code的全面指南。这里的每一个技术、机制和见解都来自社区，并已在真实开发场景中由社区测试！
 
-<img src="/img/discovery/036_cl_orange.png" alt="Claude Hub Orange Logo" style="max-width: 165px; height: auto;" />
 
 * * *
 

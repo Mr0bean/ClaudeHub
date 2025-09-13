@@ -234,7 +234,6 @@ Claude Code 理解自然语言请求，使其比传统开发工具更容易使�
 
 您刚刚迈出了使用 Claude Code 进行 AI 驱动开发的第一步。前方的旅程将带来软件开发中前所未有的生产力和创造力。
 
-<img src="/img/discovery/022_excite.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 

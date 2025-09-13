@@ -75,7 +75,6 @@ Awesome MCP 服务器是目前最全面的模型上下文协议（MCP）服务�
 
 开发者报告称该目录已成为 AI 工作流程的必需品。"如果你不运行本地 MCP，你就不是认真对待 AI" - 采用正在终端和 IDE 中发生。策展防止了从数百个集成中选择时的分析瘫痪。
 
-<img src="/img/discovery/036_cl_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 

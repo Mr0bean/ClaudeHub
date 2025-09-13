@@ -51,4 +51,3 @@ title: "CLAUDE.md 至高优先级 | Claude Hub"
 
 **另请参阅**：[什么是 CLAUDE.md](/mechanics-claude-md-supremacy.html)|[完整性检查](/mechanics-sanity-check.html)|[动态内存](/mechanics-dynamic-memory.html)
 
-**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="inventorblack" style="width: 25px; height: 25px; border-radius: 50%; display: inline-block; vertical-align: middle; margin: 0 3px;">InventorBlack](https://github.com/InventorBlack)|[Command Stick](https://commandstick.com/) CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主

@@ -96,7 +96,6 @@ claudia start
 
 Claudia为Claude Code提供GUI界面，为那些偏好可视化工具而非基于终端工作流的用户提供更舒适的开发体验。图形化方式使会话管理、代理配置和使用分析更加易于访问。
 
-<img src="/img/discovery/036_cl_orange.png" alt="Claudia GUI Interface" style="max-width: 165px; height: auto;" />
 
 * * *
 

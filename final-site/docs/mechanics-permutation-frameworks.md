@@ -59,13 +59,11 @@ Claude Code在完成它有足够内在知识的任务或你为其提供充分上
 
 `排列框架`将开发从线性转变为指数级扩展。你的角色从实现转变为协调，审查AI生成的功能排列而不是手动构建每个功能。
 
-<img src="/img/discovery/031_cell.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
 **另请参阅**：[CLAUDE.md至上](/mechanics-claude-md-supremacy.html)|[代理优先设计](/mechanics-agent-first-design.html)
 
-**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|[Command Stick](https://commandstick.com)首席技术官|[r/ClaudeAi](https://reddit.com/r/ClaudeAI)版主
 
 -   [理解Claude的优势](#understanding-claudes-strengths)
 -   [从一次性任务到系统化排列](#from-one-off-tasks-to-systematic-permutations)

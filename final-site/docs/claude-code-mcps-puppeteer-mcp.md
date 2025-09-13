@@ -80,7 +80,6 @@ Automate logging into this web portal, navigate to the reports section, and down
 
 开发者发现 Puppeteer MCP 对于基础抓取工具无法处理的复杂网页交互非常有价值。特别适用于导航动态内容、JavaScript 重度网站和自动化多步骤工作流。
 
-<img src="/img/discovery/036_cl_orange.png" alt="Claude Code 发现图标" style="max-width: 165px; height: auto;" />
 
 * * *
 

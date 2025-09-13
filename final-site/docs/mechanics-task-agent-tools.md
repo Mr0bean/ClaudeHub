@@ -75,10 +75,8 @@ title: "任务/代理工具 | Claude Hub"
 
 就像使用线程编程一样，明确编排哪些步骤委派给子代理会产生最佳结果。除非你提供详细的委派指令，否则 Claude 会谨慎地使用任务代理。
 
-<img src="/img/discovery/026_japan.png" alt="自定义图像" style="max-width: 165px; height: auto;" />
 
 * * *
 
 **另请参阅**：[上下文窗口耗尽](/mechanics-context-window-depletion.html)|[Bash 脚本](/mechanics-bash-scripts.html)|[你是主线程](/mechanics-you-are-the-main-thread.html)
 
-**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)

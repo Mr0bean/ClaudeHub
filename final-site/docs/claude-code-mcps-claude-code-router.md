@@ -141,7 +141,6 @@ ccr code
 
 使用替代 AI 提供商访问 Claude Code 的界面，无需 Anthropic 订阅。
 
-<img src="/img/discovery/004.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 

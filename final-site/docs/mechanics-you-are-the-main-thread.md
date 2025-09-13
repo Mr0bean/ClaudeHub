@@ -20,10 +20,8 @@ title: "你是主线程 | Claude Hub"
 
 像 CPU 调度器一样思考 - 排队任务，高效地进行上下文切换，永远不要让你的核心空闲。你的注意力就是瓶颈。`生成进程，委派操作，看着吞吐量暴增。`
 
-<img src="/img/discovery/022_excite_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
 **另请参阅**：[任务智能体工具](/mechanics-task-agent-tools.html)|[紧密反馈循环](/mechanics-tight-feedback-loops.html)|[作为指令镜像的待办事项列表](/mechanics-todo-lists-as-instruction-mirrors.html)
 
-**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)

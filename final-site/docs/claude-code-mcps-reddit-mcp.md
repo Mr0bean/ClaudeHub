@@ -89,7 +89,6 @@ npm run build
 
 Reddit MCP 为额外功能提供了良好的基础。该仓库可以轻松扩展以适应默认 MCP 方法之外的自定义功能。
 
-<img src="/img/discovery/036_cl_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 

@@ -100,7 +100,6 @@ Claude: 我将为您创建一个场景，包含一个红色立方体和蓝色球
 
 Blender MCP 被称为"3D 艺术家的游戏规则改变者"，用户报告称"几乎不了解 Blender 的业余用户可以使用自然语言来描述模型。"该集成代表了"实时展现的文本到 3D 工作流程"，类似的服务器也在 Unity 和虚幻引擎中出现。
 
-<img src="/img/discovery/036_cl_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 

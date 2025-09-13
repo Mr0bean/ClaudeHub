@@ -84,13 +84,11 @@ You are a security expert specializing in authentication vulnerabilities...
 
 现代子代理使用既提供了手动委派的直接控制，又提供了自动专业化的效率。像高性能开发团队一样设计您的代理生态系统，让每个专家在其领域中表现出色。
 
-<img src="/img/discovery/033_energy_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
 **另请参阅**：[Task 代理工具](/mechanics-task-agent-tools.html)|[自定义代理](/mechanics-custom-agents.html)|[代理工程](/mechanics-agent-engineering.html)|[子代理策略](/mechanics-sub-agent-tactics.html)
 
-**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|[Command Stick](https://commandstick.com) CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
 
 -   [手动子代理](#manual-sub-agents)
 -   [自定义代理](#custom-agents)

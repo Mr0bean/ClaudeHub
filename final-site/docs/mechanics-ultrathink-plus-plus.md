@@ -46,13 +46,11 @@ title: "Ultrathink++ | Claude Hub"
 
 上述机制揭示了系统化机制堆叠中隐藏的潜力。通过组合 `&lt;think&gt;`、`plan mode`、`criticism` 和 `sub-agents`，你可以解锁智能放大，从而改变复杂问题的解决方式。
 
-<img src="/img/discovery/036_cl_orange.png" alt="Claude Hub 发现" style="max-width: 165px; height: auto;" />
 
 * * *
 
 **另请参阅**：[计划模式](/mechanics-plan-mode.html)|[分角色子代理](/mechanics-split-role-sub-agents.html)|[什么是 UltraThink](/mechanics-ultrathink-plus-plus.html)
 
-**作者**：[<img src="/img/profiles/inventorblack.jpg" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%;" />InventorBlack](https://x.com/inventorblack)|[Command Stick](https://commandstick.com) CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
 
 -   [Ultrathink 与计划模式](#ultrathink-与计划模式)
 -   [加速引擎](#加速引擎)

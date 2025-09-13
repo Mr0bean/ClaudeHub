@@ -388,7 +388,6 @@ title: "Claude Code 常见问题解答 | Claude Hub"
 
 这些常见问题解答代表了 Claude Code 社区的集体智慧。这里回答的问题来自解决实际问题并分享他们发现的真实开发者。
 
-&lt;img src="/img/discovery/033_energy.png" alt="Custom image" style="max-width: 165px; height: auto;" /&gt;
 
 * * *
 

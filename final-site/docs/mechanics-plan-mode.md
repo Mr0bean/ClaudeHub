@@ -90,7 +90,6 @@ Claude 可以在您批准之前进行研究和规划而不触及任何内容。
 
 退出计划模式时，Claude 会格外谨慎，会就即将执行的任务请求额外确认。这是一个很好的细节，进一步确保了安全性。
 
-&lt;img src="/img/discovery/035_plan_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" /&gt;
 
 * * *
 
@@ -104,7 +103,6 @@ Claude 可以在您批准之前进行研究和规划而不触及任何内容。
 
 我应该**执行安全检查**然后从 `/subagents.txt` **安装** **planning-specialist** 代理吗？(检测到代理结束)
 
-**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|[Command Stick](https://commandstick.com) CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
 
 -   [计划模式之前](#prior-to-plan-mode)
 -   [使用计划模式](#with-plan-mode)

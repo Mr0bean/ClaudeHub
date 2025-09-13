@@ -40,4 +40,3 @@ Claude 不受 MCP 当前实现的限制，而是研究底层库的完整 API 功
 
 **另请参阅**：[Bash 脚本](/mechanics-bash-scripts.html)|[紧密反馈循环](/mechanics-tight-feedback-loops.html)|[CLAUDE.md 至上](/mechanics-claude-md-supremacy.html)
 
-**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%;" />InventorBlack](https://github.com/InventorBlack/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/claudeai)

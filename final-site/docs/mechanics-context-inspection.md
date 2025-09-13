@@ -67,13 +67,11 @@ title: "上下文检查 | Claude Hub"
 
 要求 Claude 审查你的上下文使用情况并建议优化。结合使用[计划模式](/mechanics-plan-mode.html)和[超级思考](/mechanics-ultrathink-plus-plus.html)进行全面分析："我的上下文在哪里可能效率不高，我该如何优化它？"
 
-<img src="/img/discovery/036_cl_orange.png" alt="Context inspection" style="max-width: 165px; height: auto;" />
 
 * * *
 
 **另见**：[上下文窗口衰竭](/mechanics-context-window-depletion.html)|[代理工程](/mechanics-custom-agents.html)|[自定义代理](/mechanics-custom-agents.html)
 
-**作者**：[<img src="/img/agents/002_inventorblack.webp" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%;" /> InventorBlack](https://github.com/inventorblack)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI/)
 
 -   [战略性上下文工程](#strategic-context-engineering)
 -   [当前限制和未来潜力](#current-limitations-and-future-potential)

@@ -261,13 +261,11 @@ Anthropic 提到，为了鼓励主动使用`自定义代理`，我们应该在`�
 
 在深入复杂链接之前掌握自定义代理的基础知识。对这些基础的扎实理解将实现更有效的链接和更高的使用频率。
 
-<img src="/img/discovery/028_fire.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
 **另请参阅**: [自定义代理](/mechanics-custom-agents.html)|[任务代理工具](/mechanics-task-agent-tools.html)
 
-**作者**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|[Command Stick](https://commandstick.com) CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
 
 -   [理解代理生态系统](#理解代理生态系统)
 -   [自定义代理设计](#自定义代理设计)

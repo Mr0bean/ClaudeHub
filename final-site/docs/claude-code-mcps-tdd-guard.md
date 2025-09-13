@@ -105,7 +105,6 @@ TDD Guard 自动化 TDD 纪律执行，提供几个关键优势：
 
 TDD Guard 自动化测试驱动开发的纪律性，让你专注于问题解决和设计，同时确保一致地遵循 TDD 原则。
 
-<img src="/img/discovery/036_cl_orange.png" alt="TDD Guard discovery image" style="max-width: 165px; height: auto;" />
 
 * * *
 

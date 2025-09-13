@@ -102,7 +102,6 @@ Claude：使用 Gemini 进行架构设计，O3 处理复杂逻辑，Claude 整�
 
 Zen MCP 服务器凭借一篇获得 800+ 赞的 Reddit 帖子获得了大量关注。用户反馈多模型编排提供了"捕获单个模型遗漏问题的不同视角"。
 
-<img src="/img/discovery/024_zen_mcp_server.png" alt="Multi-AI orchestration through Zen MCP Server" style="max-width: 165px; height: auto;" />
 
 * * *
 

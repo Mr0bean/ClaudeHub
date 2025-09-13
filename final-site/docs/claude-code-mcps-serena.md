@@ -181,7 +181,6 @@ Serena 提供深度代码理解，超越简单的文本分析。它通过语言�
 
 Serena 已成为受欢迎的免费替代方案，用户反馈"在没有订阅费用的情况下获得 Cursor/Windsurf 90% 的功能"。用户称赞其代码理解能力。
 
-<img src="/img/discovery/025.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 

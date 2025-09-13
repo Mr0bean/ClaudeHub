@@ -65,13 +65,11 @@ Token约束教会你：
 
 在无限上下文中学习的开发者可能会养成低效的习惯。而拥抱约束的人无论上下文大小如何都会成为更好的协作者。
 
-<img src="/img/discovery/008.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
 **另见**: [上下文窗口耗尽](/mechanics-context-window-depletion.html)|[动态内存](/mechanics-dynamic-memory.html)|[战术模型选择](/mechanics-tactical-model-selection.html)
 
-**Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
 
 -   [训练效应](#the-training-effect)
 -   [性能退化](#performance-degradation)

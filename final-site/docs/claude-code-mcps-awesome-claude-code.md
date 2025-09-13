@@ -73,7 +73,6 @@ Awesome Claude Code 是一个全面的资源集合，专门为使用 Claude Code
 
 **另见**: [Claude Code MCPs](/claude-code-mcps.html)|[配置指南](/configuration.html)|[教程](/claude-code-tutorial.html)
 
-**作者**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
 
 - [概述](#overview)
 - [主要特性](#features)

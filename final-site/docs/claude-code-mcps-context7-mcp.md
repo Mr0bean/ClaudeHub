@@ -106,7 +106,6 @@ For complete setup guides and supported libraries, see the [official documentati
 
 Developers share that Context7 MCP eliminates frustration from outdated AI code suggestions. Instead of debugging deprecated methods, Context7 ensures Claude Code provides current, working examples on first try.
 
-<img src="/img/discovery/009.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 

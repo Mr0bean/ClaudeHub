@@ -236,7 +236,6 @@ claude --version
 
 成功安装 Claude Code 后，您现在可以访问最强大的 AI 开发工具之一。每一段伟大的开发旅程都始于坚实的基础。
 
-<img src="/img/discovery/036_cl_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 

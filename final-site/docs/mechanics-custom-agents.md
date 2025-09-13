@@ -267,13 +267,11 @@ model: opus
 
 自定义代理就像专门的团队成员 - 每个都有领域专业知识、特定工具和专注的职责。这创建了一个协作的 AI 环境，由合适的专家处理每项任务。
 
-<img src="/img/discovery/022_excite_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
 **另请参阅**：[任务代理工具](/mechanics-task-agent-tools.html) | [代理工程](/mechanics-agent-engineering.html) | [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/)
 
-**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)| [Command Stick](https://commandstick.com) 首席技术官 | [r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
 
 -   [游戏规则将永远改变](#the-game-will-never-be-the-same)
 -   [核心优势](#core-benefits)

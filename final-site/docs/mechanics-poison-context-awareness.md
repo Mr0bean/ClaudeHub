@@ -62,7 +62,6 @@ title: "毒化上下文感知 | Claude Hub"
 
 **另请参阅**: [CLAUDE.md 至上主义](/mechanics-claude-md-supremacy.html)|[动态记忆](/mechanics-dynamic-memory.html)
 
-**作者**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%; display: inline-block; vertical-align: middle; margin: 0 3px;" />InventorBlack](https://x.com/InventorBlack)|[Command Stick](https://commandstick.com) CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
 
 -   [我是如何学到这一点的](#我是如何学到这一点的)
 -   [我如何思考上下文污染](#我如何思考上下文污染)

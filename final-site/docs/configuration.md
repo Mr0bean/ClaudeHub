@@ -392,7 +392,6 @@ claude --add-dir ~/company/shared-configs
 
 正确的配置是有效使用 Claude Code 的基础。理解这些设置可以实现复杂的工作流，并释放 AI 辅助开发的全部潜力。
 
-<img src="/img/discovery/009.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 

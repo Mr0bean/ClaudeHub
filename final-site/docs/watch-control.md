@@ -6,7 +6,6 @@ title: "手表控制示例 | Claude Hub"
 
 一个展示高级自动化工作流程和Wear OS手表控制命令转换的`CLAUDE.md`示例。
 
-作者：[InventorBlack](https://www.reddit.com/user/inventor_black/)
 
 * * *
 
@@ -178,7 +177,6 @@ title: "手表控制示例 | Claude Hub"
 
 此示例展示了`CLAUDE.md`如何协调复杂的工作流程，通过智能命令转换和自动化层将系统命令转换为手表交互。
 
-<img src="/img/discovery/002.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 

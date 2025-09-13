@@ -74,13 +74,11 @@ Learning these optimization techniques now sets me up for whatever changes come 
 
 Revving the engine transforms Sonnet into a precision instrument. Multiple critique rounds create plans so robust they can save you from opting for Opus. Master this technique to maximize single-agent performance before escalating to multi-agent workflows.
 
-<img src="/img/discovery/028_fire.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
 **See Also**: [Ultrathink++](/mechanics-ultrathink-plus-plus.html)|[Plan Mode](/mechanics-plan-mode.html)|[Tactical Model Selection](/mechanics-tactical-model-selection.html)
 
-**Author**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
 
 -   [The Performance Multiplier](#the-performance-multiplier)
 -   [Resource Responsibility](#resource-responsibility)

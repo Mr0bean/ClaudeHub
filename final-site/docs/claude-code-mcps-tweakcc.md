@@ -20,7 +20,6 @@ TweakCC 通过全面的界面个性化改变你的 Claude Code 体验。这个�
 
 * * *
 
-<img src="/img/discovery/027_tweakcc.png" alt="TweakCC Interface Customization" style="max-width: 165px; height: auto;" />
 
 * * *
 

@@ -36,13 +36,11 @@ title: "始终保持实验精神 | Claude Hub"
 
 AI 革命需要愿意突破界限的工程师。你今天记录的每一个实验都会成为明天的突破。拥抱不确定性，将好奇心转化为竞争优势。
 
-<img src="/img/discovery/024_excite_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
 **另请参阅**：[上下文窗口限制作为训练](/mechanics-context-window-constraints-as-training.html)
 
-**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|[Command Stick](https://commandstick.com) CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
 
 -   [工程悖论](#the-engineering-paradox)
 -   [早期采用阶段](#early-adoption-phase)

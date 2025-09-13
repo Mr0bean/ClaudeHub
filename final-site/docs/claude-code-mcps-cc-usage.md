@@ -18,7 +18,6 @@ CC Usage 是一个命令行工具，帮助您跟踪和分析您的 Claude Code �
 
 * * *
 
-<img src="/img/discovery/036_cl_orange.png" alt="CC Usage by @ryoppippi" style="max-width: 165px; height: auto;" />
 
 * * *
 

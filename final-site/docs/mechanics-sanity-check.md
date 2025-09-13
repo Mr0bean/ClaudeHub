@@ -69,10 +69,8 @@ Log.d("test", "sanity")
 
 写这篇文章时的随机想法：在你的 `CLAUDE.md` 中分散设置"健全性检查点"可能会很有趣，这样你就可以在上下文窗口填满时检查它们的完整性。
 
-<img src="/img/discovery/016_scary_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
 **另请参见**：[CLAUDE.md 至上](/mechanics-claude-md-supremacy.html)|[配置](/configuration.html)|[上下文窗口约束](/mechanics-context-window-constraints-as-training.html)
 
-**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|[Command Stick](https://commandstick.com) 首席技术官|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主

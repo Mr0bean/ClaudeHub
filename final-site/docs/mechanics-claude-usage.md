@@ -128,7 +128,6 @@ Claude AI 在不同访问方式和订阅层级下的使用情况差异显著。�
 
 **另请参阅**: [Claude 性能](https:///claude-performance)|[Claude 限制](https:///claude-limits)|[API 文档](https://docs.anthropic.com)
 
-**作者**:[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; border-radius: 50%; vertical-align: middle; margin-right: 8px;" />InventorBlack](https:///about)|CTO at [Command Stick](https://commandstick.com)|Mod at [r/ClaudeAi](https://reddit.com/r/ClaudeAI)
 
 -   [按访问方式的使用情况](#按访问方式的使用情况)
     -   [Web 界面 (claude.ai)](#web-界面-claudeai)

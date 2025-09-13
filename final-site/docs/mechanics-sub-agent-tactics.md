@@ -46,13 +46,11 @@ title: "子代理策略 | Claude Hub"
 
 像 AI 代理的 CPU 调度器一样思考。排队非破坏性任务，生成多个 `子代理`，然后整合它们的发现，并在交互模式下监督 Claude 逐步执行它们的建议。
 
-<img src="/img/discovery/022_excite_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
 **另请参阅**：[任务代理工具](/mechanics-task-agent-tools.html)|[分割角色子代理](/mechanics-split-role-sub-agents.html)
 
-**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|[Command Stick](https://commandstick.com) CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
 
 -   [理解任务类型](#understanding-task-types)
 -   [完美可并行化的任务](#perfect-parallelizable-tasks)

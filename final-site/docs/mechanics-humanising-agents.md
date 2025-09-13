@@ -110,13 +110,11 @@ reviewer
 
 将文字表情与昵称结合使用，将编程从孤独的技术任务转变为令人惊讶的有趣和社交活动！每个助手都感觉像是你正在合作的独特个性，使开发会话更具吸引力。
 
-<img src="/img/discovery/030_cl_light_blue.png" alt="人性化智能体发现" style="max-width: 165px; height: auto;" />
 
 * * *
 
 **另请参阅**：[自定义智能体](mechanics-custom-agents.html) | [智能体工程](mechanics-sub-agents.html) | [任务智能体工具](mechanics-task-agent-tools.html)
 
-**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%;" /> InventorBlack](https://www.reddit.com/user/InventorBlack/) | [Command Stick](https://commandstick.com)首席技术官| [r/ClaudeAi](https://www.reddit.com/r/ClaudeAI/)版主
 
 -   [超越正式调用](#超越正式调用)
 -   [文字表情个性](#文字表情个性)

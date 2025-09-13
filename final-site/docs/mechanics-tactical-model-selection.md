@@ -71,13 +71,11 @@ title: "战术模型选择 | Claude Hub"
 
 战略性的模型选择可以将 Claude Code 使用成本降低高达 80%，同时在大多数开发任务中保持输出质量。
 
-<img src="/img/discovery/019.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
 **另请参阅**：[模型比较](/model-comparison.html)|[上下文窗口耗尽](/mechanics-context-window-depletion.html)|[计划模式](/mechanics-plan-mode.html)
 
-**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|[Command Stick](https://commandstick.com) CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
 
 -   [模型选择策略](#model-selection-strategy)
 -   [成本优化方法](#cost-optimization-approach)

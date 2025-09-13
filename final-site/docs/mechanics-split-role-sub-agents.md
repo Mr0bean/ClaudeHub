@@ -77,19 +77,16 @@ Anthropic [公开讨论过](https://docs.anthropic.com/en/docs/build-with-claude
 
 分角色子代理的力量在于它们能够揭示单个 Claude 实例无法单独发现的洞察。每个视角使用不同的工具和方法，创建全面的分析，显著提高决策质量。
 
-&lt;img src="/img/discovery/023_excite_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" /&gt;
 
 ##### 推向极限
 
 利用 `Claude 4 Sonnet` + [计划模式](/mechanics-plan-mode.html) + `ultrathink` + `角色子代理` 从 Claude 4 Sonnet 模型中提取最大性能，然后再考虑使用贵 5 倍且经常过度的 Claude 4 Opus 模型。
 
-<img src="/img/discovery/037_sonnet_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
 **另请参阅**：[计划模式](/mechanics-plan-mode.html)|[任务代理工具](/mechanics-task-agent-tools.html)|[战术模型选择](/mechanics-tactical-model-selection.html)|[始终保持实验](/mechanics-always-be-experimenting.html)
 
-**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack profile" style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin: 0 3px; border-radius: 50%;" />InventorBlack](https://www.linkedin.com/in/wilfredkasekende/)|[Command Stick](https://commandstick.com) CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
 
 -   [角色基础](#the-role-foundation)
 -   [原生实现](#native-implementation)

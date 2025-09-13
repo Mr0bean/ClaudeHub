@@ -105,13 +105,11 @@ fi
 
 钩子将被动开发转变为主动自动化。作用域良好的钩子消除了手动部署步骤，并在问题到达生产环境之前就捕获它们。关键是精确的触发模式。
 
-<img src="/img/discovery/036_cl_orange.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
 **另请参阅**：[配置](/configuration.html)|[Claude Code 中的钩子是什么](https://docs.anthropic.com/en/docs/claude-code/hooks)
 
-**作者**：[<img src="/img/claudes-greatest-soldier.png" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%; vertical-align: middle;" /> InventorBlack](https://x.com/inventorblack)|[Command Stick](https://commandstick.com) 的 CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAi) 的版主
 
 -   [实际应用实现](#practical-implementation)
 -   [作用域挑战](#scoping-challenges)

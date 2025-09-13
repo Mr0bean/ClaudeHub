@@ -60,13 +60,11 @@ title: "骨架项目 | Claude Hub"
 
 一个优秀的骨架项目价值连城，可以节省大量开发时间。Claude 无需从零开始，而是可以在经过验证的结构中迭代，大大减少设置开销，专注于核心价值交付。
 
-<img src="/img/discovery/036_cl_orange.png" alt="Claude Hub logo" style="max-width: 165px; height: auto;" />
 
 * * *
 
 **另见**：[Git 克隆只是开始](/mechanics-git-clone-is-just-the-beginning.html)|[分角色子代理](/mechanics-split-role-sub-agents.html)|[任务代理工具](/mechanics-task-agent-tools.html)
 
-**作者**：[<img src="/img/supporters/inventor_black_25x25.png" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%;" />InventorBlack](https://x.com/inventorblack)|[Command Stick](https://commandstick.com) CTO|[r/ClaudeAi](https://reddit.com/r/ClaudeAI) 版主
 
 -   [骨架策略](#骨架策略)
 -   [方法 1：并行源研究](#方法-1：并行源研究)

@@ -33,4 +33,3 @@ Claude Hub 服务于一个`精选社区`，成员都是高级 AI 开发者，他
 
 通过`战略合作伙伴关系`和有针对性的赞助机会，推动 AI 辅助开发的未来。
 
-<img src="/img/discovery/042_japan.png" alt="Custom image" style="max-width: 165px; height: auto;" />

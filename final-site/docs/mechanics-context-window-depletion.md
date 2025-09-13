@@ -34,10 +34,8 @@ title: "上下文窗口耗尽 | Claude Hub"
 
 Claude 相比其他模型可能有相对较小的上下文窗口，但 Claude 超乎寻常的遵循指令的能力是它最大的优势。利用这个日志中的机制来解决这些限制。
 
-<img src="/img/discovery/011_context_window_depletion.png" alt="Context Window Depletion" style="max-width: 165px; height: auto;" />
 
 * * *
 
 **另请参阅**：[上下文窗口约束](/mechanics-context-inspection.html)|[动态内存](/mechanics-dynamic-memory.html)|[任务代理工具](/mechanics-agent-engineering.html)|[战术模型选择](/mechanics-tactical-model-selection.html)
 
-**作者**：[<img src="/img/profile/InventorBlack.png" alt="InventorBlack" style="width: 25px; height: 25px; border-radius: 50%;" />InventorBlack](/InventorBlack.html)|[Command Stick](/CommandStick.html) CTO|[r/ClaudeAi](https://www.reddit.com/r/ClaudeAI/) 版主

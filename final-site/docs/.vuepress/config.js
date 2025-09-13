@@ -16,7 +16,7 @@ export default defineUserConfig({
   bundler: viteBundler(),
   
   theme: defaultTheme({
-    logo: '/img/claude_log_star.png',
+    logo: '/img/claude_log_star.svg',
     
     navbar: [
       { text: 'Home', link: '/' },
@@ -88,11 +88,9 @@ export default defineUserConfig({
                 "collapsible": true,
                 "children": [
                     "/mechanics-hooks.html",
-                    "/mechanics-auto-accept-permissions.html",
                     "/mechanics-dangerous-skip-permissions.html",
                     "/mechanics-git-clone-is-just-the-beginning.html",
                     "/mechanics-claude-usage.html",
-                    "/mechanics-tight-feedback-loops.html",
                     "/mechanics-todo-lists-as-instruction-mirrors.html",
                     "/mechanics-skeleton-projects.html"
                 ]
@@ -124,7 +122,6 @@ export default defineUserConfig({
             { text: "Awesome Claude Code | ClaudeLog", link: "/claude-code-mcps-awesome-claude-code.html" },
             "/claude-code-mcps-github-mcp-server.html",
             "/claude-code-mcps-blender-mcp.html",
-            "/claude-code-mcps-browser-tools-mcp.html",
             "/claude-code-mcps-desktop-commander-mcp.html",
             "/claude-code-mcps-zen-mcp-server.html",
             "/claude-code-mcps-serena.html",

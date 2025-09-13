@@ -146,7 +146,6 @@ docker run -i --rm \
 
 官方 MCP 服务器改变了开发者的工作流，用户反馈："我用它来与议题和 MR 交互，在编辑代码时寻找相关议题。"官方性质确保了社区替代方案通常缺乏的可靠性。
 
-<img src="/img/discovery/019.png" alt="Custom image" style="max-width: 165px; height: auto;" />
 
 * * *
 
