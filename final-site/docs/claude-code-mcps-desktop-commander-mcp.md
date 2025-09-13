@@ -109,8 +109,6 @@ npm run build
 
 Desktop Commander MCP 为开发者提供经济有效的系统自动化。用户反馈"以极小的价格获得类似 Claude Code 的功能"，具有出色的跨平台支持。
 
-<img src="/img/supporters/wonderwhy-er_profile.png" alt="wonderwhy-er profile" style="width: 25px; height: 25px; border-radius: 50%; vertical-align: middle; margin-right: 8px;" />
-
 * * *
 
 *Desktop Commander MCP 由 wonderwhy-er 开发，是开源项目。如需技术支持、功能请求和社区贡献，请参考官方 GitHub 仓库。*
