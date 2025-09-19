@@ -42,6 +42,7 @@ export default defineUserConfig({
       {
         text: '⚡ 快速开始',
         children: [
+          { text: '🚀 Claude Code 指南', link: '/claude-code-guide-zh.html' },
           { text: '安装指南', link: '/install-claude-code.html' },
           { text: '入门教程', link: '/claude-code-tutorial.html' },
           { text: '配置说明', link: '/configuration.html' }
@@ -77,6 +78,7 @@ export default defineUserConfig({
         "children": [
             "/",
             "/guide.html",
+            "/claude-code-guide-zh.html",
             "/install-claude-code.html",
             "/claude-code-tutorial.html",
             "/configuration.html"
