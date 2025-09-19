@@ -26,7 +26,7 @@ jobs:
     - name: Install dependencies
       run: |
         cd final-site
-        npm ci
+        npm install
 
     - name: Build VuePress site
       run: |
